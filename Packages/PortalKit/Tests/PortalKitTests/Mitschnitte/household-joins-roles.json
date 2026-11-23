@@ -1,0 +1,40 @@
+{
+  "requests": [
+    {
+      "id": "expgpyhg32tm38vnpt36b5",
+      "name": "Selin",
+      "color": "#4A90D9",
+      "want": [
+        "portals"
+      ],
+      "device": "Selins iPhone",
+      "kind": "phone",
+      "from": "127.0.0.1",
+      "asked": 1794254011.3703198,
+      "expires_in_s": 604800
+    }
+  ],
+  "roles": [
+    {
+      "id": "adult",
+      "name": "Erwachsen",
+      "color": "#6aa8ff",
+      "adult": false,
+      "own_devices": true
+    },
+    {
+      "id": "child",
+      "name": "Kind",
+      "color": "#6fcf8e",
+      "adult": false,
+      "own_devices": false
+    },
+    {
+      "id": "admin-role",
+      "name": "Admin",
+      "color": "#E2564A",
+      "adult": true,
+      "own_devices": true
+    }
+  ]
+}

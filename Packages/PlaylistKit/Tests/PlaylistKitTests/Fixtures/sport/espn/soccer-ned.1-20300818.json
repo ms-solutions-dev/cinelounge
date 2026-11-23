@@ -1,0 +1,91 @@
+{
+ "leagues": [
+  {
+   "id": "8109",
+   "name": "Eredivisie (Netherlands)",
+   "abbreviation": "Eredivisie",
+   "midsizeName": "NED.1",
+   "slug": "ned.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001035",
+   "date": "2030-08-18T10:15Z",
+   "name": "Waterdaal at Heideburg",
+   "shortName": "WAT @ HBG",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "HBG",
+        "displayName": "Heideburg",
+        "shortDisplayName": "Heideburg",
+        "name": "Heideburg",
+        "location": "Heideburg"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "WAT",
+        "displayName": "Waterdaal",
+        "shortDisplayName": "Waterdaal",
+        "name": "Waterdaal",
+        "location": "Waterdaal"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001036",
+   "date": "2030-08-18T12:30Z",
+   "name": "Zandvliet Noord at Polderveen",
+   "shortName": "ZAN @ POL",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "POL",
+        "displayName": "Polderveen",
+        "shortDisplayName": "Polderveen",
+        "name": "Polderveen",
+        "location": "Polderveen"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "ZAN",
+        "displayName": "Zandvliet Noord",
+        "shortDisplayName": "Zandvliet",
+        "name": "Zandvliet Noord",
+        "location": "Zandvliet Noord"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "portals": [
+  {
+   "id": "3sat",
+   "name": "3sat",
+   "description": "Kultur, Wissenschaft und Dokumentation, frei abrufbar.",
+   "kind": "native",
+   "capabilities": [
+    "own_images",
+    "paging",
+    "search",
+    "subtitles"
+   ],
+   "limits": [],
+   "net": "direct",
+   "adult": false,
+   "state": "ready",
+   "reason": null
+  },
+  {
+   "id": "demo-adult",
+   "name": "Demo 18+",
+   "description": "",
+   "kind": "extension-foreign",
+   "capabilities": [
+    "search"
+   ],
+   "limits": [],
+   "net": "direct",
+   "adult": true,
+   "state": "ready",
+   "reason": null
+  },
+  {
+   "id": "demo-anime",
+   "name": "Demo Anime",
+   "description": "",
+   "kind": "extension",
+   "capabilities": [
+    "languages",
+    "resolver",
+    "search",
+    "seasons"
+   ],
+   "limits": [],
+   "net": "direct",
+   "adult": false,
+   "state": "ready",
+   "reason": null
+  }
+ ]
+}

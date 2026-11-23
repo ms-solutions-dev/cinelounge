@@ -1,0 +1,111 @@
+# CineLounge Server — the shortest way to a running household.
+#
+#     docker compose up -d
+#     docker compose logs cinelounge     # the setup code is in here
+#
+# Then open http://<this-machine>:8099 in a browser, type in the code, pick a
+# name and a PIN — done. Portals for ARD, ZDF, arte, 3sat and SVT come with
+# the container; everything else arrives through the marketplace.
+#
+# **This file assumes nothing.** No reverse proxy, no prepared network, no
+# path that exists somewhere else. Whoever wants it behind a reverse proxy puts
+# one in front; nothing here depends on it.
+#
+# **One service, and an optional announcer.** `cinelounge` is the whole
+# server; `melder` (below, `--profile bonjour`) only tells the home network
+# where it is.
+#
+# Extensions (see `cinelounge/web/extension.py`) come as an image built on this one;
+# this file does not need to know about them.
+services:
+  cinelounge:
+    build: .
+    image: cinelounge-server:0.1.0
+    container_name: cinelounge
+    restart: unless-stopped
+
+    # **Not as root.** The service loads foreign portal code — in a child
+    # process with memory and time limits, but still. 1000:1000 is the first
+    # created user on most Linux systems; whoever has a different id enters
+    # it here and hands `./data` to it.
+    user: "1000:1000"
+    security_opt:
+      - no-new-privileges:true
+
+    deploy:
+      resources:
+        limits:
+          # 512M, and the arithmetic behind it stands in the console under
+          # memory: one runner may use 256 MB, two run at once.
+          memory: 512M
+
+    environment:
+      - TZ=Europe/Berlin
+      - CL_DATA=/data
+      # **Network routes** (optional): named HTTP proxies a portal can be
+      # laid onto in the console, e.g. `office=http://10.0.0.2:3128`.
+      # Several are separated by spaces. Empty means every portal goes
+      # direct; proxies can also be added in the console under "Network".
+      - CL_PROXIES=${CL_PROXIES:-}
+
+    ports:
+      # **Plain text on the LAN, and that is deliberate.** Apple TV and
+      # iPhone talk here; a television should not fail on a certificate chain
+      # that protects nothing inside one's own network. Whoever wants to be
+      # reachable from outside puts a proxy in front.
+      - "8099:8099"
+
+    volumes:
+      # Everything this household is: people, devices, permissions, the
+      # portal folders, the buffer. **This is the backup target** — the image
+      # can be rebuilt any time, this volume cannot.
+      #
+      # **A named volume and no `./data`**, and that has a measured reason:
+      # Docker creates a missing bind folder as `root`, the service runs as
+      # 1000:1000, and the first start ends with "unable to open database
+      # file". A named volume inherits the permissions from the image and
+      # fits by itself.
+      #
+      # Whoever would rather see the files in the project folder swaps the
+      # line for `- ./data:/data` and creates it **beforehand**:
+      #
+      #     mkdir -p data && sudo chown 1000:1000 data
+      - cinelounge-data:/data
+
+  # The mDNS announcer — so nobody on the home network types an address.
+  #
+  # **Only with `--profile bonjour`**, because it needs `network_mode: host`:
+  # multicast does not cross a Docker bridge. Under Docker Desktop (macOS,
+  # Windows) that network does not exist, and there it would be a container
+  # that starts and does nothing.
+  #
+  #     docker compose --profile bonjour up -d
+  melder:
+    build: .
+    image: cinelounge-server:0.1.0
+    container_name: cinelounge-melder
+    restart: unless-stopped
+    depends_on: [cinelounge]
+    profiles: [bonjour]
+    network_mode: host
+    user: "1000:1000"
+    security_opt:
+      - no-new-privileges:true
+    deploy:
+      resources:
+        limits:
+          memory: 64M
+    environment:
+      - TZ=Europe/Berlin
+      - CL_NAME=cinelounge
+      - CL_PORT=8099
+    command: ["python", "-m", "cinelounge.web.bonjour"]
+    # Der Check aus dem Abbild (`127.0.0.1:8099/health`) gilt dem Dienst, nicht
+    # dem Melder: Der spricht kein HTTP, und im Host-Netz ist 8099 ein anderer
+    # (die Bruecke). Ohne diese Zeilen steht er fuer immer auf `unhealthy`
+    # und fuehrt die naechste Fehlersuche in die Irre (18.09.2026).
+    healthcheck:
+      disable: true
+
+volumes:
+  cinelounge-data:

@@ -1,0 +1,130 @@
+{
+ "leagues": [
+  {
+   "id": "8114",
+   "name": "Isles League Championship",
+   "abbreviation": "Isles Championship",
+   "midsizeName": "ENG.2",
+   "slug": "eng.2"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001038",
+   "date": "2030-08-17T14:00Z",
+   "name": "Glenhurst at Redmere Town",
+   "shortName": "GLE @ RTN",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "RTN",
+        "displayName": "Redmere Town",
+        "shortDisplayName": "Redmere",
+        "name": "Redmere Town",
+        "location": "Redmere Town"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "GLE",
+        "displayName": "Glenhurst",
+        "shortDisplayName": "Glenhurst",
+        "name": "Glenhurst",
+        "location": "Glenhurst"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001039",
+   "date": "2030-08-17T14:00Z",
+   "name": "Bramwick Athletic at Fenmouth",
+   "shortName": "BWA @ FEN",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "FEN",
+        "displayName": "Fenmouth",
+        "shortDisplayName": "Fenmouth",
+        "name": "Fenmouth",
+        "location": "Fenmouth"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "BWA",
+        "displayName": "Bramwick Athletic",
+        "shortDisplayName": "Bramwick",
+        "name": "Bramwick Athletic",
+        "location": "Bramwick Athletic"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001040",
+   "date": "2030-08-17T14:00Z",
+   "name": "Marlowe Cross at Elsworth Park",
+   "shortName": "MAR @ ELS",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "ELS",
+        "displayName": "Elsworth Park",
+        "shortDisplayName": "Elsworth",
+        "name": "Elsworth Park",
+        "location": "Elsworth Park"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "MAR",
+        "displayName": "Marlowe Cross",
+        "shortDisplayName": "Marlowe",
+        "name": "Marlowe Cross",
+        "location": "Marlowe Cross"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

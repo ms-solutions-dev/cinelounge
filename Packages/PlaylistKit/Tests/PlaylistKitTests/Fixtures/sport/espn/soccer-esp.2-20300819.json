@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8117",
+   "name": "LaLiga 2 (Spain)",
+   "abbreviation": "LaLiga 2",
+   "midsizeName": "ESP.2",
+   "slug": "esp.2"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001050",
+   "date": "2030-08-19T18:30Z",
+   "name": "Riofrío del Monte at Lomaverde",
+   "shortName": "RIO @ LOM",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "LOM",
+        "displayName": "Lomaverde",
+        "shortDisplayName": "Lomaverde",
+        "name": "Lomaverde",
+        "location": "Lomaverde"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "RIO",
+        "displayName": "Riofrío del Monte",
+        "shortDisplayName": "Riofrío",
+        "name": "Riofrío del Monte",
+        "location": "Riofrío del Monte"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

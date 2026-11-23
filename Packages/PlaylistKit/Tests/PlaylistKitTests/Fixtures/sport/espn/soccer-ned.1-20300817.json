@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8109",
+   "name": "Eredivisie (Netherlands)",
+   "abbreviation": "Eredivisie",
+   "midsizeName": "NED.1",
+   "slug": "ned.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001034",
+   "date": "2030-08-17T16:45Z",
+   "name": "Duinwijk at Veenhorst",
+   "shortName": "DUI @ VEE",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "VEE",
+        "displayName": "Veenhorst",
+        "shortDisplayName": "Veenhorst",
+        "name": "Veenhorst",
+        "location": "Veenhorst"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "DUI",
+        "displayName": "Duinwijk",
+        "shortDisplayName": "Duinwijk",
+        "name": "Duinwijk",
+        "location": "Duinwijk"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

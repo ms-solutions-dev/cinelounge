@@ -1,0 +1,91 @@
+{
+ "leagues": [
+  {
+   "id": "8105",
+   "name": "LaLiga (Spain)",
+   "abbreviation": "LaLiga",
+   "midsizeName": "ESP.1",
+   "slug": "esp.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001024",
+   "date": "2030-08-18T17:00Z",
+   "name": "Castelnube at Puertoluz",
+   "shortName": "CAS @ PUE",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "PUE",
+        "displayName": "Puertoluz",
+        "shortDisplayName": "Puertoluz",
+        "name": "Puertoluz",
+        "location": "Puertoluz"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "CAS",
+        "displayName": "Castelnube",
+        "shortDisplayName": "Castelnube",
+        "name": "Castelnube",
+        "location": "Castelnube"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001025",
+   "date": "2030-08-18T19:00Z",
+   "name": "Robledal at Arenosa",
+   "shortName": "ROB @ ARE",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "ARE",
+        "displayName": "Arenosa",
+        "shortDisplayName": "Arenosa",
+        "name": "Arenosa",
+        "location": "Arenosa"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "ROB",
+        "displayName": "Robledal",
+        "shortDisplayName": "Robledal",
+        "name": "Robledal",
+        "location": "Robledal"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

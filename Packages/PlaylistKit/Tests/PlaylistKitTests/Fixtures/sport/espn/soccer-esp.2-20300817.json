@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8117",
+   "name": "LaLiga 2 (Spain)",
+   "abbreviation": "LaLiga 2",
+   "midsizeName": "ESP.2",
+   "slug": "esp.2"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001049",
+   "date": "2030-08-17T19:00Z",
+   "name": "Peñablanca at Sierraclara",
+   "shortName": "PEN @ SIE",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "SIE",
+        "displayName": "Sierraclara",
+        "shortDisplayName": "Sierraclara",
+        "name": "Sierraclara",
+        "location": "Sierraclara"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "PEN",
+        "displayName": "Peñablanca",
+        "shortDisplayName": "Peñablanca",
+        "name": "Peñablanca",
+        "location": "Peñablanca"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

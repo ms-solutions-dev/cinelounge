@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8112",
+   "name": "FA Cup (England)",
+   "abbreviation": "FA Cup",
+   "midsizeName": "ENG.FA",
+   "slug": "eng.fa"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001037",
+   "date": "2030-08-17T11:00Z",
+   "name": "Fernleigh at Coldwater",
+   "shortName": "FER @ CLD",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "CLD",
+        "displayName": "Coldwater",
+        "shortDisplayName": "Coldwater",
+        "name": "Coldwater",
+        "location": "Coldwater"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "FER",
+        "displayName": "Fernleigh",
+        "shortDisplayName": "Fernleigh",
+        "name": "Fernleigh",
+        "location": "Fernleigh"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

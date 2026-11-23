@@ -1,0 +1,60 @@
+{
+ "query": "moorrevier",
+ "hits": {
+  "ard": [
+   {
+    "title": "Folge 41: Kalter Kaffee (S04/E05) (Audiodeskription)",
+    "address": "https://api.ard-mediathek.example/page-gateway/pages/ard/item/aqoafeT53c83gv04XJjqR0qnDqM5gsamcvCR6KWp?devicetype=pc&embedded=true",
+    "show": "Das Moorrevier",
+    "kind": "episode",
+    "year": null,
+    "description": null,
+    "image": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:4bfb21f8cc960411?w=1280&ch=a4d6cf3d250c9194",
+    "image_source": "portal",
+    "image_wide": true,
+    "languages": [],
+    "rating": null,
+    "duration_min": 48,
+    "number": null,
+    "has_children": false,
+    "key": "ard:folge-41-kalter-kaffee-s04-e05-audiodeskription:",
+    "state": null
+   },
+   {
+    "title": "Folge 41: Kalter Kaffee (S04/E05)",
+    "address": "https://api.ard-mediathek.example/page-gateway/pages/ard/item/jMZpC70THfpAnfjYM3afev3IUo8iRHMUfTaSPq3m?devicetype=pc&embedded=true",
+    "show": "Das Moorrevier",
+    "kind": "episode",
+    "year": null,
+    "description": null,
+    "image": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:4bfb21f8cc960411?w=1280&ch=a4d6cf3d250c9194",
+    "image_source": "portal",
+    "image_wide": true,
+    "languages": [],
+    "rating": null,
+    "duration_min": 48,
+    "number": null,
+    "has_children": false,
+    "key": "ard:folge-41-kalter-kaffee-s04-e05:",
+    "state": null
+   }
+  ]
+ },
+ "titles": [
+  {
+   "title": "Folge 41: Kalter Kaffee (S04/E05) (Audiodeskription)",
+   "year": null,
+   "show": "Das Moorrevier",
+   "sources": [
+    {
+     "portal": "ard",
+     "address": "https://api.ard-mediathek.example/page-gateway/pages/ard/item/aqoafeT53c83gv04XJjqR0qnDqM5gsamcvCR6KWp?devicetype=pc&embedded=true",
+     "key": "ard:folge-41-kalter-kaffee-s04-e05-audiodeskription:",
+     "kind": "episode",
+     "image": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:4bfb21f8cc960411?w=1280&ch=a4d6cf3d250c9194"
+    }
+   ]
+  }
+ ],
+ "failed": {}
+}

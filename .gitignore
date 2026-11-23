@@ -1,0 +1,52 @@
+# Die Oberflächen-Vorlage bleibt im Projekt: Sie trägt ihre 76 Bilder eingebettet
+# in sich, verweist auf keinen Server und ist damit auch in einem Jahr noch
+# vollständig — genau dann, wenn man wissen will, wie es gemeint war.
+# Draußen bleiben die Rohdaten und die Fassung mit echten Familienaufnahmen.
+design/content.json
+design/cinelounge-ui.local.html
+__pycache__/
+.DS_Store
+design/channels.json
+spike-vlckit/.build/
+spike-vlckit/.dd/
+spike-player/.build/
+spike-player/.dd/
+spike-player/CineLoungeSpike.xcodeproj/
+spike-player/Info.plist
+design/roadmap.local.html
+.dd/
+CineLounge.xcodeproj/
+App/Info.plist
+.build/
+
+# Der Bildzwischenspeicher ist ein Laufzeitstand, kein Quelltext: Er schreibt sich
+# bei jedem Testlauf neu und stand deshalb nach JEDEM check.sh als Änderung da.
+# Binärrauschen, das in der Historie den Blick auf die echten Änderungen verstellt.
+Packages/DesignSystem/cinelounge.images/
+# Dasselbe für den AniList-Zwischenspeicher der RatingsKit-Tests (URLCache, Antworten samt
+# Kopfzeilen fremder Server).
+Packages/RatingsKit/cinelounge.anilist/
+.claude/
+build/
+
+# Eingereichte Diagnosen sind Laufzeitstände vom Gerät, kein Quelltext —
+# und sie tragen Sender- und Adressspuren, die nicht in die Historie gehören.
+# **Mit führendem Schrägstrich** (seit der Zusammenlegung, Entscheidung 17): Ohne ihn
+# griff die Regel in jeder Tiefe — und weil das Dateisystem Groß- und Kleinschreibung
+# nicht unterscheidet, auch nach `Phone/Packages/Diagnose/`. Neue Dateien dort wären
+# lautlos draußen geblieben. `Phone/diagnose/` regelt `Phone/.gitignore`.
+/diagnose/
+
+# Eigenes Entwicklerkonto (Config/Local.xcconfig.example), AP85
+Config/Local.xcconfig
+
+# intern/ — private working area (AP94, 2026-11-16; moved from app-intern/cinelounge)
+intern/diagnose/
+intern/phone/diagnose/
+intern/design/*.local.html
+intern/phone/design/*.local.html
+intern/phone/design/appsymbol/*/
+intern/design/content.json
+intern/design/channels.json
+intern/b4/phase1/
+intern/b4/phase2/

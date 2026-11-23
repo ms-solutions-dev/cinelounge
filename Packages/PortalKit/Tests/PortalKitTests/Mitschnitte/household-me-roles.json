@@ -1,0 +1,22 @@
+{
+  "id": "sina",
+  "name": "Sina",
+  "role": "child",
+  "color": "#E2564A",
+  "adult": false,
+  "rights": {
+    "change_access": false,
+    "change_settings": false,
+    "install_portals": false,
+    "invite": true,
+    "own_devices": true,
+    "pair_devices": false,
+    "switch_portals": false,
+    "track_progress": true,
+    "view_adult": false,
+    "watch": true,
+    "workshop": false
+  },
+  "role_id": "adult",
+  "console": false
+}

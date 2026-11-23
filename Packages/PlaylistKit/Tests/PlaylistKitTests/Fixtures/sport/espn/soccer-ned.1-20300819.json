@@ -1,0 +1,12 @@
+{
+ "leagues": [
+  {
+   "id": "8109",
+   "name": "Eredivisie (Netherlands)",
+   "abbreviation": "Eredivisie",
+   "midsizeName": "NED.1",
+   "slug": "ned.1"
+  }
+ ],
+ "events": []
+}

@@ -1,0 +1,12 @@
+{
+    "setup_required": false,
+    "setup_code_armed": false,
+    "people": [
+        {
+            "id": "max",
+            "name": "Max",
+            "role": "admin",
+            "color": "#E2564A"
+        }
+    ]
+}

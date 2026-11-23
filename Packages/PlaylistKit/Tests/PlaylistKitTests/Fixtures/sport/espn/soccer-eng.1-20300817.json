@@ -1,0 +1,169 @@
+{
+ "leagues": [
+  {
+   "id": "8104",
+   "name": "Premier League (England)",
+   "abbreviation": "Premier League",
+   "midsizeName": "ENG.1",
+   "slug": "eng.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001016",
+   "date": "2030-08-17T11:30Z",
+   "name": "Wexmoor United at Ashcombe Albion",
+   "shortName": "WEX @ ASH",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "ASH",
+        "displayName": "Ashcombe Albion",
+        "shortDisplayName": "Ashcombe",
+        "name": "Ashcombe Albion",
+        "location": "Ashcombe Albion"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "WEX",
+        "displayName": "Wexmoor United",
+        "shortDisplayName": "Wexmoor",
+        "name": "Wexmoor United",
+        "location": "Wexmoor United"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001017",
+   "date": "2030-08-17T14:00Z",
+   "name": "Kingsfold Rovers at Harbridge City",
+   "shortName": "KIN @ HAR",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "HAR",
+        "displayName": "Harbridge City",
+        "shortDisplayName": "Harbridge",
+        "name": "Harbridge City",
+        "location": "Harbridge City"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "KIN",
+        "displayName": "Kingsfold Rovers",
+        "shortDisplayName": "Kingsfold",
+        "name": "Kingsfold Rovers",
+        "location": "Kingsfold Rovers"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001018",
+   "date": "2030-08-17T14:00Z",
+   "name": "Daleford at Thornwick",
+   "shortName": "DAL @ THO",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "THO",
+        "displayName": "Thornwick",
+        "shortDisplayName": "Thornwick",
+        "name": "Thornwick",
+        "location": "Thornwick"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "DAL",
+        "displayName": "Daleford",
+        "shortDisplayName": "Daleford",
+        "name": "Daleford",
+        "location": "Daleford"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001019",
+   "date": "2030-08-17T16:30Z",
+   "name": "Oakhaven at Kestrel Bay",
+   "shortName": "OAK @ KBY",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "KBY",
+        "displayName": "Kestrel Bay",
+        "shortDisplayName": "Kestrel Bay",
+        "name": "Kestrel Bay",
+        "location": "Kestrel Bay"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "OAK",
+        "displayName": "Oakhaven",
+        "shortDisplayName": "Oakhaven",
+        "name": "Oakhaven",
+        "location": "Oakhaven"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

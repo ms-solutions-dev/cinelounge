@@ -1,0 +1,12 @@
+{
+ "leagues": [
+  {
+   "id": "8114",
+   "name": "Isles League Championship",
+   "abbreviation": "Isles Championship",
+   "midsizeName": "ENG.2",
+   "slug": "eng.2"
+  }
+ ],
+ "events": []
+}

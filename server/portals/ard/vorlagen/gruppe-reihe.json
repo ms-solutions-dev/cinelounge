@@ -1,0 +1,194 @@
+{
+ "coreAssetType": "INFINITE_SERIES",
+ "id": "QfOICecikMFCDJxu4X2qF8LzYQAPX9ZxT68rojVm",
+ "images": {
+  "aspect16x9": {
+   "title": "Bild",
+   "alt": "Standbild",
+   "producerName": "Demo-Sender",
+   "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:c1144d747372fec2?w={width}&ch=665691bcbaa69e79"
+  },
+  "aspect16x7": {
+   "title": "Bild",
+   "alt": "Standbild",
+   "producerName": "Demo-Sender",
+   "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:1f52feacf982785b?w={width}&ch=665691bcbaa69e79"
+  },
+  "aspect1x1": {
+   "title": "Bild",
+   "alt": "Standbild",
+   "producerName": "Demo-Sender",
+   "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:760665d947615627?w={width}&ch=665691bcbaa69e79"
+  }
+ },
+ "isChildContent": false,
+ "synopsis": "Ein Anwalt in einer Kleinstadt vertritt Mandanten, die sonst niemand anhört.",
+ "title": "Kanzlei Brookmann",
+ "widgets": [
+  {
+   "compilationType": "editorial",
+   "personalized": false,
+   "pagination": {
+    "pageNumber": 0,
+    "pageSize": 100,
+    "totalElements": 2
+   },
+   "isChildContent": false,
+   "userVisibility": "ALWAYS",
+   "id": "CMqbS9SKncB99edKscqXUC:594470884828348900",
+   "links": {
+    "self": {
+     "href": "https://api.ard-mediathek.example/page-gateway/widgets/ard/editorials/CMqbS9SKncB99edKscqXUC:594470884828348900",
+     "id": "CMqbS9SKncB99edKscqXUC:594470884828348900",
+     "partner": "ard",
+     "title": "Kanzlei Brookmann",
+     "type": "application/vnd.ard.widget+json",
+     "urlId": "CMqbS9SKncB99edKscqXUC:594470884828348900"
+    }
+   },
+   "size": "m",
+   "swipeable": true,
+   "title": "Kanzlei Brookmann",
+   "titleVisible": true,
+   "type": "gridlist",
+   "teasers": [
+    {
+     "availableTo": "2027-05-16T21:59:00Z",
+     "binaryFeatures": [
+      "UT"
+     ],
+     "coreAssetType": "EPISODE",
+     "duration": 5332,
+     "id": "H0UT5nTYyeNYGt6dzOxEtLhXQUQ2LNFnIuHcRYXi",
+     "images": {
+      "aspect16x9": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:5939f5d0cbf7fc85?w={width}&ch=d3a6d5aec2f213a1"
+      },
+      "aspect16x7": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:c072396ec2543383?w={width}&ch=d3a6d5aec2f213a1"
+      },
+      "aspect1x1": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:e1df166641c93771?w={width}&ch=d3a6d5aec2f213a1"
+      }
+     },
+     "isChildContent": false,
+     "isFamilyFriendly": true,
+     "links": {
+      "self": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/swr/teasers/H0UT5nTYyeNYGt6dzOxEtLhXQUQ2LNFnIuHcRYXi?devicetype=pc&embedded=true",
+       "id": "H0UT5nTYyeNYGt6dzOxEtLhXQUQ2LNFnIuHcRYXi",
+       "partner": "swr",
+       "title": "Kanzlei Brookmann - Der Fall Ostrowski",
+       "type": "application/vnd.ard.teaser+json",
+       "urlId": "H0UT5nTYyeNYGt6dzOxEtLhXQUQ2LNFnIuHcRYXi"
+      },
+      "target": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/swr/item/H0UT5nTYyeNYGt6dzOxEtLhXQUQ2LNFnIuHcRYXi?devicetype=pc&embedded=true",
+       "id": "H0UT5nTYyeNYGt6dzOxEtLhXQUQ2LNFnIuHcRYXi",
+       "partner": "swr",
+       "title": "Kanzlei Brookmann - Der Fall Ostrowski",
+       "type": "application/vnd.ard.page+json",
+       "urlId": "H0UT5nTYyeNYGt6dzOxEtLhXQUQ2LNFnIuHcRYXi"
+      }
+     },
+     "longTitle": "Kanzlei Brookmann - Der Fall Ostrowski",
+     "maturityContentRating": "FSK12",
+     "mediumTitle": "Kanzlei Brookmann - Der Fall Ostrowski",
+     "personalized": false,
+     "publicationService": {
+      "name": "Demo Eins",
+      "partner": "swr"
+     },
+     "shortTitle": "Kanzlei Brookmann - Der Fall Ostrowski",
+     "show": {
+      "id": "sb6tUPwHyRptobTB3V51PR",
+      "title": "Kanzlei Brookmann",
+      "shortTitle": null,
+      "longTitle": null
+     },
+     "titleVisible": true,
+     "type": "ondemand",
+     "broadcastedOn": "2026-11-15T19:15:00Z",
+     "subtitled": true
+    },
+    {
+     "availableTo": "2027-05-16T21:59:00Z",
+     "binaryFeatures": [
+      "UT"
+     ],
+     "coreAssetType": "EPISODE",
+     "duration": 5332,
+     "id": "T1mUyAzy8my2VTExPFfTevhdcDYvpZF3UN0oS1ll",
+     "images": {
+      "aspect16x9": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:b83eeab382c01ea1?w={width}&ch=ed1b9701aa89d806"
+      },
+      "aspect16x7": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:851f5d9d5c573902?w={width}&ch=ed1b9701aa89d806"
+      },
+      "aspect1x1": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:4d222ded9d88045f?w={width}&ch=ed1b9701aa89d806"
+      }
+     },
+     "isChildContent": false,
+     "isFamilyFriendly": true,
+     "links": {
+      "self": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/swr/teasers/T1mUyAzy8my2VTExPFfTevhdcDYvpZF3UN0oS1ll?devicetype=pc&embedded=true",
+       "id": "T1mUyAzy8my2VTExPFfTevhdcDYvpZF3UN0oS1ll",
+       "partner": "swr",
+       "title": "Kanzlei Brookmann - Der Fall Ostrowski (Audiodeskription)",
+       "type": "application/vnd.ard.teaser+json",
+       "urlId": "T1mUyAzy8my2VTExPFfTevhdcDYvpZF3UN0oS1ll"
+      },
+      "target": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/swr/item/T1mUyAzy8my2VTExPFfTevhdcDYvpZF3UN0oS1ll?devicetype=pc&embedded=true",
+       "id": "T1mUyAzy8my2VTExPFfTevhdcDYvpZF3UN0oS1ll",
+       "partner": "swr",
+       "title": "Kanzlei Brookmann - Der Fall Ostrowski (Audiodeskription)",
+       "type": "application/vnd.ard.page+json",
+       "urlId": "T1mUyAzy8my2VTExPFfTevhdcDYvpZF3UN0oS1ll"
+      }
+     },
+     "longTitle": "Kanzlei Brookmann - Der Fall Ostrowski (Audiodeskription)",
+     "maturityContentRating": "FSK12",
+     "mediumTitle": "Kanzlei Brookmann - Der Fall Ostrowski (Audiodeskription)",
+     "personalized": false,
+     "publicationService": {
+      "name": "Demo Eins",
+      "partner": "swr"
+     },
+     "shortTitle": "Kanzlei Brookmann - Der Fall Ostrowski (Audiodeskription)",
+     "show": {
+      "id": "sb6tUPwHyRptobTB3V51PR",
+      "title": "Kanzlei Brookmann",
+      "shortTitle": null,
+      "longTitle": null
+     },
+     "titleVisible": true,
+     "type": "ondemand",
+     "broadcastedOn": "2026-11-15T19:15:00Z",
+     "subtitled": true
+    }
+   ]
+  }
+ ]
+}

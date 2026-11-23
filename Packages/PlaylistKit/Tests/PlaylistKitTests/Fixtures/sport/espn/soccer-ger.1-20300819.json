@@ -1,0 +1,12 @@
+{
+ "leagues": [
+  {
+   "id": "8102",
+   "name": "Bundesliga (Germany)",
+   "abbreviation": "Bundesliga",
+   "midsizeName": "GER.1",
+   "slug": "ger.1"
+  }
+ ],
+ "events": []
+}

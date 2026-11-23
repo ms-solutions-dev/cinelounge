@@ -1,0 +1,12 @@
+{
+ "leagues": [
+  {
+   "id": "8119",
+   "name": "NBA (USA)",
+   "abbreviation": "NBA",
+   "midsizeName": "NBA",
+   "slug": "nba"
+  }
+ ],
+ "events": []
+}

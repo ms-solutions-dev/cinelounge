@@ -1,0 +1,12 @@
+{
+ "leagues": [
+  {
+   "id": "8112",
+   "name": "FA Cup (England)",
+   "abbreviation": "FA Cup",
+   "midsizeName": "ENG.FA",
+   "slug": "eng.fa"
+  }
+ ],
+ "events": []
+}

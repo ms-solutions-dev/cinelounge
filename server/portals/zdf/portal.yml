@@ -1,0 +1,26 @@
+# Manifest v1 in its simplest form.
+#
+# Whoever writes a portal of their own can copy this file: `api`, `id`, `name`
+# and `kind` are mandatory, everything else is information. Unknown keys abort
+# the load — a typo is meant to show.
+api: 1
+id: zdf
+name:
+  de: ZDF Mediathek
+  en: ZDF Media Library
+  tr: ZDF Medya Kutuphanesi
+description:
+  de: >-
+    Oeffentlich-rechtliche Mediathek mit offener Schnittstelle. Kein Aufloeser,
+    keine Anmeldung, Untertitel durchgaengig.
+  en: >-
+    German public broadcaster with an open API. No resolver, no login,
+    subtitles throughout.
+kind: native
+
+# What the portal can do. `resolver` is deliberately NOT in the list: the media
+# library hands out the video address ready-made, and a source button would be a
+# choice without options.
+capabilities: [search, subtitles, own_images, paging]
+
+enabled: true

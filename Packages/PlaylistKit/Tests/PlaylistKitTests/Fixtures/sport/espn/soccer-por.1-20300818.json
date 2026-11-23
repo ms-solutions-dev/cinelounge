@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8108",
+   "name": "Primeira Liga (Portugal)",
+   "abbreviation": "Primeira Liga",
+   "midsizeName": "POR.1",
+   "slug": "por.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001033",
+   "date": "2030-08-18T19:30Z",
+   "name": "Ribaclara at Montemar",
+   "shortName": "RIB @ MTM",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "MTM",
+        "displayName": "Montemar",
+        "shortDisplayName": "Montemar",
+        "name": "Montemar",
+        "location": "Montemar"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "RIB",
+        "displayName": "Ribaclara",
+        "shortDisplayName": "Ribaclara",
+        "name": "Ribaclara",
+        "location": "Ribaclara"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+# 3sat — the four-country broadcaster, the same interface as ZDF.
+api: 1
+id: 3sat
+name:
+  de: 3sat
+  en: 3sat
+  tr: 3sat
+description:
+  de: Der gemeinsame Kanal von ZDF, ORF, SRF und ARD — Kultur, Wissenschaft
+      und Dokumentation, frei abrufbar.
+  en: The joint channel of ZDF, ORF, SRF and ARD — culture, science and
+      documentaries, freely available.
+  tr: ZDF, ORF, SRF ve ARD'nin ortak kanalı — kültür, bilim ve belgesel,
+      serbestçe erişilebilir.
+kind: native
+
+# The same list as `Portal.capabilities` in `portal.py`. The service does not
+# reconcile the two; `tests/test_grundstock.py` does.
+#
+# No `resolver`: the media library hands out the video address ready-made, a
+# source button would be a choice without options. No `seasons`: the library is
+# flat. No `languages`: 3sat broadcasts in German.
+capabilities:
+  - search
+  - subtitles
+  - own_images
+  - paging
+
+limits: []
+
+enabled: true
+adult: false

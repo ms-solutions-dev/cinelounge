@@ -1,0 +1,4 @@
+node_modules/
+# The local extension (see src/extension/types.ts) is not part of this project.
+# No trailing slash: in development this is a symlink, which Git treats as a file.
+src/extension/local

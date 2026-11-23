@@ -1,0 +1,12 @@
+{
+  "_note": "Texts the server sends itself (Telegram). Not editable in the console; changes go through this file.",
+  "telegram": {
+    "join_requested": "{household}: {name} haneye katılmak istiyor – {device}, {where}.\nKontrol panelinde Giriş bölümünden onayla.",
+    "portal_failing": "{household}: {portal} gece kontrolünde üst üste üçüncü kez başarısız oldu (adım: {step}).\n{why}",
+    "exit_down": "{household}: Ağ yolu {exit} artık yanıt vermiyor ({state}). Bu yoldan geçen portallar şu an oynatamıyor.",
+    "test": "{household}: Test mesajı. Bunu okuyabiliyorsan bildirimler buraya geliyor.",
+    "connected": "{household}: Bağlandı. Bundan sonra kontrol panelinde seçilen bildirimler buraya gelecek.",
+    "where_home": "senin ağından",
+    "where_outside": "dışarıdan"
+  }
+}

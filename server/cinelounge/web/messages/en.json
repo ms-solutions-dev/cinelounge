@@ -1,0 +1,12 @@
+{
+  "_note": "Texts the server sends itself (Telegram). Not editable in the console; changes go through this file.",
+  "telegram": {
+    "join_requested": "{household}: {name} wants to join the household – {device}, {where}.\nApprove in the console under Door.",
+    "portal_failing": "{household}: {portal} failed the nightly run for the third night in a row (step: {step}).\n{why}",
+    "exit_down": "{household}: The network route {exit} no longer answers ({state}). Portals that go through it cannot play right now.",
+    "test": "{household}: Test message. If you can read this, the notifications arrive here.",
+    "connected": "{household}: Connected. From now on the notifications chosen in the console arrive here.",
+    "where_home": "from your network",
+    "where_outside": "from outside"
+  }
+}

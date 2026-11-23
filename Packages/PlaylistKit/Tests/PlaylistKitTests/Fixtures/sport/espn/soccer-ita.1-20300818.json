@@ -1,0 +1,91 @@
+{
+ "leagues": [
+  {
+   "id": "8106",
+   "name": "Serie A (Italy)",
+   "abbreviation": "Serie A",
+   "midsizeName": "ITA.1",
+   "slug": "ita.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001027",
+   "date": "2030-08-18T16:30Z",
+   "name": "Castelmirto at Pietrafonda",
+   "shortName": "CMI @ PIE",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "PIE",
+        "displayName": "Pietrafonda",
+        "shortDisplayName": "Pietrafonda",
+        "name": "Pietrafonda",
+        "location": "Pietrafonda"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "CMI",
+        "displayName": "Castelmirto",
+        "shortDisplayName": "Castelmirto",
+        "name": "Castelmirto",
+        "location": "Castelmirto"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001028",
+   "date": "2030-08-18T18:45Z",
+   "name": "Rivalta Nuova at Borgoluce",
+   "shortName": "RIV @ BOR",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "BOR",
+        "displayName": "Borgoluce",
+        "shortDisplayName": "Borgoluce",
+        "name": "Borgoluce",
+        "location": "Borgoluce"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "RIV",
+        "displayName": "Rivalta Nuova",
+        "shortDisplayName": "Rivalta",
+        "name": "Rivalta Nuova",
+        "location": "Rivalta Nuova"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

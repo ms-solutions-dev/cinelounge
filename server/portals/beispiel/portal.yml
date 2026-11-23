@@ -1,0 +1,106 @@
+# The example portal — every field a manifest may carry, with reasons.
+#
+# Copy this folder, rename it, and replace the contents of `portal.py`. The
+# folder name is NOT the id; `id:` below is, and the two are allowed to differ.
+#
+# The server reads this file strictly: an unknown key is an error, not a
+# warning, and a portal with one does not load. That is on purpose — a typo in
+# `required` changes nothing and yet changes everything, and a portal that
+# silently ignores half its manifest is worse than one that refuses to start.
+
+# ── Required ────────────────────────────────────────────────────────────────
+
+# The manifest format this file is written in. This server speaks 1.
+# A portal declaring a version the server does not know is refused rather than
+# read with guesses.
+api: 1
+
+# The portal's identity. Letters, digits, `-` and `_`.
+#
+# It ends up in stored watch progress (`core/ids.py` builds `portal:title:year`
+# from it), so changing it later orphans everything your viewers watched.
+# Choose it once.
+id: beispiel
+
+# What people see. Either a plain string or a mapping of language codes.
+#
+# `en` is mandatory in `name`, because the fallback chain ends there: the
+# server tries the viewer's language, then `en`, then whatever is present.
+# Without `en` a Turkish household sees a German name and nobody decided that.
+name:
+  en: Example Portal
+  de: Beispielportal
+  tr: Örnek Portal
+
+# Optional, same rules minus the `en` requirement. In the marketplace this is
+# what somebody picks a foreign portal by, so write it for them and not for
+# yourself.
+description:
+  en: A portal with no network of its own — a fixed catalogue of freely
+      licensed films, built to be copied.
+  de: Ein Portal ohne eigene Quelle — ein fester Katalog frei lizenzierter
+      Filme, gebaut zum Abschreiben.
+  tr: Kendi kaynağı olmayan bir portal — kopyalanmak için yapılmış, özgür
+      lisanslı filmlerden oluşan sabit bir katalog.
+
+# `native`, or a kind an installed extension registers (`docs/EXTENSIONS.md`).
+#
+# `native` is this one: plain Python against the contract in
+# `cinelounge/core/contract.py`. It is what you want for something new.
+kind: native
+
+# ── Optional, and all of it matters ─────────────────────────────────────────
+
+# What this portal can do. The console stops guessing once you say it: a
+# "choose host" button on a Mediathek is as wrong as a missing language pill on
+# a scraper.
+#
+# Known values: search · seasons · languages · resolver · login · own_images ·
+#               subtitles · paging
+#
+# Declare what you implement, nothing else. An undeclared capability that works
+# is invisible; a declared one that does not is a bug report.
+capabilities:
+  - search
+  - seasons
+  - paging
+  - own_images
+  - subtitles
+
+# Things a viewer should know before they start, not after.
+#
+# Known values: drm_partial · login_required · region_locked
+# `region_locked` may carry a country code: `region_locked: de`
+limits: []
+
+# Whether the portal reaches televisions the moment it is installed.
+#
+# `false` is the honest default for something freshly fetched: it stays
+# reachable in the workshop, and somebody decides afterwards.
+enabled: false
+
+# Adult content. A property of the portal, not a household setting — the server
+# checks it before anything leaves, so a child's device asking for the address
+# directly gets a 403 rather than a listing.
+adult: false
+
+# Values the operator fills in. They appear on the portal's page in the
+# console; `required: true` means the portal refuses to work without one, and
+# the server says so by name instead of failing with something vague.
+#
+# The value arrives at `Portal.configure()`. Without that method it is shown
+# in the console and reaches nothing — which is exactly what happened to every
+# native portal until 11 September 2026.
+settings:
+  - key: page_size
+    label: How many items per page
+    value: "4"
+    required: false
+
+# `required: true` means the portal refuses to work without a value, and the
+# server says so by name — `setting required but empty: api.key` — instead of
+# failing with something vague three layers down. A shape to copy:
+#
+#   - key: api.key
+#     label: API key
+#     required: true

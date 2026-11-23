@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8116",
+   "name": "Brasileirão (Brazil)",
+   "abbreviation": "Brasileirão",
+   "midsizeName": "BRA.1",
+   "slug": "bra.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001046",
+   "date": "2030-08-17T21:30:00Z",
+   "name": "Mata Clara at Ventania",
+   "shortName": "MCL @ VEN",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "VEN",
+        "displayName": "Ventania",
+        "shortDisplayName": "Ventania",
+        "name": "Ventania",
+        "location": "Ventania"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "MCL",
+        "displayName": "Mata Clara",
+        "shortDisplayName": "Mata Clara",
+        "name": "Mata Clara",
+        "location": "Mata Clara"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

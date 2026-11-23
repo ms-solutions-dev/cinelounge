@@ -1,0 +1,12 @@
+{
+ "leagues": [
+  {
+   "id": "8120",
+   "name": "Euroleague (Europe)",
+   "abbreviation": "Euroleague",
+   "midsizeName": "EUROLEAGUE",
+   "slug": "euroleague"
+  }
+ ],
+ "events": []
+}

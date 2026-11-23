@@ -1,0 +1,12 @@
+{
+ "leagues": [
+  {
+   "id": "8118",
+   "name": "Ligue 2 (France)",
+   "abbreviation": "Ligue 2",
+   "midsizeName": "FRA.2",
+   "slug": "fra.2"
+  }
+ ],
+ "events": []
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "samurai-tempelgarten.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

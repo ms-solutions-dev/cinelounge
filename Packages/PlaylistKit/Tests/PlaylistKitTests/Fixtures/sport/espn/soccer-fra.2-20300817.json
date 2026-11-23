@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8118",
+   "name": "Ligue 2 (France)",
+   "abbreviation": "Ligue 2",
+   "midsizeName": "FRA.2",
+   "slug": "fra.2"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001051",
+   "date": "2030-08-17T18:00Z",
+   "name": "Ormeterre at Brumeval",
+   "shortName": "ORM @ BRU",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "BRU",
+        "displayName": "Brumeval",
+        "shortDisplayName": "Brumeval",
+        "name": "Brumeval",
+        "location": "Brumeval"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "ORM",
+        "displayName": "Ormeterre",
+        "shortDisplayName": "Ormeterre",
+        "name": "Ormeterre",
+        "location": "Ormeterre"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

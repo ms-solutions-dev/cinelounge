@@ -1,0 +1,90 @@
+/* The few places where the real console differs from the mockup's frame.
+   mockup.css is the approved design, extracted verbatim — this file only
+   takes the mock frame away and pins the layers to the viewport. */
+
+body{margin:0;padding:0}
+/* `overflow:hidden` (mockup, for the frame's rounded corners) makes the frame a
+   scroll container — then the rail and the top bar are no longer sticky to the
+   window and scroll away (owner, 09.11.2026). `clip` cuts the same without
+   becoming a scroll container. */
+.frame{border:0;border-radius:0;box-shadow:none;min-height:100vh;min-height:100dvh;overflow:clip}
+.app{min-height:100vh;min-height:100dvh}
+
+/* In the mockup the layers hang inside a fixed-height frame; here the page
+   scrolls, so they hang on the viewport. */
+.scrim,.backdrop{position:fixed}
+.palette,.sheet,.pop,.menu,.toast{position:fixed}
+
+/* Loading and failed states the mockup did not need (its data was local). */
+.loading{padding:40px 0;text-align:center;color:var(--faint);font:500 14px var(--fm);letter-spacing:.06em;text-transform:uppercase}
+.loadfail{display:grid;gap:10px;justify-items:start}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* The mockup's phone frame had a fixed height; a real page can be shorter
+   than the screen, so the page takes the rest and the bottom nav stays down. */
+.main{min-height:100vh;min-height:100dvh}
+.pg{flex:1}
+
+/* Redesign 09.11.2026 (approved variants):
+   3 — attention bundled by cause, a big count per line. */
+.cause{display:grid;grid-template-columns:38px minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px;border:1px solid var(--line);border-radius:14px;background:var(--surface2)}
+.cause .n{font:800 30px/1 var(--fd);text-align:center}
+.cause b{display:block}
+.cause small{color:var(--muted);font-size:14px}
+/* 2 — portal groups */
+.pgroup{display:grid;gap:10px}
+.pgh{padding:6px 2px 0}
+/* 4 — phone: the area name in the top bar is the title; no hero below it
+   except on the overview; filters scroll sideways; the door's "+" button. */
+.fab{display:none}
+@container app (max-width:760px){
+  .hero:not(.w-home){display:none}
+  .crumb b{font:800 24px/1 var(--fd);text-transform:uppercase;letter-spacing:.01em}
+  .crumb span{display:none}
+  /* The page column never grows past the screen: the sideways-scrolling filter
+     row widened the whole column to 464 px and cut the forms off (09.11.2026). */
+  .pg{grid-template-columns:minmax(0,1fr)}
+  .toolbar,.filters{min-width:0;max-width:100%}
+  .filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:2px}
+  .filters .fchip{flex:none}
+  .door-make{display:none}
+  .fab{display:grid;place-items:center;position:fixed;right:16px;bottom:calc(84px + env(safe-area-inset-bottom,0px));width:56px;height:56px;border-radius:18px;border:0;background:var(--k-einlass);color:#fff;box-shadow:var(--shadow-pop);z-index:7}
+  .fab svg{width:26px;height:26px;stroke:currentColor;fill:none;stroke-width:2}
+  .cause{grid-template-columns:38px minmax(0,1fr)}
+  .cause .btn{grid-column:1/-1;justify-self:start}
+}
+
+/* An icon inside a line of text (the child lock). */
+.ico-inline svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8;vertical-align:-3px}
+
+/* Reasons can be long paths without spaces (a file that is not there: /data/…);
+   they wrap anywhere instead of running out of their box on a phone. */
+.att small,.fail span,.flag,.ev span,.src small{overflow-wrap:anywhere}
+
+/* Access (AP90): the chain the server checks, top to bottom, and "why?". */
+.chain{display:grid;gap:4px}
+.chain-step{display:grid;grid-template-columns:14px minmax(0,1fr) auto;gap:12px;align-items:start;padding:10px 4px;border-top:1px solid var(--line)}
+.chain-step:first-of-type{border-top:0}
+.chain-dot{width:12px;height:12px;border-radius:50%;margin-top:5px;background:var(--line2)}
+.chain-step.ok .chain-dot{background:var(--ok)}
+.chain-step.bad .chain-dot{background:var(--bad)}
+.chain-body{min-width:0;display:grid;gap:4px}
+.chain-body>b{font-size:16px;font-weight:600}
+.chain-body small{color:var(--muted);font-size:14px;overflow-wrap:anywhere}
+.chain-step.bad .chain-body>div>small{color:var(--bad)}
+.chain-act{align-self:center}
+.chain-roles{display:flex;flex-wrap:wrap;gap:8px}
+.chain-role{display:flex;gap:10px;align-items:center;padding:8px 12px;border-radius:12px;background:var(--surface2);cursor:pointer}
+.chain-role b{display:block;font-size:15px;font-weight:600}
+.chain-role small{display:block;font-size:13px;color:var(--muted)}
+.why-rows{display:grid;gap:6px}
+.why-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:center;padding:10px 12px;border-radius:12px;background:var(--surface2)}
+.why-row b{display:block;font-size:15px;font-weight:600}
+.why-row small{display:block;font-size:14px;color:var(--muted);overflow-wrap:anywhere}
+.why-row.ok small{color:var(--ok)}
+@container app (max-width:760px){
+  .chain-step{grid-template-columns:14px minmax(0,1fr)}
+  .chain-act{grid-column:2;justify-self:start}
+  .why-row{grid-template-columns:auto minmax(0,1fr)}
+  .why-row>:last-child:not(div){grid-column:2;justify-self:start}
+}

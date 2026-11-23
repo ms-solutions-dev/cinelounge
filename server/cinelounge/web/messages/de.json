@@ -1,0 +1,12 @@
+{
+  "_note": "Texts the server sends itself (Telegram). Not editable in the console; changes go through this file.",
+  "telegram": {
+    "join_requested": "{household}: {name} möchte in den Haushalt – {device}, {where}.\nFreigeben im Leitstand unter Einlass.",
+    "portal_failing": "{household}: {portal} ist im Nachtlauf zum dritten Mal in Folge gescheitert (Schritt: {step}).\n{why}",
+    "exit_down": "{household}: Der Netzweg {exit} antwortet nicht mehr ({state}). Portale, die darüber laufen, spielen gerade nicht.",
+    "test": "{household}: Testnachricht. Wenn du das liest, kommen die Meldungen hier an.",
+    "connected": "{household}: Verbunden. Ab jetzt kommen hier die Meldungen, die im Leitstand ausgewählt sind.",
+    "where_home": "aus deinem Netz",
+    "where_outside": "von außen"
+  }
+}

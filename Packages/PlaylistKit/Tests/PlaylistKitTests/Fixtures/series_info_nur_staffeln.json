@@ -1,0 +1,67 @@
+{
+ "seasons": [
+  {
+   "air_date": "2020-10-11",
+   "episode_count": 4,
+   "id": 990200001,
+   "name": "Extras",
+   "overview": "",
+   "season_number": 0,
+   "cover": "http://covers.iptv.example:3800/images/suWspstOEH9dZ8pmal0W5CxQm8W_small.jpg",
+   "cover_big": "http://covers.iptv.example:3800/images/suWspstOEH9dZ8pmal0W5CxQm8W_big.jpg"
+  },
+  {
+   "air_date": "2018-09-14",
+   "episode_count": 8,
+   "id": 990200002,
+   "name": "Staffel 1",
+   "overview": "",
+   "season_number": 1,
+   "cover": "http://covers.iptv.example:3800/images/cRcL20BkDaxJ92aHuospO4cnzsm_small.jpg",
+   "cover_big": "http://covers.iptv.example:3800/images/cRcL20BkDaxJ92aHuospO4cnzsm_big.jpg"
+  },
+  {
+   "air_date": "2021-01-08",
+   "episode_count": 10,
+   "id": 990200003,
+   "name": "Staffel 2",
+   "overview": "",
+   "season_number": 2,
+   "cover": "http://covers.iptv.example:3800/images/Z7JHTZRdtg3z4G45iKkilWCQoYO_small.jpg",
+   "cover_big": "http://covers.iptv.example:3800/images/Z7JHTZRdtg3z4G45iKkilWCQoYO_big.jpg"
+  },
+  {
+   "air_date": "2022-01-07",
+   "episode_count": 7,
+   "id": 990200004,
+   "name": "Staffel 3",
+   "overview": "",
+   "season_number": 3,
+   "cover": "http://covers.iptv.example:3800/images/iiqT7rdKiDZwfrYp7EkgPhxiOuN_small.jpg",
+   "cover_big": "http://covers.iptv.example:3800/images/iiqT7rdKiDZwfrYp7EkgPhxiOuN_big.jpg"
+  }
+ ],
+ "info": {
+  "name": "The Brindlewood Papers |DE",
+  "cover": "https://img.iptv.example/t/p/w600_and_h900_bestv2/Lwpzy07ZxCAtjSDKVeZlDE9OIwk.jpg",
+  "plot": "Der Uhrmacher Jasper Lind erbt die Werkstatt seiner Tante in einem Küstendorf. Jede Uhr darin zeigt eine andere Zeit, und in einer Schublade liegen Briefe, die erst in vielen Jahren geschrieben werden.",
+  "cast": "Rosalind Kemp, Ewan Thistle, Margit Sallow, Hal Penrose, Dorit Venn",
+  "director": "Agnes Morrow",
+  "genre": "Mystery / Drama",
+  "releaseDate": "2018-09-14",
+  "release_date": "2018-09-14",
+  "last_modified": "1666788644",
+  "rating": "8",
+  "rating_5based": "4",
+  "backdrop_path": [
+   "https://img.iptv.example/t/p/w1280/8cXg9mhrU29jJbjaIyRpFAHlY28.jpg"
+  ],
+  "tmdb": "990100030",
+  "youtube_trailer": "demoljcdNA3",
+  "episode_run_time": "43",
+  "category_id": "4113",
+  "category_ids": [
+   4113
+  ]
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "leagues": [
+  {
+   "id": "8114",
+   "name": "Isles League Championship",
+   "abbreviation": "Isles Championship",
+   "midsizeName": "ENG.2",
+   "slug": "eng.2"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001041",
+   "date": "2030-08-18T11:00Z",
+   "name": "Hazelmere at Copperton",
+   "shortName": "HAZ @ COP",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "COP",
+        "displayName": "Copperton",
+        "shortDisplayName": "Copperton",
+        "name": "Copperton",
+        "location": "Copperton"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "HAZ",
+        "displayName": "Hazelmere",
+        "shortDisplayName": "Hazelmere",
+        "name": "Hazelmere",
+        "location": "Hazelmere"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001042",
+   "date": "2030-08-18T13:00Z",
+   "name": "Larkspur at Stonebury",
+   "shortName": "LAR @ STO",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "STO",
+        "displayName": "Stonebury",
+        "shortDisplayName": "Stonebury",
+        "name": "Stonebury",
+        "location": "Stonebury"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "LAR",
+        "displayName": "Larkspur",
+        "shortDisplayName": "Larkspur",
+        "name": "Larkspur",
+        "location": "Larkspur"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

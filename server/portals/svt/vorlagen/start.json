@@ -1,0 +1,370 @@
+{
+ "selections": [
+  {
+   "id": "recommended_start",
+   "name": "Vi rekommenderar",
+   "items": [
+    {
+     "item": {
+      "__typename": "TvSeries",
+      "id": "x5oFMxl",
+      "svtId": "x5oFMxl",
+      "name": "Tallbacken",
+      "shortDescription": "Svensk dramaserie",
+      "image": {
+       "id": "59381892",
+       "changed": 1787432819
+      },
+      "urls": {
+       "svtplay": "/tallbacken"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": true
+      }
+     }
+    },
+    {
+     "item": {
+      "__typename": "TvSeries",
+      "id": "jjl9Jr8",
+      "svtId": "jjl9Jr8",
+      "name": "Grannar i Ekbyn",
+      "shortDescription": "Svensk humorserie",
+      "image": {
+       "id": "59536571",
+       "changed": 1787630070
+      },
+      "urls": {
+       "svtplay": "/grannar-i-ekbyn"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": true
+      }
+     }
+    },
+    {
+     "item": {
+      "__typename": "Episode",
+      "id": "3057266-001",
+      "svtId": "T4A034T",
+      "name": "Midsommarkonserten",
+      "shortDescription": "Konsert",
+      "image": {
+       "id": "59188766",
+       "changed": 1788463537
+      },
+      "urls": {
+       "svtplay": "/video/T4A034T/midsommarkonserten"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": true
+      },
+      "duration": 10800
+     }
+    },
+    {
+     "item": {
+      "__typename": "Episode",
+      "id": "1237468-001",
+      "svtId": "ynOeHPZ",
+      "name": "Kvart i sju",
+      "shortDescription": "Nyheter",
+      "image": {
+       "id": "59023449",
+       "changed": 1788013061
+      },
+      "urls": {
+       "svtplay": "/video/ynOeHPZ/kvart-i-sju"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": true
+      },
+      "duration": 918
+     }
+    },
+    {
+     "item": {
+      "__typename": "Episode",
+      "id": "1913458-001",
+      "svtId": "3uJpxSk",
+      "name": "Fjällvandring",
+      "shortDescription": "Naturprogram",
+      "image": {
+       "id": "59739219",
+       "changed": 1786962657
+      },
+      "urls": {
+       "svtplay": "/video/3uJpxSk/fjallvandring"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": false
+      },
+      "duration": 3500
+     }
+    },
+    {
+     "item": {
+      "__typename": "TvSeries",
+      "id": "ru0yCBG",
+      "svtId": "ru0yCBG",
+      "name": "Skärgårdsliv",
+      "shortDescription": "Dokumentärserie",
+      "image": {
+       "id": "59791501",
+       "changed": 1787704124
+      },
+      "urls": {
+       "svtplay": "/skargardsliv"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "popular_start",
+   "name": "Populärt",
+   "items": [
+    {
+     "item": {
+      "__typename": "TvShow",
+      "id": "fyGYxM4",
+      "svtId": "fyGYxM4",
+      "name": "Valdebatten",
+      "shortDescription": "Direktsänd debatt",
+      "image": {
+       "id": "59871895",
+       "changed": 1789290285
+      },
+      "urls": {
+       "svtplay": "/valdebatten"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": false
+      }
+     }
+    },
+    {
+     "item": {
+      "__typename": "TvSeries",
+      "id": "RyVUT12",
+      "svtId": "RyVUT12",
+      "name": "Middag hos främlingar",
+      "shortDescription": "Relationsprogram",
+      "image": {
+       "id": "59475261",
+       "changed": 1788422985
+      },
+      "urls": {
+       "svtplay": "/middag-hos-framlingar"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": true
+      }
+     }
+    },
+    {
+     "item": {
+      "__typename": "TvShow",
+      "id": "UxHL6e6",
+      "svtId": "UxHL6e6",
+      "name": "Kvällsquizet",
+      "shortDescription": "Frågesport",
+      "image": {
+       "id": "59720052",
+       "changed": 1787081476
+      },
+      "urls": {
+       "svtplay": "/kvallsquizet"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": false
+      }
+     }
+    },
+    {
+     "item": {
+      "__typename": "TvShow",
+      "id": "gOpCPP1",
+      "svtId": "gOpCPP1",
+      "name": "Molnkoll",
+      "shortDescription": "Väderprogram",
+      "image": {
+       "id": "59031278",
+       "changed": 1787094437
+      },
+      "urls": {
+       "svtplay": "/molnkoll"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": false
+      }
+     }
+    },
+    {
+     "item": {
+      "__typename": "TvSeries",
+      "id": "x5oFMxl",
+      "svtId": "x5oFMxl",
+      "name": "Tallbacken",
+      "shortDescription": "Svensk dramaserie",
+      "image": {
+       "id": "59381892",
+       "changed": 1787432819
+      },
+      "urls": {
+       "svtplay": "/tallbacken"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": true
+      }
+     }
+    },
+    {
+     "item": {
+      "__typename": "Episode",
+      "id": "9020647-001",
+      "svtId": "Rq3BLFG",
+      "name": "Fjällvandring del 2",
+      "shortDescription": "Naturprogram",
+      "image": {
+       "id": "59145017",
+       "changed": 1787338151
+      },
+      "urls": {
+       "svtplay": "/video/Rq3BLFG/fjallvandring-del-2"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": false
+      },
+      "duration": 1696
+     }
+    }
+   ]
+  },
+  {
+   "id": "list_9001",
+   "name": "Dokumentärer",
+   "items": [
+    {
+     "item": {
+      "__typename": "TvSeries",
+      "id": "eg5Wm2p",
+      "svtId": "eg5Wm2p",
+      "name": "Under tångskogen",
+      "shortDescription": "Dokumentärserie",
+      "image": {
+       "id": "59015742",
+       "changed": 1786768626
+      },
+      "urls": {
+       "svtplay": "/under-tangskogen"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": false
+      }
+     }
+    },
+    {
+     "item": {
+      "__typename": "TvSeries",
+      "id": "H8WKV4P",
+      "svtId": "H8WKV4P",
+      "name": "Betongens år",
+      "shortDescription": "Dokumentärserie",
+      "image": {
+       "id": "59218729",
+       "changed": 1788556914
+      },
+      "urls": {
+       "svtplay": "/betongens-ar"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": true
+      }
+     }
+    },
+    {
+     "item": {
+      "__typename": "TvSeries",
+      "id": "x5EvyOy",
+      "svtId": "x5EvyOy",
+      "name": "Nordens fåglar",
+      "shortDescription": "Naturserie",
+      "image": {
+       "id": "59117791",
+       "changed": 1789504088
+      },
+      "urls": {
+       "svtplay": "/nordens-faglar"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": true
+      }
+     }
+    },
+    {
+     "item": {
+      "__typename": "Single",
+      "id": "9481051-001",
+      "svtId": "aZjW5Nw",
+      "name": "Isvägen",
+      "shortDescription": "Dokumentär",
+      "image": {
+       "id": "59938608",
+       "changed": 1787085871
+      },
+      "urls": {
+       "svtplay": "/video/aZjW5Nw/isvagen"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": false
+      },
+      "duration": 3540
+     }
+    },
+    {
+     "item": {
+      "__typename": "TvShow",
+      "id": "HuHVkyN",
+      "svtId": "HuHVkyN",
+      "name": "Labbet",
+      "shortDescription": "Vetenskap",
+      "image": {
+       "id": "59289173",
+       "changed": 1787758646
+      },
+      "urls": {
+       "svtplay": "/labbet"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": false
+      }
+     }
+    },
+    {
+     "item": {
+      "__typename": "Single",
+      "id": "0064724-001",
+      "svtId": "XBhOfNa",
+      "name": "Den sista färjan",
+      "shortDescription": "Dokumentär",
+      "image": {
+       "id": "59674740",
+       "changed": 1786873336
+      },
+      "urls": {
+       "svtplay": "/video/XBhOfNa/den-sista-farjan"
+      },
+      "restrictions": {
+       "onlyAvailableInSweden": true
+      },
+      "duration": 3524
+     }
+    }
+   ]
+  }
+ ]
+}

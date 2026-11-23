@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8108",
+   "name": "Primeira Liga (Portugal)",
+   "abbreviation": "Primeira Liga",
+   "midsizeName": "POR.1",
+   "slug": "por.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001032",
+   "date": "2030-08-17T19:30Z",
+   "name": "Pedra Alva at Vila Serena",
+   "shortName": "PAL @ VSE",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "VSE",
+        "displayName": "Vila Serena",
+        "shortDisplayName": "Vila Serena",
+        "name": "Vila Serena",
+        "location": "Vila Serena"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "PAL",
+        "displayName": "Pedra Alva",
+        "shortDisplayName": "Pedra Alva",
+        "name": "Pedra Alva",
+        "location": "Pedra Alva"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,461 @@
+{
+ "personalized": false,
+ "isChildContent": false,
+ "description": "Die Filme im Überblick: Krimis, Komödien und Dramen.",
+ "headerVisible": true,
+ "id": "bQBIAxRuKytmRhUauSmtlG",
+ "images": {
+  "aspect16x9": {
+   "title": "Bild",
+   "alt": "Standbild",
+   "producerName": "Demo-Sender",
+   "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:40e321828dc44aab?w={width}&ch=a68edb87621e5132"
+  },
+  "aspect16x7": {
+   "title": "Bild",
+   "alt": "Standbild",
+   "producerName": "Demo-Sender",
+   "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:6dcc301046017888?w={width}&ch=a68edb87621e5132"
+  },
+  "aspect1x1": {
+   "title": "Bild",
+   "alt": "Standbild",
+   "producerName": "Demo-Sender",
+   "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:c6f3704bff88f4f5?w={width}&ch=a68edb87621e5132"
+  }
+ },
+ "links": {
+  "self": {
+   "href": "https://api.ard-mediathek.example/page-gateway/pages/ard/editorial/filme?devicetype=pc&embedded=true",
+   "id": "filme",
+   "partner": "ard",
+   "title": "Filme",
+   "type": "application/vnd.ard.page+json",
+   "urlId": "filme"
+  }
+ },
+ "title": "Filme",
+ "widgets": [
+  {
+   "compilationType": "editorial",
+   "personalized": false,
+   "pagination": {
+    "pageNumber": 0,
+    "pageSize": 100,
+    "totalElements": 1
+   },
+   "isChildContent": false,
+   "userVisibility": "ALWAYS",
+   "id": "bQBIAxRuKytmRhUauSmtlG:821598500227072772",
+   "links": {
+    "self": {
+     "href": "https://api.ard-mediathek.example/page-gateway/widgets/ard/editorials/bQBIAxRuKytmRhUauSmtlG:821598500227072772",
+     "id": "bQBIAxRuKytmRhUauSmtlG:821598500227072772",
+     "partner": "ard",
+     "title": "Navigation",
+     "type": "application/vnd.ard.widget+json",
+     "urlId": "bQBIAxRuKytmRhUauSmtlG:821598500227072772"
+    }
+   },
+   "size": "m",
+   "swipeable": true,
+   "title": "Navigation",
+   "titleVisible": false,
+   "type": "top_navigation",
+   "teasers": [
+    {
+     "id": "bQBIAxRuKytmRhUauSmtlG:1",
+     "images": {},
+     "isChildContent": false,
+     "longTitle": "Übersicht",
+     "mediumTitle": "Übersicht",
+     "personalized": false,
+     "links": {
+      "target": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/ard/editorial/filme?devicetype=pc&embedded=true",
+       "id": "filme",
+       "partner": "ard",
+       "title": "Übersicht",
+       "type": "application/vnd.ard.page+json",
+       "urlId": "filme"
+      }
+     },
+     "shortTitle": "Übersicht",
+     "titleVisible": true,
+     "type": "editorialPage"
+    }
+   ]
+  },
+  {
+   "compilationType": "editorial",
+   "personalized": false,
+   "pagination": {
+    "pageNumber": 0,
+    "pageSize": 100,
+    "totalElements": 3
+   },
+   "isChildContent": false,
+   "userVisibility": "ALWAYS",
+   "id": "bQBIAxRuKytmRhUauSmtlG:547586818764360610",
+   "links": {
+    "self": {
+     "href": "https://api.ard-mediathek.example/page-gateway/widgets/ard/editorials/bQBIAxRuKytmRhUauSmtlG:547586818764360610",
+     "id": "bQBIAxRuKytmRhUauSmtlG:547586818764360610",
+     "partner": "ard",
+     "title": "Neu verfügbare Filme",
+     "type": "application/vnd.ard.widget+json",
+     "urlId": "bQBIAxRuKytmRhUauSmtlG:547586818764360610"
+    }
+   },
+   "size": "m",
+   "swipeable": true,
+   "title": "Neu verfügbare Filme",
+   "titleVisible": true,
+   "type": "gridlist",
+   "teasers": [
+    {
+     "availableTo": "2027-05-16T21:59:00Z",
+     "binaryFeatures": [
+      "UT"
+     ],
+     "coreAssetType": "EPISODE",
+     "duration": 5357,
+     "id": "0prv0Bfx7hgSmPD7slIh1GE0eD25BPYSHiPT7BZL",
+     "images": {
+      "aspect16x9": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:cee5bceb04811232?w={width}&ch=e8f3af3138676cac"
+      },
+      "aspect16x7": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:a13c95cc8d07b7ad?w={width}&ch=e8f3af3138676cac"
+      },
+      "aspect1x1": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:8e38600feb69d787?w={width}&ch=e8f3af3138676cac"
+      }
+     },
+     "isChildContent": false,
+     "isFamilyFriendly": true,
+     "links": {
+      "self": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/ndr/teasers/0prv0Bfx7hgSmPD7slIh1GE0eD25BPYSHiPT7BZL?devicetype=pc&embedded=true",
+       "id": "0prv0Bfx7hgSmPD7slIh1GE0eD25BPYSHiPT7BZL",
+       "partner": "ndr",
+       "title": "Kreidezeit | Kriminalfilm",
+       "type": "application/vnd.ard.teaser+json",
+       "urlId": "0prv0Bfx7hgSmPD7slIh1GE0eD25BPYSHiPT7BZL"
+      },
+      "target": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/ndr/item/0prv0Bfx7hgSmPD7slIh1GE0eD25BPYSHiPT7BZL?devicetype=pc&embedded=true",
+       "id": "0prv0Bfx7hgSmPD7slIh1GE0eD25BPYSHiPT7BZL",
+       "partner": "ndr",
+       "title": "Kreidezeit | Kriminalfilm",
+       "type": "application/vnd.ard.page+json",
+       "urlId": "0prv0Bfx7hgSmPD7slIh1GE0eD25BPYSHiPT7BZL"
+      }
+     },
+     "longTitle": "Kreidezeit | Kriminalfilm",
+     "maturityContentRating": "FSK12",
+     "mediumTitle": "Kreidezeit | Kriminalfilm",
+     "personalized": false,
+     "publicationService": {
+      "name": "Demo Eins",
+      "partner": "ndr"
+     },
+     "shortTitle": "Kreidezeit",
+     "show": {
+      "id": "V2cna3mZIeZl5ORgbGIKYV",
+      "title": "Kommissariat Elbmarsch",
+      "shortTitle": null,
+      "longTitle": null
+     },
+     "titleVisible": true,
+     "type": "poster"
+    },
+    {
+     "availableTo": "2027-05-16T21:59:00Z",
+     "binaryFeatures": [
+      "UT"
+     ],
+     "coreAssetType": "EPISODE",
+     "duration": 5639,
+     "id": "27xrHUIYZKcg0OIy3CmdENBpCMBPPDg8Mr3xMysk",
+     "images": {
+      "aspect16x9": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:bd00277b4134522c?w={width}&ch=07e28b8381709c1a"
+      },
+      "aspect16x7": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:78222bd1d1db37a9?w={width}&ch=07e28b8381709c1a"
+      },
+      "aspect1x1": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:37b9fe36af843e95?w={width}&ch=07e28b8381709c1a"
+      }
+     },
+     "isChildContent": false,
+     "isFamilyFriendly": true,
+     "links": {
+      "self": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/ard/teasers/27xrHUIYZKcg0OIy3CmdENBpCMBPPDg8Mr3xMysk?devicetype=pc&embedded=true",
+       "id": "27xrHUIYZKcg0OIy3CmdENBpCMBPPDg8Mr3xMysk",
+       "partner": "ard",
+       "title": "Ziegelrot | Komödie über eine Dachdeckerin",
+       "type": "application/vnd.ard.teaser+json",
+       "urlId": "27xrHUIYZKcg0OIy3CmdENBpCMBPPDg8Mr3xMysk"
+      },
+      "target": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/ard/item/27xrHUIYZKcg0OIy3CmdENBpCMBPPDg8Mr3xMysk?devicetype=pc&embedded=true",
+       "id": "27xrHUIYZKcg0OIy3CmdENBpCMBPPDg8Mr3xMysk",
+       "partner": "ard",
+       "title": "Ziegelrot | Komödie über eine Dachdeckerin",
+       "type": "application/vnd.ard.page+json",
+       "urlId": "27xrHUIYZKcg0OIy3CmdENBpCMBPPDg8Mr3xMysk"
+      }
+     },
+     "longTitle": "Ziegelrot | Komödie über eine Dachdeckerin",
+     "maturityContentRating": "FSK12",
+     "mediumTitle": "Ziegelrot | Komödie über eine Dachdeckerin",
+     "personalized": false,
+     "publicationService": {
+      "name": "Demo Eins",
+      "partner": "ard"
+     },
+     "shortTitle": "Ziegelrot",
+     "show": {
+      "id": "KX6AHoVRRRZALFd2T4iHJK",
+      "title": "Filmabend",
+      "shortTitle": null,
+      "longTitle": null
+     },
+     "titleVisible": true,
+     "type": "poster"
+    },
+    {
+     "availableTo": "2027-05-16T21:59:00Z",
+     "binaryFeatures": [
+      "UT"
+     ],
+     "coreAssetType": "EPISODE",
+     "duration": 5343,
+     "id": "i4HuA1DhLfKTimdlGgpy6segdlmeB1jxiCGxag1H",
+     "images": {
+      "aspect16x9": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:9df8ad0806e47c77?w={width}&ch=27461c549e2763be"
+      },
+      "aspect16x7": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:2a34e69e7861c173?w={width}&ch=27461c549e2763be"
+      },
+      "aspect1x1": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:940cc24649d657c9?w={width}&ch=27461c549e2763be"
+      }
+     },
+     "isChildContent": false,
+     "isFamilyFriendly": true,
+     "links": {
+      "self": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/ard/teasers/i4HuA1DhLfKTimdlGgpy6segdlmeB1jxiCGxag1H?devicetype=pc&embedded=true",
+       "id": "i4HuA1DhLfKTimdlGgpy6segdlmeB1jxiCGxag1H",
+       "partner": "ard",
+       "title": "Sommer im Pumpwerk | Jugendfilm",
+       "type": "application/vnd.ard.teaser+json",
+       "urlId": "i4HuA1DhLfKTimdlGgpy6segdlmeB1jxiCGxag1H"
+      },
+      "target": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/ard/item/i4HuA1DhLfKTimdlGgpy6segdlmeB1jxiCGxag1H?devicetype=pc&embedded=true",
+       "id": "i4HuA1DhLfKTimdlGgpy6segdlmeB1jxiCGxag1H",
+       "partner": "ard",
+       "title": "Sommer im Pumpwerk | Jugendfilm",
+       "type": "application/vnd.ard.page+json",
+       "urlId": "i4HuA1DhLfKTimdlGgpy6segdlmeB1jxiCGxag1H"
+      }
+     },
+     "longTitle": "Sommer im Pumpwerk | Jugendfilm",
+     "maturityContentRating": "FSK12",
+     "mediumTitle": "Sommer im Pumpwerk | Jugendfilm",
+     "personalized": false,
+     "publicationService": {
+      "name": "Demo Eins",
+      "partner": "ard"
+     },
+     "shortTitle": "Sommer im Pumpwerk",
+     "show": {
+      "id": "NqF95mzbCcNUkMn7hDvMZ2",
+      "title": "Sommer im Pumpwerk",
+      "shortTitle": null,
+      "longTitle": null
+     },
+     "titleVisible": true,
+     "type": "poster"
+    }
+   ]
+  },
+  {
+   "compilationType": "editorial",
+   "personalized": false,
+   "pagination": {
+    "pageNumber": 0,
+    "pageSize": 100,
+    "totalElements": 2
+   },
+   "isChildContent": false,
+   "userVisibility": "ALWAYS",
+   "id": "bQBIAxRuKytmRhUauSmtlG:458994222013388689",
+   "links": {
+    "self": {
+     "href": "https://api.ard-mediathek.example/page-gateway/widgets/ard/editorials/bQBIAxRuKytmRhUauSmtlG:458994222013388689",
+     "id": "bQBIAxRuKytmRhUauSmtlG:458994222013388689",
+     "partner": "ard",
+     "title": "Beliebte Krimireihen",
+     "type": "application/vnd.ard.widget+json",
+     "urlId": "bQBIAxRuKytmRhUauSmtlG:458994222013388689"
+    }
+   },
+   "size": "m",
+   "swipeable": true,
+   "title": "Beliebte Krimireihen",
+   "titleVisible": true,
+   "type": "gridlist",
+   "teasers": [
+    {
+     "availableSeasons": [
+      "1",
+      "2"
+     ],
+     "binaryFeatures": [],
+     "coreAssetType": "SEASON_SERIES",
+     "id": "yjOezTiNooDLkwMsUjY6m0zkVn8PZvUWmsr5i08j",
+     "images": {
+      "aspect16x9": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:579db7dc9719e7ce?w={width}&ch=80c107100b19a32e"
+      },
+      "aspect16x7": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:ead148586485029a?w={width}&ch=80c107100b19a32e"
+      },
+      "aspect1x1": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:c1862d54265f4aac?w={width}&ch=80c107100b19a32e"
+      }
+     },
+     "isChildContent": false,
+     "isFamilyFriendly": true,
+     "links": {
+      "self": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/ard/teasers/yjOezTiNooDLkwMsUjY6m0zkVn8PZvUWmsr5i08j?devicetype=pc&embedded=true",
+       "id": "yjOezTiNooDLkwMsUjY6m0zkVn8PZvUWmsr5i08j",
+       "partner": "ard",
+       "title": "Die Fährfrau | Reihe",
+       "type": "application/vnd.ard.teaser+json",
+       "urlId": "yjOezTiNooDLkwMsUjY6m0zkVn8PZvUWmsr5i08j"
+      },
+      "target": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/ard/grouping/yjOezTiNooDLkwMsUjY6m0zkVn8PZvUWmsr5i08j?devicetype=pc&embedded=true",
+       "id": "yjOezTiNooDLkwMsUjY6m0zkVn8PZvUWmsr5i08j",
+       "partner": "ard",
+       "title": "Die Fährfrau | Reihe",
+       "type": "application/vnd.ard.page+json",
+       "urlId": "yjOezTiNooDLkwMsUjY6m0zkVn8PZvUWmsr5i08j"
+      }
+     },
+     "longTitle": "Die Fährfrau | Reihe",
+     "mediumTitle": "Die Fährfrau",
+     "personalized": false,
+     "publicationService": {
+      "name": "Demo Eins",
+      "partner": "ard"
+     },
+     "shortTitle": "Übersicht",
+     "titleVisible": true,
+     "type": "show"
+    },
+    {
+     "availableSeasons": [],
+     "binaryFeatures": [],
+     "coreAssetType": "INFINITE_SERIES",
+     "id": "QfOICecikMFCDJxu4X2qF8LzYQAPX9ZxT68rojVm",
+     "images": {
+      "aspect16x9": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:75a2e456d683172e?w={width}&ch=d0041d312c842263"
+      },
+      "aspect16x7": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:d4ca659c3509b8b3?w={width}&ch=d0041d312c842263"
+      },
+      "aspect1x1": {
+       "title": "Bild",
+       "alt": "Standbild",
+       "producerName": "Demo-Sender",
+       "src": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:9f857b5b06c96a53?w={width}&ch=d0041d312c842263"
+      }
+     },
+     "isChildContent": false,
+     "isFamilyFriendly": true,
+     "links": {
+      "self": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/swr/teasers/QfOICecikMFCDJxu4X2qF8LzYQAPX9ZxT68rojVm?devicetype=pc&embedded=true",
+       "id": "QfOICecikMFCDJxu4X2qF8LzYQAPX9ZxT68rojVm",
+       "partner": "swr",
+       "title": "Kanzlei Brookmann | Reihe",
+       "type": "application/vnd.ard.teaser+json",
+       "urlId": "QfOICecikMFCDJxu4X2qF8LzYQAPX9ZxT68rojVm"
+      },
+      "target": {
+       "href": "https://api.ard-mediathek.example/page-gateway/pages/swr/grouping/QfOICecikMFCDJxu4X2qF8LzYQAPX9ZxT68rojVm?devicetype=pc&embedded=true",
+       "id": "QfOICecikMFCDJxu4X2qF8LzYQAPX9ZxT68rojVm",
+       "partner": "swr",
+       "title": "Kanzlei Brookmann | Reihe",
+       "type": "application/vnd.ard.page+json",
+       "urlId": "QfOICecikMFCDJxu4X2qF8LzYQAPX9ZxT68rojVm"
+      }
+     },
+     "longTitle": "Kanzlei Brookmann | Reihe",
+     "mediumTitle": "Kanzlei Brookmann",
+     "personalized": false,
+     "publicationService": {
+      "name": "Demo Eins",
+      "partner": "swr"
+     },
+     "shortTitle": "Übersicht",
+     "titleVisible": true,
+     "type": "show"
+    }
+   ]
+  }
+ ]
+}

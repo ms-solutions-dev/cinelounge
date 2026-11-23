@@ -1,0 +1,91 @@
+{
+ "leagues": [
+  {
+   "id": "8104",
+   "name": "Premier League (England)",
+   "abbreviation": "Premier League",
+   "midsizeName": "ENG.1",
+   "slug": "eng.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001020",
+   "date": "2030-08-18T13:00Z",
+   "name": "Saltmarsh at Redwater Wanderers",
+   "shortName": "SAL @ RED",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "RED",
+        "displayName": "Redwater Wanderers",
+        "shortDisplayName": "Redwater",
+        "name": "Redwater Wanderers",
+        "location": "Redwater Wanderers"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "SAL",
+        "displayName": "Saltmarsh",
+        "shortDisplayName": "Saltmarsh",
+        "name": "Saltmarsh",
+        "location": "Saltmarsh"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001021",
+   "date": "2030-08-18T15:30Z",
+   "name": "Brackenfield at Ironbridge Vale",
+   "shortName": "BRA @ IRV",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "IRV",
+        "displayName": "Ironbridge Vale",
+        "shortDisplayName": "Ironbridge",
+        "name": "Ironbridge Vale",
+        "location": "Ironbridge Vale"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "BRA",
+        "displayName": "Brackenfield",
+        "shortDisplayName": "Brackenfield",
+        "name": "Brackenfield",
+        "location": "Brackenfield"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

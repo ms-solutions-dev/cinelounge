@@ -1,0 +1,199 @@
+{
+ "http://zdf.de/rels/search/results": [
+  {
+   "score": null,
+   "resultMode": null,
+   "profile": "http://zdf.de/rels/search/result",
+   "id": "SCMS_cbb73432-606e-f73b-aed7-325485fa6925",
+   "viewCount": 0,
+   "title": "Handelswege: Das Salz",
+   "ratingCount": 0,
+   "type": "page-video",
+   "resultType": "default",
+   "http://zdf.de/rels/target": {
+    "externalId": "SCMS_cbb73432-606e-f73b-aed7-325485fa6925",
+    "id": "handelswege-das-salz-100",
+    "editorialDate": "2026-10-23T00:00:00.000+02:00",
+    "teaserImageRef": {
+     "title": "Handelswege: Das Salz Key Visual",
+     "altText": "Bild aus Handelswege: Das Salz",
+     "caption": "Bild aus Handelswege: Das Salz",
+     "copyrightNotice": "Demo",
+     "source": "Demo-Sender",
+     "profile": "http://zdf.de/rels/image",
+     "layouts": {
+      "384x216": "https://www.3sat.example/assets/handelswege-das-salz-key-visual-100~384x216?cb=1078154754728",
+      "768x432": "https://www.3sat.example/assets/handelswege-das-salz-key-visual-100~768x432?cb=1078154754728",
+      "1280x720": "https://www.3sat.example/assets/handelswege-das-salz-key-visual-100~1280x720?cb=1078154754728",
+      "1920x1080": "https://www.3sat.example/assets/handelswege-das-salz-key-visual-100~1920x1080?cb=1078154754728",
+      "original": "https://www.3sat.example/assets/handelswege-das-salz-key-visual-100~original?cb=1078154754728"
+     }
+    },
+    "embeddingPossible": true,
+    "endDate": "2027-08-15T23:59:00.000+02:00",
+    "teaserHeadline": "Handelswege: Das Salz",
+    "trackingTitle": "Handelswege:_Das_Salz",
+    "teasertext": "Wie Salz auf Flößen über die Alpen kam.",
+    "excludeFromLastViewed": false,
+    "hideEpisodeInformation": false,
+    "contentType": "episode",
+    "hasVideo": true,
+    "currentVideoType": "episode",
+    "fskBlocked": false,
+    "profile": "http://zdf.de/rels/content/page-video-teaser",
+    "self": "/content/documents/3sat/handelswege-das-salz-100.json",
+    "canonical": "/content/documents/handelswege-das-salz-100.json",
+    "webCanonical": "https://www.3sat.example/video/handelswege-das-salz-100",
+    "seasonNumberPrefix": null,
+    "structureNodePath": "/3sat/demo",
+    "tvService": "3SAT",
+    "mainVideoContent": {
+     "http://zdf.de/rels/target": {
+      "title": "Handelswege: Das Salz",
+      "contentType": "episode",
+      "extId": "261023_handelswege_das_salz",
+      "attrs": [
+       "UT"
+      ],
+      "domain": "mediathek",
+      "duration": 2588,
+      "geoLocation": "none",
+      "fsk": "none",
+      "visible": true,
+      "visibleFrom": "2026-07-14T16:00:00.000+02:00",
+      "visibleTo": "2027-08-15T23:59:00.000+02:00",
+      "aspectRatio": "16:9",
+      "profile": "http://zdf.de/rels/content/content-video-vod-teaser",
+      "self": "/content/documents/3sat/videos/vod-handelswege-das-salz-100.json?profile=teaser",
+      "canonical": "/content/documents/vod-handelswege-das-salz-100.json",
+      "http://zdf.de/rels/streams/ptmd-template": "/tmd/2/{playerId}/vod/ptmd/mediathek/261023_handelswege_das_salz/7"
+     }
+    }
+   }
+  },
+  {
+   "score": null,
+   "resultMode": null,
+   "profile": "http://zdf.de/rels/search/result",
+   "id": "SCMS_7e67bc64-3c0e-f4db-f361-22c6cc353da4",
+   "viewCount": 0,
+   "title": "Flurnamen: Woher die Wiesen ihre Namen haben",
+   "ratingCount": 0,
+   "type": "page-video",
+   "resultType": "default",
+   "http://zdf.de/rels/target": {
+    "externalId": "SCMS_7e67bc64-3c0e-f4db-f361-22c6cc353da4",
+    "id": "flurnamen-die-wiesen-100",
+    "editorialDate": "2026-10-22T00:00:00.000+02:00",
+    "teaserImageRef": {
+     "title": "Flurnamen: Woher die Wiesen ihre Namen haben Key Visual",
+     "altText": "Bild aus Flurnamen: Woher die Wiesen ihre Namen haben",
+     "caption": "Bild aus Flurnamen: Woher die Wiesen ihre Namen haben",
+     "copyrightNotice": "Demo",
+     "source": "Demo-Sender",
+     "profile": "http://zdf.de/rels/image",
+     "layouts": {
+      "384x216": "https://www.3sat.example/assets/flurnamen-die-wiesen-key-visual-100~384x216?cb=5064118868594",
+      "768x432": "https://www.3sat.example/assets/flurnamen-die-wiesen-key-visual-100~768x432?cb=5064118868594",
+      "1280x720": "https://www.3sat.example/assets/flurnamen-die-wiesen-key-visual-100~1280x720?cb=5064118868594",
+      "1920x1080": "https://www.3sat.example/assets/flurnamen-die-wiesen-key-visual-100~1920x1080?cb=5064118868594",
+      "original": "https://www.3sat.example/assets/flurnamen-die-wiesen-key-visual-100~original?cb=5064118868594"
+     }
+    },
+    "embeddingPossible": true,
+    "endDate": "2027-08-15T23:59:00.000+02:00",
+    "teaserHeadline": "Flurnamen: Woher die Wiesen ihre Namen haben",
+    "trackingTitle": "Flurnamen:_Woher_die_Wiesen_ihre_Namen_haben",
+    "teasertext": "Was alte Katasterkarten über Dörfer erzählen.",
+    "excludeFromLastViewed": false,
+    "hideEpisodeInformation": false,
+    "contentType": "episode",
+    "hasVideo": true,
+    "currentVideoType": "episode",
+    "fskBlocked": false,
+    "profile": "http://zdf.de/rels/content/page-video-teaser",
+    "self": "/content/documents/3sat/flurnamen-die-wiesen-100.json",
+    "canonical": "/content/documents/flurnamen-die-wiesen-100.json",
+    "webCanonical": "https://www.3sat.example/video/flurnamen-die-wiesen-100",
+    "seasonNumberPrefix": null,
+    "structureNodePath": "/3sat/demo",
+    "tvService": "3SAT",
+    "mainVideoContent": {
+     "http://zdf.de/rels/target": {
+      "title": "Flurnamen: Woher die Wiesen ihre Namen haben",
+      "contentType": "episode",
+      "extId": "261022_flurnamen_die_wiesen",
+      "attrs": [
+       "UT"
+      ],
+      "domain": "mediathek",
+      "duration": 2610,
+      "geoLocation": "none",
+      "fsk": "none",
+      "visible": true,
+      "visibleFrom": "2026-07-14T16:00:00.000+02:00",
+      "visibleTo": "2027-08-15T23:59:00.000+02:00",
+      "aspectRatio": "16:9",
+      "profile": "http://zdf.de/rels/content/content-video-vod-teaser",
+      "self": "/content/documents/3sat/videos/vod-flurnamen-die-wiesen-100.json?profile=teaser",
+      "canonical": "/content/documents/vod-flurnamen-die-wiesen-100.json",
+      "http://zdf.de/rels/streams/ptmd-template": "/tmd/2/{playerId}/vod/ptmd/mediathek/261022_flurnamen_die_wiesen/7"
+     }
+    }
+   }
+  },
+  {
+   "score": null,
+   "resultMode": null,
+   "profile": "http://zdf.de/rels/search/result",
+   "id": "SCMS_2ced38be-5937-217a-f08d-e48d4c1f328b",
+   "viewCount": 0,
+   "title": "Warum vergessen wir Träume?",
+   "ratingCount": 0,
+   "type": "page-video",
+   "resultType": "default",
+   "http://zdf.de/rels/target": {
+    "externalId": "SCMS_2ced38be-5937-217a-f08d-e48d4c1f328b",
+    "id": "warum-vergessen-wir-traeume-100",
+    "editorialDate": "2026-11-01T06:00:00.000+01:00",
+    "teaserImageRef": {
+     "title": "Warum vergessen wir Träume? Key Visual",
+     "altText": "Bild aus Warum vergessen wir Träume?",
+     "caption": "Bild aus Warum vergessen wir Träume?",
+     "copyrightNotice": "Demo",
+     "source": "Demo-Sender",
+     "profile": "http://zdf.de/rels/image",
+     "layouts": {
+      "384x216": "https://www.3sat.example/assets/warum-vergessen-wir-traeume-key-visual-100~384x216?cb=7737967950031",
+      "768x432": "https://www.3sat.example/assets/warum-vergessen-wir-traeume-key-visual-100~768x432?cb=7737967950031",
+      "1280x720": "https://www.3sat.example/assets/warum-vergessen-wir-traeume-key-visual-100~1280x720?cb=7737967950031",
+      "1920x1080": "https://www.3sat.example/assets/warum-vergessen-wir-traeume-key-visual-100~1920x1080?cb=7737967950031",
+      "original": "https://www.3sat.example/assets/warum-vergessen-wir-traeume-key-visual-100~original?cb=7737967950031"
+     }
+    },
+    "embeddingPossible": true,
+    "endDate": "2027-08-15T23:59:00.000+02:00",
+    "teaserHeadline": "Warum vergessen wir Träume?",
+    "trackingTitle": "Warum_vergessen_wir_Träume?",
+    "teasertext": "Ein Gespräch über Schlafforschung, ab Sonntag im Programm.",
+    "excludeFromLastViewed": false,
+    "hideEpisodeInformation": false,
+    "contentType": "episode",
+    "hasVideo": false,
+    "currentVideoType": "novideo",
+    "fskBlocked": false,
+    "profile": "http://zdf.de/rels/content/page-video-teaser",
+    "self": "/content/documents/3sat/warum-vergessen-wir-traeume-100.json",
+    "canonical": "/content/documents/warum-vergessen-wir-traeume-100.json",
+    "webCanonical": "https://www.3sat.example/video/warum-vergessen-wir-traeume-100",
+    "seasonNumberPrefix": null,
+    "structureNodePath": "/3sat/demo",
+    "tvService": "3SAT",
+    "scheduledVideoContent": {
+     "title": "Warum vergessen wir Träume?"
+    }
+   }
+  }
+ ],
+ "next": "/search/documents?q=*&contentTypes=episode&limit=14&sortBy=date&sortOrder=desc&page=2"
+}

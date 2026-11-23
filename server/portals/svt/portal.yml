@@ -1,0 +1,56 @@
+# SVT Play — Sweden's public broadcaster.
+api: 1
+id: svt
+name:
+  de: SVT Play
+  en: SVT Play
+  tr: SVT Play
+description:
+  de: Schwedens öffentlich-rechtlicher Sender. Etwa 40 Prozent des Angebots
+      sind auch ausserhalb Schwedens abrufbar — der Rest ist gesperrt und
+      wird ausgeblendet.
+  en: Sweden's public broadcaster. Roughly 40 percent of the catalogue is
+      available outside Sweden; the rest is geo-blocked and hidden.
+  tr: İsveç'in kamu yayıncısı. Katalogun yaklaşık yüzde 40'ı İsveç dışından
+      da izlenebilir; gerisi engelli ve gizleniyor.
+kind: native
+
+# The same list as `Portal.capabilities` in `portal.py`.
+#
+# `subtitles` is in it because SVT delivers **real WebVTT files**
+# (`subtitleReferences`) — unlike arte, where the subtitles are tracks in the
+# HLS manifest.
+#
+# No `paging`: a selection arrives complete. `startForSvtPlay` gave 911 entries
+# in one go as measured, and there is no continuation marker.
+#
+# No `languages`: SVT broadcasts in Swedish. A choice without options.
+capabilities:
+  - search
+  - seasons
+  - subtitles
+  - own_images
+
+# **No `region_locked`.** That would be wrong for the 394 freely reachable
+# titles, and the portal hides the blocked ones anyway. Whoever wants to see
+# them switches that off below — and then `region_locked` is wrong again,
+# because it would hold for the whole portal and not per item.
+limits: []
+
+settings:
+  # **The first setting a native portal really reads.**
+  #
+  # Measured 11.09.2026: 517 of the 911 entries on the front page carry
+  # `restrictions.onlyAvailableInSweden`. A portal showing all of them fills the
+  # sidebar with titles of which every second one does not start — exactly the
+  # reason `INHALTE.md` advises against BBC iPlayer.
+  #
+  # For a household in Sweden the filter is wrong. Then `yes` stands here, and
+  # the full list comes.
+  - key: sweden_only
+    label: Auch Titel zeigen, die nur in Schweden laufen
+    value: "nein"
+    required: false
+
+enabled: true
+adult: false

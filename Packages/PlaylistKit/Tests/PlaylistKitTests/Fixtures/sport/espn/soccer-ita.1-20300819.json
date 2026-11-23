@@ -1,0 +1,12 @@
+{
+ "leagues": [
+  {
+   "id": "8106",
+   "name": "Serie A (Italy)",
+   "abbreviation": "Serie A",
+   "midsizeName": "ITA.1",
+   "slug": "ita.1"
+  }
+ ],
+ "events": []
+}

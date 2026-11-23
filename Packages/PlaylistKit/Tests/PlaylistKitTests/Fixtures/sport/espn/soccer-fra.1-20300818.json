@@ -1,0 +1,91 @@
+{
+ "leagues": [
+  {
+   "id": "8107",
+   "name": "Ligue 1 (France)",
+   "abbreviation": "Ligue 1",
+   "midsizeName": "FRA.1",
+   "slug": "fra.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001030",
+   "date": "2030-08-18T15:00Z",
+   "name": "Beaulac at Monfleury",
+   "shortName": "BEA @ MFL",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "MFL",
+        "displayName": "Monfleury",
+        "shortDisplayName": "Monfleury",
+        "name": "Monfleury",
+        "location": "Monfleury"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "BEA",
+        "displayName": "Beaulac",
+        "shortDisplayName": "Beaulac",
+        "name": "Beaulac",
+        "location": "Beaulac"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001031",
+   "date": "2030-08-18T18:45Z",
+   "name": "Roche-Argent at Saint-Ombre",
+   "shortName": "RAR @ SOM",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "SOM",
+        "displayName": "Saint-Ombre",
+        "shortDisplayName": "Saint-Ombre",
+        "name": "Saint-Ombre",
+        "location": "Saint-Ombre"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "RAR",
+        "displayName": "Roche-Argent",
+        "shortDisplayName": "Roche-Argent",
+        "name": "Roche-Argent",
+        "location": "Roche-Argent"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

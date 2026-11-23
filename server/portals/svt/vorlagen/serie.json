@@ -1,0 +1,225 @@
+{
+ "listablesBySlug": [
+  {
+   "__typename": "TvSeries",
+   "associatedContent": [
+    {
+     "id": "season-1-x5oFMxl",
+     "name": "Säsong 1",
+     "items": [
+      {
+       "item": {
+        "__typename": "Episode",
+        "id": "3719055-001",
+        "svtId": "y3bEPGz",
+        "name": "1. Måndag",
+        "shortDescription": "Svensk dramaserie",
+        "image": {
+         "id": "59040434",
+         "changed": 1788382041
+        },
+        "urls": {
+         "svtplay": "/video/y3bEPGz/tallbacken/1-mandag"
+        },
+        "restrictions": {
+         "onlyAvailableInSweden": true
+        },
+        "duration": 2209
+       }
+      },
+      {
+       "item": {
+        "__typename": "Episode",
+        "id": "7547819-001",
+        "svtId": "s22bCSv",
+        "name": "2. Tisdag",
+        "shortDescription": "Svensk dramaserie",
+        "image": {
+         "id": "59710870",
+         "changed": 1787737745
+        },
+        "urls": {
+         "svtplay": "/video/s22bCSv/tallbacken/2-tisdag"
+        },
+        "restrictions": {
+         "onlyAvailableInSweden": true
+        },
+        "duration": 2226
+       }
+      },
+      {
+       "item": {
+        "__typename": "Episode",
+        "id": "2689539-001",
+        "svtId": "s4S145n",
+        "name": "3. Onsdag",
+        "shortDescription": "Svensk dramaserie",
+        "image": {
+         "id": "59970103",
+         "changed": 1787431519
+        },
+        "urls": {
+         "svtplay": "/video/s4S145n/tallbacken/3-onsdag"
+        },
+        "restrictions": {
+         "onlyAvailableInSweden": true
+        },
+        "duration": 2198
+       }
+      },
+      {
+       "item": {
+        "__typename": "Episode",
+        "id": "8033741-001",
+        "svtId": "2p2VKLI",
+        "name": "4. Torsdag",
+        "shortDescription": "Svensk dramaserie",
+        "image": {
+         "id": "59589803",
+         "changed": 1788876834
+        },
+        "urls": {
+         "svtplay": "/video/2p2VKLI/tallbacken/4-torsdag"
+        },
+        "restrictions": {
+         "onlyAvailableInSweden": true
+        },
+        "duration": 2240
+       }
+      }
+     ]
+    },
+    {
+     "id": "clips_default",
+     "name": "Klipp",
+     "items": [
+      {
+       "item": {
+        "__typename": "Trailer",
+        "id": "xl3210s",
+        "svtId": "xl3210s",
+        "name": "Trailer: Tallbacken",
+        "shortDescription": "Första avsnittet",
+        "image": {
+         "id": "59433528",
+         "changed": 1788113113
+        },
+        "urls": {
+         "svtplay": "/klipp/xl3210s/trailer-tallbacken"
+        },
+        "restrictions": {
+         "onlyAvailableInSweden": true
+        },
+        "duration": 105
+       }
+      }
+     ]
+    },
+    {
+     "id": "related",
+     "name": "Upptäck mer",
+     "items": [
+      {
+       "item": {
+        "__typename": "Single",
+        "id": "6466770-001",
+        "svtId": "OQxdfGV",
+        "name": "Mer att se 1",
+        "shortDescription": "Rekommendation",
+        "image": {
+         "id": "59377218",
+         "changed": 1788058833
+        },
+        "urls": {
+         "svtplay": "/video/OQxdfGV/mer-att-se-1"
+        },
+        "restrictions": {
+         "onlyAvailableInSweden": false
+        },
+        "duration": 1800
+       }
+      },
+      {
+       "item": {
+        "__typename": "TvSeries",
+        "id": "aoz9dE7",
+        "svtId": "aoz9dE7",
+        "name": "Mer att se 2",
+        "shortDescription": "Rekommendation",
+        "image": {
+         "id": "59565274",
+         "changed": 1788437500
+        },
+        "urls": {
+         "svtplay": "/mer-att-se-2"
+        },
+        "restrictions": {
+         "onlyAvailableInSweden": true
+        }
+       }
+      },
+      {
+       "item": {
+        "__typename": "Single",
+        "id": "0900965-001",
+        "svtId": "1uQ1TwA",
+        "name": "Mer att se 3",
+        "shortDescription": "Rekommendation",
+        "image": {
+         "id": "59565389",
+         "changed": 1787838721
+        },
+        "urls": {
+         "svtplay": "/video/1uQ1TwA/mer-att-se-3"
+        },
+        "restrictions": {
+         "onlyAvailableInSweden": false
+        },
+        "duration": 1800
+       }
+      },
+      {
+       "item": {
+        "__typename": "TvSeries",
+        "id": "Y0AESUS",
+        "svtId": "Y0AESUS",
+        "name": "Mer att se 4",
+        "shortDescription": "Rekommendation",
+        "image": {
+         "id": "59454780",
+         "changed": 1788631922
+        },
+        "urls": {
+         "svtplay": "/mer-att-se-4"
+        },
+        "restrictions": {
+         "onlyAvailableInSweden": true
+        }
+       }
+      },
+      {
+       "item": {
+        "__typename": "Single",
+        "id": "2013810-001",
+        "svtId": "OiLdLRq",
+        "name": "Mer att se 5",
+        "shortDescription": "Rekommendation",
+        "image": {
+         "id": "59949024",
+         "changed": 1788811428
+        },
+        "urls": {
+         "svtplay": "/video/OiLdLRq/mer-att-se-5"
+        },
+        "restrictions": {
+         "onlyAvailableInSweden": false
+        },
+        "duration": 1800
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

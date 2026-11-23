@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "skater-girl.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

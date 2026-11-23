@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8101",
+   "name": "Süper Lig (Türkiye)",
+   "abbreviation": "Süper Lig",
+   "midsizeName": "TUR.1",
+   "slug": "tur.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001005",
+   "date": "2030-08-19T17:00Z",
+   "name": "Tuzlakayaspor at Ayışığıspor",
+   "shortName": "TUZ @ AYI",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "AYI",
+        "displayName": "Ayışığıspor",
+        "shortDisplayName": "Ayışığı",
+        "name": "Ayışığıspor",
+        "location": "Ayışığıspor"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "TUZ",
+        "displayName": "Tuzlakayaspor",
+        "shortDisplayName": "Tuzlakaya",
+        "name": "Tuzlakayaspor",
+        "location": "Tuzlakayaspor"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

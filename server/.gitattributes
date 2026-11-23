@@ -1,0 +1,11 @@
+# Zeilenenden festnageln.
+#
+# Windows checkt sonst mit CRLF aus, und ein `pruefen.sh` mit CRLF endet am
+# Homelab in `bad interpreter: /usr/bin/env bash^M`. Dieselbe Falle zerlegt
+# auch Pruefsummen ueber Textdateien.
+* text=auto eol=lf
+*.sh   text eol=lf
+*.py   text eol=lf
+*.yml  text eol=lf
+*.png  binary
+*.jpg  binary

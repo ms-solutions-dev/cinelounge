@@ -1,0 +1,17 @@
+# Generated from portal.yml.bruecke by scripts/manifests.py.
+# Manifest v1: English fields, unknown keys abort the load.
+api: 1
+id: ard
+name:
+  de: ARD Mediathek
+  en: ARD Media Library
+kind: native
+# `paging` was missing here while `listing()` has always handed out a
+# `next_page` — the console simply never learned of it.
+capabilities:
+- own_images
+- paging
+- search
+- seasons
+- subtitles
+enabled: true

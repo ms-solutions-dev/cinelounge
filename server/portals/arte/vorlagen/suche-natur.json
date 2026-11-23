@@ -1,0 +1,192 @@
+{
+ "zones": [
+  {
+   "code": "listing_SEARCH",
+   "title": "Alle Videos",
+   "content": {
+    "data": [
+     {
+      "id": "RC-900010",
+      "programId": "RC-900010",
+      "title": "Hecken und Mauern",
+      "subtitle": null,
+      "shortDescription": "Hecken und Mauern: eine Sendung über Menschen und Orte.",
+      "duration": null,
+      "durationLabel": "Serie",
+      "kind": {
+       "code": "TV_SERIES",
+       "isCollection": true,
+       "label": "Serie"
+      },
+      "mainImage": {
+       "caption": "Hecken und Mauern",
+       "url": "https://img.arte.example/img/v2/image/35IuQxXFw0ZRM2LaB8NsC0/__SIZE__"
+      },
+      "audioVersions": [],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": null,
+      "url": "https://www.arte.example/de/videos/RC-900010/"
+     },
+     {
+      "id": "RC-900011",
+      "programId": "RC-900011",
+      "title": "Moorgeschichten",
+      "subtitle": null,
+      "shortDescription": "Moorgeschichten: eine Sendung über Menschen und Orte.",
+      "duration": null,
+      "durationLabel": "Serie",
+      "kind": {
+       "code": "TV_SERIES",
+       "isCollection": true,
+       "label": "Serie"
+      },
+      "mainImage": {
+       "caption": "Moorgeschichten",
+       "url": "https://img.arte.example/img/v2/image/6L5Cb2i4BJqeH3jbkVngSu/__SIZE__"
+      },
+      "audioVersions": [],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": null,
+      "url": "https://www.arte.example/de/videos/RC-900011/"
+     },
+     {
+      "id": "900111-000-A_de",
+      "programId": "900111-000-A",
+      "title": "Wildes Ufer",
+      "subtitle": "Naturdoku",
+      "shortDescription": "Wildes Ufer: eine Sendung über Menschen und Orte.",
+      "duration": 3120,
+      "durationLabel": "52 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Wildes Ufer",
+       "url": "https://img.arte.example/img/v2/image/rHtCmALJP38c21DGit5lZP/__SIZE__"
+      },
+      "audioVersions": [
+       {
+        "code": "DE",
+        "label": "Deutsch"
+       }
+      ],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900111-000-A/"
+     },
+     {
+      "id": "900112-000-A_de",
+      "programId": "900112-000-A",
+      "title": "Die stillen Wälder",
+      "subtitle": "Naturdoku",
+      "shortDescription": "Die stillen Wälder: eine Sendung über Menschen und Orte.",
+      "duration": 2580,
+      "durationLabel": "43 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Die stillen Wälder",
+       "url": "https://img.arte.example/img/v2/image/DrSADHui0eYwE2ojDVHdYG/__SIZE__"
+      },
+      "audioVersions": [
+       {
+        "code": "DE",
+        "label": "Deutsch"
+       },
+       {
+        "code": "STM",
+        "label": "Untertitel für Gehörlose"
+       }
+      ],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900112-000-A/"
+     }
+    ],
+    "pagination": {
+     "links": {
+      "first": "https://api.arte.example/api/emac/v4/de/web/zones/e2658d2a-b446-4464-5278-b4d715e4a4a9/content?authorizedCountry=DE&page=1",
+      "last": "https://api.arte.example/api/emac/v4/de/web/zones/e2658d2a-b446-4464-5278-b4d715e4a4a9/content?authorizedCountry=DE&page=20",
+      "next": "https://api.arte.example/api/emac/v4/de/web/zones/e2658d2a-b446-4464-5278-b4d715e4a4a9/content?authorizedCountry=DE&page=2"
+     },
+     "page": 1,
+     "pages": 20,
+     "totalCount": 80,
+     "maxPages": 20
+    }
+   }
+  },
+  {
+   "code": "62c0fb0f-bed5-8138-79d3-437568b8548d",
+   "title": "Zone event",
+   "content": {
+    "data": [
+     {
+      "id": "e19c1ee6-92b6-9251-be26-d4abaa0963a7",
+      "programId": null,
+      "title": "Haben Sie schon ein Konto?",
+      "subtitle": "Einfach anmelden",
+      "shortDescription": "Haben Sie schon ein Konto?: eine Sendung über Menschen und Orte.",
+      "duration": null,
+      "durationLabel": null,
+      "kind": {
+       "code": "EXTERNAL",
+       "isCollection": false,
+       "label": "Weblink"
+      },
+      "mainImage": {
+       "caption": "Haben Sie schon ein Konto?",
+       "url": "https://img.arte.example/img/v2/image/CXyArMfMYXlTQ7MHpEDTeA/__SIZE__"
+      },
+      "audioVersions": [],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": null,
+      "url": "https://help.arte.example/de"
+     }
+    ],
+    "pagination": null
+   }
+  }
+ ]
+}

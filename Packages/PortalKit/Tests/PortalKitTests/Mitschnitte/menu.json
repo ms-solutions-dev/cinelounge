@@ -1,0 +1,26 @@
+{
+ "portal": "zdf",
+ "entries": [
+  {
+   "id": "neu",
+   "name": "Neu in der Mediathek",
+   "icon": "🆕",
+   "count": null,
+   "group": "curated"
+  },
+  {
+   "id": "doku",
+   "name": "Dokumentation",
+   "icon": "🌍",
+   "count": null,
+   "group": "curated"
+  },
+  {
+   "id": "krimi",
+   "name": "Krimi",
+   "icon": "🔎",
+   "count": null,
+   "group": "curated"
+  }
+ ]
+}

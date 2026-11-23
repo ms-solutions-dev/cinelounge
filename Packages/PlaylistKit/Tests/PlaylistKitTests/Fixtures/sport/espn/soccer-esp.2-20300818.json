@@ -1,0 +1,12 @@
+{
+ "leagues": [
+  {
+   "id": "8117",
+   "name": "LaLiga 2 (Spain)",
+   "abbreviation": "LaLiga 2",
+   "midsizeName": "ESP.2",
+   "slug": "esp.2"
+  }
+ ],
+ "events": []
+}

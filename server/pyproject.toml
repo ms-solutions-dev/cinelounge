@@ -1,0 +1,85 @@
+[project]
+name = "cinelounge-server"
+version = "0.1.0"
+description = "Medienportale ueber eine eigene Bruecke — der Serverteil von CineLounge"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi==0.121.2",
+    "uvicorn[standard]==0.42.0",
+    "pyyaml==6.0.3",
+    "requests==2.32.5",
+    "argon2-cffi==23.1.0",
+    "pynacl==1.5.0",            # ed25519 fuer die Signaturen des Marktplatzes
+]
+
+[project.optional-dependencies]
+check = [
+    "ruff==0.14.1",
+    "mypy==1.18.2",
+    "import-linter==2.3",
+    "pytest==8.4.2",
+    "httpx==0.28.1",        # TestClient von Starlette spricht darueber
+    "pdoc==15.0.4",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "SIM", "RUF"]
+
+# **Was hier steht, ist Absicht — und stand vorher als 130 Befunde da.**
+#
+# `scripts/check.sh` lief deshalb nie durch, und eine Pruefkette, die immer
+# rot ist, prueft nichts: Wer 308 Zeilen sieht, liest keine davon.
+ignore = [
+    # Deutsche Bezeichner bei internen Namen. Die Regel im Projekt steht in
+    # der README: **Bezeichner, API, Datenbank und Oberflaeche sind englisch,
+    # die Begruendungen deutsch** — und interne Helfer duerfen heissen, wie
+    # der Satz daneben sie nennt (`_grenzen_setzen`, `_bei_fork_im_kind`).
+    # 99 Befunde, kein einziger davon ein Fehler.
+    #
+    # Was damit verloren geht, ist die Warnung vor `def MyFunc()`. Das ist
+    # der Preis, und er ist klein: Was nach aussen zeigt, ist englisch, und
+    # das faellt in der Durchsicht auf.
+    "N801", "N802", "N803", "N806", "N815",
+
+    # Deutsche Anfuehrungszeichen und Gedankenstriche in Prosa. `RUF001-003`
+    # warnen vor Zeichen, die wie ASCII aussehen — in einem Docstring, der
+    # „so etwas" schreibt, ist das keine Verwechslungsgefahr, sondern
+    # Typografie. 20 Befunde, alle in Kommentaren und Docstrings.
+    "RUF001", "RUF002", "RUF003",
+
+    # A `try/except/pass` **with a sentence inside** about why it stays quiet.
+    # `contextlib.suppress(Exception)` is shorter and has no room for the
+    # reason — and the reason is the more valuable part here: "a sweeper must
+    # never be the reason", "some `__path__` are no sequence".
+    "SIM105",
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Skripte und Tests duerfen eine Datei ohne `with` oeffnen. Sie laufen einmal
+# durch und enden; ein Kontextmanager um jede Zeile macht ein
+# Fuenfzeilen-Skript zu einem Baum.
+"scripts/*" = ["SIM115"]
+"tests/*" = ["SIM115"]
+
+[tool.mypy]
+python_version = "3.11"
+# **Zielplattform ist Linux, nicht der Entwicklungsrechner.** Der Dienst laeuft
+# im Container; `os.fork`, `resource.setrlimit` und `SIGKILL` gibt es dort. Ohne
+# diese Zeile meldet mypy unter Windows dreizehn Fehler ueber Dinge, die im
+# Betrieb selbstverstaendlich sind.
+platform = "linux"
+strict = true
+warn_unreachable = true
+
+# Fremdpakete ohne Typen. `pynacl` liefert keine, `requests` nur ueber ein
+# Zusatzpaket, das nicht mitgeliefert wird.
+[[tool.mypy.overrides]]
+module = ["nacl.*", "requests.*", "yaml.*", "zeroconf.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Synthetic programme guide for the schedule tests, written by
+  intern/fixtures-synth/sport.py. Every channel, club and title is invented; the
+  layout follows the provider whose guide the app reads: channel ID, display name,
+  start, stop and title, every stamp in +0300.
+-->
+<tv generator-info-name="sport.py" date="20300817103000 +0300">
+  <channel id="arenabundesliga1.de"><display-name>DE: ARENA BUNDESLIGA 1 HD</display-name></channel>
+  <channel id="arenabundesliga2.de"><display-name>DE: ARENA BUNDESLIGA 2 HD</display-name></channel>
+  <channel id="arenabundesliga3.de"><display-name>DE: ARENA BUNDESLIGA 3 HD</display-name></channel>
+  <channel id="arenabundesliga4.de"><display-name>DE: ARENA BUNDESLIGA 4 HD</display-name></channel>
+  <channel id="arenabundesliga5.de"><display-name>DE: ARENA BUNDESLIGA 5 HD</display-name></channel>
+  <channel id="arenabundesliga6.de"><display-name>DE: ARENA BUNDESLIGA 6 HD</display-name></channel>
+  <channel id="arenapremierleague.de"><display-name>DE: ARENA PREMIER LEAGUE HD</display-name></channel>
+  <channel id="arenamix.de"><display-name>DE: ARENA SPORT MIX HD</display-name></channel>
+  <channel id="arenanews.de"><display-name>DE: ARENA SPORT NEWS HD</display-name></channel>
+  <channel id="zenit1.de"><display-name>DE: STREAMSPORT 1 HD</display-name></channel>
+  <channel id="zenit2.de"><display-name>DE: STREAMSPORT 2 HD</display-name></channel>
+  <channel id="freisport.de"><display-name>DE: FREI SPORT HD</display-name></channel>
+  <channel id="sportkanal.de"><display-name>DE: SPORTKANAL HD</display-name></channel>
+  <channel id="motorwelt.de"><display-name>DE: MOTORWELT HD</display-name></channel>
+  <channel id="radkanal.de"><display-name>DE: RADKANAL HD</display-name></channel>
+  <channel id="tennisarena.de"><display-name>DE: TENNIS ARENA HD</display-name></channel>
+  <channel id="kinderwelt.de"><display-name>DE: KINDERWELT</display-name></channel>
+  <channel id="canalfoot.fr"><display-name>FR: CANAL FOOT HD</display-name></channel>
+  <channel id="automoto.fr"><display-name>FR: AUTO MOTO HD</display-name></channel>
+  <channel id="tennisplus.fr"><display-name>FR: TENNIS PLUS</display-name></channel>
+  <channel id="arenaspor1.tr"><display-name>TR: ARENA SPOR 1 HD</display-name></channel>
+  <channel id="arenaspor2.tr"><display-name>TR: ARENA SPOR 2 HD</display-name></channel>
+  <channel id="kanalspor.tr"><display-name>TR: KANAL SPOR HD</display-name></channel>
+  <channel id="ovaspor.tr"><display-name>TR: OVA SPOR HD</display-name></channel>
+  <channel id="yesilspor.tr"><display-name>TR: YESIL SPOR HD</display-name></channel>
+  <channel id="calciouno.it"><display-name>IT: CALCIO UNO HD</display-name></channel>
+  <channel id="elfsport1.nl"><display-name>NL: ELF SPORT 1</display-name></channel>
+  <programme start="20300816102000 +0300" stop="20300816112000 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300816102000 +0300" stop="20300816113500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300816102000 +0300" stop="20300816110500 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300816102000 +0300" stop="20300816110500 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300816102000 +0300" stop="20300816113500 +0300" channel="kinderwelt.de"><title>Mika und das Fahrrad</title></programme>
+  <programme start="20300816102000 +0300" stop="20300816112000 +0300" channel="sportkanal.de"><title>Sportnachrichten</title></programme>
+  <programme start="20300816102000 +0300" stop="20300816112000 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300816102500 +0300" stop="20300816115500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300816102500 +0300" stop="20300816105500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300816102500 +0300" stop="20300816122500 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300816102500 +0300" stop="20300816115500 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300816102500 +0300" stop="20300816105500 +0300" channel="canalfoot.fr"><title>Rugby : Top 14, le résumé</title></programme>
+  <programme start="20300816102500 +0300" stop="20300816122500 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300816102500 +0300" stop="20300816115500 +0300" channel="motorwelt.de"><title>Rallye Magazin</title></programme>
+  <programme start="20300816103000 +0300" stop="20300816111500 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300816103000 +0300" stop="20300816113000 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300816103000 +0300" stop="20300816113000 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300816103000 +0300" stop="20300816114500 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300816103000 +0300" stop="20300816111500 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300816103000 +0300" stop="20300816114500 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300816103000 +0300" stop="20300816111500 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300816103500 +0300" stop="20300816123500 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300816103500 +0300" stop="20300816120500 +0300" channel="arenamix.de"><title>Golf: Das Magazin</title></programme>
+  <programme start="20300816103500 +0300" stop="20300816110500 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300816103500 +0300" stop="20300816110500 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300816103500 +0300" stop="20300816123500 +0300" channel="tennisarena.de"><title>Matchball, das Magazin</title></programme>
+  <programme start="20300816103500 +0300" stop="20300816120500 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300816105500 +0300" stop="20300816115500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300816105500 +0300" stop="20300816115500 +0300" channel="canalfoot.fr"><title>Le Mag Foot</title></programme>
+  <programme start="20300816110500 +0300" stop="20300816130500 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300816110500 +0300" stop="20300816130500 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300816110500 +0300" stop="20300816120500 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300816110500 +0300" stop="20300816120500 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300816111500 +0300" stop="20300816131500 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300816111500 +0300" stop="20300816131500 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300816111500 +0300" stop="20300816131500 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300816112000 +0300" stop="20300816125000 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300816112000 +0300" stop="20300816125000 +0300" channel="sportkanal.de"><title>Darts: Klassiker der Woche</title></programme>
+  <programme start="20300816112000 +0300" stop="20300816125000 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300816113000 +0300" stop="20300816130000 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300816113000 +0300" stop="20300816130000 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300816113500 +0300" stop="20300816120500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300816113500 +0300" stop="20300816120500 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300816114500 +0300" stop="20300816121500 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300816114500 +0300" stop="20300816121500 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300816115500 +0300" stop="20300816124000 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300816115500 +0300" stop="20300816132500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300816115500 +0300" stop="20300816124000 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300816115500 +0300" stop="20300816132500 +0300" channel="canalfoot.fr"><title>Ligue 1 : Avant-match</title></programme>
+  <programme start="20300816115500 +0300" stop="20300816124000 +0300" channel="motorwelt.de"><title>Bagger World Cup</title></programme>
+  <programme start="20300816120500 +0300" stop="20300816130500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300816120500 +0300" stop="20300816125000 +0300" channel="arenamix.de"><title>Sport Mix am Abend</title></programme>
+  <programme start="20300816120500 +0300" stop="20300816133500 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300816120500 +0300" stop="20300816130500 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300816120500 +0300" stop="20300816133500 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300816120500 +0300" stop="20300816125000 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300816121500 +0300" stop="20300816131500 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300816121500 +0300" stop="20300816131500 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300816122500 +0300" stop="20300816134000 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300816122500 +0300" stop="20300816134000 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300816123500 +0300" stop="20300816135000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300816123500 +0300" stop="20300816135000 +0300" channel="tennisarena.de"><title>Tennisgeschichten</title></programme>
+  <programme start="20300816124000 +0300" stop="20300816144000 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300816124000 +0300" stop="20300816144000 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300816124000 +0300" stop="20300816144000 +0300" channel="motorwelt.de"><title>Motorwelt Werkstatt</title></programme>
+  <programme start="20300816125000 +0300" stop="20300816133500 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300816125000 +0300" stop="20300816145000 +0300" channel="arenamix.de"><title>Sport Mix am Morgen</title></programme>
+  <programme start="20300816125000 +0300" stop="20300816133500 +0300" channel="sportkanal.de"><title>Fußball: Die Highlight-Show</title></programme>
+  <programme start="20300816125000 +0300" stop="20300816145000 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300816125000 +0300" stop="20300816133500 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300816130000 +0300" stop="20300816134500 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300816130000 +0300" stop="20300816134500 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300816130500 +0300" stop="20300816143500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300816130500 +0300" stop="20300816142000 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300816130500 +0300" stop="20300816142000 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300816130500 +0300" stop="20300816143500 +0300" channel="kinderwelt.de"><title>Mika und das Fahrrad</title></programme>
+  <programme start="20300816131500 +0300" stop="20300816143000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300816131500 +0300" stop="20300816144500 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300816131500 +0300" stop="20300816143000 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300816131500 +0300" stop="20300816144500 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300816131500 +0300" stop="20300816140000 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300816132500 +0300" stop="20300816141000 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300816132500 +0300" stop="20300816141000 +0300" channel="canalfoot.fr"><title>Rugby : Top 14, le résumé</title></programme>
+  <programme start="20300816133500 +0300" stop="20300816153500 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300816133500 +0300" stop="20300816142000 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300816133500 +0300" stop="20300816142000 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300816133500 +0300" stop="20300816153500 +0300" channel="sportkanal.de"><title>Sportnachrichten</title></programme>
+  <programme start="20300816133500 +0300" stop="20300816153500 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300816134000 +0300" stop="20300816141000 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300816134000 +0300" stop="20300816141000 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300816134500 +0300" stop="20300816154500 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300816134500 +0300" stop="20300816154500 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300816135000 +0300" stop="20300816142000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300816135000 +0300" stop="20300816142000 +0300" channel="tennisarena.de"><title>Matchball, das Magazin</title></programme>
+  <programme start="20300816140000 +0300" stop="20300816183000 +0300" channel="radkanal.de"><title>Radsport: Ronde van Kesteren, 6. Etappe</title></programme>
+  <programme start="20300816141000 +0300" stop="20300816161000 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300816141000 +0300" stop="20300816151000 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300816141000 +0300" stop="20300816161000 +0300" channel="canalfoot.fr"><title>Le Mag Foot</title></programme>
+  <programme start="20300816141000 +0300" stop="20300816151000 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300816142000 +0300" stop="20300816152000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300816142000 +0300" stop="20300816145000 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300816142000 +0300" stop="20300816145000 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300816142000 +0300" stop="20300816162000 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300816142000 +0300" stop="20300816162000 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300816142000 +0300" stop="20300816152000 +0300" channel="tennisarena.de"><title>Tennisgeschichten</title></programme>
+  <programme start="20300816143000 +0300" stop="20300816150000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300816143000 +0300" stop="20300816150000 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300816143500 +0300" stop="20300816152000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300816143500 +0300" stop="20300816152000 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300816144000 +0300" stop="20300816155500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300816144000 +0300" stop="20300816155500 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300816144000 +0300" stop="20300816155500 +0300" channel="motorwelt.de"><title>Rallye Magazin</title></programme>
+  <programme start="20300816144500 +0300" stop="20300816153000 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300816144500 +0300" stop="20300816153000 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300816145000 +0300" stop="20300816160500 +0300" channel="arenamix.de"><title>Golf: Das Magazin</title></programme>
+  <programme start="20300816145000 +0300" stop="20300816155000 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300816145000 +0300" stop="20300816155000 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300816145000 +0300" stop="20300816160500 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300816150000 +0300" stop="20300816160000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300816150000 +0300" stop="20300816160000 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300816151000 +0300" stop="20300816164000 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300816151000 +0300" stop="20300816164000 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300816152000 +0300" stop="20300816165000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300816152000 +0300" stop="20300816172000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300816152000 +0300" stop="20300816172000 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300816152000 +0300" stop="20300816165000 +0300" channel="tennisarena.de"><title>Matchball, das Magazin</title></programme>
+  <programme start="20300816153000 +0300" stop="20300816173000 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300816153000 +0300" stop="20300816173000 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300816153500 +0300" stop="20300816165000 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300816153500 +0300" stop="20300816165000 +0300" channel="sportkanal.de"><title>Darts: Klassiker der Woche</title></programme>
+  <programme start="20300816153500 +0300" stop="20300816165000 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300816154500 +0300" stop="20300816170000 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300816154500 +0300" stop="20300816170000 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300816155000 +0300" stop="20300816172000 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300816155000 +0300" stop="20300816172000 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300816155500 +0300" stop="20300816162500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300816155500 +0300" stop="20300816162500 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300816155500 +0300" stop="20300816162500 +0300" channel="motorwelt.de"><title>Bagger World Cup</title></programme>
+  <programme start="20300816160000 +0300" stop="20300816173000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300816160000 +0300" stop="20300816173000 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300816160500 +0300" stop="20300816163500 +0300" channel="arenamix.de"><title>Sport Mix am Abend</title></programme>
+  <programme start="20300816160500 +0300" stop="20300816163500 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300816161000 +0300" stop="20300816172500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300816161000 +0300" stop="20300816172500 +0300" channel="canalfoot.fr"><title>Ligue 1 : Avant-match</title></programme>
+  <programme start="20300816162000 +0300" stop="20300816173500 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300816162000 +0300" stop="20300816173500 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300816162500 +0300" stop="20300816172500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300816162500 +0300" stop="20300816172500 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300816162500 +0300" stop="20300816172500 +0300" channel="motorwelt.de"><title>Motorwelt Werkstatt</title></programme>
+  <programme start="20300816163500 +0300" stop="20300816173500 +0300" channel="arenamix.de"><title>Sport Mix am Morgen</title></programme>
+  <programme start="20300816163500 +0300" stop="20300816173500 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300816164000 +0300" stop="20300816172500 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300816164000 +0300" stop="20300816172500 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300816165000 +0300" stop="20300816172000 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300816165000 +0300" stop="20300816173500 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300816165000 +0300" stop="20300816172000 +0300" channel="sportkanal.de"><title>Fußball: Die Highlight-Show</title></programme>
+  <programme start="20300816165000 +0300" stop="20300816173500 +0300" channel="tennisarena.de"><title>Tennisgeschichten</title></programme>
+  <programme start="20300816165000 +0300" stop="20300816172000 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300816170000 +0300" stop="20300816173000 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300816170000 +0300" stop="20300816173000 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300816172000 +0300" stop="20300816182000 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300816172000 +0300" stop="20300816183500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300816172000 +0300" stop="20300816180500 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300816172000 +0300" stop="20300816180500 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300816172000 +0300" stop="20300816183500 +0300" channel="kinderwelt.de"><title>Mika und das Fahrrad</title></programme>
+  <programme start="20300816172000 +0300" stop="20300816182000 +0300" channel="sportkanal.de"><title>Sportnachrichten</title></programme>
+  <programme start="20300816172000 +0300" stop="20300816182000 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300816172500 +0300" stop="20300816185500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300816172500 +0300" stop="20300816175500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300816172500 +0300" stop="20300816192500 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300816172500 +0300" stop="20300816185500 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300816172500 +0300" stop="20300816175500 +0300" channel="canalfoot.fr"><title>Rugby : Top 14, le résumé</title></programme>
+  <programme start="20300816172500 +0300" stop="20300816192500 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300816172500 +0300" stop="20300816185500 +0300" channel="motorwelt.de"><title>Rallye Magazin</title></programme>
+  <programme start="20300816173000 +0300" stop="20300816181500 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300816173000 +0300" stop="20300816183000 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300816173000 +0300" stop="20300816183000 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300816173000 +0300" stop="20300816184500 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300816173000 +0300" stop="20300816181500 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300816173000 +0300" stop="20300816184500 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300816173500 +0300" stop="20300816193500 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300816173500 +0300" stop="20300816190500 +0300" channel="arenamix.de"><title>Golf: Das Magazin</title></programme>
+  <programme start="20300816173500 +0300" stop="20300816180500 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300816173500 +0300" stop="20300816180500 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300816173500 +0300" stop="20300816193500 +0300" channel="tennisarena.de"><title>Matchball, das Magazin</title></programme>
+  <programme start="20300816173500 +0300" stop="20300816190500 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300816175500 +0300" stop="20300816185500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300816175500 +0300" stop="20300816185500 +0300" channel="canalfoot.fr"><title>Le Mag Foot</title></programme>
+  <programme start="20300816180500 +0300" stop="20300816200500 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300816180500 +0300" stop="20300816200500 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300816180500 +0300" stop="20300816190500 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300816180500 +0300" stop="20300816190500 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300816181500 +0300" stop="20300816201500 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300816181500 +0300" stop="20300816201500 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300816182000 +0300" stop="20300816195000 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300816182000 +0300" stop="20300816195000 +0300" channel="sportkanal.de"><title>Darts: Klassiker der Woche</title></programme>
+  <programme start="20300816182000 +0300" stop="20300816195000 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300816183000 +0300" stop="20300816200000 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300816183000 +0300" stop="20300816200000 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300816183000 +0300" stop="20300816190000 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300816183500 +0300" stop="20300816190500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300816183500 +0300" stop="20300816190500 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300816184500 +0300" stop="20300816191500 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300816184500 +0300" stop="20300816191500 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300816185500 +0300" stop="20300816194000 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300816185500 +0300" stop="20300816202500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300816185500 +0300" stop="20300816194000 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300816185500 +0300" stop="20300816202500 +0300" channel="canalfoot.fr"><title>Ligue 1 : Avant-match</title></programme>
+  <programme start="20300816185500 +0300" stop="20300816194000 +0300" channel="motorwelt.de"><title>Bagger World Cup</title></programme>
+  <programme start="20300816190000 +0300" stop="20300816200000 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300816190500 +0300" stop="20300816200500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300816190500 +0300" stop="20300816195000 +0300" channel="arenamix.de"><title>Sport Mix am Abend</title></programme>
+  <programme start="20300816190500 +0300" stop="20300816203500 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300816190500 +0300" stop="20300816200500 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300816190500 +0300" stop="20300816203500 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300816190500 +0300" stop="20300816195000 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300816191500 +0300" stop="20300816201500 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300816191500 +0300" stop="20300816201500 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300816192500 +0300" stop="20300816204000 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300816192500 +0300" stop="20300816204000 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300816193500 +0300" stop="20300816205000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300816193500 +0300" stop="20300816205000 +0300" channel="tennisarena.de"><title>Tennisgeschichten</title></programme>
+  <programme start="20300816194000 +0300" stop="20300816214000 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300816194000 +0300" stop="20300816214000 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300816194000 +0300" stop="20300816214000 +0300" channel="motorwelt.de"><title>Motorwelt Werkstatt</title></programme>
+  <programme start="20300816195000 +0300" stop="20300816203500 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300816195000 +0300" stop="20300816215000 +0300" channel="arenamix.de"><title>Sport Mix am Morgen</title></programme>
+  <programme start="20300816195000 +0300" stop="20300816203500 +0300" channel="sportkanal.de"><title>Fußball: Die Highlight-Show</title></programme>
+  <programme start="20300816195000 +0300" stop="20300816215000 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300816195000 +0300" stop="20300816203500 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300816200000 +0300" stop="20300816204500 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300816200000 +0300" stop="20300816204500 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300816200000 +0300" stop="20300816213000 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300816200500 +0300" stop="20300816213500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300816200500 +0300" stop="20300816212000 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300816200500 +0300" stop="20300816212000 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300816200500 +0300" stop="20300816213500 +0300" channel="kinderwelt.de"><title>Mika und das Fahrrad</title></programme>
+  <programme start="20300816201500 +0300" stop="20300816213000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300816201500 +0300" stop="20300816214500 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300816201500 +0300" stop="20300816213000 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300816201500 +0300" stop="20300816214500 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300816202500 +0300" stop="20300816211000 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300816202500 +0300" stop="20300816211000 +0300" channel="canalfoot.fr"><title>Rugby : Top 14, le résumé</title></programme>
+  <programme start="20300816203500 +0300" stop="20300816223500 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300816203500 +0300" stop="20300816212000 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300816203500 +0300" stop="20300816212000 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300816203500 +0300" stop="20300816223500 +0300" channel="sportkanal.de"><title>Sportnachrichten</title></programme>
+  <programme start="20300816203500 +0300" stop="20300816223500 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300816204000 +0300" stop="20300816211000 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300816204000 +0300" stop="20300816211000 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300816204500 +0300" stop="20300816224500 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300816204500 +0300" stop="20300816224500 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300816205000 +0300" stop="20300816212000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300816205000 +0300" stop="20300816212000 +0300" channel="tennisarena.de"><title>Matchball, das Magazin</title></programme>
+  <programme start="20300816211000 +0300" stop="20300816231000 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300816211000 +0300" stop="20300816221000 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300816211000 +0300" stop="20300816231000 +0300" channel="canalfoot.fr"><title>Le Mag Foot</title></programme>
+  <programme start="20300816211000 +0300" stop="20300816221000 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300816212000 +0300" stop="20300816222000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300816212000 +0300" stop="20300816215000 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300816212000 +0300" stop="20300816215000 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300816212000 +0300" stop="20300816232000 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300816212000 +0300" stop="20300816232000 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300816212000 +0300" stop="20300816222000 +0300" channel="tennisarena.de"><title>Tennisgeschichten</title></programme>
+  <programme start="20300816213000 +0300" stop="20300816220000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300816213000 +0300" stop="20300816220000 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300816213000 +0300" stop="20300816221500 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300816213500 +0300" stop="20300816222000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300816213500 +0300" stop="20300816222000 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300816214000 +0300" stop="20300816225500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300816214000 +0300" stop="20300816225500 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300816214000 +0300" stop="20300816225500 +0300" channel="motorwelt.de"><title>Rallye Magazin</title></programme>
+  <programme start="20300816214500 +0300" stop="20300816223000 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300816214500 +0300" stop="20300816220000 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300816215000 +0300" stop="20300816230500 +0300" channel="arenamix.de"><title>Golf: Das Magazin</title></programme>
+  <programme start="20300816215000 +0300" stop="20300816225000 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300816215000 +0300" stop="20300816225000 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300816215000 +0300" stop="20300816230500 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300816220000 +0300" stop="20300816230000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300816220000 +0300" stop="20300816230000 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300816220000 +0300" stop="20300817000000 +0300" channel="kanalspor.tr"><title>Süper Lig: Kervanspor - Dumanlıspor</title></programme>
+  <programme start="20300816221000 +0300" stop="20300816234000 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300816221000 +0300" stop="20300816234000 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300816221500 +0300" stop="20300817001500 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300816222000 +0300" stop="20300816235000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300816222000 +0300" stop="20300817002000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300816222000 +0300" stop="20300817002000 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300816222000 +0300" stop="20300816230000 +0300" channel="tennisarena.de"><title>Matchball, das Magazin</title></programme>
+  <programme start="20300816223000 +0300" stop="20300817003000 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300816223500 +0300" stop="20300816235000 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300816223500 +0300" stop="20300816235000 +0300" channel="sportkanal.de"><title>Darts: Klassiker der Woche</title></programme>
+  <programme start="20300816223500 +0300" stop="20300816235000 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300816224500 +0300" stop="20300817000000 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300816224500 +0300" stop="20300817000000 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300816225000 +0300" stop="20300817002000 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300816225000 +0300" stop="20300817002000 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300816225500 +0300" stop="20300816232500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300816225500 +0300" stop="20300816232500 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300816225500 +0300" stop="20300816232500 +0300" channel="motorwelt.de"><title>Bagger World Cup</title></programme>
+  <programme start="20300816230000 +0300" stop="20300817003000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300816230000 +0300" stop="20300817003000 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300816230000 +0300" stop="20300817170000 +0300" channel="tennisarena.de"><title>Tennis: Nordhafen Open, Tag 4</title></programme>
+  <programme start="20300816230500 +0300" stop="20300816233500 +0300" channel="arenamix.de"><title>Sport Mix am Abend</title></programme>
+  <programme start="20300816230500 +0300" stop="20300816233500 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300816231000 +0300" stop="20300817002500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300816231000 +0300" stop="20300817002500 +0300" channel="canalfoot.fr"><title>Ligue 1 : Avant-match</title></programme>
+  <programme start="20300816232000 +0300" stop="20300817003500 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300816232000 +0300" stop="20300817003500 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300816232500 +0300" stop="20300817002500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300816232500 +0300" stop="20300817002500 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300816232500 +0300" stop="20300817002500 +0300" channel="motorwelt.de"><title>Motorwelt Werkstatt</title></programme>
+  <programme start="20300816233500 +0300" stop="20300817003500 +0300" channel="arenamix.de"><title>Sport Mix am Morgen</title></programme>
+  <programme start="20300816233500 +0300" stop="20300817003500 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300816234000 +0300" stop="20300817002500 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300816234000 +0300" stop="20300817002500 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300816235000 +0300" stop="20300817002000 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300816235000 +0300" stop="20300817003500 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300816235000 +0300" stop="20300817002000 +0300" channel="sportkanal.de"><title>Fußball: Die Highlight-Show</title></programme>
+  <programme start="20300816235000 +0300" stop="20300817002000 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300817000000 +0300" stop="20300817003000 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300817000000 +0300" stop="20300817003000 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300817000000 +0300" stop="20300817020000 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300817001500 +0300" stop="20300817013000 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300817002000 +0300" stop="20300817012000 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300817002000 +0300" stop="20300817013500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817002000 +0300" stop="20300817010500 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300817002000 +0300" stop="20300817010500 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817002000 +0300" stop="20300817013500 +0300" channel="kinderwelt.de"><title>Mika und das Fahrrad</title></programme>
+  <programme start="20300817002000 +0300" stop="20300817012000 +0300" channel="sportkanal.de"><title>Sportnachrichten</title></programme>
+  <programme start="20300817002000 +0300" stop="20300817012000 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300817002500 +0300" stop="20300817015500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817002500 +0300" stop="20300817005500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817002500 +0300" stop="20300817022500 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300817002500 +0300" stop="20300817015500 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300817002500 +0300" stop="20300817005500 +0300" channel="canalfoot.fr"><title>Rugby : Top 14, le résumé</title></programme>
+  <programme start="20300817002500 +0300" stop="20300817022500 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300817002500 +0300" stop="20300817015500 +0300" channel="motorwelt.de"><title>Rallye Magazin</title></programme>
+  <programme start="20300817003000 +0300" stop="20300817011500 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817003000 +0300" stop="20300817013000 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300817003000 +0300" stop="20300817013000 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300817003000 +0300" stop="20300817014500 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300817003000 +0300" stop="20300817011500 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300817003500 +0300" stop="20300817023500 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817003500 +0300" stop="20300817020500 +0300" channel="arenamix.de"><title>Golf: Das Magazin</title></programme>
+  <programme start="20300817003500 +0300" stop="20300817010500 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300817003500 +0300" stop="20300817010500 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300817003500 +0300" stop="20300817013000 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300817005500 +0300" stop="20300817015500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817005500 +0300" stop="20300817015500 +0300" channel="canalfoot.fr"><title>Le Mag Foot</title></programme>
+  <programme start="20300817010500 +0300" stop="20300817030000 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300817010500 +0300" stop="20300817030500 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300817010500 +0300" stop="20300817020500 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300817010500 +0300" stop="20300817020500 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300817011500 +0300" stop="20300817031500 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817011500 +0300" stop="20300817031500 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300817012000 +0300" stop="20300817025000 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300817012000 +0300" stop="20300817025000 +0300" channel="sportkanal.de"><title>Darts: Klassiker der Woche</title></programme>
+  <programme start="20300817012000 +0300" stop="20300817025000 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300817013000 +0300" stop="20300817030000 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300817013000 +0300" stop="20300817030000 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300817013000 +0300" stop="20300817020000 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300817013000 +0300" stop="20300817040000 +0300" channel="tennisplus.fr"><title>Tennis : Tournoi ATP de Kerlouan, 2e tour</title></programme>
+  <programme start="20300817013500 +0300" stop="20300817020500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817013500 +0300" stop="20300817020500 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300817014500 +0300" stop="20300817021500 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300817015500 +0300" stop="20300817024000 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817015500 +0300" stop="20300817032500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817015500 +0300" stop="20300817024000 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300817015500 +0300" stop="20300817032500 +0300" channel="canalfoot.fr"><title>Ligue 1 : Avant-match</title></programme>
+  <programme start="20300817015500 +0300" stop="20300817024000 +0300" channel="motorwelt.de"><title>Bagger World Cup</title></programme>
+  <programme start="20300817020000 +0300" stop="20300817031500 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300817020000 +0300" stop="20300817030000 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300817020500 +0300" stop="20300817030500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817020500 +0300" stop="20300817025000 +0300" channel="arenamix.de"><title>Sport Mix am Abend</title></programme>
+  <programme start="20300817020500 +0300" stop="20300817033500 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300817020500 +0300" stop="20300817030500 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300817020500 +0300" stop="20300817033500 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300817021500 +0300" stop="20300817031500 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300817022500 +0300" stop="20300817034000 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817022500 +0300" stop="20300817034000 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300817023500 +0300" stop="20300817035000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817024000 +0300" stop="20300817044000 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817024000 +0300" stop="20300817044000 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300817024000 +0300" stop="20300817044000 +0300" channel="motorwelt.de"><title>Motorwelt Werkstatt</title></programme>
+  <programme start="20300817025000 +0300" stop="20300817033500 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300817025000 +0300" stop="20300817045000 +0300" channel="arenamix.de"><title>Sport Mix am Morgen</title></programme>
+  <programme start="20300817025000 +0300" stop="20300817033500 +0300" channel="sportkanal.de"><title>Fußball: Die Highlight-Show</title></programme>
+  <programme start="20300817025000 +0300" stop="20300817033500 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300817030000 +0300" stop="20300817070000 +0300" channel="arenanews.de"><title>Sendepause</title></programme>
+  <programme start="20300817030000 +0300" stop="20300817034500 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300817030000 +0300" stop="20300817034500 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300817030000 +0300" stop="20300817043000 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300817030500 +0300" stop="20300817043500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817030500 +0300" stop="20300817042000 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817030500 +0300" stop="20300817043500 +0300" channel="kinderwelt.de"><title>Mika und das Fahrrad</title></programme>
+  <programme start="20300817031500 +0300" stop="20300817043000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817031500 +0300" stop="20300817044500 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300817031500 +0300" stop="20300817043000 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300817031500 +0300" stop="20300817034500 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300817032500 +0300" stop="20300817041000 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817032500 +0300" stop="20300817041000 +0300" channel="canalfoot.fr"><title>Rugby : Top 14, le résumé</title></programme>
+  <programme start="20300817033500 +0300" stop="20300817053500 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300817033500 +0300" stop="20300817042000 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300817033500 +0300" stop="20300817042000 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300817033500 +0300" stop="20300817053500 +0300" channel="sportkanal.de"><title>Sportnachrichten</title></programme>
+  <programme start="20300817033500 +0300" stop="20300817053500 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300817034000 +0300" stop="20300817041000 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300817034000 +0300" stop="20300817041000 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300817034500 +0300" stop="20300817054500 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300817034500 +0300" stop="20300817054500 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300817034500 +0300" stop="20300817044500 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300817035000 +0300" stop="20300817042000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817040000 +0300" stop="20300817044500 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300817041000 +0300" stop="20300817061000 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817041000 +0300" stop="20300817051000 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817041000 +0300" stop="20300817061000 +0300" channel="canalfoot.fr"><title>Le Mag Foot</title></programme>
+  <programme start="20300817041000 +0300" stop="20300817051000 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300817042000 +0300" stop="20300817052000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817042000 +0300" stop="20300817045000 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300817042000 +0300" stop="20300817062000 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300817042000 +0300" stop="20300817062000 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300817043000 +0300" stop="20300817050000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817043000 +0300" stop="20300817050000 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300817043000 +0300" stop="20300817051500 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300817043500 +0300" stop="20300817052000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817043500 +0300" stop="20300817052000 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300817044000 +0300" stop="20300817055500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817044000 +0300" stop="20300817055500 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300817044000 +0300" stop="20300817055500 +0300" channel="motorwelt.de"><title>Rallye Magazin</title></programme>
+  <programme start="20300817044500 +0300" stop="20300817053000 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300817044500 +0300" stop="20300817061500 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300817044500 +0300" stop="20300817064500 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300817045000 +0300" stop="20300817060500 +0300" channel="arenamix.de"><title>Golf: Das Magazin</title></programme>
+  <programme start="20300817045000 +0300" stop="20300817055000 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817050000 +0300" stop="20300817060000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817050000 +0300" stop="20300817060000 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300817051000 +0300" stop="20300817064000 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300817051000 +0300" stop="20300817064000 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300817051500 +0300" stop="20300817071500 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300817052000 +0300" stop="20300817065000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817052000 +0300" stop="20300817072000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817052000 +0300" stop="20300817072000 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300817053000 +0300" stop="20300817073000 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300817053500 +0300" stop="20300817065000 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300817053500 +0300" stop="20300817065000 +0300" channel="sportkanal.de"><title>Darts: Klassiker der Woche</title></programme>
+  <programme start="20300817053500 +0300" stop="20300817065000 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300817054500 +0300" stop="20300817070000 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300817054500 +0300" stop="20300817070000 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300817055000 +0300" stop="20300817072000 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300817055500 +0300" stop="20300817062500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817055500 +0300" stop="20300817062500 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300817055500 +0300" stop="20300817062500 +0300" channel="motorwelt.de"><title>Bagger World Cup</title></programme>
+  <programme start="20300817060000 +0300" stop="20300817073000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817060000 +0300" stop="20300817073000 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300817060500 +0300" stop="20300817063500 +0300" channel="arenamix.de"><title>Sport Mix am Abend</title></programme>
+  <programme start="20300817061000 +0300" stop="20300817072500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817061000 +0300" stop="20300817072500 +0300" channel="canalfoot.fr"><title>Ligue 1 : Avant-match</title></programme>
+  <programme start="20300817061500 +0300" stop="20300817070000 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300817062000 +0300" stop="20300817073500 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300817062000 +0300" stop="20300817073500 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300817062500 +0300" stop="20300817072500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817062500 +0300" stop="20300817072500 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300817062500 +0300" stop="20300817072500 +0300" channel="motorwelt.de"><title>Motorwelt Werkstatt</title></programme>
+  <programme start="20300817063500 +0300" stop="20300817073500 +0300" channel="arenamix.de"><title>Sport Mix am Morgen</title></programme>
+  <programme start="20300817064000 +0300" stop="20300817072500 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817064000 +0300" stop="20300817072500 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300817064500 +0300" stop="20300817080000 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300817065000 +0300" stop="20300817072000 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300817065000 +0300" stop="20300817073500 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817065000 +0300" stop="20300817072000 +0300" channel="sportkanal.de"><title>Fußball: Die Highlight-Show</title></programme>
+  <programme start="20300817065000 +0300" stop="20300817072000 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300817070000 +0300" stop="20300817081500 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300817070000 +0300" stop="20300817070000 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300817070000 +0300" stop="20300817073000 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300817070000 +0300" stop="20300817073000 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300817070000 +0300" stop="20300817090000 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300817071500 +0300" stop="20300817083000 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300817072000 +0300" stop="20300817082000 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300817072000 +0300" stop="20300817083500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817072000 +0300" stop="20300817080500 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817072000 +0300" stop="20300817083500 +0300" channel="kinderwelt.de"><title>Mika und das Fahrrad</title></programme>
+  <programme start="20300817072000 +0300" stop="20300817082000 +0300" channel="sportkanal.de"><title>Sportnachrichten</title></programme>
+  <programme start="20300817072000 +0300" stop="20300817082000 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300817072500 +0300" stop="20300817085500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817072500 +0300" stop="20300817075500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817072500 +0300" stop="20300817092500 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300817072500 +0300" stop="20300817085500 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300817072500 +0300" stop="20300817075500 +0300" channel="canalfoot.fr"><title>Rugby : Top 14, le résumé</title></programme>
+  <programme start="20300817072500 +0300" stop="20300817092500 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300817072500 +0300" stop="20300817085500 +0300" channel="motorwelt.de"><title>Rallye Magazin</title></programme>
+  <programme start="20300817073000 +0300" stop="20300817081500 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817073000 +0300" stop="20300817083000 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300817073000 +0300" stop="20300817083000 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300817073000 +0300" stop="20300817084500 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300817073000 +0300" stop="20300817081500 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300817073500 +0300" stop="20300817093500 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817073500 +0300" stop="20300817090500 +0300" channel="arenamix.de"><title>Golf: Das Magazin</title></programme>
+  <programme start="20300817073500 +0300" stop="20300817080500 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300817073500 +0300" stop="20300817080500 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300817075500 +0300" stop="20300817085500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817075500 +0300" stop="20300817085500 +0300" channel="canalfoot.fr"><title>Le Mag Foot</title></programme>
+  <programme start="20300817080000 +0300" stop="20300817075500 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300817080000 +0300" stop="20300817083000 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300817080500 +0300" stop="20300817100500 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300817080500 +0300" stop="20300817090500 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300817080500 +0300" stop="20300817090500 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300817081500 +0300" stop="20300817101500 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817081500 +0300" stop="20300817084500 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300817081500 +0300" stop="20300817101500 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300817082000 +0300" stop="20300817095000 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300817082000 +0300" stop="20300817095000 +0300" channel="sportkanal.de"><title>Darts: Klassiker der Woche</title></programme>
+  <programme start="20300817082000 +0300" stop="20300817095000 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300817083000 +0300" stop="20300817100000 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300817083000 +0300" stop="20300817100000 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300817083000 +0300" stop="20300817090000 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300817083000 +0300" stop="20300817093000 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300817083500 +0300" stop="20300817090500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817083500 +0300" stop="20300817090500 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300817084500 +0300" stop="20300817094500 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300817084500 +0300" stop="20300817091500 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300817085500 +0300" stop="20300817094000 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817085500 +0300" stop="20300817102500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817085500 +0300" stop="20300817094000 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300817085500 +0300" stop="20300817102500 +0300" channel="canalfoot.fr"><title>Ligue 1 : Avant-match</title></programme>
+  <programme start="20300817085500 +0300" stop="20300817094000 +0300" channel="motorwelt.de"><title>Bagger World Cup</title></programme>
+  <programme start="20300817090000 +0300" stop="20300817101500 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300817090000 +0300" stop="20300817100000 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300817090000 +0300" stop="20300817090000 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300817090500 +0300" stop="20300817100500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817090500 +0300" stop="20300817095000 +0300" channel="arenamix.de"><title>Sport Mix am Abend</title></programme>
+  <programme start="20300817090500 +0300" stop="20300817103500 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300817090500 +0300" stop="20300817100500 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300817090500 +0300" stop="20300817103500 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300817091500 +0300" stop="20300817101500 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300817092500 +0300" stop="20300817104000 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817092500 +0300" stop="20300817104000 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300817093000 +0300" stop="20300817110000 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300817093500 +0300" stop="20300817105000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817094000 +0300" stop="20300817114000 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817094000 +0300" stop="20300817114000 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300817094000 +0300" stop="20300817114000 +0300" channel="motorwelt.de"><title>Motorwelt Werkstatt</title></programme>
+  <programme start="20300817094500 +0300" stop="20300817111500 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300817095000 +0300" stop="20300817103500 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300817095000 +0300" stop="20300817115000 +0300" channel="arenamix.de"><title>Sport Mix am Morgen</title></programme>
+  <programme start="20300817095000 +0300" stop="20300817103500 +0300" channel="sportkanal.de"><title>Fußball: Die Highlight-Show</title></programme>
+  <programme start="20300817095000 +0300" stop="20300817103500 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300817100000 +0300" stop="20300817104500 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300817100000 +0300" stop="20300817104500 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300817100000 +0300" stop="20300817113000 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300817100500 +0300" stop="20300817113500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817100500 +0300" stop="20300817112000 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817100500 +0300" stop="20300817113500 +0300" channel="kinderwelt.de"><title>Mika und das Fahrrad</title></programme>
+  <programme start="20300817101500 +0300" stop="20300817113000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817101500 +0300" stop="20300817114500 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300817101500 +0300" stop="20300817113000 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300817101500 +0300" stop="20300817104500 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300817102500 +0300" stop="20300817111000 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817102500 +0300" stop="20300817111000 +0300" channel="canalfoot.fr"><title>Rugby : Top 14, le résumé</title></programme>
+  <programme start="20300817103500 +0300" stop="20300817123500 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300817103500 +0300" stop="20300817112000 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300817103500 +0300" stop="20300817112000 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300817103500 +0300" stop="20300817120000 +0300" channel="sportkanal.de"><title>Sportnachrichten</title></programme>
+  <programme start="20300817103500 +0300" stop="20300817123500 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300817104000 +0300" stop="20300817111000 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300817104000 +0300" stop="20300817111000 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300817104500 +0300" stop="20300817124500 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300817104500 +0300" stop="20300817115500 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300817104500 +0300" stop="20300817114500 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300817105000 +0300" stop="20300817112000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817110000 +0300" stop="20300817140000 +0300" channel="tennisarena.de"><title>Tennis: Lindmar Open 2030</title></programme>
+  <programme start="20300817110000 +0300" stop="20300817114500 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300817111000 +0300" stop="20300817131000 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817111000 +0300" stop="20300817121000 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817111000 +0300" stop="20300817131000 +0300" channel="canalfoot.fr"><title>Le Mag Foot</title></programme>
+  <programme start="20300817111000 +0300" stop="20300817121000 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300817111500 +0300" stop="20300817120000 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300817112000 +0300" stop="20300817122000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817112000 +0300" stop="20300817115000 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300817112000 +0300" stop="20300817132000 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300817112000 +0300" stop="20300817132000 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300817113000 +0300" stop="20300817120000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817113000 +0300" stop="20300817120000 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300817113000 +0300" stop="20300817121500 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300817113500 +0300" stop="20300817122000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817113500 +0300" stop="20300817122000 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300817114000 +0300" stop="20300817125500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817114000 +0300" stop="20300817125500 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300817114000 +0300" stop="20300817125500 +0300" channel="motorwelt.de"><title>Rallye Magazin</title></programme>
+  <programme start="20300817114500 +0300" stop="20300817123000 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300817114500 +0300" stop="20300817131500 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300817114500 +0300" stop="20300817134500 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300817115000 +0300" stop="20300817130500 +0300" channel="arenamix.de"><title>Golf: Das Magazin</title></programme>
+  <programme start="20300817115000 +0300" stop="20300817125000 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817115500 +0300" stop="20300817124000 +0300" channel="automoto.fr"><title>Moto3 : Grand Prix de Valmont</title></programme>
+  <programme start="20300817120000 +0300" stop="20300817130000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817120000 +0300" stop="20300817140000 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300817120000 +0300" stop="20300817130000 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300817120000 +0300" stop="20300817140000 +0300" channel="sportkanal.de"><title>Snooker: Jadeport Open</title></programme>
+  <programme start="20300817121000 +0300" stop="20300817134000 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300817121000 +0300" stop="20300817134000 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300817121500 +0300" stop="20300817140000 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300817122000 +0300" stop="20300817135000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817122000 +0300" stop="20300817142000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817122000 +0300" stop="20300817142000 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300817123000 +0300" stop="20300817143000 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300817123500 +0300" stop="20300817135000 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300817123500 +0300" stop="20300817135000 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300817124000 +0300" stop="20300817131500 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300817124500 +0300" stop="20300817140000 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300817125000 +0300" stop="20300817142000 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300817125500 +0300" stop="20300817132500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817125500 +0300" stop="20300817132500 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300817125500 +0300" stop="20300817132500 +0300" channel="motorwelt.de"><title>Bagger World Cup</title></programme>
+  <programme start="20300817130000 +0300" stop="20300817143000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817130000 +0300" stop="20300817143000 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300817130500 +0300" stop="20300817133500 +0300" channel="arenamix.de"><title>Sport Mix am Abend</title></programme>
+  <programme start="20300817131000 +0300" stop="20300817142500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817131000 +0300" stop="20300817142500 +0300" channel="canalfoot.fr"><title>Ligue 1 : Avant-match</title></programme>
+  <programme start="20300817131500 +0300" stop="20300817140500 +0300" channel="automoto.fr"><title>Moto2 : Grand Prix de Valmont</title></programme>
+  <programme start="20300817131500 +0300" stop="20300817140000 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300817132000 +0300" stop="20300817143500 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300817132000 +0300" stop="20300817143500 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300817132500 +0300" stop="20300817142500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817132500 +0300" stop="20300817142500 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300817132500 +0300" stop="20300817142500 +0300" channel="motorwelt.de"><title>Motorwelt Werkstatt</title></programme>
+  <programme start="20300817133500 +0300" stop="20300817143500 +0300" channel="arenamix.de"><title>Sport Mix am Morgen</title></programme>
+  <programme start="20300817134000 +0300" stop="20300817142500 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817134000 +0300" stop="20300817142500 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300817134500 +0300" stop="20300817150000 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300817135000 +0300" stop="20300817142000 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300817135000 +0300" stop="20300817143500 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817135000 +0300" stop="20300817142000 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300817135500 +0300" stop="20300817160000 +0300" channel="sportkanal.de"><title>2. Bundesliga: Grauwacke - Sandhorst</title></programme>
+  <programme start="20300817140000 +0300" stop="20300817151500 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300817140000 +0300" stop="20300817142000 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300817140000 +0300" stop="20300817160000 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300817140000 +0300" stop="20300817183000 +0300" channel="radkanal.de"><title>Radsport: Ronde van Kesteren, 7. Etappe</title></programme>
+  <programme start="20300817140500 +0300" stop="20300817143500 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300817142000 +0300" stop="20300817152000 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300817142000 +0300" stop="20300817153500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817142000 +0300" stop="20300817163000 +0300" channel="arenapremierleague.de"><title>Premier League Matchday Live</title></programme>
+  <programme start="20300817142000 +0300" stop="20300817150500 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817142000 +0300" stop="20300817153500 +0300" channel="kinderwelt.de"><title>Mika und das Fahrrad</title></programme>
+  <programme start="20300817142000 +0300" stop="20300817152000 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300817142500 +0300" stop="20300817155500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817142500 +0300" stop="20300817145500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817142500 +0300" stop="20300817162500 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300817142500 +0300" stop="20300817155500 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300817142500 +0300" stop="20300817145500 +0300" channel="canalfoot.fr"><title>Rugby : Top 14, le résumé</title></programme>
+  <programme start="20300817142500 +0300" stop="20300817161500 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300817142500 +0300" stop="20300817145000 +0300" channel="motorwelt.de"><title>Rallye Magazin</title></programme>
+  <programme start="20300817143000 +0300" stop="20300817151500 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817143000 +0300" stop="20300817154500 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300817143000 +0300" stop="20300817151500 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300817143500 +0300" stop="20300817162000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817143500 +0300" stop="20300817160500 +0300" channel="arenamix.de"><title>Golf: Das Magazin</title></programme>
+  <programme start="20300817143500 +0300" stop="20300817145500 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300817143500 +0300" stop="20300817150500 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300817143500 +0300" stop="20300817150500 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300817145000 +0300" stop="20300817160500 +0300" channel="motorwelt.de"><title>MotoGP: Großer Preis von Valmont</title></programme>
+  <programme start="20300817145500 +0300" stop="20300817155500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817145500 +0300" stop="20300817160000 +0300" channel="automoto.fr"><title>MotoGP : Grand Prix de Valmont</title></programme>
+  <programme start="20300817145500 +0300" stop="20300817155500 +0300" channel="canalfoot.fr"><title>Le Mag Foot</title></programme>
+  <programme start="20300817150000 +0300" stop="20300817153000 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300817150500 +0300" stop="20300817170500 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300817150500 +0300" stop="20300817160500 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300817150500 +0300" stop="20300817155500 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300817151500 +0300" stop="20300817162000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817151500 +0300" stop="20300817154500 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300817151500 +0300" stop="20300817171500 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300817152000 +0300" stop="20300817162000 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300817152000 +0300" stop="20300817165000 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300817153000 +0300" stop="20300817163000 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300817153500 +0300" stop="20300817160500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817153500 +0300" stop="20300817160500 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300817154500 +0300" stop="20300817164500 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300817154500 +0300" stop="20300817161500 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300817155500 +0300" stop="20300817162000 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817155500 +0300" stop="20300817162000 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817155500 +0300" stop="20300817164000 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300817155500 +0300" stop="20300817162500 +0300" channel="canalfoot.fr"><title>Ligue 1 : Avant-match</title></programme>
+  <programme start="20300817155500 +0300" stop="20300817180000 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi</title></programme>
+  <programme start="20300817160000 +0300" stop="20300817173000 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300817160000 +0300" stop="20300817165500 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300817160000 +0300" stop="20300817165500 +0300" channel="sportkanal.de"><title>Darts: Klassiker der Woche</title></programme>
+  <programme start="20300817160500 +0300" stop="20300817162000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817160500 +0300" stop="20300817165000 +0300" channel="arenamix.de"><title>Sport Mix am Abend</title></programme>
+  <programme start="20300817160500 +0300" stop="20300817173500 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300817160500 +0300" stop="20300817170500 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300817160500 +0300" stop="20300817164500 +0300" channel="motorwelt.de"><title>Bagger World Cup</title></programme>
+  <programme start="20300817161500 +0300" stop="20300817183000 +0300" channel="zenit1.de"><title>Fußball live: Die Konferenz</title></programme>
+  <programme start="20300817161500 +0300" stop="20300817171500 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300817162000 +0300" stop="20300817183000 +0300" channel="arenabundesliga1.de"><title>BL</title></programme>
+  <programme start="20300817162000 +0300" stop="20300817183000 +0300" channel="arenabundesliga2.de"><title>BL</title></programme>
+  <programme start="20300817162000 +0300" stop="20300817183000 +0300" channel="arenabundesliga3.de"><title>BL</title></programme>
+  <programme start="20300817162000 +0300" stop="20300817183000 +0300" channel="arenabundesliga4.de"><title>BL</title></programme>
+  <programme start="20300817162000 +0300" stop="20300817183000 +0300" channel="arenabundesliga5.de"><title>BL</title></programme>
+  <programme start="20300817162000 +0300" stop="20300817183000 +0300" channel="arenabundesliga6.de"><title>BL</title></programme>
+  <programme start="20300817162500 +0300" stop="20300817165500 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817162500 +0300" stop="20300817182000 +0300" channel="canalfoot.fr"><title>Bundesliga : Fichtenhain / Rabenfels</title></programme>
+  <programme start="20300817163000 +0300" stop="20300817165000 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300817163000 +0300" stop="20300817180000 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300817164000 +0300" stop="20300817184000 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300817164500 +0300" stop="20300817181500 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300817164500 +0300" stop="20300817184500 +0300" channel="motorwelt.de"><title>Speedway World Championship 2030</title></programme>
+  <programme start="20300817165000 +0300" stop="20300817190000 +0300" channel="arenamix.de"><title>Fußball: Thornwick - Daleford</title></programme>
+  <programme start="20300817165000 +0300" stop="20300817190000 +0300" channel="arenapremierleague.de"><title>Premier League: Harbridge City - Kingsfold Rovers</title></programme>
+  <programme start="20300817165000 +0300" stop="20300817173500 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300817165500 +0300" stop="20300817190000 +0300" channel="arenaspor2.tr"><title>Süper Lig: Yelkenspor - Bulutköyspor</title></programme>
+  <programme start="20300817165500 +0300" stop="20300817190000 +0300" channel="kanalspor.tr"><title>Süper Lig: Yelkenspor - Bulutköyspor</title></programme>
+  <programme start="20300817165500 +0300" stop="20300817190000 +0300" channel="sportkanal.de"><title>Fußball: Isles Championship</title></programme>
+  <programme start="20300817170000 +0300" stop="20300817210000 +0300" channel="tennisarena.de"><title>Nordhafen Open</title></programme>
+  <programme start="20300817170500 +0300" stop="20300817182000 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817170500 +0300" stop="20300817183500 +0300" channel="kinderwelt.de"><title>Mika und das Fahrrad</title></programme>
+  <programme start="20300817171500 +0300" stop="20300817184500 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300817171500 +0300" stop="20300817183000 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300817173000 +0300" stop="20300817181500 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300817173500 +0300" stop="20300817182000 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300817173500 +0300" stop="20300817193500 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300817180000 +0300" stop="20300817183000 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300817180000 +0300" stop="20300817183000 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300817180000 +0300" stop="20300817193000 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300817180000 +0300" stop="20300817184500 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300817181500 +0300" stop="20300817190000 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300817181500 +0300" stop="20300817201500 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300817182000 +0300" stop="20300817185000 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300817182000 +0300" stop="20300817190500 +0300" channel="canalfoot.fr"><title>Rugby : Top 14, le résumé</title></programme>
+  <programme start="20300817182000 +0300" stop="20300817202000 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300817183000 +0300" stop="20300817191500 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300817183000 +0300" stop="20300817192000 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817183000 +0300" stop="20300817192000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817183000 +0300" stop="20300817192000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817183000 +0300" stop="20300817192000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817183000 +0300" stop="20300817191500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817183000 +0300" stop="20300817194500 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300817183000 +0300" stop="20300817190000 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300817183000 +0300" stop="20300817194500 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300817183500 +0300" stop="20300817192000 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300817184000 +0300" stop="20300817195500 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300817184500 +0300" stop="20300817193000 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300817184500 +0300" stop="20300817204500 +0300" channel="motorwelt.de"><title>Motorwelt Werkstatt</title></programme>
+  <programme start="20300817184500 +0300" stop="20300817204500 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300817185000 +0300" stop="20300817195000 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817190000 +0300" stop="20300817210000 +0300" channel="arenamix.de"><title>Sport Mix am Morgen</title></programme>
+  <programme start="20300817190000 +0300" stop="20300817210000 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300817190000 +0300" stop="20300817191500 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300817190000 +0300" stop="20300817193000 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300817190000 +0300" stop="20300817193500 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300817190000 +0300" stop="20300817193000 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300817190000 +0300" stop="20300817220000 +0300" channel="sportkanal.de"><title>Tennis: Nordhafen Open</title></programme>
+  <programme start="20300817190500 +0300" stop="20300817210500 +0300" channel="canalfoot.fr"><title>Le Mag Foot</title></programme>
+  <programme start="20300817191500 +0300" stop="20300817192000 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300817191500 +0300" stop="20300817192000 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817191500 +0300" stop="20300817211500 +0300" channel="arenapremierleague.de"><title>Premier League: Highlights vom Nachmittag</title></programme>
+  <programme start="20300817192000 +0300" stop="20300817213000 +0300" channel="arenabundesliga1.de"><title>Birkenstein - Moorhaven</title></programme>
+  <programme start="20300817192000 +0300" stop="20300817213000 +0300" channel="arenabundesliga2.de"><title>BL</title></programme>
+  <programme start="20300817192000 +0300" stop="20300817213000 +0300" channel="arenabundesliga3.de"><title>BL</title></programme>
+  <programme start="20300817192000 +0300" stop="20300817213000 +0300" channel="arenabundesliga4.de"><title>BL</title></programme>
+  <programme start="20300817192000 +0300" stop="20300817213000 +0300" channel="arenabundesliga5.de"><title>BL</title></programme>
+  <programme start="20300817192000 +0300" stop="20300817213000 +0300" channel="arenabundesliga6.de"><title>BL</title></programme>
+  <programme start="20300817192000 +0300" stop="20300817212000 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300817193000 +0300" stop="20300817203000 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817193000 +0300" stop="20300817213000 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300817193000 +0300" stop="20300817203000 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300817193000 +0300" stop="20300817201500 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300817193500 +0300" stop="20300817214000 +0300" channel="elfsport1.nl"><title>Eredivisie: Veenhorst - Duinwijk</title></programme>
+  <programme start="20300817193500 +0300" stop="20300817205000 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300817194500 +0300" stop="20300817201500 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300817194500 +0300" stop="20300817201500 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300817195000 +0300" stop="20300817195500 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300817195500 +0300" stop="20300817220000 +0300" channel="arenaspor1.tr"><title>Süper Lig Raporu</title></programme>
+  <programme start="20300817195500 +0300" stop="20300817220000 +0300" channel="arenaspor1.tr"><title>Süper Lig: Kervanspor - Dumanlıspor</title></programme>
+  <programme start="20300817195500 +0300" stop="20300817220000 +0300" channel="arenaspor1.tr"><title>Süper Lig: Taşlıyurtspor - Kızılkayaspor</title></programme>
+  <programme start="20300817195500 +0300" stop="20300817202500 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300817201500 +0300" stop="20300817213000 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300817201500 +0300" stop="20300817211500 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300817201500 +0300" stop="20300817221500 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300817201500 +0300" stop="20300817211500 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300817202000 +0300" stop="20300817213500 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300817202500 +0300" stop="20300817212500 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300817203000 +0300" stop="20300817220000 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300817203000 +0300" stop="20300817220000 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300817204500 +0300" stop="20300817220000 +0300" channel="motorwelt.de"><title>Rallye Magazin</title></programme>
+  <programme start="20300817204500 +0300" stop="20300817220000 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300817205000 +0300" stop="20300817212000 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300817210000 +0300" stop="20300817221500 +0300" channel="arenamix.de"><title>Golf: Das Magazin</title></programme>
+  <programme start="20300817210000 +0300" stop="20300817221500 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300817210000 +0300" stop="20300817214500 +0300" channel="tennisarena.de"><title>Tennisgeschichten</title></programme>
+  <programme start="20300817210500 +0300" stop="20300817213000 +0300" channel="canalfoot.fr"><title>Ligue 1 : Avant-match</title></programme>
+  <programme start="20300817211500 +0300" stop="20300817220000 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300817211500 +0300" stop="20300817224500 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300817211500 +0300" stop="20300817224500 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300817212000 +0300" stop="20300817223500 +0300" channel="kinderwelt.de"><title>Mika und das Fahrrad</title></programme>
+  <programme start="20300817212000 +0300" stop="20300817222000 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300817212500 +0300" stop="20300817213500 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300817213000 +0300" stop="20300817224500 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300817213000 +0300" stop="20300817224500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817213000 +0300" stop="20300817220000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817213000 +0300" stop="20300817220000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817213000 +0300" stop="20300817221500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817213000 +0300" stop="20300817224500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817213000 +0300" stop="20300817220000 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300817213000 +0300" stop="20300817215500 +0300" channel="canalfoot.fr"><title>Ligue 1 : Avant-match</title></programme>
+  <programme start="20300817213000 +0300" stop="20300817215500 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300817213500 +0300" stop="20300817234000 +0300" channel="calciouno.it"><title>Serie A: Valdoro - Montecielo</title></programme>
+  <programme start="20300817213500 +0300" stop="20300817220500 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300817214000 +0300" stop="20300817231000 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300817214500 +0300" stop="20300817234500 +0300" channel="tennisarena.de"><title>Matchball, das Magazin</title></programme>
+  <programme start="20300817215500 +0300" stop="20300818000000 +0300" channel="canalfoot.fr"><title>Ligue 1 : Valmorin / Clairbois</title></programme>
+  <programme start="20300817215500 +0300" stop="20300818000000 +0300" channel="zenit2.de"><title>LaLiga 2030/31</title></programme>
+  <programme start="20300817220000 +0300" stop="20300817230000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817220000 +0300" stop="20300817230000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817220000 +0300" stop="20300818000000 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300817220000 +0300" stop="20300817224500 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817220000 +0300" stop="20300817224500 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300817220000 +0300" stop="20300817230000 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300817220000 +0300" stop="20300817224500 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300817220000 +0300" stop="20300817223000 +0300" channel="motorwelt.de"><title>Bagger World Cup</title></programme>
+  <programme start="20300817220000 +0300" stop="20300817223000 +0300" channel="sportkanal.de"><title>Fußball: Die Highlight-Show</title></programme>
+  <programme start="20300817220000 +0300" stop="20300817223000 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300817220500 +0300" stop="20300817230500 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300817221500 +0300" stop="20300818001500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300817221500 +0300" stop="20300817224500 +0300" channel="arenamix.de"><title>Sport Mix am Abend</title></programme>
+  <programme start="20300817221500 +0300" stop="20300817224500 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300817221500 +0300" stop="20300817233000 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300817222000 +0300" stop="20300817235000 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300817223000 +0300" stop="20300817233000 +0300" channel="motorwelt.de"><title>Motorwelt Werkstatt</title></programme>
+  <programme start="20300817223000 +0300" stop="20300817230000 +0300" channel="sportkanal.de"><title>Sportnachrichten</title></programme>
+  <programme start="20300817223000 +0300" stop="20300817230000 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300817223500 +0300" stop="20300817230500 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300817224500 +0300" stop="20300817231500 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300817224500 +0300" stop="20300817231500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817224500 +0300" stop="20300817231500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817224500 +0300" stop="20300817234500 +0300" channel="arenamix.de"><title>Sport Mix am Morgen</title></programme>
+  <programme start="20300817224500 +0300" stop="20300817234500 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300817224500 +0300" stop="20300818004500 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300817224500 +0300" stop="20300818004500 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300817224500 +0300" stop="20300817233000 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300817224500 +0300" stop="20300818004500 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300817224500 +0300" stop="20300817233000 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300817230000 +0300" stop="20300818003000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300817230000 +0300" stop="20300818003000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300817230000 +0300" stop="20300818003000 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300817230000 +0300" stop="20300818000000 +0300" channel="sportkanal.de"><title>Bundesliga: alle Tore vom Samstag</title></programme>
+  <programme start="20300817230000 +0300" stop="20300818013000 +0300" channel="tennisplus.fr"><title>Tennis : Tournoi ATP de Kerlouan, 2e tour</title></programme>
+  <programme start="20300817230500 +0300" stop="20300818003500 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300817230500 +0300" stop="20300818000500 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300817231000 +0300" stop="20300817235500 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300817231500 +0300" stop="20300818001500 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300817231500 +0300" stop="20300818001500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300817231500 +0300" stop="20300818001500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300817233000 +0300" stop="20300818013000 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300817233000 +0300" stop="20300818010000 +0300" channel="motorwelt.de"><title>Rallye Magazin</title></programme>
+  <programme start="20300817233000 +0300" stop="20300818000000 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300817233000 +0300" stop="20300818013000 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300817234000 +0300" stop="20300818002500 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300817234500 +0300" stop="20300818011500 +0300" channel="arenamix.de"><title>Golf: Das Magazin</title></programme>
+  <programme start="20300817234500 +0300" stop="20300818011500 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300817234500 +0300" stop="20300818010000 +0300" channel="tennisarena.de"><title>Tennisgeschichten</title></programme>
+  <programme start="20300817235000 +0300" stop="20300818003500 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300817235500 +0300" stop="20300818015500 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300818000000 +0300" stop="20300818011500 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300818000000 +0300" stop="20300818003000 +0300" channel="canalfoot.fr"><title>Rugby : Top 14, le résumé</title></programme>
+  <programme start="20300818000000 +0300" stop="20300818003000 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300818000000 +0300" stop="20300818010000 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300818000000 +0300" stop="20300818013000 +0300" channel="sportkanal.de"><title>Darts: Klassiker der Woche</title></programme>
+  <programme start="20300818000500 +0300" stop="20300818013500 +0300" channel="kinderwelt.de"><title>Mika und das Fahrrad</title></programme>
+  <programme start="20300818001500 +0300" stop="20300818014500 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300818001500 +0300" stop="20300818014500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300818001500 +0300" stop="20300818013000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300818001500 +0300" stop="20300818014500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300818002500 +0300" stop="20300818022500 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300818003000 +0300" stop="20300818011500 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300818003000 +0300" stop="20300818011500 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300818003000 +0300" stop="20300818011500 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300818003000 +0300" stop="20300818013000 +0300" channel="canalfoot.fr"><title>Le Mag Foot</title></programme>
+  <programme start="20300818003000 +0300" stop="20300818013000 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300818003500 +0300" stop="20300818012000 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300818003500 +0300" stop="20300818023500 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300818004500 +0300" stop="20300818020000 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300818004500 +0300" stop="20300818020000 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300818004500 +0300" stop="20300818020000 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300818010000 +0300" stop="20300818014500 +0300" channel="motorwelt.de"><title>Bagger World Cup</title></programme>
+  <programme start="20300818010000 +0300" stop="20300818023000 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300818010000 +0300" stop="20300818013000 +0300" channel="tennisarena.de"><title>Matchball, das Magazin</title></programme>
+  <programme start="20300818011500 +0300" stop="20300818031500 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300818011500 +0300" stop="20300818031500 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300818011500 +0300" stop="20300818020000 +0300" channel="arenamix.de"><title>Sport Mix am Abend</title></programme>
+  <programme start="20300818011500 +0300" stop="20300818020000 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300818011500 +0300" stop="20300818014500 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300818011500 +0300" stop="20300818031500 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300818012000 +0300" stop="20300818032000 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300818013000 +0300" stop="20300818020000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300818013000 +0300" stop="20300818030000 +0300" channel="canalfoot.fr"><title>Ligue 1 : Avant-match</title></programme>
+  <programme start="20300818013000 +0300" stop="20300818024500 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300818013000 +0300" stop="20300818030000 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300818013000 +0300" stop="20300818024500 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300818013000 +0300" stop="20300818021500 +0300" channel="sportkanal.de"><title>Fußball: Die Highlight-Show</title></programme>
+  <programme start="20300818013000 +0300" stop="20300818023000 +0300" channel="tennisarena.de"><title>Tennisgeschichten</title></programme>
+  <programme start="20300818013000 +0300" stop="20300818030000 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300818013500 +0300" stop="20300818022000 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300818014500 +0300" stop="20300818023000 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300818014500 +0300" stop="20300818023000 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300818014500 +0300" stop="20300818023000 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300818014500 +0300" stop="20300818024500 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300818014500 +0300" stop="20300818034500 +0300" channel="motorwelt.de"><title>Motorwelt Werkstatt</title></programme>
+  <programme start="20300818015500 +0300" stop="20300818031000 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300818020000 +0300" stop="20300818030000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300818020000 +0300" stop="20300818040000 +0300" channel="arenamix.de"><title>Sport Mix am Morgen</title></programme>
+  <programme start="20300818020000 +0300" stop="20300818040000 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300818020000 +0300" stop="20300818023000 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300818020000 +0300" stop="20300818023000 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300818020000 +0300" stop="20300818023000 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300818021500 +0300" stop="20300818032500 +0300" channel="sportkanal.de"><title>Sportnachrichten</title></programme>
+  <programme start="20300818022000 +0300" stop="20300818042000 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300818022500 +0300" stop="20300818034000 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300818023000 +0300" stop="20300818043000 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300818023000 +0300" stop="20300818043000 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300818023000 +0300" stop="20300818043000 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300818023000 +0300" stop="20300818033000 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300818023000 +0300" stop="20300818033000 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300818023000 +0300" stop="20300818033000 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300818023000 +0300" stop="20300818031500 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300818023000 +0300" stop="20300818040000 +0300" channel="tennisarena.de"><title>Matchball, das Magazin</title></programme>
+  <programme start="20300818023500 +0300" stop="20300818035000 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300818024500 +0300" stop="20300818041500 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300818024500 +0300" stop="20300818031500 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300818024500 +0300" stop="20300818031500 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300818030000 +0300" stop="20300818043000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300818030000 +0300" stop="20300818034500 +0300" channel="canalfoot.fr"><title>Rugby : Top 14, le résumé</title></programme>
+  <programme start="20300818030000 +0300" stop="20300818034500 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300818030000 +0300" stop="20300818034500 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300818031000 +0300" stop="20300818034000 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300818031500 +0300" stop="20300818043000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300818031500 +0300" stop="20300818043000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300818031500 +0300" stop="20300818043000 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300818031500 +0300" stop="20300818041500 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300818031500 +0300" stop="20300818051500 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300818031500 +0300" stop="20300818041500 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300818032000 +0300" stop="20300818043500 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300818032500 +0300" stop="20300818053000 +0300" channel="sportkanal.de"><title>MLS: Ironvale - Bayside</title></programme>
+  <programme start="20300818033000 +0300" stop="20300818050000 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300818033000 +0300" stop="20300818050000 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300818033000 +0300" stop="20300818050000 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300818034000 +0300" stop="20300818041000 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300818034000 +0300" stop="20300818044000 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300818034500 +0300" stop="20300818054500 +0300" channel="canalfoot.fr"><title>Le Mag Foot</title></programme>
+  <programme start="20300818034500 +0300" stop="20300818054500 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300818034500 +0300" stop="20300818050000 +0300" channel="motorwelt.de"><title>Rallye Magazin</title></programme>
+  <programme start="20300818034500 +0300" stop="20300818054500 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300818035000 +0300" stop="20300818042000 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300818040000 +0300" stop="20300818051500 +0300" channel="arenamix.de"><title>Golf: Das Magazin</title></programme>
+  <programme start="20300818040000 +0300" stop="20300818051500 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300818040000 +0300" stop="20300818044500 +0300" channel="tennisarena.de"><title>Tennisgeschichten</title></programme>
+  <programme start="20300818041000 +0300" stop="20300818051000 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300818041500 +0300" stop="20300818050000 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300818041500 +0300" stop="20300818054500 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300818041500 +0300" stop="20300818054500 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300818042000 +0300" stop="20300818053500 +0300" channel="kinderwelt.de"><title>Mika und das Fahrrad</title></programme>
+  <programme start="20300818042000 +0300" stop="20300818052000 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300818043000 +0300" stop="20300818054500 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300818043000 +0300" stop="20300818054500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300818043000 +0300" stop="20300818050000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300818043000 +0300" stop="20300818050000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300818043000 +0300" stop="20300818051500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300818043000 +0300" stop="20300818054500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300818043000 +0300" stop="20300818050000 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300818043500 +0300" stop="20300818050500 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300818044000 +0300" stop="20300818061000 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300818044500 +0300" stop="20300818064500 +0300" channel="tennisarena.de"><title>Matchball, das Magazin</title></programme>
+  <programme start="20300818050000 +0300" stop="20300818060000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300818050000 +0300" stop="20300818060000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300818050000 +0300" stop="20300818070000 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300818050000 +0300" stop="20300818054500 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300818050000 +0300" stop="20300818054500 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300818050000 +0300" stop="20300818060000 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300818050000 +0300" stop="20300818054500 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300818050000 +0300" stop="20300818053000 +0300" channel="motorwelt.de"><title>Bagger World Cup</title></programme>
+  <programme start="20300818050500 +0300" stop="20300818060500 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300818051000 +0300" stop="20300818064000 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300818051500 +0300" stop="20300818071500 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300818051500 +0300" stop="20300818054500 +0300" channel="arenamix.de"><title>Sport Mix am Abend</title></programme>
+  <programme start="20300818051500 +0300" stop="20300818054500 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300818051500 +0300" stop="20300818063000 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300818052000 +0300" stop="20300818065000 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300818053000 +0300" stop="20300818063000 +0300" channel="motorwelt.de"><title>Motorwelt Werkstatt</title></programme>
+  <programme start="20300818053000 +0300" stop="20300818064500 +0300" channel="sportkanal.de"><title>Darts: Klassiker der Woche</title></programme>
+  <programme start="20300818053500 +0300" stop="20300818060500 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300818054500 +0300" stop="20300818061500 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300818054500 +0300" stop="20300818061500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300818054500 +0300" stop="20300818061500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300818054500 +0300" stop="20300818064500 +0300" channel="arenamix.de"><title>Sport Mix am Morgen</title></programme>
+  <programme start="20300818054500 +0300" stop="20300818064500 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300818054500 +0300" stop="20300818074500 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300818054500 +0300" stop="20300818074500 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300818054500 +0300" stop="20300818070000 +0300" channel="canalfoot.fr"><title>Ligue 1 : Avant-match</title></programme>
+  <programme start="20300818054500 +0300" stop="20300818063000 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300818054500 +0300" stop="20300818070000 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300818054500 +0300" stop="20300818074500 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300818054500 +0300" stop="20300818063000 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300818054500 +0300" stop="20300818070000 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300818060000 +0300" stop="20300818073000 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300818060000 +0300" stop="20300818073000 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300818060000 +0300" stop="20300818073000 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300818060500 +0300" stop="20300818073500 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300818060500 +0300" stop="20300818070500 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300818061000 +0300" stop="20300818065500 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300818061500 +0300" stop="20300818071500 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300818061500 +0300" stop="20300818071500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300818061500 +0300" stop="20300818071500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300818063000 +0300" stop="20300818083000 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300818063000 +0300" stop="20300818080000 +0300" channel="motorwelt.de"><title>Rallye Magazin</title></programme>
+  <programme start="20300818063000 +0300" stop="20300818070000 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300818063000 +0300" stop="20300818083000 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300818064000 +0300" stop="20300818072500 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300818064500 +0300" stop="20300818081500 +0300" channel="arenamix.de"><title>Golf: Das Magazin</title></programme>
+  <programme start="20300818064500 +0300" stop="20300818081500 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300818064500 +0300" stop="20300818071500 +0300" channel="sportkanal.de"><title>Fußball: Die Highlight-Show</title></programme>
+  <programme start="20300818064500 +0300" stop="20300818080000 +0300" channel="tennisarena.de"><title>Tennisgeschichten</title></programme>
+  <programme start="20300818065000 +0300" stop="20300818073500 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300818065500 +0300" stop="20300818085500 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300818070000 +0300" stop="20300818081500 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300818070000 +0300" stop="20300818073000 +0300" channel="canalfoot.fr"><title>Rugby : Top 14, le résumé</title></programme>
+  <programme start="20300818070000 +0300" stop="20300818073000 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300818070000 +0300" stop="20300818080000 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300818070000 +0300" stop="20300818073000 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300818070500 +0300" stop="20300818083500 +0300" channel="kinderwelt.de"><title>Mika und das Fahrrad</title></programme>
+  <programme start="20300818071500 +0300" stop="20300818084500 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300818071500 +0300" stop="20300818084500 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300818071500 +0300" stop="20300818083000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300818071500 +0300" stop="20300818084500 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300818071500 +0300" stop="20300818081500 +0300" channel="sportkanal.de"><title>Sportnachrichten</title></programme>
+  <programme start="20300818072500 +0300" stop="20300818092500 +0300" channel="calciouno.it"><title>Serie A: gli highlights</title></programme>
+  <programme start="20300818073000 +0300" stop="20300818081500 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300818073000 +0300" stop="20300818081500 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300818073000 +0300" stop="20300818081500 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300818073000 +0300" stop="20300818083000 +0300" channel="canalfoot.fr"><title>Le Mag Foot</title></programme>
+  <programme start="20300818073000 +0300" stop="20300818083000 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300818073000 +0300" stop="20300818083000 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300818073500 +0300" stop="20300818082000 +0300" channel="freisport.de"><title>Sportwelt am Wochenende</title></programme>
+  <programme start="20300818073500 +0300" stop="20300818093500 +0300" channel="yesilspor.tr"><title>Voleybol: Klasik Maçlar</title></programme>
+  <programme start="20300818074500 +0300" stop="20300818090000 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300818074500 +0300" stop="20300818090000 +0300" channel="arenaspor2.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300818074500 +0300" stop="20300818090000 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300818080000 +0300" stop="20300818084500 +0300" channel="motorwelt.de"><title>Bagger World Cup</title></programme>
+  <programme start="20300818080000 +0300" stop="20300818093000 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300818080000 +0300" stop="20300818083000 +0300" channel="tennisarena.de"><title>Matchball, das Magazin</title></programme>
+  <programme start="20300818081500 +0300" stop="20300818101500 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300818081500 +0300" stop="20300818101500 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300818081500 +0300" stop="20300818090000 +0300" channel="arenamix.de"><title>Sport Mix am Abend</title></programme>
+  <programme start="20300818081500 +0300" stop="20300818090000 +0300" channel="arenanews.de"><title>Arena Sport News</title></programme>
+  <programme start="20300818081500 +0300" stop="20300818084500 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300818081500 +0300" stop="20300818101500 +0300" channel="automoto.fr"><title>Moto : les plus belles courses</title></programme>
+  <programme start="20300818081500 +0300" stop="20300818094500 +0300" channel="sportkanal.de"><title>Darts: Klassiker der Woche</title></programme>
+  <programme start="20300818082000 +0300" stop="20300818101800 +0300" channel="freisport.de"><title>Handball: Saisonvorschau</title></programme>
+  <programme start="20300818083000 +0300" stop="20300818090000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300818083000 +0300" stop="20300818100000 +0300" channel="canalfoot.fr"><title>Ligue 1 : Avant-match</title></programme>
+  <programme start="20300818083000 +0300" stop="20300818094500 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300818083000 +0300" stop="20300818100000 +0300" channel="zenit2.de"><title>Fußball: Tor des Monats</title></programme>
+  <programme start="20300818083000 +0300" stop="20300818094500 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300818083000 +0300" stop="20300818093000 +0300" channel="tennisarena.de"><title>Tennisgeschichten</title></programme>
+  <programme start="20300818083000 +0300" stop="20300818100000 +0300" channel="tennisplus.fr"><title>Tennis : rediffusion</title></programme>
+  <programme start="20300818083500 +0300" stop="20300818092000 +0300" channel="kinderwelt.de"><title>Tobi baut ein Floß</title></programme>
+  <programme start="20300818084500 +0300" stop="20300818093000 +0300" channel="arenabundesliga1.de"><title>Sendepause</title></programme>
+  <programme start="20300818084500 +0300" stop="20300818093000 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300818084500 +0300" stop="20300818093000 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300818084500 +0300" stop="20300818094500 +0300" channel="arenapremierleague.de"><title>Premier League: Pitchside</title></programme>
+  <programme start="20300818084500 +0300" stop="20300818090000 +0300" channel="motorwelt.de"><title>Motorwelt Werkstatt</title></programme>
+  <programme start="20300818085500 +0300" stop="20300818101000 +0300" channel="elfsport1.nl"><title>Elf Sport Journaal</title></programme>
+  <programme start="20300818090000 +0300" stop="20300818100000 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300818090000 +0300" stop="20300818101800 +0300" channel="arenamix.de"><title>Sport Mix am Morgen</title></programme>
+  <programme start="20300818090000 +0300" stop="20300818101800 +0300" channel="arenanews.de"><title>Sportnachrichten kompakt</title></programme>
+  <programme start="20300818090000 +0300" stop="20300818093000 +0300" channel="arenaspor1.tr"><title>Maç Özetleri</title></programme>
+  <programme start="20300818090000 +0300" stop="20300818100000 +0300" channel="arenaspor2.tr"><title>Süper Lig: Kervanspor - Dumanlıspor (Tekrar)</title></programme>
+  <programme start="20300818090000 +0300" stop="20300818093000 +0300" channel="kanalspor.tr"><title>Basketbol Süper Ligi Özet</title></programme>
+  <programme start="20300818090000 +0300" stop="20300818100000 +0300" channel="motorwelt.de"><title>Formel E: ePrix von Nordhafen, Qualifying</title></programme>
+  <programme start="20300818092000 +0300" stop="20300818101800 +0300" channel="kinderwelt.de"><title>Die Bärenbande</title></programme>
+  <programme start="20300818092500 +0300" stop="20300818101800 +0300" channel="calciouno.it"><title>Calcio Uno Notizie</title></programme>
+  <programme start="20300818093000 +0300" stop="20300818101800 +0300" channel="arenabundesliga1.de"><title>Arena Bundesliga: Der Talk</title></programme>
+  <programme start="20300818093000 +0300" stop="20300818101800 +0300" channel="arenabundesliga2.de"><title>Sendepause</title></programme>
+  <programme start="20300818093000 +0300" stop="20300818101800 +0300" channel="arenabundesliga6.de"><title>Sendepause</title></programme>
+  <programme start="20300818093000 +0300" stop="20300818101800 +0300" channel="arenaspor1.tr"><title>Spor Haberleri</title></programme>
+  <programme start="20300818093000 +0300" stop="20300818101800 +0300" channel="kanalspor.tr"><title>Spor Gündemi</title></programme>
+  <programme start="20300818093000 +0300" stop="20300818101500 +0300" channel="ovaspor.tr"><title>Ova Spor Ekranı</title></programme>
+  <programme start="20300818093000 +0300" stop="20300818101800 +0300" channel="tennisarena.de"><title>Matchball, das Magazin</title></programme>
+  <programme start="20300818093500 +0300" stop="20300818101800 +0300" channel="yesilspor.tr"><title>Yeşil Saha</title></programme>
+  <programme start="20300818094500 +0300" stop="20300818101800 +0300" channel="arenapremierleague.de"><title>Fußball: Englische Woche im Rückblick</title></programme>
+  <programme start="20300818094500 +0300" stop="20300818101500 +0300" channel="zenit1.de"><title>Basketball: Die Woche</title></programme>
+  <programme start="20300818094500 +0300" stop="20300818101500 +0300" channel="radkanal.de"><title>Ronde van Kesteren (Wdh.)</title></programme>
+  <programme start="20300818094500 +0300" stop="20300818101800 +0300" channel="sportkanal.de"><title>Fußball: Die Highlight-Show</title></programme>
+  <programme start="20300818100000 +0300" stop="20300818101800 +0300" channel="arenabundesliga5.de"><title>Sendepause</title></programme>
+  <programme start="20300818100000 +0300" stop="20300818101800 +0300" channel="arenaspor2.tr"><title>Gol Saati (Tekrar)</title></programme>
+  <programme start="20300818100000 +0300" stop="20300818101800 +0300" channel="canalfoot.fr"><title>Rugby : Top 14, le résumé</title></programme>
+  <programme start="20300818100000 +0300" stop="20300818101800 +0300" channel="zenit2.de"><title>LaLiga: alle Tore</title></programme>
+  <programme start="20300818100000 +0300" stop="20300818101800 +0300" channel="motorwelt.de"><title>Rallye Magazin</title></programme>
+  <programme start="20300818100000 +0300" stop="20300818101800 +0300" channel="tennisplus.fr"><title>Tennis : le magazine</title></programme>
+  <programme start="20300818101000 +0300" stop="20300818101800 +0300" channel="elfsport1.nl"><title>Eredivisie: samenvattingen</title></programme>
+  <programme start="20300818101500 +0300" stop="20300818101800 +0300" channel="arenabundesliga3.de"><title>Sendepause</title></programme>
+  <programme start="20300818101500 +0300" stop="20300818101800 +0300" channel="arenabundesliga4.de"><title>Sendepause</title></programme>
+  <programme start="20300818101500 +0300" stop="20300818101800 +0300" channel="automoto.fr"><title>Le Garage</title></programme>
+  <programme start="20300818101500 +0300" stop="20300818101800 +0300" channel="zenit1.de"><title>Der Fußballtalk</title></programme>
+  <programme start="20300818101500 +0300" stop="20300818101800 +0300" channel="ovaspor.tr"><title>Futbol: Bölge Ligi Özetleri</title></programme>
+  <programme start="20300818101500 +0300" stop="20300818101800 +0300" channel="radkanal.de"><title>Radsport Magazin</title></programme>
+  <programme start="20300818101800 +0300" stop="20300818110000 +0300" channel="kinderwelt.de"><title>Frühstück mit der Bärenbande</title></programme>
+</tv>

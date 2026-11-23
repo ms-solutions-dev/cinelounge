@@ -1,0 +1,5 @@
+# Erzeugnisse — das Paket wird von drei Programmen über den Pfad gebaut.
+.build/
+.swiftpm/
+*.xcodeproj/
+.DS_Store

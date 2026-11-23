@@ -1,0 +1,1352 @@
+[
+ {
+  "num": 1,
+  "name": "#### VELDA ᴿᴬᵂ ⁶⁰ᶠᵖˢ #####",
+  "stream_type": "live",
+  "stream_id": 771280,
+  "stream_icon": "https://media.iptv.example/UzsaBymx/Velda-GIF.gif",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2,
+  "name": "VELDA: HOFKANAL ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771279,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20002.png?ver=40023",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 3,
+  "name": "VELDA: TEEHAUS TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771278,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20003.png?ver=40030",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 4,
+  "name": "VELDA: AKTENZIMMER ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771277,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20004.png?ver=40037",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5,
+  "name": "VELDA: LUPE NACHT ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771276,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20005.png?ver=40044",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 6,
+  "name": "VELDA: HINTERHOF ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771275,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20006.png?ver=40051",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 7,
+  "name": "VELDA: DENKRAUM ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771274,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20007.png?ver=40058",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 8,
+  "name": "VELDA: GALERIE TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771273,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20008.png?ver=40065",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 9,
+  "name": "VELDA: FALTER ROT ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771272,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20009.png?ver=40072",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 10,
+  "name": "VELDA: FALTER BLAU ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771271,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20010.png?ver=40079",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 11,
+  "name": "VELDA: TOPFDECKEL ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771270,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20011.png?ver=40086",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 12,
+  "name": "VELDA: ALTE KARTEN ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771269,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20012.png?ver=40093",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 13,
+  "name": "VELDA: WANDERDÜNE ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771268,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20013.png?ver=40100",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 14,
+  "name": "VELDA: KIESGRUBE TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771267,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20014.png?ver=40107",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 15,
+  "name": "VELDA: BLECHFUCHS ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771266,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20015.png?ver=40114",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 16,
+  "name": "VELDA: MÜNZWERK ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771265,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20016.png?ver=40121",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 17,
+  "name": "VELDA: MÜNZWERK TV+ ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771264,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20017.png?ver=40128",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 18,
+  "name": "VELDA: HEIDEFUNK OST ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771263,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20018.png?ver=40135",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 19,
+  "name": "VELDA: HEIDEFUNK WEST ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771262,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20019.png?ver=40142",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 20,
+  "name": "VELDA: DEPESCHE KURZ ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771261,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20020.png?ver=40149",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 21,
+  "name": "VELDA: DEPESCHE ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771260,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20021.png?ver=40156",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 22,
+  "name": "VELDA: DEPESCHE ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771259,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20022.png?ver=40163",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 23,
+  "name": "VELDA: KNOTEN + FADEN PLAY ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771257,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20023.png?ver=40170",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 24,
+  "name": "VELDA: NEBELWAND | DE ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771256,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20024.png?ver=40177",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 25,
+  "name": "VELDA: STAUNEN ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 771255,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/20025.png?ver=40184",
+  "epg_channel_id": "",
+  "added": "1758282583",
+  "is_adult": 0,
+  "category_id": "2101",
+  "category_ids": [
+   2101
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2695,
+  "name": "KIES: Serpek SP⚽RTS 1 RAW",
+  "stream_type": "live",
+  "stream_id": 772674,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30000.png?ver=10018",
+  "epg_channel_id": "serpekSports1.tr",
+  "added": "1718542056",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2696,
+  "name": "KIES: Serpek SP⚽RTS 2 RAW",
+  "stream_type": "live",
+  "stream_id": 772673,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30001.png?ver=10025",
+  "epg_channel_id": "serpekSports2.tr",
+  "added": "1718542056",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2697,
+  "name": "KIES: Serpek SP⚽RTS 3 RAW",
+  "stream_type": "live",
+  "stream_id": 772672,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30002.png?ver=10032",
+  "epg_channel_id": "serpekSports3.tr",
+  "added": "1718542056",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2698,
+  "name": "KIES: Serpek SP⚽RTS 4 RAW",
+  "stream_type": "live",
+  "stream_id": 772671,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30003.png?ver=10039",
+  "epg_channel_id": "serpekSports4.tr",
+  "added": "1718542056",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2699,
+  "name": "KIES: Serpek SP⚽RTS 5 RAW",
+  "stream_type": "live",
+  "stream_id": 772670,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30004.png?ver=10046",
+  "epg_channel_id": "serpekSports5.tr",
+  "added": "1718542056",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2700,
+  "name": "KIES: Serpek SP⚽RTS EXTRA 1 RAW",
+  "stream_type": "live",
+  "stream_id": 772669,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30005.png?ver=10053",
+  "epg_channel_id": "serpekSportsExtra1.tr",
+  "added": "1718542056",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2701,
+  "name": "KIES: Serpek SP⚽RTS EXTRA 2 RAW",
+  "stream_type": "live",
+  "stream_id": 772668,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30006.png?ver=10060",
+  "epg_channel_id": "serpekSportsExtra2.tr",
+  "added": "1718542055",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2702,
+  "name": "KIES: Serpek SP⚽RTS 1 RAW",
+  "stream_type": "live",
+  "stream_id": 772667,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30007.png?ver=10067",
+  "epg_channel_id": "serpekSports1.tr",
+  "added": "1718542055",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2703,
+  "name": "KIES: Serpek SP⚽RTS 2 RAW",
+  "stream_type": "live",
+  "stream_id": 772666,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30008.png?ver=10074",
+  "epg_channel_id": "serpekSports2.tr",
+  "added": "1718542055",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2704,
+  "name": "KIES: Serpek SP⚽RTS 3 RAW",
+  "stream_type": "live",
+  "stream_id": 772665,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30009.png?ver=10081",
+  "epg_channel_id": "serpekSports3.tr",
+  "added": "1718542055",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2705,
+  "name": "KIES: Serpek SP⚽RTS 4 RAW",
+  "stream_type": "live",
+  "stream_id": 772664,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30010.png?ver=10088",
+  "epg_channel_id": "serpekSports4.tr",
+  "added": "1718542055",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2706,
+  "name": "KIES: Serpek SP⚽RTS 5 RAW",
+  "stream_type": "live",
+  "stream_id": 772663,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30011.png?ver=10095",
+  "epg_channel_id": "serpekSports5.tr",
+  "added": "1718542054",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2707,
+  "name": "KIES: Serpek SP⚽RTS 1 RAW",
+  "stream_type": "live",
+  "stream_id": 772662,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30012.png?ver=10102",
+  "epg_channel_id": "serpekSports1.tr",
+  "added": "1718542054",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2708,
+  "name": "KIES: Serpek SP⚽RTS EXTRA 1 RAW",
+  "stream_type": "live",
+  "stream_id": 772661,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30013.png?ver=10109",
+  "epg_channel_id": "serpekSportsExtra1.tr",
+  "added": "1718542054",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2709,
+  "name": "KIES: Serpek SP⚽RTS EXTRA 2 RAW",
+  "stream_type": "live",
+  "stream_id": 772660,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30014.png?ver=10116",
+  "epg_channel_id": "serpekSportsExtra2.tr",
+  "added": "1718542054",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2710,
+  "name": "## TR| SERPEK SPORTS GOLD ᵁᴴᴰ 3840P ##",
+  "stream_type": "live",
+  "stream_id": 772659,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30100.png?ver=10718",
+  "epg_channel_id": "",
+  "added": "1718542054",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2711,
+  "name": "KIES: Serpek SP⚽RTS 1 ᵁᴴᴰ 3840P",
+  "stream_type": "live",
+  "stream_id": 772658,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30101.png?ver=10725",
+  "epg_channel_id": "serpekSports1.tr",
+  "added": "1718542054",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2712,
+  "name": "KIES: Serpek SP⚽RTS 2 ᵁᴴᴰ 3840P",
+  "stream_type": "live",
+  "stream_id": 772657,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30102.png?ver=10732",
+  "epg_channel_id": "serpekSports2.tr",
+  "added": "1718542054",
+  "is_adult": 0,
+  "category_id": "2102",
+  "category_ids": [
+   2102
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2713,
+  "name": "## TR| VOLTEK SPORTS GOLD ʜᴅ ##",
+  "stream_type": "live",
+  "stream_id": 772656,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30200.png?ver=11418",
+  "epg_channel_id": "",
+  "added": "1718541970",
+  "is_adult": 0,
+  "category_id": "2103",
+  "category_ids": [
+   2103
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2714,
+  "name": "KIES: VOLTEK SPORT 1 ʜᴅ",
+  "stream_type": "live",
+  "stream_id": 772655,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30201.png?ver=11425",
+  "epg_channel_id": "",
+  "added": "1718541970",
+  "is_adult": 0,
+  "category_id": "2103",
+  "category_ids": [
+   2103
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2715,
+  "name": "KIES: VOLTEK SPORT 2 ʜᴅ",
+  "stream_type": "live",
+  "stream_id": 772654,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30202.png?ver=11432",
+  "epg_channel_id": "",
+  "added": "1718541970",
+  "is_adult": 0,
+  "category_id": "2103",
+  "category_ids": [
+   2103
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2716,
+  "name": "KIES: VOLTEK SPORT 3 ʜᴅ",
+  "stream_type": "live",
+  "stream_id": 772653,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30203.png?ver=11439",
+  "epg_channel_id": "",
+  "added": "1718541969",
+  "is_adult": 0,
+  "category_id": "2103",
+  "category_ids": [
+   2103
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2717,
+  "name": "KIES: VOLTEK SPORT 4 ʜᴅ",
+  "stream_type": "live",
+  "stream_id": 772652,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30204.png?ver=11446",
+  "epg_channel_id": "",
+  "added": "1718541969",
+  "is_adult": 0,
+  "category_id": "2103",
+  "category_ids": [
+   2103
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2718,
+  "name": "KIES: VOLTEK SPORT 5 ʜᴅ",
+  "stream_type": "live",
+  "stream_id": 772651,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30205.png?ver=11453",
+  "epg_channel_id": "",
+  "added": "1718541969",
+  "is_adult": 0,
+  "category_id": "2103",
+  "category_ids": [
+   2103
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 2719,
+  "name": "KIES: VOLTEK SPORTS 1 ᴴᴰ",
+  "stream_type": "live",
+  "stream_id": 772650,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/30206.png?ver=11460",
+  "epg_channel_id": "",
+  "added": "1718541969",
+  "is_adult": 0,
+  "category_id": "2103",
+  "category_ids": [
+   2103
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5365,
+  "name": "ADULT: SPÄTE LAUBE ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777645,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40000.png?ver=80018",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5366,
+  "name": "ADULT: PLÜSCH TV (S) ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777644,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40001.png?ver=80025",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5367,
+  "name": "ADULT: SAMTBAND TV (H) ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777643,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40002.png?ver=80032",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5368,
+  "name": "ADULT: SPÄTSCHICHT TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777641,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40003.png?ver=80039",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5369,
+  "name": "ADULT: KAMINFEUER ADULTS TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777640,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40004.png?ver=80046",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5370,
+  "name": "ADULT: KAMINFEUER TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777639,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40005.png?ver=80053",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5371,
+  "name": "ADULT: KOBALT TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777638,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40006.png?ver=80060",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5372,
+  "name": "ADULT: EULENRUF TV 2 ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777637,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40007.png?ver=80067",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5373,
+  "name": "ADULT: SCHLÜSSELLOCH TV (H) ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777636,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40008.png?ver=80074",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5374,
+  "name": "ADULT: KERZENSCHEIN TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777635,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40009.png?ver=80081",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5375,
+  "name": "ADULT: KERZENSCHEIN 2 TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777634,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40010.png?ver=80088",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5376,
+  "name": "ADULT: ROSENBETT ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777633,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40011.png?ver=80095",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5377,
+  "name": "ADULT: ROSENBETT TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777632,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40012.png?ver=80102",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5378,
+  "name": "ADULT: SEIDENSCHAL TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777631,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40013.png?ver=80109",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5379,
+  "name": "ADULT: LOGE-X TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777630,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40014.png?ver=80116",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5380,
+  "name": "ADULT: BELLINA ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777629,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40015.png?ver=80123",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5381,
+  "name": "ADULT: BELLINA RED ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777628,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40016.png?ver=80130",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5382,
+  "name": "ADULT: BELLINA TOUCH ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777627,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40017.png?ver=80137",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5383,
+  "name": "ADULT: DAMENWAHL TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777626,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40018.png?ver=80144",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5384,
+  "name": "ADULT: Z7-KURIOS TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777625,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40019.png?ver=80151",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5385,
+  "name": "ADULT: ZINNOBER ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777624,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40020.png?ver=80158",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5386,
+  "name": "ADULT: ÜPPIG (H) ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777623,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40021.png?ver=80165",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5387,
+  "name": "ADULT: SPÄTKINO SAAL 1 ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777622,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40022.png?ver=80172",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5388,
+  "name": "ADULT: LUNETTA TV ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777621,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40023.png?ver=80179",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ },
+ {
+  "num": 5389,
+  "name": "ADULT: KANAL ROSÉ 4 ᴿᴬᵂ",
+  "stream_type": "live",
+  "stream_id": 777620,
+  "stream_icon": "http://logos.iptv.example/stalker/misc/logos/320/40024.png?ver=80186",
+  "epg_channel_id": "",
+  "added": "1747766428",
+  "is_adult": 1,
+  "category_id": "2199",
+  "category_ids": [
+   2199
+  ],
+  "custom_sid": null,
+  "tv_archive": 0,
+  "direct_source": "",
+  "tv_archive_duration": 0
+ }
+]

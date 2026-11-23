@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8105",
+   "name": "LaLiga (Spain)",
+   "abbreviation": "LaLiga",
+   "midsizeName": "ESP.1",
+   "slug": "esp.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001023",
+   "date": "2030-08-17T19:00Z",
+   "name": "Villarroble at Montealba CF",
+   "shortName": "VIL @ MON",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "MON",
+        "displayName": "Montealba CF",
+        "shortDisplayName": "Montealba",
+        "name": "Montealba CF",
+        "location": "Montealba CF"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "VIL",
+        "displayName": "Villarroble",
+        "shortDisplayName": "Villarroble",
+        "name": "Villarroble",
+        "location": "Villarroble"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

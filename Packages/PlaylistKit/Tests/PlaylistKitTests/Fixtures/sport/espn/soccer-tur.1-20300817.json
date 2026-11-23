@@ -1,0 +1,130 @@
+{
+ "leagues": [
+  {
+   "id": "8101",
+   "name": "Süper Lig (Türkiye)",
+   "abbreviation": "Süper Lig",
+   "midsizeName": "TUR.1",
+   "slug": "tur.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001001",
+   "date": "2030-08-17T14:00Z",
+   "name": "Bulutköyspor at Yelkenspor",
+   "shortName": "BUL @ YEL",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "YEL",
+        "displayName": "Yelkenspor",
+        "shortDisplayName": "Yelken",
+        "name": "Yelkenspor",
+        "location": "Yelkenspor"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "BUL",
+        "displayName": "Bulutköyspor",
+        "shortDisplayName": "Bulutköy",
+        "name": "Bulutköyspor",
+        "location": "Bulutköyspor"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001002",
+   "date": "2030-08-17T17:00Z",
+   "name": "Dumanlıspor at Kervanspor",
+   "shortName": "DUM @ KER",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "KER",
+        "displayName": "Kervanspor",
+        "shortDisplayName": "Kervan",
+        "name": "Kervanspor",
+        "location": "Kervanspor"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "DUM",
+        "displayName": "Dumanlıspor",
+        "shortDisplayName": "Dumanlı",
+        "name": "Dumanlıspor",
+        "location": "Dumanlıspor"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001003",
+   "date": "2030-08-17T17:00Z",
+   "name": "Kızılkayaspor at Taşlıyurtspor",
+   "shortName": "KIZ @ TAS",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "TAS",
+        "displayName": "Taşlıyurtspor",
+        "shortDisplayName": "Taşlıyurt",
+        "name": "Taşlıyurtspor",
+        "location": "Taşlıyurtspor"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "KIZ",
+        "displayName": "Kızılkayaspor",
+        "shortDisplayName": "Kızılkaya",
+        "name": "Kızılkayaspor",
+        "location": "Kızılkayaspor"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,351 @@
+{
+  "Items": [
+    {
+      "Name": "Die Zaske-Greins",
+      "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+      "Id": "ef881d8b9fc62c1a9eb2a733ee4545a1",
+      "DateCreated": "2026-08-03T18:56:24.4112455Z",
+      "Container": "mkv",
+      "SortName": "001 - 0016 - Die Zaske-Greins",
+      "PremiereDate": "1997-03-29T22:00:00.0000000Z",
+      "ChannelId": null,
+      "Overview": "Ein Stubliflok fruvo gatbloji sten Gafak, die glia Giviat um trokoble Zijou getskan.",
+      "Genres": [],
+      "CommunityRating": 7.364,
+      "RunTimeTicks": 10322440000,
+      "ProductionYear": 1997,
+      "IndexNumber": 16,
+      "ParentIndexNumber": 1,
+      "ProviderIds": {
+        "Imdb": "tt5321384",
+        "TvRage": "379842",
+        "Tvdb": "490038"
+      },
+      "IsFolder": false,
+      "Type": "Episode",
+      "Studios": [],
+      "GenreItems": [],
+      "ParentLogoItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentBackdropItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentBackdropImageTags": [
+        "e5e40413943b6350ce8aebc759d5caed"
+      ],
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "77543992784",
+        "ItemId": "ef881d8b9fc62c1a9eb2a733ee4545a1"
+      },
+      "SeriesName": "The Skifle Spo",
+      "SeriesId": "63f7431ab0d8664d51281d212a89c396",
+      "SeasonId": "b05ee5045797c552586e7df75369e7cd",
+      "SeriesPrimaryImageTag": "bcdac47678bac3479c389405d57183d7",
+      "SeasonName": "Staffel 1",
+      "VideoType": "VideoFile",
+      "ImageTags": {
+        "Primary": "e87c836ac3cfe76c89416fd4a568f567"
+      },
+      "BackdropImageTags": [],
+      "ParentLogoImageTag": "963eec6457e7396b2ab70f1a08d941ba",
+      "ImageBlurHashes": {
+        "Primary": {
+          "e87c836ac3cfe76c89416fd4a568f567": "WCASJWs*xs}sxB={%LsVoLX7sVxG9[s;soSKX9NaR*WBoMw|jFJR",
+          "bcdac47678bac3479c389405d57183d7": "dRFX3k;,MzxZ={wON3kV0#NeS4W=RDW;t2WEIpSz%Ljc"
+        },
+        "Logo": {
+          "963eec6457e7396b2ab70f1a08d941ba": "W+O43ixuD%oft7RjIU%MxuWBj[Rj00ayIUofoffQofRjxuayWBof"
+        },
+        "Thumb": {
+          "6b5b1b6f72c4607991269aa3f5a7871f": "WLFqw%8{%1?ID%%N4}?IInR*xuRk0eOaoHRPXnRj^6OV$%n8NIxZ"
+        },
+        "Backdrop": {
+          "e5e40413943b6350ce8aebc759d5caed": "WjGJdHxaGITKRktm?^o#MyWCsln%yDkCMxWCs,nOx^jYRkX9t7ju"
+        }
+      },
+      "ParentThumbItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentThumbImageTag": "6b5b1b6f72c4607991269aa3f5a7871f",
+      "LocationType": "FileSystem",
+      "MediaType": "Video"
+    },
+    {
+      "Name": "Geistrio Drouz",
+      "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+      "Id": "db45694bdec94a75750d74608e32de5d",
+      "DateCreated": "2026-08-03T18:58:26.2996966Z",
+      "Container": "mkv",
+      "SortName": "001 - 0017 - Geistrio Drouz",
+      "PremiereDate": "1997-04-05T22:00:00.0000000Z",
+      "ChannelId": null,
+      "Overview": "Eine Giatsi Glesonze gluh im Bluwio hosku Sianpruk krego, das sto gliaje nicht wanber. Eine tete Geinsustaur ginj einen cegi Blamis slupuzen, bluzi der Leiple frisu.",
+      "Genres": [],
+      "CommunityRating": 8.569,
+      "RunTimeTicks": 13306710000,
+      "ProductionYear": 1997,
+      "IndexNumber": 17,
+      "ParentIndexNumber": 1,
+      "ProviderIds": {
+        "Imdb": "tt8578155",
+        "TvRage": "509077",
+        "Tvdb": "870762"
+      },
+      "IsFolder": false,
+      "Type": "Episode",
+      "Studios": [],
+      "GenreItems": [],
+      "ParentLogoItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentBackdropItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentBackdropImageTags": [
+        "e5e40413943b6350ce8aebc759d5caed"
+      ],
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "84795931203",
+        "ItemId": "db45694bdec94a75750d74608e32de5d"
+      },
+      "SeriesName": "The Skifle Spo",
+      "SeriesId": "63f7431ab0d8664d51281d212a89c396",
+      "SeasonId": "b05ee5045797c552586e7df75369e7cd",
+      "SeriesPrimaryImageTag": "bcdac47678bac3479c389405d57183d7",
+      "SeasonName": "Staffel 1",
+      "VideoType": "VideoFile",
+      "ImageTags": {
+        "Primary": "c962578b44f6d748e7ccbab4dcfb243b"
+      },
+      "BackdropImageTags": [],
+      "ParentLogoImageTag": "963eec6457e7396b2ab70f1a08d941ba",
+      "ImageBlurHashes": {
+        "Primary": {
+          "c962578b44f6d748e7ccbab4dcfb243b": "W97wpNxv029rtK=#xHt7NtM{wcoym.WAk:n,VtX4XTofrqM{Nut8",
+          "bcdac47678bac3479c389405d57183d7": "dRFX3k;,MzxZ={wON3kV0#NeS4W=RDW;t2WEIpSz%Ljc"
+        },
+        "Logo": {
+          "963eec6457e7396b2ab70f1a08d941ba": "W+O43ixuD%oft7RjIU%MxuWBj[Rj00ayIUofoffQofRjxuayWBof"
+        },
+        "Thumb": {
+          "6b5b1b6f72c4607991269aa3f5a7871f": "WLFqw%8{%1?ID%%N4}?IInR*xuRk0eOaoHRPXnRj^6OV$%n8NIxZ"
+        },
+        "Backdrop": {
+          "e5e40413943b6350ce8aebc759d5caed": "WjGJdHxaGITKRktm?^o#MyWCsln%yDkCMxWCs,nOx^jYRkX9t7ju"
+        }
+      },
+      "ParentThumbItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentThumbImageTag": "6b5b1b6f72c4607991269aa3f5a7871f",
+      "LocationType": "FileSystem",
+      "MediaType": "Video"
+    },
+    {
+      "Name": "Kon sli Grasoust",
+      "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+      "Id": "5b4005705da6ab135deec185cf546a2c",
+      "DateCreated": "2026-08-03T21:00:40.0425595Z",
+      "Container": "mkv",
+      "SortName": "002 - 0001 - Kon sli Grasoust",
+      "PremiereDate": "1997-08-08T22:00:00.0000000Z",
+      "ChannelId": null,
+      "Overview": "In einer Jocio aus Caut nikri ein Klenis nach dem einen Wepriat, das venst cebag doskr.",
+      "Genres": [],
+      "CommunityRating": 8.429,
+      "RunTimeTicks": 12566500000,
+      "ProductionYear": 1997,
+      "IndexNumber": 1,
+      "ParentIndexNumber": 2,
+      "ProviderIds": {
+        "Imdb": "tt2381791",
+        "TvRage": "862432",
+        "Tvdb": "696616"
+      },
+      "IsFolder": false,
+      "Type": "Episode",
+      "Studios": [],
+      "GenreItems": [],
+      "ParentLogoItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentBackdropItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentBackdropImageTags": [
+        "e5e40413943b6350ce8aebc759d5caed"
+      ],
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "45297938080",
+        "ItemId": "5b4005705da6ab135deec185cf546a2c"
+      },
+      "SeriesName": "The Skifle Spo",
+      "SeriesId": "63f7431ab0d8664d51281d212a89c396",
+      "SeasonId": "dc321196dc9710af011dfce618181fa8",
+      "SeriesPrimaryImageTag": "bcdac47678bac3479c389405d57183d7",
+      "SeasonName": "Staffel 2",
+      "VideoType": "VideoFile",
+      "ImageTags": {
+        "Primary": "b8798a80a364581b1e11a7dd4f7445c6"
+      },
+      "BackdropImageTags": [],
+      "ParentLogoImageTag": "963eec6457e7396b2ab70f1a08d941ba",
+      "ImageBlurHashes": {
+        "Primary": {
+          "b8798a80a364581b1e11a7dd4f7445c6": "WCAvRlS~9s+usqKO}+s.SQ%2adInogxHs9o{ocrw$+Rkt3$~s:s:",
+          "bcdac47678bac3479c389405d57183d7": "dRFX3k;,MzxZ={wON3kV0#NeS4W=RDW;t2WEIpSz%Ljc"
+        },
+        "Logo": {
+          "963eec6457e7396b2ab70f1a08d941ba": "W+O43ixuD%oft7RjIU%MxuWBj[Rj00ayIUofoffQofRjxuayWBof"
+        },
+        "Thumb": {
+          "6b5b1b6f72c4607991269aa3f5a7871f": "WLFqw%8{%1?ID%%N4}?IInR*xuRk0eOaoHRPXnRj^6OV$%n8NIxZ"
+        },
+        "Backdrop": {
+          "e5e40413943b6350ce8aebc759d5caed": "WjGJdHxaGITKRktm?^o#MyWCsln%yDkCMxWCs,nOx^jYRkX9t7ju"
+        }
+      },
+      "ParentThumbItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentThumbImageTag": "6b5b1b6f72c4607991269aa3f5a7871f",
+      "LocationType": "FileSystem",
+      "MediaType": "Video"
+    },
+    {
+      "Name": "Kengai glu gli Slivai",
+      "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+      "Id": "cfba61eeb2b19ff490cc20550706bacb",
+      "DateCreated": "2026-08-03T21:01:14.9553758Z",
+      "Container": "mkv",
+      "SortName": "002 - 0002 - Kengai glu gli Slivai",
+      "PremiereDate": "1997-08-15T22:00:00.0000000Z",
+      "ChannelId": null,
+      "Overview": "Auf einer jonbli Fasvo slunbozoum Kiodru, und zaistra pios krego klettek krush. In einer Jocio aus Caut nikri ein Klenis nach dem einen Wepriat, das venst cebag doskr.",
+      "Genres": [],
+      "CommunityRating": 8.015,
+      "RunTimeTicks": 11476567651,
+      "ProductionYear": 1997,
+      "IndexNumber": 2,
+      "ParentIndexNumber": 2,
+      "ProviderIds": {
+        "Imdb": "tt4720614",
+        "TvRage": "378585",
+        "Tvdb": "477293"
+      },
+      "IsFolder": false,
+      "Type": "Episode",
+      "Studios": [],
+      "GenreItems": [],
+      "ParentLogoItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentBackdropItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentBackdropImageTags": [
+        "e5e40413943b6350ce8aebc759d5caed"
+      ],
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "26121316052",
+        "ItemId": "cfba61eeb2b19ff490cc20550706bacb"
+      },
+      "SeriesName": "The Skifle Spo",
+      "SeriesId": "63f7431ab0d8664d51281d212a89c396",
+      "SeasonId": "dc321196dc9710af011dfce618181fa8",
+      "SeriesPrimaryImageTag": "bcdac47678bac3479c389405d57183d7",
+      "SeasonName": "Staffel 2",
+      "VideoType": "VideoFile",
+      "ImageTags": {
+        "Primary": "dabd35f888dd7f38c22ccbec22e8f943"
+      },
+      "BackdropImageTags": [],
+      "ParentLogoImageTag": "963eec6457e7396b2ab70f1a08d941ba",
+      "ImageBlurHashes": {
+        "Primary": {
+          "dabd35f888dd7f38c22ccbec22e8f943": "WCB2}lpIRi$fSi-V~Vt7IUV?t7kDJ:snM{Ris:OGb_$%s.s.oJSP",
+          "bcdac47678bac3479c389405d57183d7": "dRFX3k;,MzxZ={wON3kV0#NeS4W=RDW;t2WEIpSz%Ljc"
+        },
+        "Logo": {
+          "963eec6457e7396b2ab70f1a08d941ba": "W+O43ixuD%oft7RjIU%MxuWBj[Rj00ayIUofoffQofRjxuayWBof"
+        },
+        "Thumb": {
+          "6b5b1b6f72c4607991269aa3f5a7871f": "WLFqw%8{%1?ID%%N4}?IInR*xuRk0eOaoHRPXnRj^6OV$%n8NIxZ"
+        },
+        "Backdrop": {
+          "e5e40413943b6350ce8aebc759d5caed": "WjGJdHxaGITKRktm?^o#MyWCsln%yDkCMxWCs,nOx^jYRkX9t7ju"
+        }
+      },
+      "ParentThumbItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentThumbImageTag": "6b5b1b6f72c4607991269aa3f5a7871f",
+      "LocationType": "FileSystem",
+      "MediaType": "Video"
+    },
+    {
+      "Name": "Das Fegle-Glija",
+      "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+      "Id": "97b2d4107a08f80ce7588cabea27554f",
+      "DateCreated": "2026-08-03T21:02:04.461259Z",
+      "Container": "mkv",
+      "SortName": "002 - 0003 - Das Fegle-Glija",
+      "PremiereDate": "1997-08-22T22:00:00.0000000Z",
+      "ChannelId": null,
+      "Overview": "Ein fetre Griozogli braidrol in den Gaisiafa sliatf Jocio eine Fletk, die es nicht fresk reblat.",
+      "Genres": [],
+      "CommunityRating": 7.591,
+      "RunTimeTicks": 11824077220,
+      "ProductionYear": 1997,
+      "IndexNumber": 3,
+      "ParentIndexNumber": 2,
+      "ProviderIds": {
+        "Imdb": "tt8719441",
+        "TvRage": "162633",
+        "Tvdb": "291504"
+      },
+      "IsFolder": false,
+      "Type": "Episode",
+      "Studios": [],
+      "GenreItems": [],
+      "ParentLogoItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentBackdropItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentBackdropImageTags": [
+        "e5e40413943b6350ce8aebc759d5caed"
+      ],
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "32608458445",
+        "ItemId": "97b2d4107a08f80ce7588cabea27554f"
+      },
+      "SeriesName": "The Skifle Spo",
+      "SeriesId": "63f7431ab0d8664d51281d212a89c396",
+      "SeasonId": "dc321196dc9710af011dfce618181fa8",
+      "SeriesPrimaryImageTag": "bcdac47678bac3479c389405d57183d7",
+      "SeasonName": "Staffel 2",
+      "VideoType": "VideoFile",
+      "ImageTags": {
+        "Primary": "7efe989d25d234756f48e9b14382930b"
+      },
+      "BackdropImageTags": [],
+      "ParentLogoImageTag": "963eec6457e7396b2ab70f1a08d941ba",
+      "ImageBlurHashes": {
+        "Primary": {
+          "7efe989d25d234756f48e9b14382930b": "W57Ae[VZI:Ki5qcW$zt6IpV@$#RQ0ftjRnid^NVaxuM}xtXkE4%L",
+          "bcdac47678bac3479c389405d57183d7": "dRFX3k;,MzxZ={wON3kV0#NeS4W=RDW;t2WEIpSz%Ljc"
+        },
+        "Logo": {
+          "963eec6457e7396b2ab70f1a08d941ba": "W+O43ixuD%oft7RjIU%MxuWBj[Rj00ayIUofoffQofRjxuayWBof"
+        },
+        "Thumb": {
+          "6b5b1b6f72c4607991269aa3f5a7871f": "WLFqw%8{%1?ID%%N4}?IInR*xuRk0eOaoHRPXnRj^6OV$%n8NIxZ"
+        },
+        "Backdrop": {
+          "e5e40413943b6350ce8aebc759d5caed": "WjGJdHxaGITKRktm?^o#MyWCsln%yDkCMxWCs,nOx^jYRkX9t7ju"
+        }
+      },
+      "ParentThumbItemId": "63f7431ab0d8664d51281d212a89c396",
+      "ParentThumbImageTag": "6b5b1b6f72c4607991269aa3f5a7871f",
+      "LocationType": "FileSystem",
+      "MediaType": "Video"
+    }
+  ],
+  "TotalRecordCount": 5,
+  "StartIndex": 0
+}

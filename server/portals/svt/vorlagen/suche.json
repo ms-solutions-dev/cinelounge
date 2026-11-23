@@ -1,0 +1,130 @@
+{
+ "searchPage": {
+  "flat": {
+   "hits": [
+    {
+     "teaser": null
+    },
+    {
+     "teaser": null
+    },
+    {
+     "teaser": null
+    },
+    {
+     "teaser": {
+      "item": {
+       "__typename": "TvSeries",
+       "id": "pEcjRXv",
+       "svtId": "pEcjRXv",
+       "name": "Vildmarkens år",
+       "shortDescription": "Naturdokumentärserie",
+       "image": {
+        "id": "59484352",
+        "changed": 1787484402
+       },
+       "urls": {
+        "svtplay": "/vildmarkens-ar"
+       },
+       "restrictions": {
+        "onlyAvailableInSweden": false
+       }
+      }
+     }
+    },
+    {
+     "teaser": {
+      "item": {
+       "__typename": "TvShow",
+       "id": "ATHiVFO",
+       "svtId": "ATHiVFO",
+       "name": "Mossa och sten",
+       "shortDescription": "Naturprogram",
+       "image": {
+        "id": "59593089",
+        "changed": 1789519077
+       },
+       "urls": {
+        "svtplay": "/mossa-och-sten"
+       },
+       "restrictions": {
+        "onlyAvailableInSweden": false
+       }
+      }
+     }
+    },
+    {
+     "teaser": null
+    },
+    {
+     "teaser": {
+      "item": {
+       "__typename": "TvSeries",
+       "id": "tWiqgEn",
+       "svtId": "tWiqgEn",
+       "name": "Naturens under",
+       "shortDescription": "Naturserie",
+       "image": {
+        "id": "59670796",
+        "changed": 1788053791
+       },
+       "urls": {
+        "svtplay": "/naturens-under"
+       },
+       "restrictions": {
+        "onlyAvailableInSweden": true
+       }
+      }
+     }
+    },
+    {
+     "teaser": {
+      "item": {
+       "__typename": "Single",
+       "id": "6939417-001",
+       "svtId": "HJh8L0f",
+       "name": "Barkbilder",
+       "shortDescription": "Naturprogram",
+       "image": {
+        "id": "59359354",
+        "changed": 1787505255
+       },
+       "urls": {
+        "svtplay": "/video/HJh8L0f/barkbilder"
+       },
+       "restrictions": {
+        "onlyAvailableInSweden": false
+       },
+       "duration": 1740
+      }
+     }
+    },
+    {
+     "teaser": {
+      "item": {
+       "__typename": "Single",
+       "id": "6497528-001",
+       "svtId": "gspmAV2",
+       "name": "Kanoten",
+       "shortDescription": "Kortfilm",
+       "image": {
+        "id": "59594274",
+        "changed": 1789481763
+       },
+       "urls": {
+        "svtplay": "/video/gspmAV2/kanoten"
+       },
+       "restrictions": {
+        "onlyAvailableInSweden": true
+       },
+       "duration": 900
+      }
+     }
+    },
+    {
+     "teaser": null
+    }
+   ]
+  }
+ }
+}

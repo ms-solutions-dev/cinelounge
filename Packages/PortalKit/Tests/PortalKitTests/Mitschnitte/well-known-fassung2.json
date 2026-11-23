@@ -1,0 +1,1 @@
+{"name":"Wohnzimmer","version":"0.1.0","api":[1,2],"languages":["de","en","tr"],"auth":"pin","setup_required":false,"setup_code_armed":false,"capabilities":["household","join","portals","state","stream"]}

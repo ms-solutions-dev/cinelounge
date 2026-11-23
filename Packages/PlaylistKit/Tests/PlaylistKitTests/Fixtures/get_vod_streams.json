@@ -1,0 +1,902 @@
+[
+ {
+  "num": 1,
+  "name": "DE - The Velvet Ledger (2019)",
+  "stream_type": "movie",
+  "stream_id": 880322,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/tb058koY0rl8CHwSzmkV8XjDfvs.jpg",
+  "rating": "6.427",
+  "rating_5based": 3.2,
+  "tmdb": "990000101",
+  "trailer": "demoej1f6zd",
+  "added": "1785086880",
+  "is_adult": 0,
+  "category_id": "3101",
+  "category_ids": [
+   3101
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 2,
+  "name": "DE - Kupferflut (2022)",
+  "stream_type": "movie",
+  "stream_id": 880320,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/LftjzZAQniyL7iN4fmVnZ2ubqWE.jpg",
+  "rating": "6.09",
+  "rating_5based": 3,
+  "tmdb": "990000102",
+  "trailer": "demo7bntH6A",
+  "added": "1785086880",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 3,
+  "name": "DE - The Quillmore (2026)",
+  "stream_type": "movie",
+  "stream_id": 880174,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/Bw6QQZKm1WnXThthB45Z4FJVeBi.jpg",
+  "rating": "6.375",
+  "rating_5based": 3.2,
+  "tmdb": "990000103",
+  "trailer": "demoeDeVMPy",
+  "added": "1785070800",
+  "is_adult": 0,
+  "category_id": "3103",
+  "category_ids": [
+   3103
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 4,
+  "name": "DE - Ein Herbst mit Lotte (2026)",
+  "stream_type": "movie",
+  "stream_id": 880172,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/wCWhgd6gGquMX2ViOhoQjBHpA5Q.jpg",
+  "rating": "4.4",
+  "rating_5based": 2.2,
+  "tmdb": "990000104",
+  "trailer": "",
+  "added": "1785070800",
+  "is_adult": 0,
+  "category_id": "3101",
+  "category_ids": [
+   3101
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 5,
+  "name": "DE - Under the Saltworks (2026)",
+  "stream_type": "movie",
+  "stream_id": 880171,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/OpJViQ8nNE90pwi1SxWG5EnE3Jl.jpg",
+  "rating": "7.549",
+  "rating_5based": 3.8,
+  "tmdb": "990000105",
+  "trailer": "democMW7N2h",
+  "added": "1785070800",
+  "is_adult": 0,
+  "category_id": "3104",
+  "category_ids": [
+   3104
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 6,
+  "name": "DE - Ferngrove Hall (2022)",
+  "stream_type": "movie",
+  "stream_id": 880170,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/tAb8tPyZgD6EqZ020JnRMR8jKJ4.jpg",
+  "rating": "5.043",
+  "rating_5based": 2.5,
+  "tmdb": "990000106",
+  "trailer": "demot41567M",
+  "added": "1785070800",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 7,
+  "name": "DE - Wenzel und der Zinnsoldat (2026)",
+  "stream_type": "movie",
+  "stream_id": 880169,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/S0pGHEM7udhhYQEnoQVYT3PaCnH.jpg",
+  "rating": "6.449",
+  "rating_5based": 3.2,
+  "tmdb": "990000107",
+  "trailer": "democNtlmka",
+  "added": "1785070800",
+  "is_adult": 0,
+  "category_id": "3104",
+  "category_ids": [
+   3104
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 8,
+  "name": "DE - Odila: Ein Sommer in Lärchenau (2026)",
+  "stream_type": "movie",
+  "stream_id": 880168,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/rGxIXaSfZ7R3MzbBaDuMidaoIRY.jpg",
+  "rating": "6.53",
+  "rating_5based": 3.3,
+  "tmdb": "990000108",
+  "trailer": "",
+  "added": "1785070800",
+  "is_adult": 0,
+  "category_id": "3101",
+  "category_ids": [
+   3101
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 9,
+  "name": "DE - Die Gärtnerin von Kalmbach (2026)",
+  "stream_type": "movie",
+  "stream_id": 880167,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/Xq1621eFsFB8K4CK1KGNTs8IKOX.jpg",
+  "rating": "5.8",
+  "rating_5based": 2.9,
+  "tmdb": "990000109",
+  "trailer": "",
+  "added": "1785070800",
+  "is_adult": 0,
+  "category_id": "3104",
+  "category_ids": [
+   3104
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 10,
+  "name": "DE - Morrow Point: Die Rückkehr der Fähre (2026)",
+  "stream_type": "movie",
+  "stream_id": 880166,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/wA7Rp7Folx6bKgJFyAkrymgqVkX.jpg",
+  "rating": "7.31",
+  "rating_5based": 3.7,
+  "tmdb": "990000110",
+  "trailer": "demoXvXPnoE",
+  "added": "1785070800",
+  "is_adult": 0,
+  "category_id": "3104",
+  "category_ids": [
+   3104
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 11,
+  "name": "DE - 40 ZINNKRÜGE (2026)",
+  "stream_type": "movie",
+  "stream_id": 880165,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/2l1t3OA1mQo8lt0wugyFHVXYkL3.jpg",
+  "rating": "6.2",
+  "rating_5based": 3.1,
+  "tmdb": "990000111",
+  "trailer": "demo2On7POT",
+  "added": "1785070800",
+  "is_adult": 0,
+  "category_id": "3101",
+  "category_ids": [
+   3101
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 12,
+  "name": "DE - Demo Cup 2026 Halbfinale: Nordland Vs Südland",
+  "stream_type": "movie",
+  "stream_id": 879983,
+  "stream_icon": "https://logos.iptv.example/stalker/misc/logos/320/59983.png?ver=19917",
+  "rating": "",
+  "rating_5based": "0",
+  "tmdb": "",
+  "trailer": "",
+  "added": "1784636280",
+  "is_adult": 0,
+  "category_id": "3105",
+  "category_ids": [
+   3105
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 13,
+  "name": "DE - Demo Cup 2026 Halbfinale: Westland Vs Ostland",
+  "stream_type": "movie",
+  "stream_id": 879982,
+  "stream_icon": "https://logos.iptv.example/stalker/misc/logos/320/59982.png?ver=19910",
+  "rating": "",
+  "rating_5based": "0",
+  "tmdb": "",
+  "trailer": "",
+  "added": "1784636280",
+  "is_adult": 0,
+  "category_id": "3105",
+  "category_ids": [
+   3105
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 14,
+  "name": "DE - The Marrowfield Supper (2016)",
+  "stream_type": "movie",
+  "stream_id": 878687,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/dsh2fzFHIZiAUy6acF4HwdS35be.jpg",
+  "rating": "6.42",
+  "rating_5based": 3.2,
+  "tmdb": "990000114",
+  "trailer": "demoxa6dPox",
+  "added": "1784583240",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 15,
+  "name": "4K-DE - Quiet Harbor (2026)",
+  "stream_type": "movie",
+  "stream_id": 878686,
+  "stream_icon": "https://logos.iptv.example/stalker/misc/logos/320/58686.png?ver=10838",
+  "rating": "6",
+  "rating_5based": 3,
+  "tmdb": "990000115",
+  "trailer": "demo6Etn7wC",
+  "added": "1784583240",
+  "is_adult": 0,
+  "category_id": "3106",
+  "category_ids": [
+   3106
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 13780,
+  "name": "DE - Señora Ibáñez pflanzt Zitronen",
+  "stream_type": "movie",
+  "stream_id": 84888,
+  "stream_icon": "http://cdn.iptv.example:80/images/koP9fpR6R4PmJGdKhNyuqkSADvT_big.jpg",
+  "rating": "6.9",
+  "rating_5based": 3.5,
+  "tmdb": 990000116,
+  "trailer": "",
+  "added": "1580610398",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 13781,
+  "name": "DE - Gallowmere - Erst Regen. Dann Ruhe.",
+  "stream_type": "movie",
+  "stream_id": 84897,
+  "stream_icon": "http://cdn.iptv.example:80/images/0ya6P6N6ZQHBPd0pEVs4ZKX5puu_big.jpg",
+  "rating": "5",
+  "rating_5based": 2.5,
+  "tmdb": 990000117,
+  "trailer": "demo8BDncpJ",
+  "added": "1580610401",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 13782,
+  "name": "DE - Der Schrank von Tante Wilma  (1972)",
+  "stream_type": "movie",
+  "stream_id": 13033,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/t8bvdNsGsiMVsDcujvoLZigEl4O.jpg",
+  "rating": "6",
+  "rating_5based": 3,
+  "tmdb": 990000118,
+  "trailer": "",
+  "added": "1576168999",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mp4",
+  "custom_sid": "",
+  "direct_source": ""
+ },
+ {
+  "num": 13783,
+  "name": "DE - Quarry Lights",
+  "stream_type": "movie",
+  "stream_id": 84900,
+  "stream_icon": "http://cdn.iptv.example:80/images/LZ6lKvZqKcPBTxEYLgxXW3zOwrT_big.jpg",
+  "rating": "3.1",
+  "rating_5based": 1.6,
+  "tmdb": 990000119,
+  "trailer": "",
+  "added": "1580610402",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 13784,
+  "name": "DE - Hollowbrook",
+  "stream_type": "movie",
+  "stream_id": 84902,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/HegJBWLUvHJvWeY648XHzMMPFlw.jpg",
+  "rating": "4.278",
+  "rating_5based": 2.1,
+  "tmdb": "990000120",
+  "trailer": "",
+  "added": "1580610360",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 13785,
+  "name": "DE - Kettle Point - Night of the Ferrymen",
+  "stream_type": "movie",
+  "stream_id": 84903,
+  "stream_icon": "http://cdn.iptv.example:80/images/5mql2HY5SlLaBoMxkyo530u035B_big.jpg",
+  "rating": "4.2",
+  "rating_5based": 2.1,
+  "tmdb": 990000121,
+  "trailer": "",
+  "added": "1580610403",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 13786,
+  "name": "DE - Quendel 5: Copper Hill",
+  "stream_type": "movie",
+  "stream_id": 84904,
+  "stream_icon": "http://cdn.iptv.example:80/images/pJZmIepUX8DlCGZkNfyP0hTZ5o1_big.jpg",
+  "rating": "4.5",
+  "rating_5based": 2.3,
+  "tmdb": 990000122,
+  "trailer": "demo49yZtQr",
+  "added": "1580610403",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 13787,
+  "name": "DE - Quendel 6 - Ashen Bay",
+  "stream_type": "movie",
+  "stream_id": 84905,
+  "stream_icon": "http://cdn.iptv.example:80/images/jFZ3bx1ofjKfAhdSPs2OO4uV3p2_big.jpg",
+  "rating": "4.2",
+  "rating_5based": 2.1,
+  "tmdb": 990000123,
+  "trailer": "",
+  "added": "1580610403",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 13788,
+  "name": "DE - Tilda and the Weathervane",
+  "stream_type": "movie",
+  "stream_id": 84906,
+  "stream_icon": "http://cdn.iptv.example:80/images/yue4ep2S1jATmcn4G1X6ENpADaX_big.jpg",
+  "rating": "7.5",
+  "rating_5based": 3.8,
+  "tmdb": 990000124,
+  "trailer": "demoJYvfJsA",
+  "added": "1580610404",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 13789,
+  "name": "DE - Wumpel!  (2019)",
+  "stream_type": "movie",
+  "stream_id": 84907,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/kAL9tOblPq7wPOxYr8X9yNQjfvf.jpg",
+  "rating": "7.1",
+  "rating_5based": 3.6,
+  "tmdb": 990000125,
+  "trailer": "demoU9e7HR9",
+  "added": "1580610404",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 13790,
+  "name": "DE - Rostmühle - Ein Dorf. Ein Winter. Ein Ofen.",
+  "stream_type": "movie",
+  "stream_id": 84908,
+  "stream_icon": "http://cdn.iptv.example:80/images/iTN1mliOFiAolSxWHp5CvHd94N5_big.jpg",
+  "rating": "4.4",
+  "rating_5based": 2.2,
+  "tmdb": 990000126,
+  "trailer": "",
+  "added": "1580610404",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 13791,
+  "name": "DE - Brackwater Cottage  (2019)",
+  "stream_type": "movie",
+  "stream_id": 84909,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/ZmDeKaS3lK3jCsAZqqcxHREg11o.jpg",
+  "rating": "5.2",
+  "rating_5based": 2.6,
+  "tmdb": 990000127,
+  "trailer": "demos8mm8xr",
+  "added": "1580610405",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 13792,
+  "name": "DE - Brackwater Cottage",
+  "stream_type": "movie",
+  "stream_id": 13035,
+  "stream_icon": "http://cdn.iptv.example:80/images/rLaEY0NvqXHgteQrMMsA6YPoE9g_big.jpg",
+  "rating": "5.3",
+  "rating_5based": 2.7,
+  "tmdb": 990000127,
+  "trailer": "demoJBEaGVL",
+  "added": "1576168999",
+  "is_adult": 0,
+  "category_id": "3102",
+  "category_ids": [
+   3102
+  ],
+  "container_extension": "mp4",
+  "custom_sid": "",
+  "direct_source": ""
+ },
+ {
+  "num": 13793,
+  "name": "DE - Plumfield Inquiries",
+  "stream_type": "movie",
+  "stream_id": 84910,
+  "stream_icon": "http://cdn.iptv.example:80/images/snlVZzgHnS4d8tQxz4vTZyeQ0JM_big.jpg",
+  "rating": "5.5",
+  "rating_5based": 2.8,
+  "tmdb": "990000128",
+  "trailer": "demo3X3GZaP",
+  "added": "1580610360",
+  "is_adult": 0,
+  "category_id": "3113",
+  "category_ids": [
+   3113
+  ],
+  "container_extension": "avi",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 13794,
+  "name": "DE - Larchmont Ferry",
+  "stream_type": "movie",
+  "stream_id": 84911,
+  "stream_icon": "http://cdn.iptv.example:80/images/G0GnQvmAauiqwEXVwE1SuoI8k7b_big.jpg",
+  "rating": "6",
+  "rating_5based": 3,
+  "tmdb": "990000129",
+  "trailer": "",
+  "added": "1580610360",
+  "is_adult": 0,
+  "category_id": "3101",
+  "category_ids": [
+   3101
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27544,
+  "name": "XXX - Adult Title 1 (2014)",
+  "stream_type": "movie",
+  "stream_id": 364726,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/YPqHHb8qFnjkxDD85uVbwjwi4WI.jpg",
+  "rating": "0",
+  "rating_5based": 0,
+  "tmdb": "990000201",
+  "trailer": "",
+  "added": "1621786620",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27545,
+  "name": "XXX - Adult Title 2 (2020)",
+  "stream_type": "movie",
+  "stream_id": 364725,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/LNCv12yvzY6yrQgf796EbyqO4TL.jpg",
+  "rating": "5",
+  "rating_5based": 2.5,
+  "tmdb": "990000202",
+  "trailer": "",
+  "added": "1621786620",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27546,
+  "name": "XXX - Adult Title 3 (2021)",
+  "stream_type": "movie",
+  "stream_id": 364724,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/jI2XmyYdPVvp9Kn6wZFbP0jAJM4.jpg",
+  "rating": "7",
+  "rating_5based": 3.5,
+  "tmdb": "990000203",
+  "trailer": "",
+  "added": "1621786620",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27547,
+  "name": "XXX - Adult Title 4 (2020)",
+  "stream_type": "movie",
+  "stream_id": 364723,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/vEft6Ls8RgU0nlMaD0NbQYNgc3z.jpg",
+  "rating": "3",
+  "rating_5based": 1.5,
+  "tmdb": "990000204",
+  "trailer": "",
+  "added": "1621786620",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27548,
+  "name": "XXX - Adult Title 5",
+  "stream_type": "movie",
+  "stream_id": 364722,
+  "stream_icon": "https://logos.iptv.example/stalker/misc/logos/320/54722.png?ver=83081",
+  "rating": "",
+  "rating_5based": "0",
+  "tmdb": "",
+  "trailer": "",
+  "added": "1621786620",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27549,
+  "name": "XXX - Adult Title 6 (2021)",
+  "stream_type": "movie",
+  "stream_id": 364721,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/A7skvZxIjjp3K6d9EE4fSuVH7P1.jpg",
+  "rating": "10",
+  "rating_5based": 5,
+  "tmdb": "990000206",
+  "trailer": "",
+  "added": "1621786620",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27550,
+  "name": "XXX - Adult Title 7 (2017)",
+  "stream_type": "movie",
+  "stream_id": 364720,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/NkMv1SxCse0rc2xgQhvJ6zqfP1f.jpg",
+  "rating": "7.5",
+  "rating_5based": 3.8,
+  "tmdb": "990000207",
+  "trailer": "",
+  "added": "1621786620",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27551,
+  "name": "XXX - Adult Title 8 (2015)",
+  "stream_type": "movie",
+  "stream_id": 364719,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/M76aiHGnzqk3EVZ5aqetEcTao0B.jpg",
+  "rating": "10",
+  "rating_5based": 5,
+  "tmdb": "990000208",
+  "trailer": "",
+  "added": "1621786620",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27552,
+  "name": "XXX - Adult Title 9 (2015)",
+  "stream_type": "movie",
+  "stream_id": 364718,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/5qZXV783EQUL0bSxJL3FZ4jMBRh.jpg",
+  "rating": "0",
+  "rating_5based": 0,
+  "tmdb": "990000209",
+  "trailer": "",
+  "added": "1621786620",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27553,
+  "name": "XXX - Adult Title 10 (2020)",
+  "stream_type": "movie",
+  "stream_id": 364717,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/eN1rQkpzPuuXDOAEYDVWwo5Wjv2.jpg",
+  "rating": "9.3",
+  "rating_5based": 4.7,
+  "tmdb": "990000210",
+  "trailer": "",
+  "added": "1621786620",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27554,
+  "name": "XXX - Adult Title 11 (2021)",
+  "stream_type": "movie",
+  "stream_id": 364716,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/WSXSeHW1CnAOAYOVKbVUO5ZOfXP.jpg",
+  "rating": "8",
+  "rating_5based": 4,
+  "tmdb": "990000211",
+  "trailer": "",
+  "added": "1621786620",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27555,
+  "name": "XXX - Adult Title 12 (2021)",
+  "stream_type": "movie",
+  "stream_id": 364715,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/FZ63VcsLqoeOsSqooPzabkFSvSg.jpg",
+  "rating": "7",
+  "rating_5based": 3.5,
+  "tmdb": "990000212",
+  "trailer": "",
+  "added": "1621786620",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27556,
+  "name": "XXX - Adult Title 13",
+  "stream_type": "movie",
+  "stream_id": 364714,
+  "stream_icon": "https://logos.iptv.example/stalker/misc/logos/320/54714.png?ver=83025",
+  "rating": "",
+  "rating_5based": "0",
+  "tmdb": "",
+  "trailer": "",
+  "added": "1621786620",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27557,
+  "name": "XXX - Adult Title 14",
+  "stream_type": "movie",
+  "stream_id": 364713,
+  "stream_icon": "https://logos.iptv.example/stalker/misc/logos/320/54713.png?ver=83018",
+  "rating": "",
+  "rating_5based": "0",
+  "tmdb": "",
+  "trailer": "",
+  "added": "1621786620",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ },
+ {
+  "num": 27558,
+  "name": "XXX - Adult Title 15 (2021)",
+  "stream_type": "movie",
+  "stream_id": 364712,
+  "stream_icon": "https://img.iptv.example/t/p/w600_and_h900_bestv2/jD5WkiXConZWFEjIQRzLmj5uuUs.jpg",
+  "rating": "10",
+  "rating_5based": 5,
+  "tmdb": "990000215",
+  "trailer": "",
+  "added": "1621779540",
+  "is_adult": 1,
+  "category_id": "3116",
+  "category_ids": [
+   3116
+  ],
+  "container_extension": "mp4",
+  "custom_sid": null,
+  "direct_source": ""
+ }
+]

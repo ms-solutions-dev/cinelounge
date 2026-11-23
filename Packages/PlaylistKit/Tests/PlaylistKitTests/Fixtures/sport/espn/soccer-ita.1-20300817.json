@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8106",
+   "name": "Serie A (Italy)",
+   "abbreviation": "Serie A",
+   "midsizeName": "ITA.1",
+   "slug": "ita.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001026",
+   "date": "2030-08-17T18:45Z",
+   "name": "Montecielo at Valdoro",
+   "shortName": "MCI @ VAL",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "VAL",
+        "displayName": "Valdoro",
+        "shortDisplayName": "Valdoro",
+        "name": "Valdoro",
+        "location": "Valdoro"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "MCI",
+        "displayName": "Montecielo",
+        "shortDisplayName": "Montecielo",
+        "name": "Montecielo",
+        "location": "Montecielo"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

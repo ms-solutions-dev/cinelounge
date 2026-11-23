@@ -1,0 +1,18 @@
+{
+    "id": "max",
+    "name": "Max",
+    "role": "admin",
+    "color": "#E2564A",
+    "adult": true,
+    "rights": {
+        "change_access": true,
+        "change_settings": true,
+        "install_portals": true,
+        "pair_devices": true,
+        "switch_portals": true,
+        "track_progress": true,
+        "view_adult": true,
+        "watch": true,
+        "workshop": true
+    }
+}

@@ -1,0 +1,525 @@
+{
+  "Items": [
+    {
+      "Name": "The Bamude Toke-Gretkl Punprei",
+      "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+      "Id": "badf4949ef462a22741653061c6ae1ba",
+      "DateCreated": "2026-08-03T09:38:33.6990543Z",
+      "SortName": "bamude kriavakral punprei",
+      "PremiereDate": "2001-07-01T22:00:00.0000000Z",
+      "OfficialRating": "FSK-12",
+      "ChannelId": null,
+      "Overview": "Ein Stubliflok fruvo gatbloji sten Gafak, die glia Giviat um trokoble Zijou getskan. Eine Giatsi Glesonze gluh im Bluwio hosku Sianpruk krego, das sto gliaje nicht wanber.",
+      "Genres": [
+        "Action",
+        "Abenteuer",
+        "Science Fiction"
+      ],
+      "ProductionYear": 2001,
+      "ProviderIds": {
+        "Tmdb": "185973"
+      },
+      "IsFolder": true,
+      "Type": "BoxSet",
+      "Studios": [
+        {
+          "Name": "Bozios Beiskiaspa",
+          "Id": "d89d0ae48558f35e9206c08194e9e6e0"
+        },
+        {
+          "Name": "Brouk Plen Zouhiobrel",
+          "Id": "42d6ad42937ce6cda2ebdfc4a5b1f2c8"
+        },
+        {
+          "Name": "Sliapris Kliostod",
+          "Id": "3e8c9b438ab4664dc15b8cdbfce57134"
+        },
+        {
+          "Name": "Ski Droust Zouhiobrel",
+          "Id": "cf7ef7dc1f4fe0e69a58cc7071681912"
+        },
+        {
+          "Name": "Dresgl Zouhiobrel",
+          "Id": "9562a64973b0bde438e3d394e4b32db6"
+        }
+      ],
+      "GenreItems": [
+        {
+          "Name": "Action",
+          "Id": "ce06903d834d2c3417e0889dd4049f3b"
+        },
+        {
+          "Name": "Abenteuer",
+          "Id": "4dbf3d7f9153d351e9969c2c073264cc"
+        },
+        {
+          "Name": "Science Fiction",
+          "Id": "0430d514c35e1f158fa93f1eeb8361ea"
+        }
+      ],
+      "UserData": {
+        "UnplayedItemCount": 0,
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": true,
+        "Key": "badf4949-ef46-2a22-7416-53061c6ae1ba",
+        "ItemId": "badf4949ef462a22741653061c6ae1ba"
+      },
+      "RecursiveItemCount": 0,
+      "ChildCount": 0,
+      "DisplayOrder": "PremiereDate",
+      "ImageTags": {
+        "Primary": "b809c482d5b9bd0b5f868b14b201e270",
+        "Logo": "4e52ffca90231ea5f74a8cc092215088",
+        "Thumb": "64f35214b8e42fe749609eafca7ba9b6"
+      },
+      "BackdropImageTags": [
+        "fc363acb1df0f2dedc7707668a4d6bd9"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "fc363acb1df0f2dedc7707668a4d6bd9": "W84oH0t74mIT?c%g%NofITRPx]xvRjayt7kCayayozfkV@jsofay"
+        },
+        "Primary": {
+          "b809c482d5b9bd0b5f868b14b201e270": "dDGhZ5=K5:,G{0r?}X$iTdW;rXni+vsABoS#s.j[jYn%"
+        },
+        "Logo": {
+          "4e52ffca90231ea5f74a8cc092215088": "OKGIfj4n.800-p4n%gD%ofo}WB-payg3IUWVxuWBt7Rjxu"
+        },
+        "Thumb": {
+          "64f35214b8e42fe749609eafca7ba9b6": "N884Y:Dj0KxuR*-=8{-px[EKkCr]0e%M-oEejZrr"
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "Dikrak Punprei",
+      "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+      "Id": "ff5ac69f9b6149c9bf39418ff01d7998",
+      "DateCreated": "2026-08-02T14:16:48.2678012Z",
+      "SortName": "dikrak punprei",
+      "PremiereDate": "1965-03-18T23:00:00.0000000Z",
+      "OfficialRating": "FSK-12",
+      "ChannelId": null,
+      "Overview": "Ein fetre Griozogli braidrol in den Gaisiafa sliatf Jocio eine Fletk, die es nicht fresk reblat.",
+      "Genres": [
+        "Drama"
+      ],
+      "ProductionYear": 1965,
+      "ProviderIds": {
+        "Tmdb": "8424"
+      },
+      "IsFolder": true,
+      "Type": "BoxSet",
+      "Studios": [
+        {
+          "Name": "Vemofl Hauro",
+          "Id": "0115795ced5755684ad792fc3c7d79a3"
+        },
+        {
+          "Name": "Totfri Flubria",
+          "Id": "7bf83f9ee53dd2b7cf030244b90b4543"
+        }
+      ],
+      "GenreItems": [
+        {
+          "Name": "Drama",
+          "Id": "090eac6e9de4fe1fbc194e5b96691277"
+        }
+      ],
+      "UserData": {
+        "UnplayedItemCount": 0,
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": true,
+        "Key": "ff5ac69f-9b61-49c9-bf39-418ff01d7998",
+        "ItemId": "ff5ac69f9b6149c9bf39418ff01d7998"
+      },
+      "RecursiveItemCount": 0,
+      "ChildCount": 0,
+      "DisplayOrder": "PremiereDate",
+      "ImageTags": {
+        "Primary": "84da26757550cadabe44a0dea0127095",
+        "Logo": "a4c1919ddef605a679712148c5ba4a73",
+        "Thumb": "4bceeb018be32594425cec90dc854c79"
+      },
+      "BackdropImageTags": [
+        "f812f6fd1c0e6e857ead5929dc0c7404"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "f812f6fd1c0e6e857ead5929dc0c7404": "WdJap4Rk8_56o}%g?wIVIU?HjFxt%MM|fi?bRPt7.8RjInxGj[t7"
+        },
+        "Primary": {
+          "84da26757550cadabe44a0dea0127095": "dG8qED?GbIofo~j[WVoL0ND*f5R+kXkCj?WX?a%LkCt7"
+        },
+        "Logo": {
+          "a4c1919ddef605a679712148c5ba4a73": "OYM%y8xu_4RP.8j[.8IAIUozxut7j[a}%Nt8WARjR%j?ay"
+        },
+        "Thumb": {
+          "4bceeb018be32594425cec90dc854c79": "WdNTj]?b9YofxujY-;jZRjt7WBjZozxuRjaeRjof~qxuM{jZWBt7"
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "Toke-Gretkl (Bluflaw) Punprei",
+      "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+      "Id": "2d48fc754e4ec0919dded8232bc6774c",
+      "DateCreated": "2026-08-03T12:57:36.0000000Z",
+      "SortName": "kriavakral (bluflaw) punprei",
+      "PremiereDate": "2006-05-09T22:00:00.0000000Z",
+      "OfficialRating": "FSK-12",
+      "ChannelId": null,
+      "Overview": "Ein fetre Griozogli braidrol in den Gaisiafa sliatf Jocio eine Fletk, die es nicht fresk reblat. Sten blousnigu Teni krege ein driodourn Bicet und mit mis eine jipl Sisto.",
+      "Genres": [
+        "Action",
+        "Abenteuer",
+        "Science Fiction"
+      ],
+      "ProductionYear": 2006,
+      "ProviderIds": {
+        "Tmdb": "174158"
+      },
+      "IsFolder": true,
+      "Type": "BoxSet",
+      "Studios": [
+        {
+          "Name": "Bozios Ketboun",
+          "Id": "92e087260fb84bbba21ef249122925df"
+        },
+        {
+          "Name": "Spiadre Kliostod",
+          "Id": "5373b535d7a1d4f2e0705490cf040096"
+        },
+        {
+          "Name": "Pitrus Stiofli",
+          "Id": "7ec937846f86d3c84d2559ddc4b7a86d"
+        },
+        {
+          "Name": "Sliapris Kliostod",
+          "Id": "3e8c9b438ab4664dc15b8cdbfce57134"
+        }
+      ],
+      "GenreItems": [
+        {
+          "Name": "Action",
+          "Id": "ce06903d834d2c3417e0889dd4049f3b"
+        },
+        {
+          "Name": "Abenteuer",
+          "Id": "4dbf3d7f9153d351e9969c2c073264cc"
+        },
+        {
+          "Name": "Science Fiction",
+          "Id": "0430d514c35e1f158fa93f1eeb8361ea"
+        }
+      ],
+      "UserData": {
+        "UnplayedItemCount": 0,
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": true,
+        "Key": "2d48fc75-4e4e-c091-9dde-d8232bc6774c",
+        "ItemId": "2d48fc754e4ec0919dded8232bc6774c"
+      },
+      "RecursiveItemCount": 0,
+      "ChildCount": 0,
+      "DisplayOrder": "PremiereDate",
+      "ImageTags": {
+        "Primary": "be273a0325f255f77c48417184b57e47",
+        "Logo": "7ee51a1057a91f0aca3e25985d7ab294",
+        "Thumb": "372d6dc778d95bb7ebaab4e24fc58862"
+      },
+      "BackdropImageTags": [
+        "c77aa7b88c16b0419b17d611b273b35a"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "c77aa7b88c16b0419b17d611b273b35a": "WWEJ@=11Ej}rIqJ8-TI=WC$%NHsBR+s,oeR+fks-Rks.X7V]s.Sg"
+        },
+        "Primary": {
+          "be273a0325f255f77c48417184b57e47": "dmHe5^v2Zhbv?wrDv}niEkoe$%i^t8wfr?oL%3#,n4t7"
+        },
+        "Logo": {
+          "7ee51a1057a91f0aca3e25985d7ab294": "OOCi5Gs.M|R+azo0Rj,-oKWXWWj[j?fl0fayozj[j?a}of"
+        },
+        "Thumb": {
+          "372d6dc778d95bb7ebaab4e24fc58862": "WeJ8^rE3x^xZRO%gyZIVjFo#Rloz9bi^IAozkCM_o#xabIRijFf6"
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "Toke-Gretkl Punprei",
+      "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+      "Id": "c28c0362694d9c5b4dd15f9309c89858",
+      "DateCreated": "2026-08-02T23:16:33.0450165Z",
+      "SortName": "kriavakral punprei",
+      "PremiereDate": "1992-02-04T22:00:00.0000000Z",
+      "OfficialRating": "FSK-12",
+      "ChannelId": null,
+      "Overview": "Eine Giatsi Glesonze gluh im Bluwio hosku Sianpruk krego, das sto gliaje nicht wanber.",
+      "Genres": [
+        "Action",
+        "Science Fiction",
+        "Abenteuer"
+      ],
+      "ProductionYear": 1992,
+      "ProviderIds": {
+        "Tmdb": "726"
+      },
+      "IsFolder": true,
+      "Type": "BoxSet",
+      "Studios": [
+        {
+          "Name": "Bozios Griospio",
+          "Id": "d2ab1844b2db9f5c63003d84f87d54d3"
+        },
+        {
+          "Name": "Brouk Plen Zouhiobrel",
+          "Id": "42d6ad42937ce6cda2ebdfc4a5b1f2c8"
+        },
+        {
+          "Name": "Sliapris Kliostod",
+          "Id": "3e8c9b438ab4664dc15b8cdbfce57134"
+        },
+        {
+          "Name": "Bozios Ketboun",
+          "Id": "92e087260fb84bbba21ef249122925df"
+        }
+      ],
+      "GenreItems": [
+        {
+          "Name": "Action",
+          "Id": "ce06903d834d2c3417e0889dd4049f3b"
+        },
+        {
+          "Name": "Science Fiction",
+          "Id": "0430d514c35e1f158fa93f1eeb8361ea"
+        },
+        {
+          "Name": "Abenteuer",
+          "Id": "4dbf3d7f9153d351e9969c2c073264cc"
+        }
+      ],
+      "UserData": {
+        "PlayedPercentage": 0,
+        "UnplayedItemCount": 3,
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "c28c0362-694d-9c5b-4dd1-5f9309c89858",
+        "ItemId": "c28c0362694d9c5b4dd15f9309c89858"
+      },
+      "RecursiveItemCount": 3,
+      "ChildCount": 3,
+      "DisplayOrder": "PremiereDate",
+      "ImageTags": {
+        "Logo": "07cbe29817e97f7c2366409b9948cfbe",
+        "Primary": "78d534e2dab0cd1656ea5e5321ed77c7",
+        "Thumb": "5e29628037ece5af817d2e919e2b3403"
+      },
+      "BackdropImageTags": [
+        "9ecb6d3665e0dc3ca635bcf80548af10"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "9ecb6d3665e0dc3ca635bcf80548af10": "WHC}5}xG9tV[1|xt}toLRPayK4oL$kWCR%kCoyWBxtoKI:Nb,?oe"
+        },
+        "Logo": {
+          "07cbe29817e97f7c2366409b9948cfbe": "O~MQx3kCbHj[fQkCayt7fkfkf6fQj[ay~qj[jtfkfQjZfk"
+        },
+        "Primary": {
+          "78d534e2dab0cd1656ea5e5321ed77c7": "dSE_N%#k-.$*}8^iX4sl}q%0t6so^jw]oyw_IU%KNHRQ"
+        },
+        "Thumb": {
+          "5e29628037ece5af817d2e919e2b3403": "WK9PN7}q=cxZJ8EhxFsms,s.s.ofM|S5W=WCoJn~aLnln+affkbF"
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "Glelol Punprei",
+      "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+      "Id": "0c048cc2c9c854aa23d8b27162e4a512",
+      "DateCreated": "2026-08-02T19:30:49.5045358Z",
+      "SortName": "glelol punprei",
+      "PremiereDate": "1972-12-02T23:00:00.0000000Z",
+      "OfficialRating": "FSK-16",
+      "ChannelId": null,
+      "Overview": "In einer Jocio aus Caut nikri ein Klenis nach dem einen Wepriat, das venst cebag doskr. Sten blousnigu Teni krege ein driodourn Bicet und mit mis eine jipl Sisto.",
+      "Genres": [
+        "Action",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "ProductionYear": 1972,
+      "ProviderIds": {
+        "Tmdb": "690"
+      },
+      "IsFolder": true,
+      "Type": "BoxSet",
+      "Studios": [
+        {
+          "Name": "Pliasfli",
+          "Id": "f50cd5b63dd8111f97027cb915e792b5"
+        },
+        {
+          "Name": "Cisskotkl Gofl",
+          "Id": "74d9731264fbc098ccb426e3ced9f257"
+        },
+        {
+          "Name": "Slapan Kliostod",
+          "Id": "8e44ea03120012511650ccabfd34f8c8"
+        },
+        {
+          "Name": "Kouskai Beiskiaspa",
+          "Id": "63702a534cbaf3d8f1e5866e183deccd"
+        },
+        {
+          "Name": "Le Grazou Taspa+",
+          "Id": "d44225af0f9906fe1474c86950521067"
+        }
+      ],
+      "GenreItems": [
+        {
+          "Name": "Action",
+          "Id": "ce06903d834d2c3417e0889dd4049f3b"
+        },
+        {
+          "Name": "Thriller",
+          "Id": "4936f5b1a6f84f0b0aa2657368a5b364"
+        },
+        {
+          "Name": "Science Fiction",
+          "Id": "0430d514c35e1f158fa93f1eeb8361ea"
+        }
+      ],
+      "UserData": {
+        "UnplayedItemCount": 0,
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": true,
+        "Key": "0c048cc2-c9c8-54aa-23d8-b27162e4a512",
+        "ItemId": "0c048cc2c9c854aa23d8b27162e4a512"
+      },
+      "RecursiveItemCount": 0,
+      "ChildCount": 0,
+      "DisplayOrder": "PremiereDate",
+      "ImageTags": {
+        "Thumb": "35d5a2bad19097c867c897f821118c8d",
+        "Logo": "7d81dce6c834dffaa44b79c5798438ca",
+        "Primary": "dd924614c4717bbc49d883812b3c1331"
+      },
+      "BackdropImageTags": [
+        "905076ee39e56917696b14ac1d8ea672"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "905076ee39e56917696b14ac1d8ea672": "WD8Xa^-:RONeIT4Tx]xtIAWUITD$s,kXt7ITogt6M|kDaet7t7%M"
+        },
+        "Thumb": {
+          "35d5a2bad19097c867c897f821118c8d": "W44_Le-p0e4nsA^+MxRjtR%MjsIU5QRj=y%2NuM{OrofwJV@R*of"
+        },
+        "Logo": {
+          "7d81dce6c834dffaa44b79c5798438ca": "O@ODd_bbX8niofX8oLxaa|bHjZaybHay~qoLn%bbWVn%Wp"
+        },
+        "Primary": {
+          "dd924614c4717bbc49d883812b3c1331": "d65#Oz0Kxu-p%MIojZxuE2%2W.RkNbnixtM|nOozRkoc"
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "Frokus fli Steispiog Punprei",
+      "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+      "Id": "d94a8b377851c5eeca89dc65514c6957",
+      "DateCreated": "2026-07-28T12:48:01.0000000Z",
+      "SortName": "frokus fli steispiog punprei",
+      "PremiereDate": "1973-08-02T22:00:00.0000000Z",
+      "OfficialRating": "FSK-12",
+      "ChannelId": null,
+      "Overview": "In einer Jocio aus Caut nikri ein Klenis nach dem einen Wepriat, das venst cebag doskr. Eine tete Geinsustaur ginj einen cegi Blamis slupuzen, bluzi der Leiple frisu.",
+      "Genres": [
+        "Abenteuer",
+        "Komödie",
+        "Science Fiction"
+      ],
+      "ProductionYear": 1973,
+      "ProviderIds": {
+        "Tmdb": "133"
+      },
+      "IsFolder": true,
+      "Type": "BoxSet",
+      "Studios": [
+        {
+          "Name": "Viotrurn Kliostod",
+          "Id": "e56aaac7ab0bb0f5f48371be0252bab4"
+        },
+        {
+          "Name": "Zouzio Beiskiaspa",
+          "Id": "cdc4ab8b8df7162ca868ae3a899a95e3"
+        }
+      ],
+      "GenreItems": [
+        {
+          "Name": "Abenteuer",
+          "Id": "4dbf3d7f9153d351e9969c2c073264cc"
+        },
+        {
+          "Name": "Komödie",
+          "Id": "f0073f1b74cdcfa408d1b6a053500fa0"
+        },
+        {
+          "Name": "Science Fiction",
+          "Id": "0430d514c35e1f158fa93f1eeb8361ea"
+        }
+      ],
+      "UserData": {
+        "UnplayedItemCount": 0,
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": true,
+        "Key": "d94a8b37-7851-c5ee-ca89-dc65514c6957",
+        "ItemId": "d94a8b377851c5eeca89dc65514c6957"
+      },
+      "RecursiveItemCount": 0,
+      "ChildCount": 0,
+      "DisplayOrder": "PremiereDate",
+      "ImageTags": {
+        "Thumb": "ebecde01d95bcb8b24010d35b35f9026",
+        "Primary": "af6b0a47d0ce0ed69ad10ab967537913"
+      },
+      "BackdropImageTags": [
+        "4d5bccecce4fd1d87e1fc6a21ed4b625"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "4d5bccecce4fd1d87e1fc6a21ed4b625": "WTFrt-x^wHRQM|xupKxtI[oyRkoz00My$$a}-ps:9FX5D%M{x^WB"
+        },
+        "Thumb": {
+          "ebecde01d95bcb8b24010d35b35f9026": "WbDI?-RiV@kWRjt7bcxZbHn$WVW=0Kbcs:Rjt7V@NGIpV[bcs:s8"
+        },
+        "Primary": {
+          "af6b0a47d0ce0ed69ad10ab967537913": "dXJ*n{-=Xn%M?aVYR+tR%#ozn4s:pyx]n#WD-oX9bvj["
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    }
+  ],
+  "TotalRecordCount": 6,
+  "StartIndex": 0
+}

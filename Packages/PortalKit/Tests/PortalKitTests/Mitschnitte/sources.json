@@ -1,0 +1,21 @@
+{
+ "portal": "zdf",
+ "sources": [
+  {
+   "id": "/tmd/2/{playerId}/vod/ptmd/mediathek/260919_1925_sendung_demo/3|https://vod.zdf.example/none/zdf/26/09/260919_1925_sendung_demo/1/260919_1925_sendung_demo_a1a2_6628k_p61v17.mp4",
+   "name": "FHD",
+   "address": "https://vod.zdf.example/none/zdf/26/09/260919_1925_sendung_demo/1/260919_1925_sendung_demo_a1a2_6628k_p61v17.mp4",
+   "language": null,
+   "blocked": false,
+   "reason": null
+  },
+  {
+   "id": "/tmd/2/{playerId}/vod/ptmd/mediathek/260919_1925_sendung_demo/3|https://vod.zdf.example/none/zdf/26/09/260919_1925_sendung_demo/1/260919_1925_sendung_demo_a1a2_3328k_p15v17.mp4",
+   "name": "HD",
+   "address": "https://vod.zdf.example/none/zdf/26/09/260919_1925_sendung_demo/1/260919_1925_sendung_demo_a1a2_3328k_p15v17.mp4",
+   "language": null,
+   "blocked": false,
+   "reason": null
+  }
+ ]
+}

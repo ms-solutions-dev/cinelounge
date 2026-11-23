@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8115",
+   "name": "MLS (USA)",
+   "abbreviation": "MLS",
+   "midsizeName": "USA.1",
+   "slug": "usa.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001044",
+   "date": "2030-08-18T23:00Z",
+   "name": "Pinewood Harbor at Granite Falls",
+   "shortName": "PIN @ GRF",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "GRF",
+        "displayName": "Granite Falls",
+        "shortDisplayName": "Granite Falls",
+        "name": "Granite Falls",
+        "location": "Granite Falls"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "PIN",
+        "displayName": "Pinewood Harbor",
+        "shortDisplayName": "Pinewood",
+        "name": "Pinewood Harbor",
+        "location": "Pinewood Harbor"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

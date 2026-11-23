@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8104",
+   "name": "Premier League (England)",
+   "abbreviation": "Premier League",
+   "midsizeName": "ENG.1",
+   "slug": "eng.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001022",
+   "date": "2030-08-19T19:00Z",
+   "name": "Westerleigh at Cobblestone",
+   "shortName": "WES @ COB",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "COB",
+        "displayName": "Cobblestone",
+        "shortDisplayName": "Cobblestone",
+        "name": "Cobblestone",
+        "location": "Cobblestone"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "WES",
+        "displayName": "Westerleigh",
+        "shortDisplayName": "Westerleigh",
+        "name": "Westerleigh",
+        "location": "Westerleigh"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+  "Name": "Toke-Gretkl",
+  "OriginalTitle": "Toke-Gretkl",
+  "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+  "Id": "af063b080c8d9cc0872baa2260b038d5",
+  "Etag": "df041827b3a4dc525426f824016eecd5",
+  "DateCreated": "2026-08-02T22:08:08.3471402Z",
+  "CanDelete": true,
+  "CanDownload": true,
+  "HasSubtitles": true,
+  "Container": "mkv",
+  "SortName": "kriavakral",
+  "PremiereDate": "1991-02-01T22:00:00.0000000Z",
+  "ExternalUrls": [
+    {
+      "Name": "IMDb",
+      "Url": "https://www.imdb.com/title/tt9227444"
+    },
+    {
+      "Name": "TMDB",
+      "Url": "https://www.themoviedb.org/movie/351"
+    }
+  ],
+  "MediaSources": [
+    {
+      "Protocol": "File",
+      "Id": "af063b080c8d9cc0872baa2260b038d5",
+      "Path": "/media/movies/Toke-Gretkl (1998) [tmdbid-351]/Toke-Gretkl (1998).mkv",
+      "Type": "Default",
+      "Container": "mkv",
+      "Size": 14778643206,
+      "Name": "Toke-Gretkl (1998)",
+      "IsRemote": false,
+      "ETag": "5a6fc4411d4d3ff854b99b7489d585d1",
+      "RunTimeTicks": 65047150000,
+      "ReadAtNativeFramerate": false,
+      "IgnoreDts": false,
+      "IgnoreIndex": false,
+      "GenPtsInput": false,
+      "SupportsTranscoding": true,
+      "SupportsDirectStream": true,
+      "SupportsDirectPlay": true,
+      "IsInfiniteStream": false,
+      "UseMostCompatibleTranscodingProfile": false,
+      "RequiresOpening": false,
+      "RequiresClosing": false,
+      "RequiresLooping": false,
+      "SupportsProbing": true,
+      "VideoType": "VideoFile",
+      "MediaStreams": [
+        {
+          "Codec": "h264",
+          "ColorSpace": "bt709",
+          "ColorTransfer": "bt709",
+          "ColorPrimaries": "bt709",
+          "TimeBase": "1/1000",
+          "VideoRange": "SDR",
+          "VideoRangeType": "SDR",
+          "AudioSpatialFormat": "None",
+          "DisplayTitle": "1080p H264 SDR",
+          "NalLengthSize": "4",
+          "IsInterlaced": false,
+          "IsAVC": true,
+          "BitRate": 18175913,
+          "BitDepth": 8,
+          "RefFrames": 1,
+          "IsDefault": true,
+          "IsForced": false,
+          "IsHearingImpaired": false,
+          "Height": 1080,
+          "Width": 1920,
+          "AverageFrameRate": 23.976025,
+          "RealFrameRate": 23.976025,
+          "ReferenceFrameRate": 23.976025,
+          "Profile": "High",
+          "Type": "Video",
+          "AspectRatio": "16:9",
+          "Index": 0,
+          "IsExternal": false,
+          "IsTextSubtitleStream": false,
+          "SupportsExternalStream": false,
+          "PixelFormat": "yuv420p",
+          "Level": 41,
+          "IsAnamorphic": false
+        },
+        {
+          "Codec": "ac3",
+          "Language": "eng",
+          "TimeBase": "1/1000",
+          "Title": "Dolby Digital 5.1",
+          "VideoRange": "Unknown",
+          "VideoRangeType": "Unknown",
+          "AudioSpatialFormat": "None",
+          "LocalizedDefault": "Standard",
+          "LocalizedExternal": "Extern",
+          "DisplayTitle": "Dolby Digital 5.1 - English - Standard",
+          "IsInterlaced": false,
+          "IsAVC": false,
+          "ChannelLayout": "5.1",
+          "BitRate": 640000,
+          "Channels": 6,
+          "SampleRate": 48000,
+          "IsDefault": true,
+          "IsForced": false,
+          "IsHearingImpaired": false,
+          "Type": "Audio",
+          "Index": 1,
+          "IsExternal": false,
+          "IsTextSubtitleStream": false,
+          "SupportsExternalStream": false,
+          "Level": 0
+        },
+        {
+          "Codec": "ac3",
+          "Language": "deu",
+          "TimeBase": "1/1000",
+          "Title": "Dolby Digital 5.1",
+          "VideoRange": "Unknown",
+          "VideoRangeType": "Unknown",
+          "AudioSpatialFormat": "None",
+          "LocalizedDefault": "Standard",
+          "LocalizedExternal": "Extern",
+          "DisplayTitle": "Dolby Digital 5.1 - German",
+          "IsInterlaced": false,
+          "IsAVC": false,
+          "ChannelLayout": "5.1",
+          "BitRate": 640000,
+          "Channels": 6,
+          "SampleRate": 48000,
+          "IsDefault": false,
+          "IsForced": false,
+          "IsHearingImpaired": false,
+          "Type": "Audio",
+          "Index": 2,
+          "IsExternal": false,
+          "IsTextSubtitleStream": false,
+          "SupportsExternalStream": false,
+          "Level": 0
+        },
+        {
+          "Codec": "PGSSUB",
+          "Language": "deu",
+          "TimeBase": "1/1000",
+          "Title": "Forced",
+          "VideoRange": "Unknown",
+          "VideoRangeType": "Unknown",
+          "AudioSpatialFormat": "None",
+          "LocalizedUndefined": "Undefiniert",
+          "LocalizedDefault": "Standard",
+          "LocalizedForced": "Erzwungen",
+          "LocalizedExternal": "Extern",
+          "LocalizedHearingImpaired": "Hörgeschädigt",
+          "DisplayTitle": "Forced - German - Standard - Erzwungen - PGSSUB",
+          "IsInterlaced": false,
+          "IsAVC": false,
+          "IsDefault": true,
+          "IsForced": true,
+          "IsHearingImpaired": false,
+          "Height": 0,
+          "Width": 0,
+          "Type": "Subtitle",
+          "Index": 3,
+          "IsExternal": false,
+          "IsTextSubtitleStream": false,
+          "SupportsExternalStream": true,
+          "Level": 0
+        },
+        {
+          "Codec": "PGSSUB",
+          "Language": "deu",
+          "TimeBase": "1/1000",
+          "Title": "Full",
+          "VideoRange": "Unknown",
+          "VideoRangeType": "Unknown",
+          "AudioSpatialFormat": "None",
+          "LocalizedUndefined": "Undefiniert",
+          "LocalizedDefault": "Standard",
+          "LocalizedForced": "Erzwungen",
+          "LocalizedExternal": "Extern",
+          "LocalizedHearingImpaired": "Hörgeschädigt",
+          "DisplayTitle": "Full - German - PGSSUB",
+          "IsInterlaced": false,
+          "IsAVC": false,
+          "IsDefault": false,
+          "IsForced": false,
+          "IsHearingImpaired": false,
+          "Height": 1080,
+          "Width": 1920,
+          "Type": "Subtitle",
+          "Index": 4,
+          "IsExternal": false,
+          "IsTextSubtitleStream": false,
+          "SupportsExternalStream": true,
+          "Level": 0
+        },
+        {
+          "Codec": "PGSSUB",
+          "Language": "eng",
+          "TimeBase": "1/1000",
+          "Title": "Full",
+          "VideoRange": "Unknown",
+          "VideoRangeType": "Unknown",
+          "AudioSpatialFormat": "None",
+          "LocalizedUndefined": "Undefiniert",
+          "LocalizedDefault": "Standard",
+          "LocalizedForced": "Erzwungen",
+          "LocalizedExternal": "Extern",
+          "LocalizedHearingImpaired": "Hörgeschädigt",
+          "DisplayTitle": "Full - English - PGSSUB",
+          "IsInterlaced": false,
+          "IsAVC": false,
+          "IsDefault": false,
+          "IsForced": false,
+          "IsHearingImpaired": false,
+          "Height": 1080,
+          "Width": 1920,
+          "Type": "Subtitle",
+          "Index": 5,
+          "IsExternal": false,
+          "IsTextSubtitleStream": false,
+          "SupportsExternalStream": true,
+          "Level": 0
+        }
+      ],
+      "MediaAttachments": [],
+      "Formats": [],
+      "Bitrate": 19455913,
+      "RequiredHttpHeaders": {},
+      "TranscodingSubProtocol": "http",
+      "DefaultAudioStreamIndex": 2,
+      "DefaultSubtitleStreamIndex": 3,
+      "HasSegments": true
+    }
+  ],
+  "CriticRating": 81,
+  "ProductionLocations": [
+    "United States of America"
+  ],
+  "Path": "/media/movies/Toke-Gretkl (1998) [tmdbid-351]/Toke-Gretkl (1998).mkv",
+  "EnableMediaSourceDisplay": true,
+  "OfficialRating": "FSK-12",
+  "ChannelId": null,
+  "Overview": "In einer Jocio aus Caut nikri ein Klenis nach dem einen Wepriat, das venst cebag doskr. Ein Stubliflok fruvo gatbloji sten Gafak, die glia Giviat um trokoble Zijou getskan.",
+  "Taglines": [
+    "Pakram gre grarutwond Blezion"
+  ],
+  "Genres": [
+    "Action",
+    "Science Fiction"
+  ],
+  "CommunityRating": 7.9,
+  "RunTimeTicks": 65047150000,
+  "PlayAccess": "Full",
+  "ProductionYear": 1991,
+  "RemoteTrailers": [
+    {
+      "Url": "https://www.youtube.com/watch?v=ehfouhm9699",
+      "Name": "Toke-Gretkl (1998)  - Krousco Zoutkou 1080p PR"
+    }
+  ],
+  "ProviderIds": {
+    "Imdb": "tt9227444",
+    "Tmdb": "351",
+    "TmdbCollection": "726"
+  },
+  "IsHD": true,
+  "IsFolder": false,
+  "ParentId": "ba9c5cad4ccd875366bf54fd50e04928",
+  "Type": "Movie",
+  "People": [
+    {
+      "Name": "Bebed Stei",
+      "Id": "3e61a6a26e9098b91b91046eb50cb1f0",
+      "Role": "Toke-Gretkl / Veblei Jitb",
+      "Type": "Actor",
+      "PrimaryImageTag": "1f495163a5275c19fa49aa4977ea147d",
+      "ImageBlurHashes": {
+        "Primary": {
+          "1f495163a5275c19fa49aa4977ea147d": "dIC~b=-r5cI{^lxbI]Iu0fRk$yxY9#NH%M%3IsWAxaog"
+        }
+      }
+    },
+    {
+      "Name": "Maifl Spaisli",
+      "Id": "e29746d7b3df2ba94ecd36c9a76ee04d",
+      "Role": "Jei Skifle / Proup Fiak",
+      "Type": "Actor",
+      "PrimaryImageTag": "d96dfca6ac2bd00bad59ffd44470e447",
+      "ImageBlurHashes": {
+        "Primary": {
+          "d96dfca6ac2bd00bad59ffd44470e447": "dQHK:~~VGHJ.?axtxukC0fELnO$%pIX8t7oztSbI%1xa"
+        }
+      }
+    },
+    {
+      "Name": "Troba Spasbu",
+      "Id": "b329c148efae6b948f83bbfa04177f82",
+      "Role": "Cipa Kewia",
+      "Type": "Actor",
+      "PrimaryImageTag": "f1aed181c8bff34e1083b4a313b5df36",
+      "ImageBlurHashes": {
+        "Primary": {
+          "f1aed181c8bff34e1083b4a313b5df36": "dcOyeQ^*?^?b.8xu%MR*.9S2V@t7-;WUt7t7tRt7oLW;"
+        }
+      }
+    },
+    {
+      "Name": "Zusk Febriofi",
+      "Id": "7a6385d86b8d83cfb0562e987f1cd674",
+      "Role": "Miaplein",
+      "Type": "Director",
+      "PrimaryImageTag": "82a3ebefeaebefdf32b48f3f1ede8405",
+      "ImageBlurHashes": {
+        "Primary": {
+          "82a3ebefeaebefdf32b48f3f1ede8405": "dVG*c^-;0yNxnfkB%Nt80~Rj$yxEEjV?RPWBV=WAogRj"
+        }
+      }
+    },
+    {
+      "Name": "Blis Mouskl",
+      "Id": "56d801a2baa4b0562cdc41665d764b05",
+      "Role": "Koslufat",
+      "Type": "Writer",
+      "PrimaryImageTag": "6e09c84f57588876c7bbacd0d67ce3f6",
+      "ImageBlurHashes": {
+        "Primary": {
+          "6e09c84f57588876c7bbacd0d67ce3f6": "dNE.eI?H0zE1R4V@IUWXK6oz-ps.9ZM{axofE1WB%1t7"
+        }
+      }
+    },
+    {
+      "Name": "Skidi Trai",
+      "Id": "54a2a59e5cc8d698a83f44644837e61b",
+      "Role": "Bujoul",
+      "Type": "Producer",
+      "PrimaryImageTag": "c50371a1fe5d98f316048385ae65c5ad",
+      "ImageBlurHashes": {
+        "Primary": {
+          "c50371a1fe5d98f316048385ae65c5ad": "dhH-V{ni0fR*nNRjtRtRyDRjMxt7t7jZbcW=bbRjjYt8"
+        }
+      }
+    },
+    {
+      "Name": "Brouk Plen",
+      "Id": "fe480b48fa01f8b4f864cfbad4395276",
+      "Role": "Bujoul",
+      "Type": "Producer",
+      "PrimaryImageTag": "7eb5f16629d987a3850fdbc7c14d42ec",
+      "ImageBlurHashes": {
+        "Primary": {
+          "7eb5f16629d987a3850fdbc7c14d42ec": "d-I=74t7tmtS~pt7tRtRbcofsSs:NGj?nhaekDayaeWB"
+        }
+      }
+    }
+  ],
+  "Studios": [
+    {
+      "Name": "Bozios Griospio",
+      "Id": "d2ab1844b2db9f5c63003d84f87d54d3"
+    },
+    {
+      "Name": "Brouk Plen Zouhiobrel",
+      "Id": "42d6ad42937ce6cda2ebdfc4a5b1f2c8"
+    },
+    {
+      "Name": "Sliapris Kliostod",
+      "Id": "3e8c9b438ab4664dc15b8cdbfce57134"
+    }
+  ],
+  "GenreItems": [
+    {
+      "Name": "Action",
+      "Id": "ce06903d834d2c3417e0889dd4049f3b"
+    },
+    {
+      "Name": "Science Fiction",
+      "Id": "0430d514c35e1f158fa93f1eeb8361ea"
+    }
+  ],
+  "LocalTrailerCount": 1,
+  "UserData": {
+    "PlaybackPositionTicks": 0,
+    "PlayCount": 1,
+    "IsFavorite": false,
+    "LastPlayedDate": "2026-08-02T22:34:39.1920274Z",
+    "Played": false,
+    "Key": "516",
+    "ItemId": "af063b080c8d9cc0872baa2260b038d5"
+  },
+  "SpecialFeatureCount": 0,
+  "DisplayPreferencesId": "dbf7709c41faaa746463d67978eb863d",
+  "Tags": [
+    "blo prut plik",
+    "glutmoukio",
+    "viki",
+    "caib fl jenbl his",
+    "gratker",
+    "houszo troufi",
+    "pluprand",
+    "kiatti",
+    "jeipik",
+    "ria trau",
+    "pliozi",
+    "frare fa spiok",
+    "mubatau klo",
+    "mubatau trou",
+    "frai",
+    "stebl pliozi",
+    "dreidr bliaso"
+  ],
+  "PrimaryImageAspectRatio": 0.6657081236520489,
+  "MediaStreams": [
+    {
+      "Codec": "h264",
+      "ColorSpace": "bt709",
+      "ColorTransfer": "bt709",
+      "ColorPrimaries": "bt709",
+      "TimeBase": "1/1000",
+      "VideoRange": "SDR",
+      "VideoRangeType": "SDR",
+      "AudioSpatialFormat": "None",
+      "DisplayTitle": "1080p H264 SDR",
+      "NalLengthSize": "4",
+      "IsInterlaced": false,
+      "IsAVC": true,
+      "BitRate": 18175913,
+      "BitDepth": 8,
+      "RefFrames": 1,
+      "IsDefault": true,
+      "IsForced": false,
+      "IsHearingImpaired": false,
+      "Height": 1080,
+      "Width": 1920,
+      "AverageFrameRate": 23.976025,
+      "RealFrameRate": 23.976025,
+      "ReferenceFrameRate": 23.976025,
+      "Profile": "High",
+      "Type": "Video",
+      "AspectRatio": "16:9",
+      "Index": 0,
+      "IsExternal": false,
+      "IsTextSubtitleStream": false,
+      "SupportsExternalStream": false,
+      "PixelFormat": "yuv420p",
+      "Level": 41,
+      "IsAnamorphic": false
+    },
+    {
+      "Codec": "ac3",
+      "Language": "eng",
+      "TimeBase": "1/1000",
+      "Title": "Dolby Digital 5.1",
+      "VideoRange": "Unknown",
+      "VideoRangeType": "Unknown",
+      "AudioSpatialFormat": "None",
+      "LocalizedDefault": "Standard",
+      "LocalizedExternal": "Extern",
+      "DisplayTitle": "Dolby Digital 5.1 - English - Standard",
+      "IsInterlaced": false,
+      "IsAVC": false,
+      "ChannelLayout": "5.1",
+      "BitRate": 640000,
+      "Channels": 6,
+      "SampleRate": 48000,
+      "IsDefault": true,
+      "IsForced": false,
+      "IsHearingImpaired": false,
+      "Type": "Audio",
+      "Index": 1,
+      "IsExternal": false,
+      "IsTextSubtitleStream": false,
+      "SupportsExternalStream": false,
+      "Level": 0
+    },
+    {
+      "Codec": "ac3",
+      "Language": "deu",
+      "TimeBase": "1/1000",
+      "Title": "Dolby Digital 5.1",
+      "VideoRange": "Unknown",
+      "VideoRangeType": "Unknown",
+      "AudioSpatialFormat": "None",
+      "LocalizedDefault": "Standard",
+      "LocalizedExternal": "Extern",
+      "DisplayTitle": "Dolby Digital 5.1 - German",
+      "IsInterlaced": false,
+      "IsAVC": false,
+      "ChannelLayout": "5.1",
+      "BitRate": 640000,
+      "Channels": 6,
+      "SampleRate": 48000,
+      "IsDefault": false,
+      "IsForced": false,
+      "IsHearingImpaired": false,
+      "Type": "Audio",
+      "Index": 2,
+      "IsExternal": false,
+      "IsTextSubtitleStream": false,
+      "SupportsExternalStream": false,
+      "Level": 0
+    },
+    {
+      "Codec": "PGSSUB",
+      "Language": "deu",
+      "TimeBase": "1/1000",
+      "Title": "Forced",
+      "VideoRange": "Unknown",
+      "VideoRangeType": "Unknown",
+      "AudioSpatialFormat": "None",
+      "LocalizedUndefined": "Undefiniert",
+      "LocalizedDefault": "Standard",
+      "LocalizedForced": "Erzwungen",
+      "LocalizedExternal": "Extern",
+      "LocalizedHearingImpaired": "Hörgeschädigt",
+      "DisplayTitle": "Forced - German - Standard - Erzwungen - PGSSUB",
+      "IsInterlaced": false,
+      "IsAVC": false,
+      "IsDefault": true,
+      "IsForced": true,
+      "IsHearingImpaired": false,
+      "Height": 0,
+      "Width": 0,
+      "Type": "Subtitle",
+      "Index": 3,
+      "IsExternal": false,
+      "IsTextSubtitleStream": false,
+      "SupportsExternalStream": true,
+      "Level": 0
+    },
+    {
+      "Codec": "PGSSUB",
+      "Language": "deu",
+      "TimeBase": "1/1000",
+      "Title": "Full",
+      "VideoRange": "Unknown",
+      "VideoRangeType": "Unknown",
+      "AudioSpatialFormat": "None",
+      "LocalizedUndefined": "Undefiniert",
+      "LocalizedDefault": "Standard",
+      "LocalizedForced": "Erzwungen",
+      "LocalizedExternal": "Extern",
+      "LocalizedHearingImpaired": "Hörgeschädigt",
+      "DisplayTitle": "Full - German - PGSSUB",
+      "IsInterlaced": false,
+      "IsAVC": false,
+      "IsDefault": false,
+      "IsForced": false,
+      "IsHearingImpaired": false,
+      "Height": 1080,
+      "Width": 1920,
+      "Type": "Subtitle",
+      "Index": 4,
+      "IsExternal": false,
+      "IsTextSubtitleStream": false,
+      "SupportsExternalStream": true,
+      "Level": 0
+    },
+    {
+      "Codec": "PGSSUB",
+      "Language": "eng",
+      "TimeBase": "1/1000",
+      "Title": "Full",
+      "VideoRange": "Unknown",
+      "VideoRangeType": "Unknown",
+      "AudioSpatialFormat": "None",
+      "LocalizedUndefined": "Undefiniert",
+      "LocalizedDefault": "Standard",
+      "LocalizedForced": "Erzwungen",
+      "LocalizedExternal": "Extern",
+      "LocalizedHearingImpaired": "Hörgeschädigt",
+      "DisplayTitle": "Full - English - PGSSUB",
+      "IsInterlaced": false,
+      "IsAVC": false,
+      "IsDefault": false,
+      "IsForced": false,
+      "IsHearingImpaired": false,
+      "Height": 1080,
+      "Width": 1920,
+      "Type": "Subtitle",
+      "Index": 5,
+      "IsExternal": false,
+      "IsTextSubtitleStream": false,
+      "SupportsExternalStream": true,
+      "Level": 0
+    }
+  ],
+  "VideoType": "VideoFile",
+  "ImageTags": {
+    "Thumb": "b8f3f3b6f3193d34310c5f6bcf7dea98",
+    "Primary": "166ddca612c3a58cee6bc4df146444c7",
+    "Logo": "20487e83b0c6ad38705a74c9bde27371"
+  },
+  "BackdropImageTags": [
+    "ba5349e6f8e807f425a5e26b29def1b0"
+  ],
+  "ImageBlurHashes": {
+    "Backdrop": {
+      "ba5349e6f8e807f425a5e26b29def1b0": "WdJGl^?]cX?XNZQ.nNVsRPn%WYN1IVaJadRkoMoyrvofXlX9ogtR"
+    },
+    "Thumb": {
+      "b8f3f3b6f3193d34310c5f6bcf7dea98": "WxH^99%KR+oMX8R*~9-nR+oMoye:%1%1WXfRt6oextt6bHoft6kC"
+    },
+    "Primary": {
+      "166ddca612c3a58cee6bc4df146444c7": "daK9e*_0?G~T5AIXeot4I.oGIoE2D-R-kCM~E4ahoyWE"
+    },
+    "Logo": {
+      "20487e83b0c6ad38705a74c9bde27371": "HPFr@ft7WCt7of%MWBt7of~qayayt7azayRjWBj["
+    }
+  },
+  "Chapters": [
+    {
+      "StartPositionTicks": 0,
+      "Name": "Kaiwan 1",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_0.jpg",
+      "ImageDateModified": "2026-08-03T00:12:44.2240645Z",
+      "ImageTag": "348739dd4074b9e71a7167d2e9f79c48"
+    },
+    {
+      "StartPositionTicks": 3483270000,
+      "Name": "Kaiwan 2",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_3894310000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:44.7898327Z",
+      "ImageTag": "9065725b43b044769e1c724971bc1ca5"
+    },
+    {
+      "StartPositionTicks": 5033720000,
+      "Name": "Kaiwan 3",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_5627710000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:45.1868621Z",
+      "ImageTag": "6a3fb2f182d1177ca75289e3f90f56a5"
+    },
+    {
+      "StartPositionTicks": 8013350000,
+      "Name": "Kaiwan 4",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_8958950000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:45.4503161Z",
+      "ImageTag": "6d238574adaab2a1030407c3683590ea"
+    },
+    {
+      "StartPositionTicks": 9579090000,
+      "Name": "Kaiwan 5",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_10709450000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:45.8973759Z",
+      "ImageTag": "90ce3745690637f6f1f15b4b0d6bb50a"
+    },
+    {
+      "StartPositionTicks": 11749560000,
+      "Name": "Kaiwan 6",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_13136040000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:46.4992005Z",
+      "ImageTag": "4ab6796890fdc77c7b362f2c9fb0f388"
+    },
+    {
+      "StartPositionTicks": 12599400000,
+      "Name": "Kaiwan 7",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_14086160000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:47.1726998Z",
+      "ImageTag": "6cf0149b94ea9a3f05bf77439ce533c5"
+    },
+    {
+      "StartPositionTicks": 13585400000,
+      "Name": "Kaiwan 8",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_15188510000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:47.9623701Z",
+      "ImageTag": "19a7dd68e9cbca8f2a4b6bee21bcf556"
+    },
+    {
+      "StartPositionTicks": 18559420000,
+      "Name": "Kaiwan 9",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_20749480000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:48.4006408Z",
+      "ImageTag": "a46e3fa0c370fed6330c4fb5d16a9f8f"
+    },
+    {
+      "StartPositionTicks": 21665160000,
+      "Name": "Kaiwan 10",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_24221700000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:48.783581Z",
+      "ImageTag": "88315e8eda4ced8696aef632a3995fc7"
+    },
+    {
+      "StartPositionTicks": 22401950000,
+      "Name": "Kaiwan 11",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_25045440000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:49.2282552Z",
+      "ImageTag": "f03f45e2ab1f3ccae85e41ac8e59ef07"
+    },
+    {
+      "StartPositionTicks": 23198810000,
+      "Name": "Kaiwan 12",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_25936330000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:49.5843176Z",
+      "ImageTag": "5dae43582c598e1e27e5adab464c0c6e"
+    },
+    {
+      "StartPositionTicks": 23969930000,
+      "Name": "Kaiwan 13",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_26798440000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:49.9121097Z",
+      "ImageTag": "01269f907ec208592cb95c9233fc7616"
+    },
+    {
+      "StartPositionTicks": 29275230000,
+      "Name": "Kaiwan 14",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_32729780000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:50.3336899Z",
+      "ImageTag": "749b6dc8e9349aca7f46f733a819dd25"
+    },
+    {
+      "StartPositionTicks": 29985170000,
+      "Name": "Kaiwan 15",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_33523490000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:50.7082875Z",
+      "ImageTag": "97538f0cf7595a9e45cec93bae556be4"
+    },
+    {
+      "StartPositionTicks": 32638000000,
+      "Name": "Kaiwan 16",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_36489370000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:51.134515Z",
+      "ImageTag": "a023802e92aac187564c313930ffea80"
+    },
+    {
+      "StartPositionTicks": 34532410000,
+      "Name": "Kaiwan 17",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_38607320000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:51.7383142Z",
+      "ImageTag": "044909293ef694e2e5e5cd4367cdef15"
+    },
+    {
+      "StartPositionTicks": 35394550000,
+      "Name": "Kaiwan 18",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_39571200000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:52.2056187Z",
+      "ImageTag": "15e98cbb042245afec22ad51c04be2a2"
+    },
+    {
+      "StartPositionTicks": 38748380000,
+      "Name": "Kaiwan 19",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_43320780000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:52.782848Z",
+      "ImageTag": "df1efe479f4250e784245f51cf794f61"
+    },
+    {
+      "StartPositionTicks": 39879120000,
+      "Name": "Kaiwan 20",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_44584960000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:53.2693878Z",
+      "ImageTag": "d49a37acdf41d4e733e54e632fd431af"
+    },
+    {
+      "StartPositionTicks": 40688670000,
+      "Name": "Kaiwan 21",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_45490030000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:53.887181Z",
+      "ImageTag": "9ba3b4961b45c516fc2f35d1abbe413e"
+    },
+    {
+      "StartPositionTicks": 42712530000,
+      "Name": "Kaiwan 22",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_47752710000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:54.2056411Z",
+      "ImageTag": "6191c521ea91dc264458e1502e825a7b"
+    },
+    {
+      "StartPositionTicks": 44061510000,
+      "Name": "Kaiwan 23",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_49260880000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:55.1477309Z",
+      "ImageTag": "c6084c89c04d2ccf7f75996d5a14f11d"
+    },
+    {
+      "StartPositionTicks": 45738800000,
+      "Name": "Kaiwan 24",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_51136090000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:55.6642093Z",
+      "ImageTag": "cc26bb7aec764a605c16de8a9420aa21"
+    },
+    {
+      "StartPositionTicks": 48652030000,
+      "Name": "Kaiwan 25",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_54393090000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:56.1978705Z",
+      "ImageTag": "7ab66e6d055ccea4a560a0b72cf48da6"
+    },
+    {
+      "StartPositionTicks": 53462280000,
+      "Name": "Kaiwan 26",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_59770960000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:56.5860804Z",
+      "ImageTag": "36cf77757e411d3e6f5ead344c4c82ba"
+    },
+    {
+      "StartPositionTicks": 56427750000,
+      "Name": "Kaiwan 27",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_63086360000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:56.866997Z",
+      "ImageTag": "777940234f12c633c6ccfef16a560376"
+    },
+    {
+      "StartPositionTicks": 59286510000,
+      "Name": "Kaiwan 28",
+      "ImagePath": "/config/metadata/library/af/af063b080c8d9cc0872baa2260b038d5/chapters/639213052883471402_66282470000.jpg",
+      "ImageDateModified": "2026-08-03T00:12:57.7613322Z",
+      "ImageTag": "e2394a71240945cb3d106ad6b0259dad"
+    }
+  ],
+  "Trickplay": {
+    "af063b080c8d9cc0872baa2260b038d5": {
+      "320": {
+        "Width": 320,
+        "Height": 180,
+        "TileWidth": 10,
+        "TileHeight": 10,
+        "ThumbnailCount": 650,
+        "Interval": 10000,
+        "Bandwidth": 11080
+      }
+    }
+  },
+  "LocationType": "FileSystem",
+  "MediaType": "Video",
+  "LockedFields": [],
+  "LockData": false,
+  "Width": 1920,
+  "Height": 1080
+}

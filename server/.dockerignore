@@ -1,0 +1,6 @@
+console-app/node_modules
+cinelounge/web/console
+.venv
+**/__pycache__
+.git
+console-app/src/extension/local

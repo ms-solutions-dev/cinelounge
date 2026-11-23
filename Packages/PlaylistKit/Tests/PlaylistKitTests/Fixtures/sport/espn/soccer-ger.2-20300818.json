@@ -1,0 +1,12 @@
+{
+ "leagues": [
+  {
+   "id": "8103",
+   "name": "2. Bundesliga (Germany)",
+   "abbreviation": "2. Bundesliga",
+   "midsizeName": "GER.2",
+   "slug": "ger.2"
+  }
+ ],
+ "events": []
+}

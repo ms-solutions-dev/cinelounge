@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8107",
+   "name": "Ligue 1 (France)",
+   "abbreviation": "Ligue 1",
+   "midsizeName": "FRA.1",
+   "slug": "fra.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001029",
+   "date": "2030-08-17T19:00Z",
+   "name": "Clairbois at FC Valmorin",
+   "shortName": "CLA @ VMO",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "VMO",
+        "displayName": "FC Valmorin",
+        "shortDisplayName": "Valmorin",
+        "name": "FC Valmorin",
+        "location": "FC Valmorin"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "CLA",
+        "displayName": "Clairbois",
+        "shortDisplayName": "Clairbois",
+        "name": "Clairbois",
+        "location": "Clairbois"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

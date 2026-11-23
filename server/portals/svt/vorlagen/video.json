@@ -1,0 +1,89 @@
+{
+ "videoReferences": [
+  {
+   "url": "https://vod.svt.example/world/20260828/716f208e-c590-f0e5-eb67-460da2013312/dash-full.mpd",
+   "resolve": "https://switcher.svt.example/resolve/716f208e-c590-f0e5-eb67-460da2013312/dash-full",
+   "redirect": "https://switcher.svt.example/redirect/716f208e-c590-f0e5-eb67-460da2013312/dash-full",
+   "format": "dash-full"
+  },
+  {
+   "url": "https://vod.svt.example/world/20260828/716f208e-c590-f0e5-eb67-460da2013312/hls.m3u8",
+   "resolve": "https://switcher.svt.example/resolve/716f208e-c590-f0e5-eb67-460da2013312/hls",
+   "redirect": "https://switcher.svt.example/redirect/716f208e-c590-f0e5-eb67-460da2013312/hls",
+   "format": "hls"
+  },
+  {
+   "url": "https://vod.svt.example/world/20260828/716f208e-c590-f0e5-eb67-460da2013312/dash.mpd",
+   "resolve": "https://switcher.svt.example/resolve/716f208e-c590-f0e5-eb67-460da2013312/dash",
+   "redirect": "https://switcher.svt.example/redirect/716f208e-c590-f0e5-eb67-460da2013312/dash",
+   "format": "dash"
+  },
+  {
+   "url": "https://vod.svt.example/world/20260828/716f208e-c590-f0e5-eb67-460da2013312/hls-ts-full.m3u8",
+   "resolve": "https://switcher.svt.example/resolve/716f208e-c590-f0e5-eb67-460da2013312/hls-ts-full",
+   "redirect": "https://switcher.svt.example/redirect/716f208e-c590-f0e5-eb67-460da2013312/hls-ts-full",
+   "format": "hls-ts-full"
+  },
+  {
+   "url": "https://vod.svt.example/world/20260828/716f208e-c590-f0e5-eb67-460da2013312/dash-hbbtv.mpd",
+   "resolve": "https://switcher.svt.example/resolve/716f208e-c590-f0e5-eb67-460da2013312/dash-hbbtv",
+   "redirect": "https://switcher.svt.example/redirect/716f208e-c590-f0e5-eb67-460da2013312/dash-hbbtv",
+   "format": "dash-hbbtv"
+  },
+  {
+   "url": "https://vod.svt.example/world/20260828/716f208e-c590-f0e5-eb67-460da2013312/hls-cmaf-full.m3u8",
+   "resolve": "https://switcher.svt.example/resolve/716f208e-c590-f0e5-eb67-460da2013312/hls-cmaf-full",
+   "redirect": "https://switcher.svt.example/redirect/716f208e-c590-f0e5-eb67-460da2013312/hls-cmaf-full",
+   "format": "hls-cmaf-full"
+  },
+  {
+   "url": "https://vod.svt.example/world/20260828/716f208e-c590-f0e5-eb67-460da2013312/dash-avc.mpd",
+   "resolve": "https://switcher.svt.example/resolve/716f208e-c590-f0e5-eb67-460da2013312/dash-avc",
+   "redirect": "https://switcher.svt.example/redirect/716f208e-c590-f0e5-eb67-460da2013312/dash-avc",
+   "format": "dash-avc"
+  },
+  {
+   "url": "https://vod.svt.example/world/20260828/716f208e-c590-f0e5-eb67-460da2013312/hls-cmaf-avc.m3u8",
+   "resolve": "https://switcher.svt.example/resolve/716f208e-c590-f0e5-eb67-460da2013312/hls-cmaf-avc",
+   "redirect": "https://switcher.svt.example/redirect/716f208e-c590-f0e5-eb67-460da2013312/hls-cmaf-avc",
+   "format": "hls-cmaf-avc"
+  },
+  {
+   "url": "https://vod.svt.example/world/20260828/716f208e-c590-f0e5-eb67-460da2013312/dash-hevc.mpd",
+   "resolve": "https://switcher.svt.example/resolve/716f208e-c590-f0e5-eb67-460da2013312/dash-hevc",
+   "redirect": "https://switcher.svt.example/redirect/716f208e-c590-f0e5-eb67-460da2013312/dash-hevc",
+   "format": "dash-hevc"
+  },
+  {
+   "url": "https://vod.svt.example/world/20260828/716f208e-c590-f0e5-eb67-460da2013312/dash-hevc-full.mpd",
+   "resolve": "https://switcher.svt.example/resolve/716f208e-c590-f0e5-eb67-460da2013312/dash-hevc-full",
+   "redirect": "https://switcher.svt.example/redirect/716f208e-c590-f0e5-eb67-460da2013312/dash-hevc-full",
+   "format": "dash-hevc-full"
+  },
+  {
+   "url": "https://vod.svt.example/world/20260828/716f208e-c590-f0e5-eb67-460da2013312/dash-lb-full.mpd",
+   "resolve": "https://switcher.svt.example/resolve/716f208e-c590-f0e5-eb67-460da2013312/dash-lb-full",
+   "redirect": "https://switcher.svt.example/redirect/716f208e-c590-f0e5-eb67-460da2013312/dash-lb-full",
+   "format": "dash-lb-full"
+  },
+  {
+   "url": "https://vod.svt.example/world/20260828/716f208e-c590-f0e5-eb67-460da2013312/hls-lb-full.m3u8",
+   "resolve": "https://switcher.svt.example/resolve/716f208e-c590-f0e5-eb67-460da2013312/hls-lb-full",
+   "redirect": "https://switcher.svt.example/redirect/716f208e-c590-f0e5-eb67-460da2013312/hls-lb-full",
+   "format": "hls-lb-full"
+  }
+ ],
+ "subtitleReferences": [
+  {
+   "url": "https://vod.svt.example/world/20260828/716f208e-c590-f0e5-eb67-460da2013312/subtitles/sv/all.vtt",
+   "format": "webvtt",
+   "language": "sv",
+   "languageName": "Svenska",
+   "languageDescription": "svenska undertexter",
+   "type": "caption-sdh",
+   "label": "Svenska (allt tal)"
+  }
+ ],
+ "contentDuration": 3500,
+ "live": false
+}

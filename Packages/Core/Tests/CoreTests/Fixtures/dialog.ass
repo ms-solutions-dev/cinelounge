@@ -1,0 +1,311 @@
+[Script Info]
+Title: Synthetic dialogue track
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Sans,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,2,10,10,55,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:01.90,0:02:04.71,Default,,0000,0000,0000,,Suba ba gesujo kedori fatezi\NBa wo gemu bawo
+Dialogue: 0,0:02:07.61,0:02:08.65,Default,,0000,0000,0000,,Jo woke\NRinapo dohu vafa
+Dialogue: 0,0:02:10.00,0:02:11.97,Default,,0000,0000,0000,,Babawo wozi mu ke pomu
+Dialogue: 0,0:02:14.89,0:02:16.92,Default,,0000,0000,0000,,Jojohu mudomu\NBa te su
+Dialogue: 0,0:02:45.33,0:02:47.63,Default,,0000,0000,0000,,DER SPI, AN DEM TUD\NEIN LIAFRIOTRAS NIAJI
+Dialogue: 0,0:02:49.75,0:02:52.10,Default,,0000,0000,0000,,Teziri wobafa keke
+Dialogue: 0,0:02:54.26,0:02:56.84,Default,,0000,0000,0000,,Popo fa vado mudo te mu\NWo faliba va tejo
+Dialogue: 0,0:02:57.95,0:03:01.37,Default,,0000,0000,0000,,Mu mupo wotete
+Dialogue: 0,0:03:02.03,0:03:04.06,Default,,0000,0000,0000,,Hulimu gehute na va fasu ge
+Dialogue: 0,0:03:04.81,0:03:07.98,Default,,0000,0000,0000,,Ri sutefa
+Dialogue: 0,0:03:08.84,0:03:11.18,Default,,0000,0000,0000,,Do dohu zi fage huke huge
+Dialogue: 0,0:03:13.15,0:03:14.86,Default,,0000,0000,0000,,Powozi dote!
+Dialogue: 0,0:03:17.30,0:03:20.70,Default,,0000,0000,0000,,Ge riteba
+Dialogue: 0,0:03:22.55,0:03:23.93,Default,,0000,0000,0000,,Mupoli do
+Dialogue: 0,0:03:24.85,0:03:27.56,Default,,0000,0000,0000,,Jomumu bapo wopo mupoba pohute bavali
+Dialogue: 0,0:03:30.71,0:03:32.29,Default,,0000,0000,0000,,Jowoke jo zige lifage tege mufa
+Dialogue: 0,0:03:35.07,0:03:36.33,Default,,0000,0000,0000,,Dobawo ke
+Dialogue: 0,0:03:37.44,0:03:40.43,Default,,0000,0000,0000,,Pofa zizido ri\NVahuge kege
+Dialogue: 0,0:03:42.63,0:03:45.96,Default,,0000,0000,0000,,Na jo vahuzi te dofa balili\NNamu dosudo mu
+Dialogue: 0,0:03:48.48,0:03:50.36,Default,,0000,0000,0000,,Jo jopova vazi zisu muwo\NTe ge jobasu kemu zi
+Dialogue: 0,0:03:52.10,0:03:54.05,Default,,0000,0000,0000,,Ba keke kelige
+Dialogue: 0,0:03:57.35,0:03:58.65,Default,,0000,0000,0000,,Nalite ri suva\NSu vajo
+Dialogue: 0,0:03:59.83,0:04:01.43,Default,,0000,0000,0000,,Do do gewo su tewo wote
+Dialogue: 0,0:04:03.09,0:04:04.66,Default,,0000,0000,0000,,Su jowo jo do rifasu do
+Dialogue: 0,0:04:05.98,0:04:09.10,Default,,0000,0000,0000,,Zijowo jo va wori
+Dialogue: 0,0:04:11.18,0:04:14.39,Default,,0000,0000,0000,,Humu nawo
+Dialogue: 0,0:04:15.02,0:04:16.25,Default,,0000,0000,0000,,Do dowoba do bana wovasu\NWo geliva!
+Dialogue: 0,0:04:16.90,0:04:20.07,Default,,0000,0000,0000,,Kena muzili hugejo\NNanapo muke huhuwo jofajo gepopo
+Dialogue: 0,0:04:23.12,0:04:24.63,Default,,0000,0000,0000,,Zipona po rifa
+Dialogue: 0,0:04:27.82,0:04:29.45,Default,,0000,0000,0000,,Suli po hu
+Dialogue: 0,0:04:30.88,0:04:34.28,Default,,0000,0000,0000,,Su hu varike
+Dialogue: 0,0:04:35.39,0:04:36.82,Default,,0000,0000,0000,,Nazili ge geba rihuna
+Dialogue: 0,0:04:37.40,0:04:39.86,Default,,0000,0000,0000,,Ritezi wosuhu fa terihu ge na
+Dialogue: 0,0:04:41.77,0:04:44.70,Default,,0000,0000,0000,,Fafa fa
+Dialogue: 0,0:04:47.22,0:04:49.87,Default,,0000,0000,0000,,Najo nagehu te\NBaba su fate geziri na!
+Dialogue: 0,0:04:52.49,0:04:53.58,Default,,0000,0000,0000,,Huhu po\NPobajo riri bamupo fahu su
+Dialogue: 0,0:04:55.54,0:04:57.61,Default,,0000,0000,0000,,Wofa like tepoli lisupo te
+Dialogue: 0,0:05:00.98,0:05:04.31,Default,,0000,0000,0000,,Hufa getepo badoke vajo!
+Dialogue: 0,0:05:05.47,0:05:08.82,Default,,0000,0000,0000,,Po namuri va muzisu!
+Dialogue: 0,0:05:09.39,0:05:10.41,Default,,0000,0000,0000,,Dojoge te hu babana
+Dialogue: 0,0:05:11.45,0:05:13.85,Default,,0000,0000,0000,,Muna zifa riri bamufa\NWo musudo
+Dialogue: 0,0:05:16.37,0:05:18.67,Default,,0000,0000,0000,,Limu zi zi kebava
+Dialogue: 0,0:05:19.91,0:05:21.08,Default,,0000,0000,0000,,Va do fado\NLina ke fasute!
+Dialogue: 0,0:05:22.48,0:05:24.48,Default,,0000,0000,0000,,Ke vali te\NTe zijo zi
+Dialogue: 0,0:05:26.85,0:05:29.71,Default,,0000,0000,0000,,Suwopo liwote sute ri
+Dialogue: 0,0:05:31.66,0:05:33.76,Default,,0000,0000,0000,,Zikeba nado nali
+Dialogue: 0,0:05:36.86,0:05:38.48,Default,,0000,0000,0000,,Ke susuba bavage mufahu su\NDopofa ri rijo riva womu!
+Dialogue: 0,0:05:41.86,0:05:43.56,Default,,0000,0000,0000,,Ri fage zi po dofa\NDo josuba narina
+Dialogue: 0,0:05:46.39,0:05:49.27,Default,,0000,0000,0000,,Suba li li josu supoli
+Dialogue: 0,0:05:50.88,0:05:52.22,Default,,0000,0000,0000,,Fava muge muzijo
+Dialogue: 0,0:05:54.89,0:05:56.87,Default,,0000,0000,0000,,Zido bage do
+Dialogue: 0,0:05:58.99,0:06:01.50,Default,,0000,0000,0000,,Gejo zi huwojo wo kemufa zizihu
+Dialogue: 0,0:06:04.56,0:06:07.35,Default,,0000,0000,0000,,Ge te keri gegeli hu
+Dialogue: 0,0:06:10.68,0:06:14.02,Default,,0000,0000,0000,,Jovamu bafake keli mukete jomu
+Dialogue: 0,0:06:15.90,0:06:17.02,Default,,0000,0000,0000,,Riwo suli lifapo mu\NTesu domu!
+Dialogue: 0,0:06:19.97,0:06:21.65,Default,,0000,0000,0000,,Wo zido
+Dialogue: 0,0:06:23.14,0:06:24.31,Default,,0000,0000,0000,,Do rikefa
+Dialogue: 0,0:06:26.35,0:06:29.39,Default,,0000,0000,0000,,Nali va zifa nana natesu te
+Dialogue: 0,0:06:32.73,0:06:34.84,Default,,0000,0000,0000,,Va do sute li valido\NMu vado mu
+Dialogue: 0,0:06:36.73,0:06:38.81,Default,,0000,0000,0000,,Kena vafa
+Dialogue: 0,0:06:41.29,0:06:42.69,Default,,0000,0000,0000,,Fa lido lido
+Dialogue: 0,0:06:45.79,0:06:48.64,Default,,0000,0000,0000,,Wo tesuhu do ba donazi ri\NWo li ba tegepo
+Dialogue: 0,0:06:51.13,0:06:53.12,Default,,0000,0000,0000,,Genana joke zike!
+Dialogue: 0,0:06:54.91,0:06:57.47,Default,,0000,0000,0000,,Fa potedo hu napo\NKehu wo fajoke
+Dialogue: 0,0:07:00.80,0:07:04.16,Default,,0000,0000,0000,,Riri womuba\NRizili ba sumuna tete
+Dialogue: 0,0:07:07.45,0:07:09.63,Default,,0000,0000,0000,,Suzi ketege ke kepojo kedo
+Dialogue: 0,0:07:12.61,0:07:14.96,Default,,0000,0000,0000,,Fafa sujona rite mujo na ri
+Dialogue: 0,0:07:17.99,0:07:19.02,Default,,0000,0000,0000,,Suwodo zige\NWo fa!
+Dialogue: 0,0:07:22.38,0:07:24.89,Default,,0000,0000,0000,,Sulisu dogemu ri
+Dialogue: 0,0:07:25.54,0:07:27.22,Default,,0000,0000,0000,,Gehujo gena gewona falipo
+Dialogue: 0,0:07:30.42,0:07:32.38,Default,,0000,0000,0000,,Po fa wo rige!
+Dialogue: 0,0:07:35.72,0:07:37.69,Default,,0000,0000,0000,,Ge ke liwo\NLido do ge
+Dialogue: 0,0:07:39.76,0:07:42.73,Default,,0000,0000,0000,,Do lipozi
+Dialogue: 0,0:07:45.36,0:07:48.79,Default,,0000,0000,0000,,Do nate
+Dialogue: 0,0:07:50.96,0:07:52.92,Default,,0000,0000,0000,,Tenake lijoge va gekepo po zi
+Dialogue: 0,0:07:53.38,0:07:55.06,Default,,0000,0000,0000,,Zihu ge bana gesuna\NWoliri rinahu ziva fa su
+Dialogue: 0,0:07:58.18,0:08:01.26,Default,,0000,0000,0000,,Muwo po pori lifa dozimu
+Dialogue: 0,0:08:03.42,0:08:06.31,Default,,0000,0000,0000,,Dohuzi su vahufa po na
+Dialogue: 0,0:08:09.32,0:08:12.00,Default,,0000,0000,0000,,Lipori lipo lige
+Dialogue: 0,0:08:14.46,0:08:16.52,Default,,0000,0000,0000,,Keba gesu geri na li liziva
+Dialogue: 0,0:08:19.53,0:08:22.92,Default,,0000,0000,0000,,Wo hu
+Dialogue: 0,0:08:23.51,0:08:26.32,Default,,0000,0000,0000,,Bajowo nawoba sujona bazi!
+Dialogue: 0,0:08:27.58,0:08:28.75,Default,,0000,0000,0000,,Tehudo po barike nawona banazi!
+Dialogue: 0,0:08:29.28,0:08:32.13,Default,,0000,0000,0000,,Vana li
+Dialogue: 0,0:08:34.22,0:08:36.27,Default,,0000,0000,0000,,Wozi tefali suzi wona!
+Dialogue: 0,0:08:38.34,0:08:39.35,Default,,0000,0000,0000,,Wo suziva na fa wozi
+Dialogue: 0,0:08:41.79,0:08:44.00,Default,,0000,0000,0000,,Jomute suwo ke\NJo jo
+Dialogue: 0,0:08:47.31,0:08:48.97,Default,,0000,0000,0000,,Ziteva jo
+Dialogue: 0,0:08:51.43,0:08:53.04,Default,,0000,0000,0000,,Na jonawo poba wojo teke\NVageba kejo jo su!
+Dialogue: 0,0:08:55.67,0:08:57.94,Default,,0000,0000,0000,,Zisu mufahu husu!
+Dialogue: 0,0:09:00.55,0:09:03.00,Default,,0000,0000,0000,,Ke tejova wo muba\NZi va wofahu
+Dialogue: 0,0:09:04.88,0:09:06.58,Default,,0000,0000,0000,,Tefawo mu po li ridohu\NHunajo na
+Dialogue: 0,0:09:08.17,0:09:11.42,Default,,0000,0000,0000,,Wo tejo va zidoba joke bapo
+Dialogue: 0,0:09:14.77,0:09:16.65,Default,,0000,0000,0000,,Wo namuge napo!
+Dialogue: 0,0:09:17.25,0:09:18.41,Default,,0000,0000,0000,,Fa womumu sujori posu pote jogeri\NSusu doba va
+Dialogue: 0,0:09:21.11,0:09:22.80,Default,,0000,0000,0000,,Su lirite zihu gedo hu limuba
+Dialogue: 0,0:09:23.75,0:09:27.10,Default,,0000,0000,0000,,Jo munari ribamu jo vawoli
+Dialogue: 0,0:09:29.61,0:09:31.35,Default,,0000,0000,0000,,Bazido tevali doge mu\NMu ba vawoba fa
+Dialogue: 0,0:09:31.99,0:09:35.09,Default,,0000,0000,0000,,Li na ge zivava wo
+Dialogue: 0,0:09:37.47,0:09:38.93,Default,,0000,0000,0000,,Litedo joriri lina zili rifa sunado
+Dialogue: 0,0:09:40.04,0:09:41.25,Default,,0000,0000,0000,,Jopoba fage keteke
+Dialogue: 0,0:09:43.12,0:09:45.03,Default,,0000,0000,0000,,Nawoba vado li hu
+Dialogue: 0,0:09:48.31,0:09:49.54,Default,,0000,0000,0000,,Vavage rihu su na su
+Dialogue: 0,0:09:50.95,0:09:53.32,Default,,0000,0000,0000,,Ge mudo navake fadoge\NMuva vage po
+Dialogue: 0,0:09:54.69,0:09:57.79,Default,,0000,0000,0000,,Ba nalige fa
+Dialogue: 0,0:10:01.09,0:10:04.56,Default,,0000,0000,0000,,Posuge hugejo vari jo
+Dialogue: 0,0:10:07.37,0:10:08.89,Default,,0000,0000,0000,,Ge ke zijojo su po geva\NTejona kehuke zifa vado fari
+Dialogue: 0,0:10:10.72,0:10:13.27,Default,,0000,0000,0000,,Wo husu ge kebava vahuzi
+Dialogue: 0,0:10:15.17,0:10:18.14,Default,,0000,0000,0000,,Kege hu fana wogehu tedohu lilisu
+Dialogue: 0,0:10:19.92,0:10:20.95,Default,,0000,0000,0000,,Pokeli po li\NFagedo zijozi!
+Dialogue: 0,0:10:22.57,0:10:24.53,Default,,0000,0000,0000,,Mubawo muna bapo woli bana
+Dialogue: 0,0:10:26.47,0:10:29.49,Default,,0000,0000,0000,,Hu suva hugete tevate woli\NSu ke vagezi namumu wo
+Dialogue: 0,0:10:31.25,0:10:34.18,Default,,0000,0000,0000,,Riwo mupo do mulifa
+Dialogue: 0,0:10:37.58,0:10:38.96,Default,,0000,0000,0000,,Va huwo suwo
+Dialogue: 0,0:10:41.39,0:10:43.64,Default,,0000,0000,0000,,Popo wofajo wojodo te do
+Dialogue: 0,0:10:44.64,0:10:47.08,Default,,0000,0000,0000,,Po tete!
+Dialogue: 0,0:10:47.57,0:10:50.75,Default,,0000,0000,0000,,Huhu kedodo li nawo\NZiwoba lijo
+Dialogue: 0,0:10:51.79,0:10:54.94,Default,,0000,0000,0000,,Posuzi ri zi lifazi zi
+Dialogue: 0,0:10:56.16,0:10:58.18,Default,,0000,0000,0000,,Ri libage li tegejo ke!
+Dialogue: 0,0:10:59.24,0:11:01.69,Default,,0000,0000,0000,,Wovajo gege zi su temu\NGe doliva riri
+Dialogue: 0,0:11:04.43,0:11:06.23,Default,,0000,0000,0000,,Naliba geziri dosuri ziwo\NVahumu muzi sudo vamu su
+Dialogue: 0,0:11:08.57,0:11:11.46,Default,,0000,0000,0000,,Li bavake ripo
+Dialogue: 0,0:11:14.62,0:11:16.11,Default,,0000,0000,0000,,Rihu na wosumu ke tepo rina
+Dialogue: 0,0:11:17.03,0:11:19.88,Default,,0000,0000,0000,,Rihuzi fagege joge
+Dialogue: 0,0:11:22.18,0:11:24.20,Default,,0000,0000,0000,,Gezijo fajofa zi vate ke
+Dialogue: 0,0:11:25.98,0:11:28.17,Default,,0000,0000,0000,,Zi kedo nana do fapo zi
+Dialogue: 0,0:11:31.01,0:11:33.31,Default,,0000,0000,0000,,Rili kena
+Dialogue: 0,0:11:35.10,0:11:38.53,Default,,0000,0000,0000,,Hu ri wo!
+Dialogue: 0,0:11:40.02,0:11:42.58,Default,,0000,0000,0000,,Fateva kepo pojo
+Dialogue: 0,0:11:45.62,0:11:47.52,Default,,0000,0000,0000,,Wo zibake ri dova\NVawo mupowo po
+Dialogue: 0,0:11:48.00,0:11:51.04,Default,,0000,0000,0000,,Na ke rina li\NKeva zi wohupo gedo
+Dialogue: 0,0:11:53.95,0:11:55.86,Default,,0000,0000,0000,,Bake lido dori wori
+Dialogue: 0,0:11:58.77,0:12:01.52,Default,,0000,0000,0000,,Zizipo jodo huli zifapo\NRiwo woliwo li
+Dialogue: 0,0:12:04.48,0:12:07.19,Default,,0000,0000,0000,,Zidowo lijoke poke zite ritesu pomute\NNazi hufa va vavafa gelizi!
+Dialogue: 0,0:12:10.35,0:12:11.54,Default,,0000,0000,0000,,Mu sutejo mu pojo mujo
+Dialogue: 0,0:12:12.93,0:12:14.90,Default,,0000,0000,0000,,Zi nanapo gejo mu josufa
+Dialogue: 0,0:12:16.49,0:12:18.79,Default,,0000,0000,0000,,Faliwo zige\NJosuva bage tevari
+Dialogue: 0,0:12:21.69,0:12:24.87,Default,,0000,0000,0000,,Hu wo\NSuva gemujo gehuzi namumu
+Dialogue: 0,0:12:26.24,0:12:28.41,Default,,0000,0000,0000,,Jo wotete vate
+Dialogue: 0,0:12:30.81,0:12:32.35,Default,,0000,0000,0000,,Keke ri mu dohu suvazi\NFanafa joge vajova vajo
+Dialogue: 0,0:12:33.99,0:12:36.51,Default,,0000,0000,0000,,Bafa liwosu\NSuge li sufa!
+Dialogue: 0,0:12:37.66,0:12:40.11,Default,,0000,0000,0000,,Kebana wote ziwodo dozi nazi husuke!
+Dialogue: 0,0:12:41.24,0:12:44.30,Default,,0000,0000,0000,,Ri hunari bafa wopo
+Dialogue: 0,0:12:47.52,0:12:49.33,Default,,0000,0000,0000,,Vake fana jodo fafana ketena\NSu va li nava
+Dialogue: 0,0:12:52.47,0:12:54.27,Default,,0000,0000,0000,,Tesuli sugeli
+Dialogue: 0,0:12:54.74,0:12:56.93,Default,,0000,0000,0000,,Gefaba woteli fa\NFa teri jo lihu lige
+Dialogue: 0,0:13:00.26,0:13:02.84,Default,,0000,0000,0000,,Dosuba posuna po fa ba su
+Dialogue: 0,0:13:03.80,0:13:06.83,Default,,0000,0000,0000,,Vali jonado bajo
+Dialogue: 0,0:13:09.55,0:13:11.15,Default,,0000,0000,0000,,Ba po nado geva musuli muhudo
+Dialogue: 0,0:13:14.38,0:13:15.40,Default,,0000,0000,0000,,Te posupo bawodo wowowo fa jozina
+Dialogue: 0,0:13:18.60,0:13:22.03,Default,,0000,0000,0000,,Namu ba mumuge fari va hu\NKewo varisu pofa
+Dialogue: 0,0:13:24.66,0:13:26.24,Default,,0000,0000,0000,,Zi na\NNa woli limudo ri va
+Dialogue: 0,0:13:29.30,0:13:31.34,Default,,0000,0000,0000,,Sumufa mu fa na\NHu do limupo dova
+Dialogue: 0,0:13:34.45,0:13:35.77,Default,,0000,0000,0000,,Va geva te mufava ba gesudo\NDofali ziriba ridosu zisumu
+Dialogue: 0,0:13:36.39,0:13:39.30,Default,,0000,0000,0000,,Fake ri\NJo fabamu suvahu nabahu jo
+Dialogue: 0,0:13:39.94,0:13:42.08,Default,,0000,0000,0000,,Jova su tetewo wo gepoge jojoge
+Dialogue: 0,0:13:42.48,0:13:44.00,Default,,0000,0000,0000,,Mutefa lisumu
+Dialogue: 0,0:13:47.01,0:13:49.59,Default,,0000,0000,0000,,Po vali
+Dialogue: 0,0:13:50.85,0:13:52.29,Default,,0000,0000,0000,,Lipo ke zi tefage ge vasu\NGemu huna pojo vanawo te
+Dialogue: 0,0:13:53.02,0:13:56.07,Default,,0000,0000,0000,,Ke gedosu naba lige poteri
+Dialogue: 0,0:13:57.32,0:14:00.39,Default,,0000,0000,0000,,Popoba kedo wotefa domujo\NJoli hu fa pobasu rihu
+Dialogue: 0,0:14:02.84,0:14:05.30,Default,,0000,0000,0000,,Zidohu zi muva
+Dialogue: 0,0:14:06.55,0:14:08.76,Default,,0000,0000,0000,,Likena kemuva pomumu
+Dialogue: 0,0:14:10.41,0:14:12.44,Default,,0000,0000,0000,,Su jopo riri liwoke zivapo temuna!
+Dialogue: 0,0:14:15.59,0:14:17.84,Default,,0000,0000,0000,,Bariva wona woge ri bafasu suvajo
+Dialogue: 0,0:14:19.92,0:14:20.98,Default,,0000,0000,0000,,Na bate wowo gejohu vali nagedo
+Dialogue: 0,0:14:23.17,0:14:24.89,Default,,0000,0000,0000,,Fazi jodo lipo bavava!
+Dialogue: 0,0:14:27.88,0:14:29.49,Default,,0000,0000,0000,,Zifa fa zi!
+Dialogue: 0,0:14:30.75,0:14:33.32,Default,,0000,0000,0000,,Vage wo\NHufawo fari
+Dialogue: 0,0:14:34.42,0:14:36.44,Default,,0000,0000,0000,,Risu jojo ri namuzi muna\NWodori ripona
+Dialogue: 0,0:14:37.80,0:14:40.54,Default,,0000,0000,0000,,Ritezi ke ziva
+Dialogue: 0,0:14:42.06,0:14:45.34,Default,,0000,0000,0000,,Temu kekepo jozi!
+Dialogue: 0,0:14:46.64,0:14:48.73,Default,,0000,0000,0000,,Riwojo kejojo fazi sufawo
+Dialogue: 0,0:14:51.47,0:14:54.26,Default,,0000,0000,0000,,Wo povajo vatewo joriwo hufa
+Dialogue: 0,0:14:56.11,0:14:58.34,Default,,0000,0000,0000,,Dova jo ke nado zibava li
+Dialogue: 0,0:15:00.07,0:15:01.82,Default,,0000,0000,0000,,Wo bado
+Dialogue: 0,0:15:05.11,0:15:08.22,Default,,0000,0000,0000,,Ke temute rivafa kebazi\NZibava poke
+Dialogue: 0,0:15:10.09,0:15:12.19,Default,,0000,0000,0000,,Wolido jowo geziri li mu\NPo tewova musuva
+Dialogue: 0,0:15:13.03,0:15:15.29,Default,,0000,0000,0000,,Zite nateba zi vapo wona mudo\NJofasu wodori na su
+Dialogue: 0,0:15:17.75,0:15:20.30,Default,,0000,0000,0000,,Do rifa sunamu tezijo vafage
+Dialogue: 0,0:15:20.78,0:15:24.07,Default,,0000,0000,0000,,Wo zi namu li!
+Dialogue: 0,0:15:25.37,0:15:27.41,Default,,0000,0000,0000,,Ke dowopo jo su su!
+Dialogue: 0,0:15:30.74,0:15:33.48,Default,,0000,0000,0000,,Powojo namu limu nava na dopo
+Dialogue: 0,0:15:34.76,0:15:37.00,Default,,0000,0000,0000,,Vate dosu lifa kemu po!
+Dialogue: 0,0:15:39.54,0:15:40.85,Default,,0000,0000,0000,,Mu porina\NMuge rizi bava
+Dialogue: 0,0:15:42.44,0:15:44.35,Default,,0000,0000,0000,,Zi wo ge bagepo sufa li
+Dialogue: 0,0:15:46.02,0:15:47.57,Default,,0000,0000,0000,,Su po na nado joge!
+Dialogue: 0,0:15:50.14,0:15:53.40,Default,,0000,0000,0000,,Tejoli vabafa ba mu
+Dialogue: 0,0:15:55.71,0:15:58.08,Default,,0000,0000,0000,,Te jopo kesu
+Dialogue: 0,0:16:01.09,0:16:04.07,Default,,0000,0000,0000,,Rike posuwo
+Dialogue: 0,0:16:05.53,0:16:08.32,Default,,0000,0000,0000,,Huvali vana jonali mupozi li wozi\NRihu tepona mubado bavari!
+Dialogue: 0,0:16:10.73,0:16:12.68,Default,,0000,0000,0000,,Geba ba na te geri faba
+Dialogue: 0,0:16:13.76,0:16:15.15,Default,,0000,0000,0000,,Ziwo dotepo zijo fafa\NKe li zi liva
+Dialogue: 0,0:16:17.00,0:16:18.01,Default,,0000,0000,0000,,Ri muhuwo fa va wo jo
+Dialogue: 0,0:16:21.39,0:16:24.74,Default,,0000,0000,0000,,Zi fatege sujo\NJowowo famu bakesu
+Dialogue: 0,0:16:27.54,0:16:29.21,Default,,0000,0000,0000,,Lisu gewowo fazige badofa huhu!
+Dialogue: 0,0:16:31.28,0:16:33.76,Default,,0000,0000,0000,,Hu vage
+Dialogue: 0,0:16:36.14,0:16:38.07,Default,,0000,0000,0000,,Mu dohuzi jomuge ge ri jo!
+Dialogue: 0,0:16:39.29,0:16:41.66,Default,,0000,0000,0000,,Jopo fazi po po
+Dialogue: 0,0:16:43.51,0:16:44.64,Default,,0000,0000,0000,,Lige suna jodo!
+Dialogue: 0,0:16:45.25,0:16:46.90,Default,,0000,0000,0000,,Muli jo
+Dialogue: 0,0:16:49.91,0:16:52.75,Default,,0000,0000,0000,,Jo vawo!
+Dialogue: 0,0:16:53.72,0:16:56.00,Default,,0000,0000,0000,,Jo mufava zi linafa hufajo keri!
+Dialogue: 0,0:16:58.28,0:17:01.78,Default,,0000,0000,0000,,Jodo falike wopoke
+Dialogue: 0,0:17:05.05,0:17:06.06,Default,,0000,0000,0000,,Kezimu sufa muwoge fava\NDogeva tegepo vamu ri!
+Dialogue: 0,0:17:07.07,0:17:10.29,Default,,0000,0000,0000,,Ri li mu zihumu dosu
+Dialogue: 0,0:17:13.24,0:17:15.48,Default,,0000,0000,0000,,Na ge tedosu
+Dialogue: 0,0:17:17.05,0:17:19.37,Default,,0000,0000,0000,,Li wo na!
+Dialogue: 0,0:17:22.22,0:17:24.18,Default,,0000,0000,0000,,Susuna zi!
+Dialogue: 0,0:17:26.81,0:17:28.17,Default,,0000,0000,0000,,Na woke zi hudoba fana basu!
+Dialogue: 0,0:17:30.96,0:17:33.67,Default,,0000,0000,0000,,Gepoge woba lido dopona\NDosu ri
+Dialogue: 0,0:17:35.94,0:17:38.36,Default,,0000,0000,0000,,Li muripo bali zina bake fa!
+Dialogue: 0,0:17:39.41,0:17:40.52,Default,,0000,0000,0000,,Teziri tebado gehu
+Dialogue: 0,0:17:40.92,0:17:43.97,Default,,0000,0000,0000,,Najo geli basu\NKe su vate vate rizi!
+Dialogue: 0,0:17:45.21,0:17:47.04,Default,,0000,0000,0000,,Pori nali bazi bana mu
+Dialogue: 0,0:17:49.82,0:17:51.35,Default,,0000,0000,0000,,Jopomu do mumu\NVa gemu getepo
+Dialogue: 0,0:17:54.06,0:17:55.96,Default,,0000,0000,0000,,Mu vapona dojoli
+Dialogue: 0,0:17:56.40,0:17:58.79,Default,,0000,0000,0000,,Po huba huri tepova ri keke
+Dialogue: 0,0:18:02.14,0:18:04.66,Default,,0000,0000,0000,,Fa jo jolili sunali
+Dialogue: 0,0:18:06.31,0:18:07.93,Default,,0000,0000,0000,,Fa jozi mu do
+Dialogue: 0,0:18:10.68,0:18:12.14,Default,,0000,0000,0000,,Mu fa
+Dialogue: 0,0:18:13.46,0:18:16.47,Default,,0000,0000,0000,,Jopori nana ripoba ke ri bazina\NDovaba mu fali
+Dialogue: 0,0:18:18.48,0:18:21.86,Default,,0000,0000,0000,,Bajo bakeli fajohu ba
+Dialogue: 0,0:18:22.87,0:18:23.88,Default,,0000,0000,0000,,Huva dova
+Dialogue: 0,0:18:25.69,0:18:27.44,Default,,0000,0000,0000,,Zinasu lihu nadowo do\NPoripo rizina rigezi mu
+Dialogue: 0,0:18:28.36,0:18:30.88,Default,,0000,0000,0000,,Hu huvari tewo zi na
+Dialogue: 0,0:18:32.34,0:18:34.10,Default,,0000,0000,0000,,Ge ke wowodo namu jova domu\NKe na ke gemuge
+Dialogue: 0,0:18:36.11,0:18:38.76,Default,,0000,0000,0000,,Te wo\NNava ba zike rirido
+Dialogue: 0,0:18:39.82,0:18:42.41,Default,,0000,0000,0000,,Te pobage rihuva fa
+Dialogue: 0,0:18:44.75,0:18:47.51,Default,,0000,0000,0000,,Mu do vajopo nazi po sukezi
+Dialogue: 0,0:18:49.35,0:18:52.04,Default,,0000,0000,0000,,Muvaba nali
+Dialogue: 0,0:18:54.33,0:18:56.03,Default,,0000,0000,0000,,Fakedo sunake tejoli wokepo
+Dialogue: 0,0:18:58.07,0:18:59.44,Default,,0000,0000,0000,,Tesu wowodo jona gena
+Dialogue: 0,0:18:59.94,0:19:03.15,Default,,0000,0000,0000,,Ge va sujohu wobaba liziri\NWofa po
+Dialogue: 0,0:19:05.37,0:19:06.68,Default,,0000,0000,0000,,Gebasu fazido
+Dialogue: 0,0:19:08.21,0:19:09.36,Default,,0000,0000,0000,,Liwori fa ba po mu tehuzi
+Dialogue: 0,0:19:12.49,0:19:13.68,Default,,0000,0000,0000,,Va mumu dova hubajo lite teri\NLidomu huzihu hu nava dokesu
+Dialogue: 0,0:19:14.72,0:19:16.01,Default,,0000,0000,0000,,Dozite dosuge li jo sufa jo
+Dialogue: 0,0:19:16.49,0:19:19.77,Default,,0000,0000,0000,,Farijo jo fapo dodohu po\NKewori nafava hukedo
+Dialogue: 0,0:19:23.07,0:19:26.31,Default,,0000,0000,0000,,Fa dofari nana ge vadoge zipodo
+Dialogue: 0,0:19:26.96,0:19:28.83,Default,,0000,0000,0000,,Dorige jobana mute zisu do
+Dialogue: 0,0:19:32.02,0:19:34.26,Default,,0000,0000,0000,,Riteva huzi vake te dova suri!
+Dialogue: 0,0:19:37.08,0:19:40.32,Default,,0000,0000,0000,,Kesusu su mupohu zi
+Dialogue: 0,0:19:41.47,0:19:43.36,Default,,0000,0000,0000,,Riri susuzi gebado ke ketena nadofa
+Dialogue: 0,0:19:45.23,0:19:47.73,Default,,0000,0000,0000,,Farili zi po likehu bado
+Dialogue: 0,0:19:49.69,0:19:51.84,Default,,0000,0000,0000,,Napopo mupofa joge jofa ba
+Dialogue: 0,0:19:53.26,0:19:54.57,Default,,0000,0000,0000,,Dobate jojo hudo gefajo\NFaba jofate
+Dialogue: 0,0:19:57.97,0:20:00.36,Default,,0000,0000,0000,,Gekeke wo dorifa!
+Dialogue: 0,0:20:01.00,0:20:02.01,Default,,0000,0000,0000,,Li fawo risumu josu zidomu jowo
+Dialogue: 0,0:20:04.85,0:20:05.88,Default,,0000,0000,0000,,Ligejo te!
+Dialogue: 0,0:20:07.92,0:20:10.94,Default,,0000,0000,0000,,Wo ziba joge li
+Dialogue: 0,0:20:13.05,0:20:15.06,Default,,0000,0000,0000,,Nawo te natemu
+Dialogue: 0,0:20:15.75,0:20:18.36,Default,,0000,0000,0000,,Fanari keli wonake ziri gegege fasusu\NSunate vakesu tejoge lipoke
+Dialogue: 0,0:20:20.76,0:20:22.84,Default,,0000,0000,0000,,Poziri nana ke ke\NVajona fa pogeke genajo badori
+Dialogue: 0,0:20:25.08,0:20:26.76,Default,,0000,0000,0000,,Suzido lifari dodo!
+Dialogue: 0,0:20:28.20,0:20:29.94,Default,,0000,0000,0000,,Limuna joge na
+Dialogue: 0,0:20:32.82,0:20:35.32,Default,,0000,0000,0000,,Dojoba li po fa vava!
+Dialogue: 0,0:20:36.09,0:20:38.77,Default,,0000,0000,0000,,Zi huziwo
+Dialogue: 0,0:20:42.01,0:20:43.25,Default,,0000,0000,0000,,Linage muva geba zina ge
+Dialogue: 0,0:20:46.60,0:20:47.92,Default,,0000,0000,0000,,Fafa tezi podojo wozido na\NMupo rimuna rivasu namuva zi
+Dialogue: 0,0:20:49.92,0:20:51.18,Default,,0000,0000,0000,,Ke lina favajo vasu
+Dialogue: 0,0:20:53.38,0:20:54.96,Default,,0000,0000,0000,,Lite wosuva doge nado hubasu\NWojo vahu
+Dialogue: 0,0:20:55.52,0:20:57.81,Default,,0000,0000,0000,,Dofazi hu!
+Dialogue: 0,0:21:00.38,0:21:03.78,Default,,0000,0000,0000,,Wo ri munana li muba\NKejo tepo jobava namumu
+Dialogue: 0,0:21:05.88,0:21:06.92,Default,,0000,0000,0000,,Hu po supo zi lifa jozi\NJo muge
+Dialogue: 0,0:21:08.96,0:21:10.89,Default,,0000,0000,0000,,Subajo kehu
+Dialogue: 0,0:21:13.41,0:21:16.68,Default,,0000,0000,0000,,Do mufari jo bajo fabana pozimu
+Dialogue: 0,0:21:18.63,0:21:19.81,Default,,0000,0000,0000,,Zi vanamu ligena vasuhu ke
+Dialogue: 0,0:21:22.69,0:21:23.97,Default,,0000,0000,0000,,Litemu sufa na zite muge!
+Dialogue: 0,0:21:25.31,0:21:28.06,Default,,0000,0000,0000,,Ba ba ri\NHufazi lirili!
+Dialogue: 0,0:21:29.43,0:21:31.36,Default,,0000,0000,0000,,Ri tehute kemu tejote fagedo
+Dialogue: 0,0:21:34.06,0:21:37.27,Default,,0000,0000,0000,,Muwote muri
+Dialogue: 0,0:21:39.39,0:21:41.75,Default,,0000,0000,0000,,Suvasu suke su wokedo fa
+Dialogue: 0,0:21:42.29,0:21:43.97,Default,,0000,0000,0000,,Doge zi nava na hu muva
+Dialogue: 0,0:21:46.08,0:21:47.69,Default,,0000,0000,0000,,Zi fa
+Dialogue: 0,0:21:49.01,0:21:50.34,Default,,0000,0000,0000,,Narili kerina
+Dialogue: 0,0:21:52.98,0:21:56.39,Default,,0000,0000,0000,,Zinari ke ri powo huli suri\NWohufa hujote teposu suri
+Dialogue: 0,0:21:57.31,0:22:00.40,Default,,0000,0000,0000,,Riliri muna vado huge mukedo va\NZipohu dodo li jo
+Dialogue: 0,0:22:01.50,0:22:03.57,Default,,0000,0000,0000,,Domu womute dobapo vafana ri va\NPo vagesu narizi suhu
+Dialogue: 0,0:22:05.96,0:22:07.71,Default,,0000,0000,0000,,Hu wo te
+Dialogue: 0,0:22:10.94,0:22:13.04,Default,,0000,0000,0000,,Ri dova
+Dialogue: 0,0:22:15.62,0:22:17.63,Default,,0000,0000,0000,,Va dofa!
+Dialogue: 0,0:22:20.45,0:22:22.64,Default,,0000,0000,0000,,Jo fa wodo
+Dialogue: 0,0:22:23.92,0:22:25.81,Default,,0000,0000,0000,,Zikege woke jo mu kefa!
+Dialogue: 0,0:22:26.23,0:22:29.45,Default,,0000,0000,0000,,Su suli rijofa jo tete
+Dialogue: 0,0:22:31.08,0:22:33.92,Default,,0000,0000,0000,,Rite li va
+Dialogue: 0,0:22:35.53,0:22:38.28,Default,,0000,0000,0000,,Na tehufa zi napova\NMuliwo munava huhu geteli!
+Dialogue: 0,0:22:41.08,0:22:43.97,Default,,0000,0000,0000,,Dova ke fapo mukeba
+Dialogue: 0,0:22:45.57,0:22:47.01,Default,,0000,0000,0000,,Huva wo navaba gewo tedo rigefa!
+Dialogue: 0,0:22:49.23,0:22:52.44,Default,,0000,0000,0000,,Naba te joli na kejori\NTe zi linapo joli!
+Dialogue: 0,0:22:53.76,0:22:57.04,Default,,0000,0000,0000,,Muwo doli hu ge donava
+Dialogue: 0,0:22:58.21,0:23:00.67,Default,,0000,0000,0000,,Mu vakedo ketedo te\NPokejo vawo wofa fa gege
+Dialogue: 0,0:23:02.96,0:23:04.27,Default,,0000,0000,0000,,Vava ba pohuna
+Dialogue: 0,0:23:05.55,0:23:07.64,Default,,0000,0000,0000,,Huke podojo na nahudo dosu vamu
+Dialogue: 0,0:23:08.83,0:23:11.63,Default,,0000,0000,0000,,Keke jo\NRi nanazi va johu
+Dialogue: 0,0:23:13.14,0:23:16.10,Default,,0000,0000,0000,,Dona ziri wova mu\NJo muri li
+Dialogue: 0,0:23:16.79,0:23:18.76,Default,,0000,0000,0000,,Like mupo vari rido\NLiba risu!

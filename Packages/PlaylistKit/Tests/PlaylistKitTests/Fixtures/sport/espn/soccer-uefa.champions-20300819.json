@@ -1,0 +1,12 @@
+{
+ "leagues": [
+  {
+   "id": "8110",
+   "name": "Champions League (UEFA)",
+   "abbreviation": "Champions League",
+   "midsizeName": "UEFA.CHAMPIONS",
+   "slug": "uefa.champions"
+  }
+ ],
+ "events": []
+}

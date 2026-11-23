@@ -1,0 +1,41 @@
+# arte — the German-French culture channel.
+api: 1
+id: arte
+name:
+  de: arte
+  en: arte
+  tr: arte
+description:
+  de: Der deutsch-französische Kulturkanal — Filme, Serien, Dokus und
+      Konzerte, die meisten auf Deutsch und Französisch.
+  en: The Franco-German culture channel — films, series, documentaries and
+      concerts, most of them in both German and French.
+  tr: Fransız-Alman kültür kanalı — filmler, diziler, belgeseller ve
+      konserler; çoğu hem Almanca hem Fransızca.
+kind: native
+
+# The same list as `Portal.capabilities` in `portal.py`.
+#
+# **No `languages`, although arte is multilingual.** That is the one point
+# where this manifest departs from `INHALTE.md`, and the reason stands at the
+# head of `portal.py`: arte delivers **one** stream per item, and the eight
+# versions are tracks in the HLS manifest. The player chooses them, not the
+# server. Declaring `languages` would promise a choice that does nothing here.
+#
+# No `subtitles` for the same reason: the subtitles are tracks, not files
+# beside them.
+#
+# No `resolver`: the address comes ready-made.
+capabilities:
+  - search
+  - seasons
+  - paging
+  - own_images
+
+# `geoblocking.code` stands at every entry; `ALL`, `SAT` (the satellite
+# footprint) and `EUR_DE_FR` were measured. That holds **per item**, not for the
+# portal: a `region_locked` here would be wrong for half the offering.
+limits: []
+
+enabled: true
+adult: false

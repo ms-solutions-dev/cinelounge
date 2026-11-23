@@ -1,0 +1,36 @@
+# ══════════════════════════════════════════════════════════════════════
+# Was nicht in die Historie gehört.
+# Übernommen aus dem Schwesterprojekt (jellyfin-tvos) und um die Posten
+# gekürzt, die es hier nicht gibt (Spikes, Bildstapel, design/-Rohdaten).
+# ══════════════════════════════════════════════════════════════════════
+
+# Erzeugnisse. Das Xcode-Projekt wird aus project.yml gebaut (scripts/project.sh),
+# die Info.plist aus demselben project.yml — beides ist Ergebnis, nicht Quelle.
+CineLounge.xcodeproj/
+App/Info.plist
+.dd/
+.build/
+build/
+
+# Laufzeitstände vom Gerät. Sie tragen Sender- und Adressspuren und haben in
+# der Historie nichts zu suchen — dieselbe Regel wie im Fernseh-Projekt.
+diagnose/*.log
+diagnose/*.json
+
+# Bildzwischenspeicher: schreibt sich bei jedem Testlauf neu.
+Packages/DesignSystemPhone/cinelounge.images/
+
+__pycache__/
+.DS_Store
+.claude/
+
+# Der Klickprototyp bleibt drin — er trägt seine 37 Bilder eingebettet in sich
+# und ist damit auch in einem Jahr noch vollständig. Draußen bleiben nur die
+# Zwischenstände der vier Zeichner und die Sicherungskopien.
+entwuerfe/_teil2-*.html
+entwuerfe/.prototyp-*.html
+design/fahrplan.local.html
+
+# Die Entwürfe des App-Symbols sind erzeugt (scripts/appsymbol.py); eingecheckt
+# wird das Vergleichsbild und der gewählte Satz im Asset-Katalog.
+design/appsymbol/*/

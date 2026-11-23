@@ -1,0 +1,91 @@
+{
+ "leagues": [
+  {
+   "id": "8102",
+   "name": "Bundesliga (Germany)",
+   "abbreviation": "Bundesliga",
+   "midsizeName": "GER.1",
+   "slug": "ger.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001012",
+   "date": "2030-08-18T13:30Z",
+   "name": "Eisenmark at Tannwalden",
+   "shortName": "EIS @ TAN",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "TAN",
+        "displayName": "Tannwalden",
+        "shortDisplayName": "Tannwalden",
+        "name": "Tannwalden",
+        "location": "Tannwalden"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "EIS",
+        "displayName": "Eisenmark",
+        "shortDisplayName": "Eisenmark",
+        "name": "Eisenmark",
+        "location": "Eisenmark"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001013",
+   "date": "2030-08-18T15:30Z",
+   "name": "Wolkenau at Lindgraben",
+   "shortName": "WOL @ LIN",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "LIN",
+        "displayName": "Lindgraben",
+        "shortDisplayName": "Lindgraben",
+        "name": "Lindgraben",
+        "location": "Lindgraben"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "WOL",
+        "displayName": "Wolkenau",
+        "shortDisplayName": "Wolkenau",
+        "name": "Wolkenau",
+        "location": "Wolkenau"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

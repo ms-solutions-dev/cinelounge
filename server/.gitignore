@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+daten/
+*.sqlite
+.secrets/
+.probe/
+secrets/*.txt
+exits.json
+
+# The console is built from console-app/ (npm run build or the Docker image).
+cinelounge/web/console/
+console-app/node_modules/

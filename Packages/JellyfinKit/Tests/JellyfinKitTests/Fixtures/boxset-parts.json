@@ -1,0 +1,272 @@
+{
+  "Items": [
+    {
+      "Name": "Toke-Gretkl",
+      "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+      "Id": "af063b080c8d9cc0872baa2260b038d5",
+      "DateCreated": "2026-08-02T22:08:08.3471402Z",
+      "HasSubtitles": true,
+      "Container": "mkv",
+      "SortName": "kriavakral",
+      "PremiereDate": "1992-03-08T22:00:00.0000000Z",
+      "CriticRating": 96,
+      "OfficialRating": "FSK-12",
+      "ChannelId": null,
+      "Overview": "In einer Jocio aus Caut nikri ein Klenis nach dem einen Wepriat, das venst cebag doskr. Ein Stubliflok fruvo gatbloji sten Gafak, die glia Giviat um trokoble Zijou getskan.",
+      "Genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "CommunityRating": 7.1,
+      "RunTimeTicks": 79936390000,
+      "ProductionYear": 1992,
+      "ProviderIds": {
+        "Imdb": "tt9227444",
+        "Tmdb": "351",
+        "TmdbCollection": "726"
+      },
+      "IsFolder": false,
+      "Type": "Movie",
+      "Studios": [
+        {
+          "Name": "Bozios Griospio",
+          "Id": "d2ab1844b2db9f5c63003d84f87d54d3"
+        },
+        {
+          "Name": "Brouk Plen Zouhiobrel",
+          "Id": "42d6ad42937ce6cda2ebdfc4a5b1f2c8"
+        },
+        {
+          "Name": "Sliapris Kliostod",
+          "Id": "3e8c9b438ab4664dc15b8cdbfce57134"
+        }
+      ],
+      "GenreItems": [
+        {
+          "Name": "Action",
+          "Id": "ce06903d834d2c3417e0889dd4049f3b"
+        },
+        {
+          "Name": "Science Fiction",
+          "Id": "0430d514c35e1f158fa93f1eeb8361ea"
+        }
+      ],
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 1,
+        "IsFavorite": false,
+        "LastPlayedDate": "2026-08-02T22:34:39.1920274Z",
+        "Played": false,
+        "Key": "516",
+        "ItemId": "af063b080c8d9cc0872baa2260b038d5"
+      },
+      "VideoType": "VideoFile",
+      "ImageTags": {
+        "Thumb": "b8f3f3b6f3193d34310c5f6bcf7dea98",
+        "Primary": "166ddca612c3a58cee6bc4df146444c7",
+        "Logo": "20487e83b0c6ad38705a74c9bde27371"
+      },
+      "BackdropImageTags": [
+        "ba5349e6f8e807f425a5e26b29def1b0"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "ba5349e6f8e807f425a5e26b29def1b0": "WdJGl^?]cX?XNZQ.nNVsRPn%WYN1IVaJadRkoMoyrvofXlX9ogtR"
+        },
+        "Thumb": {
+          "b8f3f3b6f3193d34310c5f6bcf7dea98": "WxH^99%KR+oMX8R*~9-nR+oMoye:%1%1WXfRt6oextt6bHoft6kC"
+        },
+        "Primary": {
+          "166ddca612c3a58cee6bc4df146444c7": "daK9e*_0?G~T5AIXeot4I.oGIoE2D-R-kCM~E4ahoyWE"
+        },
+        "Logo": {
+          "20487e83b0c6ad38705a74c9bde27371": "HPFr@ft7WCt7of%MWBt7of~qayayt7azayRjWBj["
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Video"
+    },
+    {
+      "Name": "Toke-Gretkl 2",
+      "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+      "Id": "d9191890f20251dcebb5eedf4e5d7438",
+      "DateCreated": "2026-08-02T23:15:26.8974918Z",
+      "HasSubtitles": true,
+      "Container": "mkv",
+      "SortName": "kriavakral 0000000002",
+      "PremiereDate": "1994-03-03T22:00:00.0000000Z",
+      "CriticRating": 85,
+      "OfficialRating": "FSK-12",
+      "ChannelId": null,
+      "Overview": "Eine Giatsi Glesonze gluh im Bluwio hosku Sianpruk krego, das sto gliaje nicht wanber. In einer Jocio aus Caut nikri ein Klenis nach dem einen Wepriat, das venst cebag doskr.",
+      "Genres": [
+        "Action",
+        "Abenteuer",
+        "Science Fiction"
+      ],
+      "CommunityRating": 6.930,
+      "RunTimeTicks": 79694660000,
+      "ProductionYear": 1994,
+      "ProviderIds": {
+        "Imdb": "tt2151603",
+        "Tmdb": "695",
+        "TmdbCollection": "726"
+      },
+      "IsFolder": false,
+      "Type": "Movie",
+      "Studios": [
+        {
+          "Name": "Bozios Griospio",
+          "Id": "d2ab1844b2db9f5c63003d84f87d54d3"
+        },
+        {
+          "Name": "Brouk Plen Zouhiobrel",
+          "Id": "42d6ad42937ce6cda2ebdfc4a5b1f2c8"
+        },
+        {
+          "Name": "Sliapris Kliostod",
+          "Id": "3e8c9b438ab4664dc15b8cdbfce57134"
+        }
+      ],
+      "GenreItems": [
+        {
+          "Name": "Action",
+          "Id": "ce06903d834d2c3417e0889dd4049f3b"
+        },
+        {
+          "Name": "Abenteuer",
+          "Id": "4dbf3d7f9153d351e9969c2c073264cc"
+        },
+        {
+          "Name": "Science Fiction",
+          "Id": "0430d514c35e1f158fa93f1eeb8361ea"
+        }
+      ],
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "d9191890-f202-51dc-ebb5-eedf4e5d7438",
+        "ItemId": "d9191890f20251dcebb5eedf4e5d7438"
+      },
+      "VideoType": "VideoFile",
+      "ImageTags": {
+        "Primary": "4529711a8f9629e03c3c2bd2f2eb394f",
+        "Thumb": "44483ae3ac14aa2588ef43c1e0779d27",
+        "Logo": "1d192812cd13e40523172820e455cf48"
+      },
+      "BackdropImageTags": [
+        "df6bf8a641d73c6def1f12a820cd2217"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "df6bf8a641d73c6def1f12a820cd2217": "WVJh]X0i%Kt60~%e=It6s.$%bboJr?$%oebas:r?=_IpxZoeRj%1"
+        },
+        "Primary": {
+          "4529711a8f9629e03c3c2bd2f2eb394f": "dqHT7^-Toxxs};t6t6xYxZoeoJs.r?sAR+WDM}RkNHNI"
+        },
+        "Thumb": {
+          "44483ae3ac14aa2588ef43c1e0779d27": "WWJYUw4?-nt60~%e=cs:xF$%S#n%wc$%o0bYofs9=_M|%0bHV@%1"
+        },
+        "Logo": {
+          "1d192812cd13e40523172820e455cf48": "8CI#x_?bayxu%M_3~q9F?b"
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Video"
+    },
+    {
+      "Name": "Toke-Gretkl 3",
+      "ServerId": "aaaabbbbccccddddeeeeffff00001111",
+      "Id": "c1d85ad0829e35eff7726336a6c5789e",
+      "DateCreated": "2026-08-03T09:58:22.133699Z",
+      "HasSubtitles": true,
+      "Container": "mkv",
+      "SortName": "kriavakral 0000000003",
+      "PremiereDate": "1996-11-21T22:00:00.0000000Z",
+      "CriticRating": 54,
+      "OfficialRating": "FSK-12",
+      "ChannelId": null,
+      "Overview": "In einer Jocio aus Caut nikri ein Klenis nach dem einen Wepriat, das venst cebag doskr. Eine tete Geinsustaur ginj einen cegi Blamis slupuzen, bluzi der Leiple frisu.",
+      "Genres": [
+        "Action",
+        "Abenteuer",
+        "Science Fiction"
+      ],
+      "CommunityRating": 6.738,
+      "RunTimeTicks": 76284800000,
+      "ProductionYear": 1996,
+      "ProviderIds": {
+        "Imdb": "tt6279971",
+        "Tmdb": "285",
+        "TmdbCollection": "726"
+      },
+      "IsFolder": false,
+      "Type": "Movie",
+      "Studios": [
+        {
+          "Name": "Brouk Plen Zouhiobrel",
+          "Id": "42d6ad42937ce6cda2ebdfc4a5b1f2c8"
+        },
+        {
+          "Name": "Bozios Ketboun",
+          "Id": "92e087260fb84bbba21ef249122925df"
+        },
+        {
+          "Name": "Sliapris Kliostod",
+          "Id": "3e8c9b438ab4664dc15b8cdbfce57134"
+        }
+      ],
+      "GenreItems": [
+        {
+          "Name": "Action",
+          "Id": "ce06903d834d2c3417e0889dd4049f3b"
+        },
+        {
+          "Name": "Abenteuer",
+          "Id": "4dbf3d7f9153d351e9969c2c073264cc"
+        },
+        {
+          "Name": "Science Fiction",
+          "Id": "0430d514c35e1f158fa93f1eeb8361ea"
+        }
+      ],
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "c1d85ad0-829e-35ef-f772-6336a6c5789e",
+        "ItemId": "c1d85ad0829e35eff7726336a6c5789e"
+      },
+      "VideoType": "VideoFile",
+      "ImageTags": {
+        "Primary": "99f8783fb10b63645eeeeaa5c1c00014",
+        "Logo": "ead1a0db090ada30014bcc66758c1fc1",
+        "Thumb": "cbc2e566064360e944895ed76e9498b4"
+      },
+      "BackdropImageTags": [
+        "59de9cebc33ce5f838a778935532bd57"
+      ],
+      "ImageBlurHashes": {
+        "Backdrop": {
+          "59de9cebc33ce5f838a778935532bd57": "WPEof9DP~Cs;XSo|^+r=%2xZWVxuEM=_s:RO%2WBbwxFxDs:%1Rj"
+        },
+        "Primary": {
+          "99f8783fb10b63645eeeeaa5c1c00014": "dNB{[ZRR-o%M~Baf%0xaxZt6WAoeXAxYNGj@E3%0WCWB"
+        },
+        "Logo": {
+          "ead1a0db090ada30014bcc66758c1fc1": "8KO|X^?H%MM{%Mxu~qD%xu"
+        },
+        "Thumb": {
+          "cbc2e566064360e944895ed76e9498b4": "WUC?Dq~A-o-VNHIrSjIpNHs:ofW.E3EMEMM|ofs:xu%1xZbHxas:"
+        }
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Video"
+    }
+  ],
+  "TotalRecordCount": 3,
+  "StartIndex": 0
+}

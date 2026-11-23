@@ -1,0 +1,247 @@
+{
+ "leagues": [
+  {
+   "id": "8102",
+   "name": "Bundesliga (Germany)",
+   "abbreviation": "Bundesliga",
+   "midsizeName": "GER.1",
+   "slug": "ger.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001006",
+   "date": "2030-08-17T13:30Z",
+   "name": "FC Rabenfels at SC Fichtenhain 08",
+   "shortName": "RAB @ FIC",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "FIC",
+        "displayName": "SC Fichtenhain 08",
+        "shortDisplayName": "Fichtenhain",
+        "name": "SC Fichtenhain 08",
+        "location": "SC Fichtenhain 08"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "RAB",
+        "displayName": "FC Rabenfels",
+        "shortDisplayName": "Rabenfels",
+        "name": "FC Rabenfels",
+        "location": "FC Rabenfels"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001007",
+   "date": "2030-08-17T13:30Z",
+   "name": "TSV Mühlenau at Eintracht Kesselbrunn",
+   "shortName": "MUE @ KES",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "KES",
+        "displayName": "Eintracht Kesselbrunn",
+        "shortDisplayName": "Kesselbrunn",
+        "name": "Eintracht Kesselbrunn",
+        "location": "Eintracht Kesselbrunn"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "MUE",
+        "displayName": "TSV Mühlenau",
+        "shortDisplayName": "Mühlenau",
+        "name": "TSV Mühlenau",
+        "location": "TSV Mühlenau"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001008",
+   "date": "2030-08-17T13:30Z",
+   "name": "1. FC Nebelsee at SV Silberhain",
+   "shortName": "NEB @ SIL",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "SIL",
+        "displayName": "SV Silberhain",
+        "shortDisplayName": "Silberhain",
+        "name": "SV Silberhain",
+        "location": "SV Silberhain"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "NEB",
+        "displayName": "1. FC Nebelsee",
+        "shortDisplayName": "Nebelsee",
+        "name": "1. FC Nebelsee",
+        "location": "1. FC Nebelsee"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001009",
+   "date": "2030-08-17T13:30Z",
+   "name": "VfR Distelbach at Sturmhagen 04",
+   "shortName": "DIS @ STU",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "STU",
+        "displayName": "Sturmhagen 04",
+        "shortDisplayName": "Sturmhagen",
+        "name": "Sturmhagen 04",
+        "location": "Sturmhagen 04"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "DIS",
+        "displayName": "VfR Distelbach",
+        "shortDisplayName": "Distelbach",
+        "name": "VfR Distelbach",
+        "location": "VfR Distelbach"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001010",
+   "date": "2030-08-17T13:30Z",
+   "name": "SpVgg Ahornbrück at Krähenfeld",
+   "shortName": "AHO @ KRA",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "KRA",
+        "displayName": "Krähenfeld",
+        "shortDisplayName": "Krähenfeld",
+        "name": "Krähenfeld",
+        "location": "Krähenfeld"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "AHO",
+        "displayName": "SpVgg Ahornbrück",
+        "shortDisplayName": "Ahornbrück",
+        "name": "SpVgg Ahornbrück",
+        "location": "SpVgg Ahornbrück"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001011",
+   "date": "2030-08-17T16:30Z",
+   "name": "Moorhaven at Birkenstein",
+   "shortName": "MOO @ BIR",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "BIR",
+        "displayName": "Birkenstein",
+        "shortDisplayName": "Birkenstein",
+        "name": "Birkenstein",
+        "location": "Birkenstein"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "MOO",
+        "displayName": "Moorhaven",
+        "shortDisplayName": "Moorhaven",
+        "name": "Moorhaven",
+        "location": "Moorhaven"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

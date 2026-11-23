@@ -1,0 +1,6 @@
+// Vorlage für ein eigenes Entwicklerkonto: nach Config/Local.xcconfig kopieren und
+// anpassen. Local.xcconfig ist gitignoriert.
+//
+// Danach im Entwicklerportal App-IDs, App Group (group.<präfix>.cinelounge) und
+// iCloud-Container (iCloud.<präfix>.cinelounge) anlegen, dann `xcodegen` laufen lassen.
+CL_BUNDLE_PREFIX = com.example

@@ -1,0 +1,91 @@
+{
+ "leagues": [
+  {
+   "id": "8103",
+   "name": "2. Bundesliga (Germany)",
+   "abbreviation": "2. Bundesliga",
+   "midsizeName": "GER.2",
+   "slug": "ger.2"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001014",
+   "date": "2030-08-17T11:00Z",
+   "name": "Sandhorst at Grauwacke",
+   "shortName": "SAN @ GRA",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "GRA",
+        "displayName": "Grauwacke",
+        "shortDisplayName": "Grauwacke",
+        "name": "Grauwacke",
+        "location": "Grauwacke"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "SAN",
+        "displayName": "Sandhorst",
+        "shortDisplayName": "Sandhorst",
+        "name": "Sandhorst",
+        "location": "Sandhorst"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001015",
+   "date": "2030-08-17T11:00Z",
+   "name": "Heidekamp at Kiefernbruch",
+   "shortName": "HEI @ KIE",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "KIE",
+        "displayName": "Kiefernbruch",
+        "shortDisplayName": "Kiefernbruch",
+        "name": "Kiefernbruch",
+        "location": "Kiefernbruch"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "HEI",
+        "displayName": "Heidekamp",
+        "shortDisplayName": "Heidekamp",
+        "name": "Heidekamp",
+        "location": "Heidekamp"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

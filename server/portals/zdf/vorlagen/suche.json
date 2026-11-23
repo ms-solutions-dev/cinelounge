@@ -1,0 +1,199 @@
+{
+ "http://zdf.de/rels/search/results": [
+  {
+   "score": null,
+   "resultMode": null,
+   "profile": "http://zdf.de/rels/search/result",
+   "id": "SCMS_1502a696-0d00-6ef7-7c81-1c4f98f176ba",
+   "viewCount": 0,
+   "title": "Die Ampeln von Oberweiler",
+   "ratingCount": 0,
+   "type": "page-video",
+   "resultType": "default",
+   "http://zdf.de/rels/target": {
+    "externalId": "SCMS_1502a696-0d00-6ef7-7c81-1c4f98f176ba",
+    "id": "die-ampeln-von-oberweiler-100",
+    "editorialDate": "2026-10-10T02:10:00.000+02:00",
+    "teaserImageRef": {
+     "title": "Die Ampeln von Oberweiler Key Visual",
+     "altText": "Bild aus Die Ampeln von Oberweiler",
+     "caption": "Bild aus Die Ampeln von Oberweiler",
+     "copyrightNotice": "Demo",
+     "source": "Demo-Sender",
+     "profile": "http://zdf.de/rels/image",
+     "layouts": {
+      "384x216": "https://www.zdf.example/assets/die-ampeln-von-oberweiler-key-visual-100~384x216?cb=3447080041115",
+      "768x432": "https://www.zdf.example/assets/die-ampeln-von-oberweiler-key-visual-100~768x432?cb=3447080041115",
+      "1280x720": "https://www.zdf.example/assets/die-ampeln-von-oberweiler-key-visual-100~1280x720?cb=3447080041115",
+      "1920x1080": "https://www.zdf.example/assets/die-ampeln-von-oberweiler-key-visual-100~1920x1080?cb=3447080041115",
+      "original": "https://www.zdf.example/assets/die-ampeln-von-oberweiler-key-visual-100~original?cb=3447080041115"
+     }
+    },
+    "embeddingPossible": true,
+    "endDate": "2027-08-15T23:59:00.000+02:00",
+    "teaserHeadline": "Die Ampeln von Oberweiler",
+    "trackingTitle": "Die_Ampeln_von_Oberweiler",
+    "teasertext": "Eine Kleinstadt steht Kopf: Die Ampeln spielen verrückt, und niemand weiß warum.",
+    "excludeFromLastViewed": false,
+    "hideEpisodeInformation": false,
+    "contentType": "episode",
+    "hasVideo": true,
+    "currentVideoType": "episode",
+    "fskBlocked": false,
+    "profile": "http://zdf.de/rels/content/page-video-teaser",
+    "self": "/content/documents/zdf/die-ampeln-von-oberweiler-100.json",
+    "canonical": "/content/documents/die-ampeln-von-oberweiler-100.json",
+    "webCanonical": "https://www.zdf.example/video/die-ampeln-von-oberweiler-100",
+    "seasonNumberPrefix": null,
+    "structureNodePath": "/zdf/demo",
+    "tvService": "ZDF",
+    "mainVideoContent": {
+     "http://zdf.de/rels/target": {
+      "title": "Die Ampeln von Oberweiler",
+      "contentType": "episode",
+      "extId": "261010_die_ampeln_von_oberw",
+      "attrs": [
+       "UT"
+      ],
+      "domain": "mediathek",
+      "duration": 5289,
+      "geoLocation": "none",
+      "fsk": "none",
+      "visible": true,
+      "visibleFrom": "2026-07-14T16:00:00.000+02:00",
+      "visibleTo": "2027-08-15T23:59:00.000+02:00",
+      "aspectRatio": "16:9",
+      "profile": "http://zdf.de/rels/content/content-video-vod-teaser",
+      "self": "/content/documents/zdf/videos/vod-die-ampeln-von-oberweiler-100.json?profile=teaser",
+      "canonical": "/content/documents/vod-die-ampeln-von-oberweiler-100.json",
+      "http://zdf.de/rels/streams/ptmd-template": "/tmd/2/{playerId}/vod/ptmd/mediathek/261010_die_ampeln_von_oberw/7"
+     }
+    }
+   }
+  },
+  {
+   "score": null,
+   "resultMode": null,
+   "profile": "http://zdf.de/rels/search/result",
+   "id": "SCMS_2c3e2b15-9abe-0a9a-ed39-a6a08b106147",
+   "viewCount": 0,
+   "title": "Nebel am Grat",
+   "ratingCount": 0,
+   "type": "page-video",
+   "resultType": "default",
+   "http://zdf.de/rels/target": {
+    "externalId": "SCMS_2c3e2b15-9abe-0a9a-ed39-a6a08b106147",
+    "id": "nebel-am-grat-100",
+    "editorialDate": "2026-10-07T19:25:00.000+02:00",
+    "teaserImageRef": {
+     "title": "Nebel am Grat Key Visual",
+     "altText": "Bild aus Nebel am Grat",
+     "caption": "Bild aus Nebel am Grat",
+     "copyrightNotice": "Demo",
+     "source": "Demo-Sender",
+     "profile": "http://zdf.de/rels/image",
+     "layouts": {
+      "384x216": "https://www.zdf.example/assets/nebel-am-grat-key-visual-100~384x216?cb=6130176071185",
+      "768x432": "https://www.zdf.example/assets/nebel-am-grat-key-visual-100~768x432?cb=6130176071185",
+      "1280x720": "https://www.zdf.example/assets/nebel-am-grat-key-visual-100~1280x720?cb=6130176071185",
+      "1920x1080": "https://www.zdf.example/assets/nebel-am-grat-key-visual-100~1920x1080?cb=6130176071185",
+      "original": "https://www.zdf.example/assets/nebel-am-grat-key-visual-100~original?cb=6130176071185"
+     }
+    },
+    "embeddingPossible": true,
+    "endDate": "2027-08-15T23:59:00.000+02:00",
+    "teaserHeadline": "Nebel am Grat",
+    "trackingTitle": "Nebel_am_Grat",
+    "teasertext": "Zwei Wanderer verlieren am Grat die Orientierung, unten wartet ihr Hund.",
+    "excludeFromLastViewed": false,
+    "hideEpisodeInformation": false,
+    "contentType": "episode",
+    "hasVideo": true,
+    "currentVideoType": "episode",
+    "fskBlocked": false,
+    "profile": "http://zdf.de/rels/content/page-video-teaser",
+    "self": "/content/documents/zdf/nebel-am-grat-100.json",
+    "canonical": "/content/documents/nebel-am-grat-100.json",
+    "webCanonical": "https://www.zdf.example/video/nebel-am-grat-100",
+    "seasonNumberPrefix": null,
+    "structureNodePath": "/zdf/demo",
+    "tvService": "ZDF",
+    "mainVideoContent": {
+     "http://zdf.de/rels/target": {
+      "title": "Nebel am Grat",
+      "contentType": "episode",
+      "extId": "261007_nebel_am_grat",
+      "attrs": [
+       "UT"
+      ],
+      "domain": "mediathek",
+      "duration": 2584,
+      "geoLocation": "none",
+      "fsk": "none",
+      "visible": true,
+      "visibleFrom": "2026-07-14T16:00:00.000+02:00",
+      "visibleTo": "2027-08-15T23:59:00.000+02:00",
+      "aspectRatio": "16:9",
+      "profile": "http://zdf.de/rels/content/content-video-vod-teaser",
+      "self": "/content/documents/zdf/videos/vod-nebel-am-grat-100.json?profile=teaser",
+      "canonical": "/content/documents/vod-nebel-am-grat-100.json",
+      "http://zdf.de/rels/streams/ptmd-template": "/tmd/2/{playerId}/vod/ptmd/mediathek/261007_nebel_am_grat/7"
+     }
+    }
+   }
+  },
+  {
+   "score": null,
+   "resultMode": null,
+   "profile": "http://zdf.de/rels/search/result",
+   "id": "SCMS_0ed0e033-5c6d-a5b6-cb93-1fa5df324f60",
+   "viewCount": 0,
+   "title": "Ruderregatta - Tag 2",
+   "ratingCount": 0,
+   "type": "page-video",
+   "resultType": "default",
+   "http://zdf.de/rels/target": {
+    "externalId": "SCMS_0ed0e033-5c6d-a5b6-cb93-1fa5df324f60",
+    "id": "ruderregatta-tag-2-100",
+    "editorialDate": "2026-09-20T15:25:00.000+02:00",
+    "teaserImageRef": {
+     "title": "Ruderregatta - Tag 2 Key Visual",
+     "altText": "Bild aus Ruderregatta - Tag 2",
+     "caption": "Bild aus Ruderregatta - Tag 2",
+     "copyrightNotice": "Demo",
+     "source": "Demo-Sender",
+     "profile": "http://zdf.de/rels/image",
+     "layouts": {
+      "384x216": "https://www.zdf.example/assets/ruderregatta-tag-2-key-visual-100~384x216?cb=5522600900537",
+      "768x432": "https://www.zdf.example/assets/ruderregatta-tag-2-key-visual-100~768x432?cb=5522600900537",
+      "1280x720": "https://www.zdf.example/assets/ruderregatta-tag-2-key-visual-100~1280x720?cb=5522600900537",
+      "1920x1080": "https://www.zdf.example/assets/ruderregatta-tag-2-key-visual-100~1920x1080?cb=5522600900537",
+      "original": "https://www.zdf.example/assets/ruderregatta-tag-2-key-visual-100~original?cb=5522600900537"
+     }
+    },
+    "embeddingPossible": true,
+    "endDate": "2027-08-15T23:59:00.000+02:00",
+    "teaserHeadline": "Ruderregatta - Tag 2",
+    "trackingTitle": "Ruderregatta_-_Tag_2",
+    "teasertext": "Die Übertragung beginnt am Sonntag.",
+    "excludeFromLastViewed": false,
+    "hideEpisodeInformation": false,
+    "contentType": "episode",
+    "hasVideo": false,
+    "currentVideoType": "novideo",
+    "fskBlocked": false,
+    "profile": "http://zdf.de/rels/content/page-video-teaser",
+    "self": "/content/documents/zdf/ruderregatta-tag-2-100.json",
+    "canonical": "/content/documents/ruderregatta-tag-2-100.json",
+    "webCanonical": "https://www.zdf.example/video/ruderregatta-tag-2-100",
+    "seasonNumberPrefix": null,
+    "structureNodePath": "/zdf/demo",
+    "tvService": "ZDF",
+    "scheduledVideoContent": {
+     "title": "Ruderregatta - Tag 2"
+    }
+   }
+  }
+ ],
+ "next": "/search/documents?q=*&contentTypes=episode&limit=14&sortBy=date&sortOrder=desc&page=2"
+}

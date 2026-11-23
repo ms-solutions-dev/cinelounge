@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8115",
+   "name": "MLS (USA)",
+   "abbreviation": "MLS",
+   "midsizeName": "USA.1",
+   "slug": "usa.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001045",
+   "date": "2030-08-19T23:30Z",
+   "name": "Lantern Bay at Copper Ridge",
+   "shortName": "LTB @ CRI",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "CRI",
+        "displayName": "Copper Ridge",
+        "shortDisplayName": "Copper Ridge",
+        "name": "Copper Ridge",
+        "location": "Copper Ridge"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "LTB",
+        "displayName": "Lantern Bay",
+        "shortDisplayName": "Lantern Bay",
+        "name": "Lantern Bay",
+        "location": "Lantern Bay"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

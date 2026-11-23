@@ -1,0 +1,221 @@
+{
+ "zones": [
+  {
+   "code": "collection_content_RC-900010",
+   "title": "Hecken und Mauern",
+   "content": {
+    "data": [
+     {
+      "id": "RC-900010",
+      "title": "Hecken und Mauern",
+      "subtitle": null,
+      "shortDescription": "Hecken und Mauern: eine Sendung über Menschen und Orte.",
+      "duration": null,
+      "durationLabel": "Serie",
+      "kind": {
+       "code": "TV_SERIES",
+       "isCollection": true,
+       "label": "Serie"
+      },
+      "mainImage": {
+       "caption": "Hecken und Mauern",
+       "url": "https://img.arte.example/img/v2/image/35IuQxXFw0ZRM2LaB8NsC0/__SIZE__"
+      },
+      "audioVersions": [],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": false,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/RC-900010/"
+     }
+    ],
+    "pagination": null
+   }
+  },
+  {
+   "code": "collection_videos_RC-900010",
+   "title": "Alle Videos",
+   "content": {
+    "data": [
+     {
+      "id": "900110-001-F_de",
+      "programId": "900110-001-F",
+      "title": "Trockenmauern im Tal",
+      "subtitle": "Ein Hang im Frühling",
+      "shortDescription": "Trockenmauern im Tal: eine Sendung über Menschen und Orte.",
+      "duration": 3118,
+      "durationLabel": "52 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Trockenmauern im Tal",
+       "url": "https://img.arte.example/img/v2/image/fdoRPoC9P6GOkVdvhsJzvm/__SIZE__"
+      },
+      "audioVersions": [
+       {
+        "code": "STM",
+        "label": "Untertitel für Gehörlose"
+       }
+      ],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900110-001-F/"
+     },
+     {
+      "id": "900110-002-F_de",
+      "programId": "900110-002-F",
+      "title": "Hecken am Deich",
+      "subtitle": "Eine Marsch im Herbst",
+      "shortDescription": "Hecken am Deich: eine Sendung über Menschen und Orte.",
+      "duration": 3104,
+      "durationLabel": "52 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Hecken am Deich",
+       "url": "https://img.arte.example/img/v2/image/SHD16kWy7vX1no12lRmpUe/__SIZE__"
+      },
+      "audioVersions": [
+       {
+        "code": "STM",
+        "label": "Untertitel für Gehörlose"
+       }
+      ],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900110-002-F/"
+     },
+     {
+      "id": "900110-003-F_de",
+      "programId": "900110-003-F",
+      "title": "Steinwälle im Moor",
+      "subtitle": "Eine Heide im Sommer",
+      "shortDescription": "Steinwälle im Moor: eine Sendung über Menschen und Orte.",
+      "duration": 3111,
+      "durationLabel": "52 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Steinwälle im Moor",
+       "url": "https://img.arte.example/img/v2/image/AkeQYaAZUbZKbX8oMzQFmr/__SIZE__"
+      },
+      "audioVersions": [
+       {
+        "code": "STM",
+        "label": "Untertitel für Gehörlose"
+       }
+      ],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900110-003-F/"
+     },
+     {
+      "id": "900110-004-F_de",
+      "programId": "900110-004-F",
+      "title": "Weidenzäune am Fluss",
+      "subtitle": "Eine Aue im Winter",
+      "shortDescription": "Weidenzäune am Fluss: eine Sendung über Menschen und Orte.",
+      "duration": 3097,
+      "durationLabel": "52 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Weidenzäune am Fluss",
+       "url": "https://img.arte.example/img/v2/image/HrLSqUeikntNdRvdytwo81/__SIZE__"
+      },
+      "audioVersions": [
+       {
+        "code": "STM",
+        "label": "Untertitel für Gehörlose"
+       }
+      ],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900110-004-F/"
+     }
+    ],
+    "pagination": {
+     "links": {
+      "first": "https://api.arte.example/api/emac/v4/de/web/zones/c9f1c48a-9e3b-e3e8-f908-0aa963bb9849/content?authorizedCountry=DE&page=1",
+      "last": "https://api.arte.example/api/emac/v4/de/web/zones/c9f1c48a-9e3b-e3e8-f908-0aa963bb9849/content?authorizedCountry=DE&page=1",
+      "next": null
+     },
+     "page": 1,
+     "pages": 1,
+     "totalCount": 4,
+     "maxPages": 1
+    }
+   }
+  }
+ ]
+}

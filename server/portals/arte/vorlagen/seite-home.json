@@ -1,0 +1,637 @@
+{
+ "zones": [
+  {
+   "code": "highlight",
+   "title": "Im Fokus",
+   "content": {
+    "data": [
+     {
+      "id": "RC-900001",
+      "programId": "RC-900001",
+      "title": "Wasserstand",
+      "subtitle": "Ein Thema in fünf Filmen",
+      "shortDescription": "Wasserstand: eine Sendung über Menschen und Orte.",
+      "duration": null,
+      "durationLabel": "Serie",
+      "kind": {
+       "code": "TOPIC",
+       "isCollection": true,
+       "label": "Serie"
+      },
+      "mainImage": {
+       "caption": "Wasserstand",
+       "url": "https://img.arte.example/img/v2/image/gWawoAfxHZ0roMyXMBAMfP/__SIZE__"
+      },
+      "audioVersions": [],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": false,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/RC-900001/"
+     }
+    ],
+    "pagination": null
+   }
+  },
+  {
+   "code": "links",
+   "title": "Kategorien",
+   "content": {
+    "data": [
+     {
+      "id": "90438357-8ce5-7afb-cd1b-776534f77da9",
+      "programId": null,
+      "title": "Info",
+      "subtitle": null,
+      "shortDescription": "Info: eine Sendung über Menschen und Orte.",
+      "duration": null,
+      "durationLabel": null,
+      "kind": {
+       "code": "EXTERNAL",
+       "isCollection": false,
+       "label": "Weblink"
+      },
+      "mainImage": {
+       "caption": "Info",
+       "url": "https://img.arte.example/img/v2/image/vS0x5CBxJ7LiMfa3YFThyK/__SIZE__"
+      },
+      "audioVersions": [],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": null,
+      "url": "https://help.arte.example/de"
+     },
+     {
+      "id": "767d2f76-a071-b13a-940d-97f9ac55fbb5",
+      "programId": null,
+      "title": "Dokus",
+      "subtitle": null,
+      "shortDescription": "Dokus: eine Sendung über Menschen und Orte.",
+      "duration": null,
+      "durationLabel": null,
+      "kind": {
+       "code": "EXTERNAL",
+       "isCollection": false,
+       "label": "Weblink"
+      },
+      "mainImage": {
+       "caption": "Dokus",
+       "url": "https://img.arte.example/img/v2/image/XMWuQYwt8b72hIoZhMcAX4/__SIZE__"
+      },
+      "audioVersions": [],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": null,
+      "url": "https://help.arte.example/de"
+     },
+     {
+      "id": "0f4e547e-4228-ccc0-3893-3c3219b903f0",
+      "programId": null,
+      "title": "Serien",
+      "subtitle": null,
+      "shortDescription": "Serien: eine Sendung über Menschen und Orte.",
+      "duration": null,
+      "durationLabel": null,
+      "kind": {
+       "code": "EXTERNAL",
+       "isCollection": false,
+       "label": "Weblink"
+      },
+      "mainImage": {
+       "caption": "Serien",
+       "url": "https://img.arte.example/img/v2/image/sKRM46Cf8rmwNOIAi1oNug/__SIZE__"
+      },
+      "audioVersions": [],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": null,
+      "url": "https://help.arte.example/de"
+     },
+     {
+      "id": "b159745e-79ef-b359-7ee7-1f6fb156253c",
+      "programId": null,
+      "title": "Filme",
+      "subtitle": null,
+      "shortDescription": "Filme: eine Sendung über Menschen und Orte.",
+      "duration": null,
+      "durationLabel": null,
+      "kind": {
+       "code": "EXTERNAL",
+       "isCollection": false,
+       "label": "Weblink"
+      },
+      "mainImage": {
+       "caption": "Filme",
+       "url": "https://img.arte.example/img/v2/image/6IC0HBFvEJcbyOoqcM2t4O/__SIZE__"
+      },
+      "audioVersions": [],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": null,
+      "url": "https://help.arte.example/de"
+     }
+    ],
+    "pagination": null
+   }
+  },
+  {
+   "code": "recommended",
+   "title": "Unsere Empfehlungen",
+   "content": {
+    "data": [
+     {
+      "id": "RC-900002",
+      "programId": "RC-900002",
+      "title": "Familie Kranich",
+      "subtitle": "Drei Staffeln Comedy",
+      "shortDescription": "Familie Kranich: eine Sendung über Menschen und Orte.",
+      "duration": null,
+      "durationLabel": "Serie",
+      "kind": {
+       "code": "TV_SERIES",
+       "isCollection": true,
+       "label": "Serie"
+      },
+      "mainImage": {
+       "caption": "Familie Kranich",
+       "url": "https://img.arte.example/img/v2/image/6qsK2ZOTwvpX1rqGhv14b1/__SIZE__"
+      },
+      "audioVersions": [],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": false,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/RC-900002/"
+     },
+     {
+      "id": "900101-000-A_de",
+      "programId": "900101-000-A",
+      "title": "Das Leuchtturmjahr",
+      "subtitle": "Ein Jahr auf einer Insel in der Nordsee",
+      "shortDescription": "Das Leuchtturmjahr: eine Sendung über Menschen und Orte.",
+      "duration": 2783,
+      "durationLabel": "46 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Das Leuchtturmjahr",
+       "url": "https://img.arte.example/img/v2/image/PGDJeOvWsZGiT7VaXOgNQA/__SIZE__"
+      },
+      "audioVersions": [
+       {
+        "code": "AD",
+        "label": "Audiodeskription"
+       },
+       {
+        "code": "DE",
+        "label": "Deutsch"
+       },
+       {
+        "code": "STM",
+        "label": "Untertitel für Gehörlose"
+       }
+      ],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900101-000-A/"
+     },
+     {
+      "id": "900102-000-A_de",
+      "programId": "900102-000-A",
+      "title": "Salzwiesen",
+      "subtitle": "Drama",
+      "shortDescription": "Salzwiesen: eine Sendung über Menschen und Orte.",
+      "duration": 6423,
+      "durationLabel": "107 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Salzwiesen",
+       "url": "https://img.arte.example/img/v2/image/vWRSEV8CZeISBNYFDkSr9T/__SIZE__"
+      },
+      "audioVersions": [
+       {
+        "code": "DE",
+        "label": "Deutsch"
+       }
+      ],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900102-000-A/"
+     },
+     {
+      "id": "RC-900003",
+      "programId": "RC-900003",
+      "title": "Die Brunnenbauer",
+      "subtitle": "Miniserie",
+      "shortDescription": "Die Brunnenbauer: eine Sendung über Menschen und Orte.",
+      "duration": null,
+      "durationLabel": "Serie",
+      "kind": {
+       "code": "TV_SERIES",
+       "isCollection": true,
+       "label": "Serie"
+      },
+      "mainImage": {
+       "caption": "Die Brunnenbauer",
+       "url": "https://img.arte.example/img/v2/image/Mw0hDel5qtfXyNoXwY4xAm/__SIZE__"
+      },
+      "audioVersions": [],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": false,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/RC-900003/"
+     }
+    ],
+    "pagination": {
+     "links": {
+      "first": "https://api.arte.example/api/emac/v4/de/web/zones/f4e06d20-ddd3-75f8-6930-c5dede22c91d/content?authorizedCountry=DE&page=1",
+      "last": "https://api.arte.example/api/emac/v4/de/web/zones/f4e06d20-ddd3-75f8-6930-c5dede22c91d/content?authorizedCountry=DE&page=2",
+      "next": "https://api.arte.example/api/emac/v4/de/web/zones/f4e06d20-ddd3-75f8-6930-c5dede22c91d/content?authorizedCountry=DE&page=2"
+     },
+     "page": 1,
+     "pages": 2,
+     "totalCount": 8,
+     "maxPages": 2
+    }
+   }
+  },
+  {
+   "code": "documentaries",
+   "title": "Dokumentationen",
+   "content": {
+    "data": [
+     {
+      "id": "900103-000-A_de",
+      "programId": "900103-000-A",
+      "title": "Am Grenzbach",
+      "subtitle": "Reportage",
+      "shortDescription": "Am Grenzbach: eine Sendung über Menschen und Orte.",
+      "duration": 3360,
+      "durationLabel": "56 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Am Grenzbach",
+       "url": "https://img.arte.example/img/v2/image/Azj50sSYPO9XvcegyJQu1d/__SIZE__"
+      },
+      "audioVersions": [
+       {
+        "code": "DE",
+        "label": "Deutsch"
+       }
+      ],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900103-000-A/"
+     },
+     {
+      "id": "900104-000-A_de",
+      "programId": "900104-000-A",
+      "title": "Bandprobe",
+      "subtitle": "Musikdoku",
+      "shortDescription": "Bandprobe: eine Sendung über Menschen und Orte.",
+      "duration": 3596,
+      "durationLabel": "60 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Bandprobe",
+       "url": "https://img.arte.example/img/v2/image/oohERGtPB3vqGOEAKqqYvR/__SIZE__"
+      },
+      "audioVersions": [
+       {
+        "code": "OV",
+        "label": "Originalfassung"
+       }
+      ],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900104-000-A/"
+     },
+     {
+      "id": "900105-116-A_de",
+      "programId": "900105-116-A",
+      "title": "Kurz erklärt: Gezeiten",
+      "subtitle": "Kurzformat",
+      "shortDescription": "Kurz erklärt: Gezeiten: eine Sendung über Menschen und Orte.",
+      "duration": 210,
+      "durationLabel": "4 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Kurz erklärt: Gezeiten",
+       "url": "https://img.arte.example/img/v2/image/c32Ow8Za4HSST8zyni1pal/__SIZE__"
+      },
+      "audioVersions": [
+       {
+        "code": "DE",
+        "label": "Deutsch"
+       }
+      ],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900105-116-A/"
+     },
+     {
+      "id": "900101-000-A_de",
+      "programId": "900101-000-A",
+      "title": "Das Leuchtturmjahr",
+      "subtitle": "Ein Jahr auf einer Insel in der Nordsee",
+      "shortDescription": "Das Leuchtturmjahr: eine Sendung über Menschen und Orte.",
+      "duration": 2783,
+      "durationLabel": "46 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Das Leuchtturmjahr",
+       "url": "https://img.arte.example/img/v2/image/PGDJeOvWsZGiT7VaXOgNQA/__SIZE__"
+      },
+      "audioVersions": [
+       {
+        "code": "AD",
+        "label": "Audiodeskription"
+       },
+       {
+        "code": "DE",
+        "label": "Deutsch"
+       },
+       {
+        "code": "STM",
+        "label": "Untertitel für Gehörlose"
+       }
+      ],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900101-000-A/"
+     }
+    ],
+    "pagination": null
+   }
+  },
+  {
+   "code": "most_viewed",
+   "title": "Meistgesehen",
+   "content": {
+    "data": [
+     {
+      "id": "900106-000-A_de",
+      "programId": "900106-000-A",
+      "title": "Mira und die Möwen",
+      "subtitle": "Jugenddrama",
+      "shortDescription": "Mira und die Möwen: eine Sendung über Menschen und Orte.",
+      "duration": 6261,
+      "durationLabel": "104 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Mira und die Möwen",
+       "url": "https://img.arte.example/img/v2/image/wkkH0VYBJ3yVnMIHKFGfqP/__SIZE__"
+      },
+      "audioVersions": [],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900106-000-A/"
+     },
+     {
+      "id": "900107-000-A_de",
+      "programId": "900107-000-A",
+      "title": "Die Stadt am Fluss",
+      "subtitle": "Geschichte",
+      "shortDescription": "Die Stadt am Fluss: eine Sendung über Menschen und Orte.",
+      "duration": 3109,
+      "durationLabel": "52 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Die Stadt am Fluss",
+       "url": "https://img.arte.example/img/v2/image/w7zrbyf9pv9DeLGLFyNHDj/__SIZE__"
+      },
+      "audioVersions": [
+       {
+        "code": "STM",
+        "label": "Untertitel für Gehörlose"
+       }
+      ],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900107-000-A/"
+     },
+     {
+      "id": "900108-009-A_de",
+      "programId": "900108-009-A",
+      "title": "Warum rostet Eisen?",
+      "subtitle": "Wissenschaft",
+      "shortDescription": "Warum rostet Eisen?: eine Sendung über Menschen und Orte.",
+      "duration": 1761,
+      "durationLabel": "29 Min.",
+      "kind": {
+       "code": "SHOW",
+       "isCollection": false,
+       "label": "Programm"
+      },
+      "mainImage": {
+       "caption": "Warum rostet Eisen?",
+       "url": "https://img.arte.example/img/v2/image/ocTezWZOKaWK9uHBo9qCFV/__SIZE__"
+      },
+      "audioVersions": [
+       {
+        "code": "STM",
+        "label": "Untertitel für Gehörlose"
+       }
+      ],
+      "geoblocking": {
+       "code": "EUR_DE_FR",
+       "exclusion": [],
+       "inclusion": []
+      },
+      "availability": {
+       "end": "2027-01-14T04:00:00Z",
+       "label": "Verfügbar bis 13/01/2027",
+       "start": "2026-09-16T03:00:00Z",
+       "type": "VOD",
+       "upcomingDate": "2026-09-16T03:00:00Z",
+       "hasVideoStreams": true,
+       "remainingDays": 64
+      },
+      "url": "https://www.arte.example/de/videos/900108-009-A/"
+     }
+    ],
+    "pagination": {
+     "links": {
+      "first": "https://api.arte.example/api/emac/v4/de/web/zones/0cc88a00-b200-d3be-fb97-6f3a44ffcd69/content?authorizedCountry=DE&page=1",
+      "last": "https://api.arte.example/api/emac/v4/de/web/zones/0cc88a00-b200-d3be-fb97-6f3a44ffcd69/content?authorizedCountry=DE&page=2",
+      "next": "https://api.arte.example/api/emac/v4/de/web/zones/0cc88a00-b200-d3be-fb97-6f3a44ffcd69/content?authorizedCountry=DE&page=2"
+     },
+     "page": 1,
+     "pages": 2,
+     "totalCount": 6,
+     "maxPages": 2
+    }
+   }
+  }
+ ]
+}

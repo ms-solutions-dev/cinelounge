@@ -1,0 +1,52 @@
+{
+ "leagues": [
+  {
+   "id": "8101",
+   "name": "Süper Lig (Türkiye)",
+   "abbreviation": "Süper Lig",
+   "midsizeName": "TUR.1",
+   "slug": "tur.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001004",
+   "date": "2030-08-18T17:00Z",
+   "name": "Karayelspor at Gökderespor",
+   "shortName": "KAR @ GOK",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "GOK",
+        "displayName": "Gökderespor",
+        "shortDisplayName": "Gökdere",
+        "name": "Gökderespor",
+        "location": "Gökderespor"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "KAR",
+        "displayName": "Karayelspor",
+        "shortDisplayName": "Karayel",
+        "name": "Karayelspor",
+        "location": "Karayelspor"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

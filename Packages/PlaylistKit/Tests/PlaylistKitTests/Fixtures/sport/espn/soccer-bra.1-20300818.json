@@ -1,0 +1,91 @@
+{
+ "leagues": [
+  {
+   "id": "8116",
+   "name": "Brasileirão (Brazil)",
+   "abbreviation": "Brasileirão",
+   "midsizeName": "BRA.1",
+   "slug": "bra.1"
+  }
+ ],
+ "events": [
+  {
+   "id": "7001047",
+   "date": "2030-08-18T19:00Z",
+   "name": "Lagoa Funda at Pedra Alta",
+   "shortName": "LAG @ PED",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "PED",
+        "displayName": "Pedra Alta",
+        "shortDisplayName": "Pedra Alta",
+        "name": "Pedra Alta",
+        "location": "Pedra Alta"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "LAG",
+        "displayName": "Lagoa Funda",
+        "shortDisplayName": "Lagoa Funda",
+        "name": "Lagoa Funda",
+        "location": "Lagoa Funda"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7001048",
+   "date": "2030-08-18T21:30Z",
+   "name": "Cajueiro at Serra do Vento",
+   "shortName": "CAJ @ SDV",
+   "status": {
+    "type": {
+     "state": "pre",
+     "completed": false,
+     "description": "Scheduled"
+    }
+   },
+   "competitions": [
+    {
+     "competitors": [
+      {
+       "homeAway": "home",
+       "team": {
+        "abbreviation": "SDV",
+        "displayName": "Serra do Vento",
+        "shortDisplayName": "Serra",
+        "name": "Serra do Vento",
+        "location": "Serra do Vento"
+       }
+      },
+      {
+       "homeAway": "away",
+       "team": {
+        "abbreviation": "CAJ",
+        "displayName": "Cajueiro",
+        "shortDisplayName": "Cajueiro",
+        "name": "Cajueiro",
+        "location": "Cajueiro"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

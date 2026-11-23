@@ -1,0 +1,12 @@
+{
+ "leagues": [
+  {
+   "id": "8113",
+   "name": "League Cup (England)",
+   "abbreviation": "League Cup",
+   "midsizeName": "ENG.LEAGUE_CUP",
+   "slug": "eng.league_cup"
+  }
+ ],
+ "events": []
+}

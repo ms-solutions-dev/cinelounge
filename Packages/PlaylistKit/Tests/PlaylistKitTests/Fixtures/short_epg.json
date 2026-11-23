@@ -1,0 +1,56 @@
+{
+ "epg_listings": [
+  {
+   "id": "648029",
+   "epg_id": "41",
+   "title": "R3JhdXdhY2tlIElJSQ==",
+   "lang": "de",
+   "start": "2026-07-28 14:25:00",
+   "end": "2026-07-28 16:30:00",
+   "description": "RGllIEthcnRvZ3JhZmlubmVuIHNpbmQgenVyw7xjazogSW0gZHJpdHRlbiBUZWlsIGRlciBSZWloZSB2ZXJtZXNzZW4gZHJlaSBGcmV1bmRpbm5lbiBlaW5lbiBTdGVpbmJydWNoLCBpbiBkZW0gamVkZSBOYWNodCBlaW4gTGljaHQgYW5nZWh0LCBkYXMga2VpbmVyIGVpbmdlc2NoYWx0ZXQgaGF0Lg==",
+   "channel_id": "democinema.de",
+   "start_timestamp": "1785248700",
+   "stop_timestamp": "1785256200",
+   "stream_id": "771001"
+  },
+  {
+   "id": "4476930",
+   "epg_id": "41",
+   "title": "RGVyIEjDvGhuZXJmbMO8c3RlcmVy",
+   "lang": "de",
+   "start": "2026-07-28 14:45:00",
+   "end": "2026-07-28 16:30:00",
+   "description": "RWluIExhbmR3aXJ0IGJyaW5ndCBzZWluZW4gSMO8aG5lcm4gZGFzIFrDpGhsZW4gYmVpIHVuZCBsYW5kZXQgZGFtaXQgaW4gZGVuIEFiZW5kbmFjaHJpY2h0ZW4uIFNlaW5lIE5hY2hiYXJpbiBow6RsdCBkYXMgZsO8ciBCZXRydWcgdW5kIHrDpGhsdCBuYWNoLg==",
+   "channel_id": "democinema.de",
+   "start_timestamp": "1785249900",
+   "stop_timestamp": "1785256200",
+   "stream_id": "771001"
+  },
+  {
+   "id": "648030",
+   "epg_id": "41",
+   "title": "V29sa2VucG9zdA==",
+   "lang": "de",
+   "start": "2026-07-28 16:30:00",
+   "end": "2026-07-28 18:40:00",
+   "description": "RWluZSBCcmllZnRyw6RnZXJpbiBhdWYgZWluZXIgSGFsbGlnIHN0ZWxsdCBQb3N0IHp1LCBkaWUgZGVyIFdpbmQgZ2VicmFjaHQgaGF0LiBLb23DtmRpZSBtaXQgdmllbCBXYXR0IHVuZCB3ZW5pZyBFbXBmYW5nLCB2b20g4oCeS2xlaW5ob2x64oCcLVRlYW0u",
+   "channel_id": "democinema.de",
+   "start_timestamp": "1785256200",
+   "stop_timestamp": "1785264000",
+   "stream_id": "771001"
+  },
+  {
+   "id": "4476931",
+   "epg_id": "41",
+   "title": "R3JhdXdhY2tlIElJSQ==",
+   "lang": "de",
+   "start": "2026-07-28 16:30:00",
+   "end": "2026-07-28 18:35:00",
+   "description": "RGllIEthcnRvZ3JhZmlubmVuIHNpbmQgenVyw7xjazogSW0gZHJpdHRlbiBUZWlsIGRlciBSZWloZSB2ZXJtZXNzZW4gZHJlaSBGcmV1bmRpbm5lbiBlaW5lbiBTdGVpbmJydWNoLCBpbiBkZW0gamVkZSBOYWNodCBlaW4gTGljaHQgYW5nZWh0LCBkYXMga2VpbmVyIGVpbmdlc2NoYWx0ZXQgaGF0Lg==",
+   "channel_id": "democinema.de",
+   "start_timestamp": "1785256200",
+   "stop_timestamp": "1785263700",
+   "stream_id": "771001"
+  }
+ ]
+}

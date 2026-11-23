@@ -1,0 +1,47 @@
+{
+ "portal": "ard",
+ "total": null,
+ "next": "3",
+ "note": null,
+ "needs_input": null,
+ "input_suggestion": null,
+ "question": null,
+ "items": [
+  {
+   "title": "Lindgrün – Ein Hof im Ried",
+   "address": "https://api.ard-mediathek.example/page-gateway/pages/ard/item/aL1XlpuGnhiAsXUDS0vq2lJ3SO7azGFFBWTPNHST?devicetype=pc&embedded=true",
+   "show": "Ein Hof im Ried",
+   "kind": "episode",
+   "year": null,
+   "description": null,
+   "image": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:6c7dcc70804ba6de?w=1280&ch=f88df942a2468f67",
+   "image_source": "portal",
+   "image_wide": true,
+   "languages": [],
+   "rating": null,
+   "duration_min": 88,
+   "number": null,
+   "has_children": false,
+   "key": "ard:lindgrun-ein-hof-im-ried:",
+   "state": null
+  },
+  {
+   "title": "Die Nachtbäckerei",
+   "address": "https://api.ard-mediathek.example/page-gateway/pages/ard/item/hQv1ETgTVF4g3OUuBwJWJIzpslLvqwLPJy45Slv7?devicetype=pc&embedded=true",
+   "show": "Filmabend",
+   "kind": "episode",
+   "year": null,
+   "description": null,
+   "image": "https://img.ard-mediathek.example/image-service/images/urn:ard:image:39fc4c32ed825154?w=1280&ch=dad310c1764c9ce9",
+   "image_source": "portal",
+   "image_wide": true,
+   "languages": [],
+   "rating": null,
+   "duration_min": 87,
+   "number": null,
+   "has_children": false,
+   "key": "ard:die-nachtbackerei:",
+   "state": null
+  }
+ ]
+}

@@ -1,0 +1,383 @@
+# ══════════════════════════════════════════════════════════════════════
+# CineLounge for the phone — project description for XcodeGen.
+#
+# The same order as in the sister project `jellyfin-tvos`: the
+# `.xcodeproj` is a PRODUCT and sits in `.gitignore`; the truth is
+# this file. It is generated with `scripts/project.sh`.
+#
+# As there, every setting carries the finding that led to it.
+# Whoever changes a line changes a decision — and should be able to read
+# which one.
+# ══════════════════════════════════════════════════════════════════════
+
+name: CineLounge
+
+# **Identifiers from an xcconfig** (AP85, 08.11.2026): bundle IDs, App Group and iCloud
+# container hang off CL_BUNDLE_PREFIX, so a fork can build with its own account.
+configFiles:
+  Debug: ../Config/Kennungen.xcconfig
+  Release: ../Config/Kennungen.xcconfig
+
+options:
+  bundleIdPrefix: dev.ms-solutions
+  # Source language English as in the TV program — the string catalog carries
+  # `de`, `en` and `tr`, and the keys are named in English (`tab.home`).
+  # The design documents are German, the KEYS are not.
+  developmentLanguage: en
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+# ── Packages ───────────────────────────────────────────────────────────
+# Two kinds, and the difference is the whole point of this file:
+#
+#   SHARED — seven logic-only packages that live in the TV project and come in
+#   via a path. They are NOT copied. A change to a repackager, a portal reader
+#   or a Jellyfin call thus applies to both programs at once. The prerequisite
+#   is stage B1 from ROADMAP.md: in all seven `Package.swift` files `.iOS(.v18)`
+#   must stand next to `.tvOS(.v18)`, otherwise SwiftPM rejects them here
+#   ("does not support iOS"). As long as that has not happened, this project
+#   does not resolve its dependencies — that is intended and no error.
+#
+#   OWN — what carries the three-metre assumption is not shared but
+#   rethought: dimensions, views. A focus ring has no place at 30 cm, and a
+#   poster here is 110 points wide instead of 240.
+packages:
+  # ── shared with the TV program ──
+  Core:
+    path: ../Packages/Core
+  JellyfinKit:
+    path: ../Packages/JellyfinKit
+  PlaylistKit:
+    path: ../Packages/PlaylistKit
+  PortalKit:
+    path: ../Packages/PortalKit
+  RatingsKit:
+    path: ../Packages/RatingsKit
+  # AP78 (11.10.2026): trailers from YouTube, pulled in via FeaturesPhone.
+  Trailer:
+    path: ../Packages/Trailer
+  Playback:
+    path: ../Packages/Playback
+  # Added on 07.09.: parental controls moved from here to over there (G3 in the
+  # TV roadmap). It is listed here although it comes in via FeaturesPhone — for
+  # the same reason as PlaylistKit and the others: otherwise it is not visible
+  # that it belongs to the program at all.
+  ParentalControls:
+    path: ../Packages/ParentalControls
+  # Added on 21.09. (AP41): one person, their accesses, their settings. It does
+  # not come in via any other package — the shell calls it directly, which is why
+  # it also appears below in the dependencies.
+  ProfileKit:
+    path: ../Packages/ProfileKit
+  # The CloudKit carrier (AP43, 21.09.2026), from the **grundstock** repo — the same
+  # version the TV and StoryShelf use. One container, one subscription prefix, one
+  # person with all their devices.
+  Grundstock:
+    path: ../Packages/Grundstock
+  # Added or moved over on 26.09.2026 (AP58 R0): the single logging path
+  # (`Diagnose`, until then phone-only), the shared catalog (`Wortlaut`) and the
+  # shared flows (`Ablaeufe`). They come in via FeaturesPhone and Core and are
+  # listed here for the same reason as PlaylistKit above.
+  Diagnose:
+    path: ../Packages/Diagnose
+  WordingKit:
+    path: ../Packages/WordingKit
+  Flows:
+    path: ../Packages/Flows
+  # Added on 26.09.2026 (AP58 R2): brand matching, self sign-in, sign-out and
+  # redeeming an invitation — the household on the CineLounge server, for both devices.
+  Household:
+    path: ../Packages/Household
+  # ── phone-only ──
+  DesignSystemPhone:
+    path: Packages/DesignSystemPhone
+  FeaturesPhone:
+    path: Packages/FeaturesPhone
+
+targets:
+  CineLounge:
+    type: application
+    platform: iOS
+    sources:
+      - App/Sources
+      - path: App/Resources
+        buildPhase: resources
+      # **The intro comes from the TV folder** (decisions 4 and 27, C16): clips,
+      # bell and `intros.json` exist once in the repo. As a group, so the files lie flat
+      # in the bundle — that is where `Introbuehne` looks for them, as on the TV.
+      - path: ../App/Resources/Intro
+        buildPhase: resources
+      # The alternate icons live NEXT TO the asset catalog and not inside it.
+      #
+      # iOS fetches an alternate icon via `CFBundleIconFiles` from the bundle's root
+      # directory — a second `appiconset` is built and never found. Hence a separate
+      # resource line: as a GROUP, not as a folder reference (`type: folder`). A folder
+      # reference put the files into a subfolder, and UIKit does not look there.
+      # Generated by `scripts/appsymbol.py --wechsel`.
+      - path: App/AlternateIcons
+        buildPhase: resources
+    # PlaylistKit, PortalKit, RatingsKit and Playback are listed here although the
+    # app target does not list them itself: they come in via FeaturesPhone.
+    # They stay listed anyway, because otherwise it is not visible that they belong
+    # to the program at all — and because Xcode reuses a dependency resolution once
+    # it has resolved one. After a change to any Package.swift, one run of this is
+    # therefore needed:
+    #   xcodebuild -project CineLounge.xcodeproj -scheme CineLounge \
+    #     -derivedDataPath .dd -resolvePackageDependencies
+    dependencies:
+      - package: Core
+      - package: DesignSystemPhone
+      - package: Diagnose
+      - package: WordingKit
+      - package: Flows
+      - package: Household
+      - package: JellyfinKit
+      - package: PlaylistKit
+      - package: PortalKit
+      - package: RatingsKit
+      - package: Playback
+      - package: ParentalControls
+      - package: ProfileKit
+      - package: Grundstock
+        product: CloudSync
+      - package: FeaturesPhone
+
+    # Keychain instead of App Groups — the same reasoning as on the TV:
+    # wildcard team profiles do not carry App Groups, and with a free account there
+    # is no explicit app ID. The own group comes first, because it is the write
+    # target when no explicit group is given.
+    entitlements:
+      path: App/CineLounge.entitlements
+      properties:
+        keychain-access-groups:
+          - $(AppIdentifierPrefix)$(CL_BUNDLE_PREFIX).cinelounge
+          - $(AppIdentifierPrefix)$(CL_BUNDLE_PREFIX).cinelounge.shared
+        # **iCloud container (AP43, 21.09.2026).** The capability in the developer portal
+        # is one half, these two lines are the other: without them the app starts but
+        # finds no container. The name is final — CloudKit never deletes containers.
+        #
+        com.apple.developer.icloud-container-identifiers:
+          - iCloud.$(CL_BUNDLE_PREFIX).cinelounge
+        com.apple.developer.icloud-services:
+          - CloudKit
+        # **Always "Production", also for cable builds** (28.09.2026). Without this line
+        # the debug build (`device.sh`) talked to "Development" and TestFlight to
+        # "Production" — two separate worlds with separate data, even with the same
+        # Apple ID. The TV on the cable and the phone from TestFlight never saw each
+        # other, and a shared profile arrived empty. The consequence: new record types or
+        # fields must go to Production in the CloudKit console before a build writes them.
+        # `Wolkenanlauf.umgebung` knows the value too — the two belong together.
+        com.apple.developer.icloud-container-environment: Production
+        # **The silent pushes** (AP43, fourth line). Without this line no
+        # `CKDatabaseSubscription` push arrives — and silently so; the sync would then
+        # run only on the UI's triggers.
+        #
+        # **`development` and not `production`, and that is no oversight.** The value in
+        # the source applies to builds onto your own device. `scripts/release.sh` exports
+        # with `method: app-store-connect` and automatic signing, and Xcode then sets the
+        # value from the distribution profile — that is, `production`. With a fixed
+        # `production` here, every build onto your own device would fail.
+        #
+        # **This can only be verified on a device**, and only once: does a change made on
+        # the first device arrive on the second within seconds? If not, but the sync on
+        # opening the app works, it is exactly this line.
+        aps-environment: development
+
+    info:
+      path: App/Info.plist
+      properties:
+        # From which the code derives App Group, iCloud container and shared Keychain group
+        # (Core/Appkennung, AP85) — the same source as the bundle ID.
+        CLKennung: $(CL_BUNDLE_PREFIX).cinelounge
+        CFBundleDisplayName: CineLounge
+        # AP78: if trailer resolution fails, the board offers the jump into the
+        # YouTube app — `canOpenURL` only answers for schemes listed here.
+        LSApplicationQueriesSchemes:
+          - youtube
+        # **The codes from the TV open from the system camera** (27.09.2026, T3).
+        # Without this entry the camera reported "No usable data"; the schemes are in
+        # `Zweitschirm` (`Uebergabeschluessel.schema`, `Fernkopplung.schema`), the entry
+        # point in `FeaturesPhone/Shell/CodeEntry.swift`.
+        CFBundleURLTypes:
+          - CFBundleURLName: $(CL_BUNDLE_PREFIX).cinelounge.codes
+            CFBundleURLSchemes:
+              - cinelounge-uebergabe
+              - cinelounge-fern
+              # Adopt a profile from the TV — the QR carries the share link itself, like
+              # "Add Device" in StoryShelf (Profil/Profillink).
+              - cinelounge-profil
+              # A TV looking for a profile (Profil/Kopplung, role "suche") — so that this code
+              # also opens with the system camera. Nothing is handed over until after a prompt.
+              - cinelounge-koppeln
+        # As a REFERENCE, never as a number. scripts/release.sh checks exactly that:
+        # a hard-coded number is only noticed on upload, and by then the build number
+        # is used up.
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UIRequiredDeviceCapabilities: [arm64]
+        ITSAppUsesNonExemptEncryption: false
+
+        # One scene, without storyboard. If the entry is missing, the app starts on
+        # iOS with a black window and without an error message.
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UILaunchScreen: {}
+
+        # Portrait everywhere, landscape ONLY in the player (requested there by hand).
+        # Enabling both here is the prerequisite; the views then decide what they
+        # allow.
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        # On the iPad all four orientations: it lies on the table however it lies, and
+        # under iPadOS 26 the app runs in a window — prescribing an orientation there
+        # only yields a window that locks itself.
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+
+        # The appearance is dark — one version, no light/dark switch. That is how it
+        # stands in GESTALTUNG.md, and all contrast values of the design are computed
+        # against the dark background. Without this entry iOS tints system components
+        # light, and the computation stops being right at exactly the places nobody
+        # re-checks.
+        UIUserInterfaceStyle: Dark
+
+        # Audio keeps playing when the phone goes into the pocket. Background fetch is
+        # NOT listed here: downloads load via a background URLSession, and that needs
+        # no mode.
+        UIBackgroundModes:
+          - audio
+
+        # Self-hosted servers under `.home` names with their own root.
+        # `NSAllowsLocalNetworking` is deliberately NOT listed next to it — the two
+        # cancel each other out (finding from the TV project).
+        # **Why the blanket permission and no exception list** (07.09., AP10). Apple
+        # requires a justification for `NSAllowsArbitraryLoads`, and without a written
+        # one you get it back as a query in review. Here it reads:
+        #
+        # **The app does not know its counterparts at build time.** All three sources
+        # are machines of the viewer, and he types in their address:
+        #
+        #   * the media server — a name like `jellyfin.example` in one home, a number on
+        #     the home network or a name behind its own certificate in another;
+        #   * the portal bridge — a service on a machine on the same network;
+        #   * the provider access — a name the provider assigns.
+        #
+        # `NSExceptionDomains` requires exactly what nobody has here: a **list of
+        # names at build time**. An app that only talks to servers entered beforehand
+        # would not be one you point at your own server — and that is its purpose.
+        #
+        # **And the home network knows no public certificate.** `jellyfin.example`
+        # resolves only on its own network; no certification authority issues anything
+        # for it. Whoever forced TLS here would make the app unusable for the case it
+        # is built for. What the app sends to third-party services **itself** — TMDb, OMDb,
+        # AniList — goes over their HTTPS addresses; the blanket permission applies to
+        # what the viewer enters, and not to what the app does of its own accord.
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
+
+        # Mandatory on iOS, not in the same way on tvOS: without these two entries
+        # the server search on the home network finds nothing and reports nothing
+        # either.
+        NSLocalNetworkUsageDescription:
+          CineLounge sucht im Heimnetz nach deinem Medienserver und deinem CineLounge-Server.
+        NSBonjourServices:
+          - _http._tcp
+          - _https._tcp
+          # The device handoff's own service (AP5, 10.09.). **Without this entry iOS does
+          # not even release it** — `NWConnection` to a service name then fails silently,
+          # and the screen says "not reachable" while the TV stands next to it and waits.
+          # The type is in `Zweitschirm/Uebergabedraht.dienst`; whoever changes it there
+          # changes it here.
+          - _cinelounge-uebg._tcp
+          # And the remote's (AP8, 10.09.), for the same reason a **separate** one:
+          # the handoff is an operation with a start and an end, the remote a connection
+          # over hours. The type is in `Zweitschirm/Geraetefund.dienst`.
+          - _cinelounge-fern._tcp
+          # The CineLounge server itself (12.09.2026). **It registers as
+          # `_cinelounge._tcp`** — measured: `cinelounge.local.:8100` with
+          # `path=/.well-known/cinelounge api=1 v=1`. It is needed when redeeming an
+          # invitation: the console generates its links with the address you are currently
+          # using to operate it, and whoever opens it via the home server's hostname gets a
+          # link without a usable device address — an app must not do anything with that
+          # address, its certificate is from mkcert. The app then asks the network instead
+          # of guessing 8100. The type is in `PortalKit/Serversuche.dienst`.
+          - _cinelounge._tcp
+
+        # The camera reads the code from the TV screen — and nothing else.
+        #
+        # **The sentence names the purpose and not the capability.** "CineLounge would like
+        # to access the camera" does not answer the question someone has when the prompt
+        # appears; the store review requires the purpose anyway (guideline 5.1.1). It is
+        # only asked on the handoff screen and not at launch: a camera question without an
+        # occasion gets tapped away, and afterwards it can only be taken back in the
+        # system settings.
+        NSCameraUsageDescription:
+          CineLounge liest damit den Code, den dein Fernseher zeigt — nur dafür.
+
+        # **No URL scheme as long as there is no receiver** (07.09., AP10).
+        # Here stood `CFBundleURLSchemes: [cinelounge]` — and `onOpenURL` occurs **zero
+        # times** in the whole project. A registered scheme without a receiver is not a
+        # dead entry but an open entrance: every app and every web page on the device may
+        # call `cinelounge://anything`, the app starts, and nobody checks what stands
+        # there. It comes back when `Adressschema` is built — together with the switch
+        # that accepts only known routes.
+        #
+        # **Registered since 27.09.2026** (above, `CFBundleURLTypes`): handoff, pairing
+        # and, since 28.09., profile links, each with a receiver
+        # (`Huelle/Codeeinstieg`) that accepts only valid codes. `cinelounge` itself
+        # stays unregistered.
+
+        # The main icon and the three alternate icons.
+        #
+        # GENERATED by `scripts/appsymbol.py --wechsel` — nothing here is written by hand.
+        # The same run writes the loose PNGs to `App/AlternateIcons/` and these
+        # entries; an entry without a file makes `setAlternateIconName` fail at runtime,
+        # a file without an entry is dead weight in the bundle. Neither shows up in any
+        # build, which is why both come from one hand.
+        #
+        # `CFBundlePrimaryIcon` names only the catalog name: the main icon ("gross",
+        # E35) stays in the asset catalog, because only there do the three appearances live.
+        # appsymbol:anfang
+        CFBundleIcons:
+          CFBundlePrimaryIcon:
+            CFBundleIconName: AppIcon
+          CFBundleAlternateIcons:
+            bogen:
+              CFBundleIconFiles: [symbol-bogen]
+            negativ:
+              CFBundleIconFiles: [symbol-negativ]
+            wortmarke:
+              CFBundleIconFiles: [symbol-wortmarke]
+        # appsymbol:ende
+
+    settings:
+      base:
+        # The same bundle identifier as the TV program: one entry in the store, two
+        # platforms. Whoever wants to make two entries of it appends `.phone` here —
+        # and must then also touch the Keychain group above.
+        PRODUCT_BUNDLE_IDENTIFIER: $(CL_BUNDLE_PREFIX).cinelounge
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "6.0"
+        # Complete from the start. Retroactively this is unaffordable.
+        SWIFT_STRICT_CONCURRENCY: complete
+        # 1,2 = iPhone and iPad (19.09.2026). Until then only the iPhone was
+        # listed, and the iPad got the phone version magnified — a window of 393 points
+        # with a black border. Since StoryShelf runs natively there, that is the
+        # comparison you see. The design is still computed for 393 points
+        # (``Titelraster/spaltenzahl`` stays three, the shelves stay phone shelves); the
+        # iPad thereby gets the full area and the right resolution, but no drawing of
+        # its own yet. That is a design package, no build setting.
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: NO
+        SWIFT_EMIT_LOC_STRINGS: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ENABLE_USER_SCRIPT_SANDBOXING: YES
+        DEAD_CODE_STRIPPING: YES

@@ -1,0 +1,12 @@
+{
+ "leagues": [
+  {
+   "id": "8111",
+   "name": "Europa League (UEFA)",
+   "abbreviation": "Europa League",
+   "midsizeName": "UEFA.EUROPA",
+   "slug": "uefa.europa"
+  }
+ ],
+ "events": []
+}

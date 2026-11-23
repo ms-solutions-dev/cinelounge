@@ -1,0 +1,42 @@
+{
+ "info": {
+  "kinopoisk_url": "https://meta.iptv.example/movie/990000101",
+  "tmdb_id": "990000101",
+  "name": "The Velvet Ledger (2019)",
+  "o_name": "The Velvet Ledger (2019)",
+  "cover_big": "https://img.iptv.example/t/p/w600_and_h900_bestv2/tb058koY0rl8CHwSzmkV8XjDfvs.jpg",
+  "movie_image": "https://img.iptv.example/t/p/w600_and_h900_bestv2/tb058koY0rl8CHwSzmkV8XjDfvs.jpg",
+  "releasedate": "2019-04-12",
+  "episode_run_time": 90,
+  "youtube_trailer": "demoej1f6zd",
+  "director": "Hanne Lüttjohann",
+  "actors": "Edda Klasing, Ruven Taal, Mette Oskamp, Joris Wendling, Ilka Brosse",
+  "cast": "Edda Klasing, Ruven Taal, Mette Oskamp, Joris Wendling, Ilka Brosse",
+  "description": "Die Buchhalterin Edda Klasing führt seit dreißig Jahren die Bücher einer Seilerei am Hafen. Eines Morgens findet sie im Hauptbuch eine Spalte, die niemand angelegt hat: Jeden Freitag sind dort zwölf Meter Tau verbucht, an einen Kunden ohne Namen. Zusammen mit dem Lehrling Ruven folgt sie der Spur durch Lagerhallen, Kirchenbücher und eine stillgelegte Fähre – und fragt sich bald, wer in der Stadt eigentlich wem etwas schuldet…",
+  "plot": "Die Buchhalterin Edda Klasing führt seit dreißig Jahren die Bücher einer Seilerei am Hafen. Eines Morgens findet sie im Hauptbuch eine Spalte, die niemand angelegt hat: Jeden Freitag sind dort zwölf Meter Tau verbucht, an einen Kunden ohne Namen. Zusammen mit dem Lehrling Ruven folgt sie der Spur durch Lagerhallen, Kirchenbücher und eine stillgelegte Fähre – und fragt sich bald, wer in der Stadt eigentlich wem etwas schuldet…",
+  "age": "",
+  "country": "Hrvatski, English",
+  "genre": "Komödie, Drama",
+  "backdrop_path": [
+   "https://img.iptv.example/t/p/w1280/if0zcNV9tNYfKs3XSwYO7HBD2CH.jpg"
+  ],
+  "duration_secs": "90",
+  "duration": "01:30:00",
+  "bitrate": 0,
+  "rating": "6.427",
+  "runtime": "90",
+  "status": "Released"
+ },
+ "movie_data": {
+  "stream_id": 880322,
+  "name": "DE - The Velvet Ledger (2019)",
+  "added": "1785086880",
+  "category_id": "3101",
+  "category_ids": [
+   3101
+  ],
+  "container_extension": "mkv",
+  "custom_sid": null,
+  "direct_source": ""
+ }
+}

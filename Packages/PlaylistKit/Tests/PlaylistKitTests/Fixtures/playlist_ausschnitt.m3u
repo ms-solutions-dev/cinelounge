@@ -1,0 +1,117 @@
+#EXTM3U
+#EXTINF:-1,TR: ÇAMLIK 1 UHD
+http://line.iptv.example:2086/NUTZER/GEHEIM/2
+#EXTINF:-1,TR: ÇAMLIK 2 UHD
+http://line.iptv.example:2086/NUTZER/GEHEIM/3
+#EXTINF:-1,TR: ÇAMLIK 3 UHD
+http://line.iptv.example:2086/NUTZER/GEHEIM/297477
+#EXTINF:-1,TR: ÇAMLIK FİDAN UHD
+http://line.iptv.example:2086/NUTZER/GEHEIM/413313
+#EXTINF:-1,TR: KUMSAL UHD
+http://line.iptv.example:2086/NUTZER/GEHEIM/5
+#EXTINF:-1,TR: KUMSAL HD*
+http://line.iptv.example:2086/NUTZER/GEHEIM/66008
+#EXTINF:-1,Üç Kavanoz Bal [TR] [2026]
+http://line.iptv.example:2086/movie/NUTZER/GEHEIM/440813.mp4
+#EXTINF:-1,Almendrón [TR] 2018
+http://line.iptv.example:2086/movie/NUTZER/GEHEIM/440809.mp4
+#EXTINF:-1,The Broom Cupboard [TR] 2018
+http://line.iptv.example:2086/movie/NUTZER/GEHEIM/440808.mp4
+#EXTINF:-1,Gullhaven [TR] 2016
+http://line.iptv.example:2086/movie/NUTZER/GEHEIM/440807.mp4
+#EXTINF:-1,Merribel [TR] 2018
+http://line.iptv.example:2086/movie/NUTZER/GEHEIM/440806.mp4
+#EXTINF:-1,Ned Calloway Goes Home [TR] 2017
+http://line.iptv.example:2086/movie/NUTZER/GEHEIM/440805.mp4
+#EXTINF:-1,Sarnıç |TR S04 E02
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439579.mp4
+#EXTINF:-1,Sarnıç |TR S04 E03
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439580.mp4
+#EXTINF:-1,Sarnıç |TR S04 E04
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439581.mp4
+#EXTINF:-1,Sarnıç |TR S04 E05
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439582.mp4
+#EXTINF:-1,Sarnıç |TR S04 E06
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439583.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E01
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439524.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E02
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439525.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E03
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439526.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E04
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439527.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E05
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439528.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E06
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439529.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E07
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439530.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E08
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439531.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E09
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439532.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E10
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439533.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E11
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439534.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E12
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439535.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E13
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439536.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E14
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439537.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E15
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439538.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E16
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439539.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E17
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439540.mp4
+#EXTINF:-1,Halit Kömürcü |TR S01 E18
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439541.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E01
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439542.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E02
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439543.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E03
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439544.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E04
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439545.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E05
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439546.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E06
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439547.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E07
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439548.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E08
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439549.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E09
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439550.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E10
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439551.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E11
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439552.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E12
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439553.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E13
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439554.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E14
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439555.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E15
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439556.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E16
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439557.mp4
+#EXTINF:-1,Halit Kömürcü |TR S02 E17
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439558.mp4
+#EXTINF:-1,Marta, la relojera del puerto | TR S01 E01
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439700.mp4
+#EXTINF:-1,Marta, la relojera del puerto | TR S01 E02
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439701.mp4
+#EXTINF:-1,Marta, la relojera del puerto | TR S01 E03
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439702.mp4
+#EXTINF:-1,Marta, la relojera del puerto | TR S01 E04
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439703.mp4
+#EXTINF:-1,Marta, la relojera del puerto | TR S01 E05
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439704.mp4
+#EXTINF:-1,Marta, la relojera del puerto | TR S01 E06
+http://line.iptv.example:2086/series/NUTZER/GEHEIM/439705.mp4

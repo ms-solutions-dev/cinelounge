@@ -1,0 +1,10 @@
+// Kennungen, die am Entwicklerkonto hängen (AP85, 08.11.2026).
+//
+// Bundle-IDs, App Group, iCloud-Container und die geteilte Schlüsselbund-Gruppe leiten
+// sich alle aus CL_BUNDLE_PREFIX ab. Wer CineLounge mit einem eigenen Konto baut, legt
+// daneben eine Local.xcconfig an (Vorlage: Local.xcconfig.example) und setzt dort sein
+// eigenes Präfix — sonst lässt sich nichts signieren. Die Team-ID steht NICHT hier,
+// sondern kommt aus ~/.cinelounge-team (scripts/device.sh, scripts/release.sh).
+CL_BUNDLE_PREFIX = dev.ms-solutions
+
+#include? "Local.xcconfig"

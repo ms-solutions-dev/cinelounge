@@ -1,0 +1,361 @@
+name: CineLounge
+
+# **Identifiers from an xcconfig** (AP85, 08.11.2026): bundle IDs, App Group and iCloud
+# container hang off CL_BUNDLE_PREFIX, so a fork can build with its own account.
+configFiles:
+  Debug: Config/Kennungen.xcconfig
+  Release: Config/Kennungen.xcconfig
+
+options:
+  bundleIdPrefix: dev.ms-solutions
+  developmentLanguage: en
+  deploymentTarget:
+    tvOS: "18.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+# Local packages instead of a single block. The gain is not order for its own
+# sake: a package can only use what it explicitly declares as a dependency, so
+# wrong shortcuts show up at compile time and not only after months.
+packages:
+  Core:
+    path: Packages/Core
+  DesignSystem:
+    path: Packages/DesignSystem
+  JellyfinKit:
+    path: Packages/JellyfinKit
+  RatingsKit:
+    path: Packages/RatingsKit
+  # AP78 (11.10.2026): trailers from YouTube, pulled in via Features — listed here
+  # for the same reason as PlaylistKit and Playback.
+  Trailer:
+    path: Packages/Trailer
+  # PlaylistKit and Playback are listed here although the app target does not list
+  # them itself: they come in via Features. They stay listed anyway, because
+  # otherwise it is not visible that they belong to the program at all — and
+  # because Xcode reuses a dependency resolution once it has resolved one.
+  # After a change to any Package.swift, one run of this is therefore needed:
+  #   xcodebuild -project CineLounge.xcodeproj -scheme CineLounge \
+  #     -derivedDataPath .dd -resolvePackageDependencies
+  # Without this step the app builds without errors and never even sees the new
+  # package — the build is green and the result incomplete.
+  PlaylistKit:
+    path: Packages/PlaylistKit
+  PortalKit:
+    path: Packages/PortalKit
+  Playback:
+    path: Packages/Playback
+  Features:
+    path: Packages/Features
+  # Comes in for the app via Features; it is listed because the Top Shelf extension
+  # needs it directly (AP52, the shelf filter).
+  ParentalControls:
+    path: Packages/ParentalControls
+  # Moved here from the phone project on 10.09. (AP5), like parental controls on
+  # 07.09.: it is the contract between two devices, and a channel that only one
+  # side knows is no channel. The TV is the receiving side here — it shows the code
+  # and plays in the bundle.
+  SecondScreen:
+    path: Packages/SecondScreen
+  # Created on 21.09. (AP41): one person, their accesses, their settings. Unlike
+  # PlaylistKit and parental controls it does **not** come in via Features — the
+  # shell calls it directly, which is why it also appears below in the target's
+  # dependencies.
+  ProfileKit:
+    path: Packages/ProfileKit
+  # The CloudKit carrier (AP43, 21.09.2026). It lives in the **grundstock** repo, not
+  # here: StoryShelf built it (E52 there), and three programs should not carry three
+  # versions. `Core` already depends on this repo anyway — that is why the package
+  # is listed here and the product at the target below.
+  Grundstock:
+    path: Packages/Grundstock
+  # Added on 26.09.2026 (AP58 R0): the single logging path (`Diagnose`, previously
+  # phone-only), the shared catalog (`Wortlaut`) and the shared flows
+  # (`Ablaeufe`). They come in via Features and Core and are listed here for the
+  # same reason as PlaylistKit above.
+  Diagnose:
+    path: Packages/Diagnose
+  WordingKit:
+    path: Packages/WordingKit
+  Flows:
+    path: Packages/Flows
+  # Added on 26.09.2026 (AP58 R2): brand matching, self sign-in, sign-out and
+  # redeeming an invitation — the household on the CineLounge server, for both devices.
+  Household:
+    path: Packages/Household
+
+targets:
+  CineLounge:
+    type: application
+    platform: tvOS
+    sources:
+      - App/Sources
+      - path: App/Resources
+        buildPhase: resources
+    dependencies:
+      - package: Core
+      - package: DesignSystem
+      - package: JellyfinKit
+      - package: RatingsKit
+      - package: Diagnose
+      - package: WordingKit
+      - package: Flows
+      - package: Household
+      - package: Features
+      - package: ProfileKit
+      - package: Grundstock
+        product: CloudSync
+      - package: SecondScreen
+      # The Top Shelf extension ships inside the app bundle — without embedding it
+      # exists only in the project, and the Home screen keeps showing the brand image
+      # without anything failing.
+      - target: TopShelf
+    # **Since 01.10.2026 also an App Group** (AP63): the still frames for "Continue
+    # Watching" must also be readable by the Top Shelf, and image files do not belong
+    # in the Keychain. The app ID has been explicit since AP43 (iCloud), no longer the
+    # wildcard profile from below; the owner created the group in the developer
+    # portal. **Enter it here, not in the .entitlements file** — xcodegen rewrites
+    # that file from these lines on every build.
+    #
+    # The shared Keychain area for the Top Shelf extension — see
+    # ``TopShelfBridge`` in Core. Explicitly a KEYCHAIN group and not an App Group:
+    # App Groups require an entry in the developer portal, which the wildcard team
+    # profiles do not carry (on-device finding 07.08. — the build failed on
+    # "doesn't include the App Groups capability").
+    # Keychain groups with a team prefix are part of every default profile.
+    # The OWN group comes first: the first one in the list is the target of all
+    # writes without an explicit group, and that must remain the existing entries
+    # (sign-in, channel lists).
+    entitlements:
+      path: App/CineLounge.entitlements
+      properties:
+        keychain-access-groups:
+          - $(AppIdentifierPrefix)$(CL_BUNDLE_PREFIX).cinelounge
+          - $(AppIdentifierPrefix)$(CL_BUNDLE_PREFIX).cinelounge.shared
+        com.apple.security.application-groups:
+          - group.$(CL_BUNDLE_PREFIX).cinelounge
+        # **iCloud container (AP43, 21.09.2026).** The capability in the developer portal
+        # is one half, these two lines are the other: without them the app starts but
+        # finds no container. The name is final — CloudKit never deletes containers.
+        #
+        com.apple.developer.icloud-container-identifiers:
+          - iCloud.$(CL_BUNDLE_PREFIX).cinelounge
+        com.apple.developer.icloud-services:
+          - CloudKit
+        # **Always "Production", also for cable builds** (28.09.2026). Without this line
+        # the debug build (`device.sh`) talked to "Development" and TestFlight to
+        # "Production" — two separate worlds with separate data, even with the same
+        # Apple ID. The TV on the cable and the phone from TestFlight never saw each
+        # other, and a shared profile arrived empty. The consequence: new record types or
+        # fields must go to Production in the CloudKit console before a build writes them.
+        # `Wolkenanlauf.umgebung` knows the value too — the two belong together.
+        com.apple.developer.icloud-container-environment: Production
+        # **The silent pushes** (AP43, fourth line). Without this line no
+        # `CKDatabaseSubscription` push arrives — and silently so; the sync would then
+        # run only on the UI's triggers.
+        #
+        # **`development` and not `production`, and that is no oversight.** The value in
+        # the source applies to builds onto your own device. `scripts/release.sh` exports
+        # with `method: app-store-connect` and automatic signing, and Xcode then sets the
+        # value from the distribution profile — that is, `production`. With a fixed
+        # `production` here, every build onto your own device would fail.
+        #
+        # **This can only be verified on a device**, and only once: does a change made on
+        # the first device arrive on the second within seconds? If not, but the sync on
+        # opening the app works, it is exactly this line.
+        aps-environment: development
+    info:
+      path: App/Info.plist
+      properties:
+        # From which the code derives App Group, iCloud container and shared Keychain group
+        # (Core/Appkennung, AP85) — the same source as the bundle ID.
+        CLKennung: $(CL_BUNDLE_PREFIX).cinelounge
+        CFBundleDisplayName: CineLounge
+        UILaunchScreen: {}
+        # AP78: if trailer resolution fails, the board offers the jump into the
+        # YouTube app — `canOpenURL` only answers for schemes listed here.
+        LSApplicationQueriesSchemes:
+          - youtube
+        # Version and build number as a REFERENCE, not a value. Without these two
+        # lines XcodeGen writes fixed numbers into the Info.plist — until 14.08. they
+        # read 1.0 and 1, while the project reported 0.1.0. Two consequences, both
+        # unpleasant: the app showed a version on the TV that does not exist, and the
+        # build number could not be incremented from outside. The latter is a hard
+        # obstacle for TestFlight — App Store Connect accepts a build number only ONCE,
+        # and an `xcodebuild` argument bounces off a hard-coded number without
+        # anything failing. The build would be green and the upload rejected.
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        # Required by the store as soon as a 64-bit program is uploaded — and ONLY then.
+        # On the device the entry is missing without consequence, in the simulator too;
+        # only App Store Connect rejects the bundle ("has a 64-bit architecture slice,
+        # so you must include the arm64 value"). Found on 14.08. at the first upload,
+        # on the extension. It is listed here for BOTH targets anyway: the check stops at
+        # the first finding, and the app would have been next.
+        UIRequiredDeviceCapabilities:
+          - arm64
+        # The export declaration in advance. Without this key App Store Connect asks on
+        # EVERY upload whether the program uses encryption, and keeps the build from the
+        # testers until then. `false` is correct here and no whitewash: CineLounge ships
+        # no encryption of its own, it only uses the system's HTTPS — and that is
+        # explicitly exempt.
+        ITSAppUsesNonExemptEncryption: false
+        # The way back from the Home screen: the Top Shelf extension opens titles via
+        # this scheme, ``MainView`` receives them.
+        CFBundleURLTypes:
+          - CFBundleURLName: $(CL_BUNDLE_PREFIX).cinelounge
+            CFBundleURLSchemes:
+              - cinelounge
+        # The four alternate icons the settings let you choose between.
+        #
+        # **Loose PNG files, no image stack — and that is forced.** Until 03.09.2026
+        # this held references to layered stacks in the catalog. On the device that
+        # worked: `setAlternateIconName` found them, the tile switched, and the layers
+        # tilted against each other on focus. App Store Connect does not accept it and
+        # rejects the upload with
+        #     90471 Missing Image Asset. Your app is missing the Alternate Icon
+        #           asset in 'Payload/CineLounge.app'.
+        #
+        # The reason, measured through in one day: the primary icon is in the catalog
+        # TWICE — as a `tv` stack 400×240 and as a `marketing` stack 1280×768. The
+        # second size comes solely from the `Contents.json` of the `brandassets`, which
+        # gives the stack the role `primary-app-icon` with `size: 1280x768`. An
+        # alternate icon cannot go in there: on `appletvos`, `actool` skips every
+        # `brandassets` that is not the one named via `--app-icon` — even with
+        # `--alternate-app-icon`, and without any warning (the catalog then shrinks from
+        # 5.2 to 2.3 MB).
+        #
+        # TRAP that cost half a check run: the build setting
+        # `ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES` exists, and it is NOT without
+        # effect — it leaves the `Assets.car` byte for byte the same, but injects exactly
+        # these `CFBundleAlternateIcons` via `actool`'s partial Info.plist. Anyone who
+        # removes the explanation down here and leaves the setting in place rebuilds it
+        # unnoticed.
+        #
+        # So the second way, which Apple describes for tvOS anyway: flat PNGs in the
+        # bundle, listed here as an array of FILE NAMES without extension (on tvOS an
+        # array of strings, not the nested dictionaries of iOS). `./scripts/alternate_icons.py`
+        # generates the files from the same image stacks; those stay in place and are the source.
+        # The price is parallax: a flat image does not tilt on focus.
+        CFBundleIcons:
+          CFBundlePrimaryIcon: App Icon
+          CFBundleAlternateIcons:
+            - SymbolSessel
+            - SymbolBogen
+            - SymbolNegativ
+            - SymbolNegativSchrift
+        # Self-hosted servers on the home network usually speak unencrypted, and no
+        # Apple device accepts their self-issued certificates.
+        #
+        # `NSAllowsLocalNetworking` alone is not enough here: it only covers IP
+        # addresses on the home network, names without a dot and `.local`. A name like
+        # `jellyfin.example` — or `.lan`, `.fritz.box`, any self-assigned suffix — is not
+        # covered and is blocked before it is even sent. Since the user should be able
+        # to enter any address, only the general permission remains. All clients for
+        # self-hosted media libraries take the same route.
+        #
+        # WATCH OUT, pitfall: `NSAllowsLocalNetworking` must **not** also be present
+        # here. As soon as one of the finer-grained keys is set, the system ignores
+        # `NSAllowsArbitraryLoads` entirely — the two cancel each other out, and the
+        # narrow rule remains, which does not know `.home`. The error shows up as -1022,
+        # before any connection is even established.
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
+        # Needed to find the server on the home network — and since 10.09. also to
+        # register itself on the network for the handoff from the phone.
+        NSLocalNetworkUsageDescription: >-
+          CineLounge sucht im Heimnetz nach deinem Medienserver und nimmt die
+          Einrichtung von deinem Telefon entgegen.
+        # **Without this entry the service does not register at all**, and the phone
+        # finds nothing — with no error message on either side. The type is in
+        # `Zweitschirm/Uebergabedraht.dienst`; whoever changes it there changes it here
+        # and in the phone project.
+        NSBonjourServices:
+          - _cinelounge-uebg._tcp
+          # The remote (AP8, 10.09.) — **its own service and not the handoff's.** The
+          # latter carries a one-time, encrypted operation; this one holds a connection for
+          # hours and speaks a different format. Running both over one service would mean
+          # touching the handoff's tested receiver at a spot where it is demonstrably
+          # correct today.
+          - _cinelounge-fern._tcp
+          # The CineLounge server itself (12.09.2026). **It registers as
+          # `_cinelounge._tcp`** — measured: `cinelounge.local.:8100` with
+          # `path=/.well-known/cinelounge api=1 v=1`. It is needed when redeeming an
+          # invitation: the console generates its links with the address you are currently
+          # using to operate it, and whoever opens it via the home server's hostname gets a
+          # link without a usable device address. The app then asks the network instead of
+          # guessing 8100. The name is in `PortalKit/Serversuche.dienst`; whoever changes it
+          # there changes it here and in the sister project.
+          - _cinelounge._tcp
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(CL_BUNDLE_PREFIX).cinelounge
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "6.0"
+        TARGETED_DEVICE_FAMILY: "3"
+        GENERATE_INFOPLIST_FILE: NO
+        SWIFT_EMIT_LOC_STRINGS: YES
+        # The name of the folder in Assets.xcassets, not that of an image file.
+        # On tvOS a whole bundle hides behind the icon: the layered icon for the tile,
+        # the same once more at store size and the two shelf images. If nothing stood
+        # here, everything built and the program appeared as a nameless grey tile.
+        ASSETCATALOG_COMPILER_APPICON_NAME: "App Icon & Top Shelf Image"
+        # Strict concurrency checking from the start. Enabling it later means, by
+        # experience, touching hundreds of places.
+        SWIFT_STRICT_CONCURRENCY: complete
+
+  # The upper area of the Apple TV Home screen: real content instead of the brand
+  # image, selectable in Settings under Appearance. A separate, short-lived process
+  # — what it needs to know, the app puts down for it via the shared Keychain
+  # group (``TopShelfBridge``).
+  TopShelf:
+    type: app-extension
+    platform: tvOS
+    sources:
+      - TopShelf/Sources
+    dependencies:
+      - package: Core
+      # The shelf filter (AP52): the interpretation of a parental-controls release lives
+      # there. The package depends on `Core` and nothing else — no CloudKit, no playback.
+      - package: ParentalControls
+    entitlements:
+      path: TopShelf/TopShelf.entitlements
+      properties:
+        keychain-access-groups:
+          - $(AppIdentifierPrefix)$(CL_BUNDLE_PREFIX).cinelounge.topshelf
+          - $(AppIdentifierPrefix)$(CL_BUNDLE_PREFIX).cinelounge.shared
+        # The still frames for "Continue Watching" (AP63) — see the app above.
+        com.apple.security.application-groups:
+          - group.$(CL_BUNDLE_PREFIX).cinelounge
+    info:
+      path: TopShelf/Info.plist
+      properties:
+        # From which the code derives App Group, iCloud container and shared Keychain group
+        # (Core/Appkennung, AP85) — the same source as the bundle ID.
+        CLKennung: $(CL_BUNDLE_PREFIX).cinelounge
+        CFBundleDisplayName: CineLounge Top Shelf
+        # For the same reason as in the app — with an aggravation: an extension MUST
+        # carry the version and build number of the app it is embedded in. If they
+        # differ, App Store Connect rejects the whole bundle, and only after the upload.
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        # See the app target. At THIS spot the store struck on 14.08.
+        UIRequiredDeviceCapabilities:
+          - arm64
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.tv-top-shelf
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).ContentProvider
+        # Same reason as in the app: the media server on the home network speaks
+        # unencrypted, and the images of the row come from it.
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(CL_BUNDLE_PREFIX).cinelounge.topshelf
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "6.0"
+        TARGETED_DEVICE_FAMILY: "3"
+        GENERATE_INFOPLIST_FILE: NO
+        SWIFT_STRICT_CONCURRENCY: complete
