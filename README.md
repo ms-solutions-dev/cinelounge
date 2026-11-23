@@ -90,6 +90,40 @@ CineLounge is not on TestFlight or the App Store yet. Until then you can build i
 
 The screenshots are taken against a demo server with freely licensed films and art (Blender Studio, David Revoy's Pepper&Carrot and others, CC BY); no video plays there.
 
+## FAQ
+
+### Is CineLounge a Jellyfin client for Apple TV?
+
+Yes. CineLounge is a Jellyfin client for Apple TV, iPhone and iPad, and it also plays IPTV channel lists. It is built for the Apple TV first and looks and behaves the same on every device.
+
+### How is CineLounge different from other Jellyfin apps?
+
+It combines your Jellyfin library, live TV from your own channel lists and offline downloads in one app, with profiles for several people on one Apple TV, parental controls, skip buttons for intro and recap, and a next-episode card for binge-watching.
+
+### Do I need a Jellyfin server?
+
+No. You can use CineLounge with a Jellyfin server, with IPTV channel lists, or with both.
+
+### Does CineLounge include channels or films?
+
+No. CineLounge is a player. It shows the media on your own Jellyfin server and the channel lists you add yourself in M3U or Xtream format; it contains no list of channels or services.
+
+### Which formats does it play?
+
+Whatever AVPlayer can play, plus Matroska (MKV) and transport streams, which are remuxed on the device. DTS, AC-3 and MPEG Layer II audio are decoded in the app, and ASS/SSA subtitles are supported.
+
+### Do I need the CL Server?
+
+No. The app works fully without it. The optional CL Server adds a household console and portals such as the public media libraries it ships with.
+
+### Can several people share one Apple TV?
+
+Yes. Each profile has its own accounts, continue-watching state and appearance, optionally protected by a PIN, and child profiles only see approved titles and channels.
+
+### Is there an Android TV version?
+
+No. CineLounge runs on Apple TV (tvOS), iPhone and iPad.
+
 ## Requirements
 
 | | |
